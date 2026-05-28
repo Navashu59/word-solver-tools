@@ -11,7 +11,94 @@ const site = {
   description: "Fast word unscrambler, word finder, anagram, crossword, and word game solver tools.",
   themeColor: "#0f766e",
   socialImage: "/assets/social-card.svg",
+  legalName: "Word Solver Tools",
 };
+
+const staticPages = [
+  {
+    slug: "about",
+    url: "/about/",
+    title: "About Word Solver Tools",
+    description: "Learn how Word Solver Tools helps people solve word games, letter puzzles, anagrams, crossword clues, and word patterns.",
+    h1: "About Word Solver Tools",
+    eyebrow: "About",
+    body: [
+      ["h2", "What this site is for"],
+      ["p", "Word Solver Tools is built for people who already have a puzzle in front of them and need a fast way to narrow possible words. The site focuses on letter-based word solving: unscrambling letters, matching patterns, checking possible Wordle guesses, finding crossword candidates, and exploring anagrams."],
+      ["h2", "How the tools are built"],
+      ["p", "The tools use a broad English word list and client-side filters for letters, length, known positions, required letters, excluded letters, and simple puzzle constraints. Results are designed to be easy to scan, copy, and refine without moving through multiple pages."],
+      ["h2", "Independence"],
+      ["p", "Word Solver Tools is independent. Game and brand names are used descriptively to explain compatibility with common puzzle formats and do not imply endorsement, sponsorship, or affiliation."],
+    ],
+  },
+  {
+    slug: "how-it-works",
+    url: "/how-it-works/",
+    title: "How Word Solver Tools Works",
+    description: "See how the word solver, unscrambler, Wordle helper, crossword helper, and anagram tools filter and rank possible words.",
+    h1: "How the word tools work",
+    eyebrow: "Method",
+    body: [
+      ["h2", "Inputs"],
+      ["p", "Most pages start with letters, a known pattern, or a puzzle clue. You can add filters such as starts with, ends with, contains, excludes, word length, and blank letters."],
+      ["h2", "Filtering"],
+      ["p", "The solver removes words that do not match the visible constraints. For example, Wordle pages default to five-letter words, spelling pages require the center letter, and crossword pages treat question marks as unknown positions."],
+      ["h2", "Ranking"],
+      ["p", "Results are sorted to make scanning easier. Longer matches and higher scoring word-game candidates are surfaced before lower-value matches, while filters let you quickly reduce broad result sets."],
+      ["h2", "Privacy"],
+      ["p", "The solving happens in the browser. The current static version does not require an account and does not need to send your puzzle letters to a server to return results."],
+    ],
+  },
+  {
+    slug: "privacy",
+    url: "/privacy/",
+    title: "Privacy Policy",
+    description: "Privacy policy for Word Solver Tools, including how puzzle input and basic site usage are handled.",
+    h1: "Privacy Policy",
+    eyebrow: "Privacy",
+    body: [
+      ["p", "Word Solver Tools is a static website designed to run word-solving features in your browser. The current tools do not require registration or account login."],
+      ["h2", "Puzzle input"],
+      ["p", "Letters, patterns, and filters you type into the tools are processed in your browser for the current session. They are not needed for account creation or personal identification."],
+      ["h2", "Analytics and hosting"],
+      ["p", "When the site is deployed, hosting providers and analytics tools may collect standard technical information such as page views, device type, browser type, referring pages, approximate location, and request logs."],
+      ["h2", "Contact"],
+      ["p", "Use the contact page for privacy-related questions after the production domain is connected."],
+    ],
+  },
+  {
+    slug: "terms",
+    url: "/terms/",
+    title: "Terms of Use",
+    description: "Terms of use for Word Solver Tools, an independent collection of word game and puzzle solving tools.",
+    h1: "Terms of Use",
+    eyebrow: "Terms",
+    body: [
+      ["p", "Word Solver Tools provides free word game and puzzle helpers for personal use. The tools are provided as-is and may return broad or imperfect results depending on the letters, filters, and word list available."],
+      ["h2", "No affiliation"],
+      ["p", "References to games, puzzles, or brands are descriptive only. Word Solver Tools is not affiliated with Scrabble, Wordle, The New York Times, Words With Friends, or other named games and publishers."],
+      ["h2", "Use of results"],
+      ["p", "You are responsible for checking whether a result is valid for the specific game, dictionary, puzzle, or house rule you are using."],
+    ],
+  },
+  {
+    slug: "contact",
+    url: "/contact/",
+    title: "Contact Word Solver Tools",
+    description: "Contact Word Solver Tools about corrections, word list issues, content questions, or site feedback.",
+    h1: "Contact",
+    eyebrow: "Feedback",
+    body: [
+      ["p", "Use this page as the contact destination for corrections, word list issues, tool feedback, and content questions once the production domain is connected."],
+      ["h2", "What to include"],
+      ["p", "For word list issues, include the page URL, the letters or filters you entered, the result you expected, and the result you saw."],
+      ["h2", "Production setup"],
+      ["p", "A public contact method should be added after the final domain and email routing are ready."],
+    ],
+  },
+];
+
+const allSitemapUrls = () => ["/", "/tools/", ...pages.map((page) => page.url), ...staticPages.map((page) => page.url)];
 
 const seedDictionary = [
   "about","above","actor","acute","adapt","admit","adore","after","again","agent","agree","alert","alien","align","alike","alive","allow","alone","along","alter","amber","angle","apple","apply","arena","argue","arise","array","aside","asset","audio","avoid","awake","award","aware","badge","baker","basic","beach","began","begin","being","below","bench","berry","birth","black","blade","blank","blend","block","board","brain","brand","brave","bread","break","brick","bring","broad","brown","brush","build","cable","carry","catch","cause","chain","chair","chart","cheap","check","chess","chief","child","claim","class","clean","clear","climb","clock","close","cloud","coach","coast","color","could","count","court","cover","craft","crane","crash","cream","cross","crowd","crown","daily","dance","dealt","death","debug","delay","delta","depth","diary","digit","dirty","doubt","draft","drain","dream","dress","drink","drive","eager","early","earth","eight","elite","empty","enter","equal","error","event","every","exact","faith","false","fault","field","fifth","final","first","flame","flash","floor","focus","force","forth","found","frame","fresh","front","fruit","giant","given","glass","globe","glory","grace","grade","grain","grant","graph","great","green","group","guard","guess","guide","habit","happy","heart","heavy","hello","honey","honor","house","human","ideal","image","index","input","issue","joint","judge","known","label","large","laser","later","laugh","layer","learn","leave","legal","level","light","limit","local","logic","loose","lucky","magic","major","maker","march","match","maybe","media","metal","minor","model","money","month","moral","motor","mount","mouse","music","never","night","noise","north","novel","nurse","ocean","offer","often","olive","onset","order","other","outer","paint","panel","paper","party","peace","phase","phone","photo","piano","piece","pilot","pitch","place","plain","plane","plant","plate","point","power","press","price","pride","prime","print","proof","queen","query","quick","quiet","radio","raise","range","rapid","ratio","reach","react","ready","realm","refer","reply","reset","right","river","rough","round","route","scale","scene","score","scope","scrap","scrub","search","serve","seven","shade","shake","shape","share","sharp","sheet","shift","shine","shirt","shock","short","shown","sight","since","skill","sleep","slice","smart","smile","solid","solve","sound","south","space","spare","speak","speed","spell","spend","split","sport","stack","stage","stand","start","state","steam","steel","still","stone","store","story","study","style","sugar","table","taken","teach","thank","their","theme","there","thick","thing","think","third","three","throw","tight","timer","title","today","topic","total","touch","tower","trace","track","trade","train","treat","trend","trial","trick","trust","truth","under","union","until","upper","upset","usage","value","video","visit","vital","voice","waste","watch","water","wheel","where","which","while","white","whole","whose","world","worry","worth","would","write","wrong","yield","young","zebra",
@@ -59,6 +146,12 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function inlineMarkdown(value) {
+  return escapeHtml(value)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '<a href="$2">$1</a>');
+}
+
 function pageAction(page) {
   const mode = modeFor(page);
   const byMode = {
@@ -97,6 +190,57 @@ function pageDescription(page) {
   const keyword = page.keyword;
   const base = pageAction(page);
   return `${page.title}: ${base} Free, fast, and built for ${keyword} searches.`;
+}
+
+function absoluteUrl(url) {
+  return `${site.origin}${url}`;
+}
+
+function organizationSchema() {
+  return {
+    "@type": "Organization",
+    "@id": `${site.origin}/#organization`,
+    name: site.legalName,
+    url: `${site.origin}/`,
+    logo: `${site.origin}/favicon.svg`,
+  };
+}
+
+function breadcrumbSchema(items) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: absoluteUrl(item.url),
+    })),
+  };
+}
+
+function extractFaq(md, page) {
+  const normalized = normalizeContentCopy(md, page);
+  const faqs = [];
+  const matches = normalized.matchAll(/### ([^\n]+)\n+([\s\S]*?)(?=\n### |\n## |\n# |$)/g);
+  for (const match of matches) {
+    const question = match[1].trim();
+    const answer = match[2]
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .join(" ")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (question && answer) faqs.push({ question, answer });
+  }
+  return faqs.slice(0, 6);
+}
+
+function graphSchema(nodes) {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": nodes,
+  });
 }
 
 function normalizeContentCopy(text, page) {
@@ -138,17 +282,17 @@ function markdownToHtml(md) {
     if (line.startsWith("# ")) continue;
     if (line.startsWith("## ")) {
       closeList();
-      html += `<h2>${escapeHtml(line.slice(3))}</h2>`;
+      html += `<h2>${inlineMarkdown(line.slice(3))}</h2>`;
       continue;
     }
     if (line.startsWith("### ")) {
       closeList();
-      html += `<h3>${escapeHtml(line.slice(4))}</h3>`;
+      html += `<h3>${inlineMarkdown(line.slice(4))}</h3>`;
       continue;
     }
     if (/^\d+\.\s/.test(line)) {
       closeList();
-      html += `<p>${escapeHtml(line.replace(/^\d+\.\s/, ""))}</p>`;
+      html += `<p>${inlineMarkdown(line.replace(/^\d+\.\s/, ""))}</p>`;
       continue;
     }
     if (line.startsWith("- ")) {
@@ -156,11 +300,11 @@ function markdownToHtml(md) {
         html += "<ul>";
         listOpen = true;
       }
-      html += `<li>${escapeHtml(line.slice(2))}</li>`;
+      html += `<li>${inlineMarkdown(line.slice(2))}</li>`;
       continue;
     }
     closeList();
-    html += `<p>${escapeHtml(line)}</p>`;
+    html += `<p>${inlineMarkdown(line)}</p>`;
   }
   closeList();
   return html;
@@ -180,20 +324,59 @@ function modeFor(page) {
   return "letters";
 }
 
-function schema(page) {
-  return JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    name: page.title,
-    applicationCategory: "GameApplication",
-    operatingSystem: "Any",
-    url: `${site.origin}${page.url}`,
-    description: pageDescription(page),
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  });
+function schema(page, draft) {
+  const pageUrl = absoluteUrl(page.url);
+  const faqs = extractFaq(draft, page);
+  const nodes = [
+    organizationSchema(),
+    {
+      "@type": "WebPage",
+      "@id": `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: page.title,
+      description: pageDescription(page),
+      isPartOf: { "@id": `${site.origin}/#website` },
+      breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
+      mainEntity: { "@id": `${pageUrl}#tool` },
+    },
+    {
+      "@type": "WebApplication",
+      "@id": `${pageUrl}#tool`,
+      name: page.title,
+      applicationCategory: "GameApplication",
+      operatingSystem: "Any",
+      url: pageUrl,
+      description: pageDescription(page),
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      featureList: page.first_screen_tool || [],
+    },
+    {
+      ...breadcrumbSchema([
+        { name: "Home", url: "/" },
+        { name: "Tools", url: "/tools/" },
+        { name: page.title, url: page.url },
+      ]),
+      "@id": `${pageUrl}#breadcrumb`,
+    },
+  ];
+  if (faqs.length) {
+    nodes.push({
+      "@type": "FAQPage",
+      "@id": `${pageUrl}#faq`,
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    });
+  }
+  return graphSchema(nodes);
 }
 
-function layout({ title, description, body, canonical = "/", image = site.socialImage, schemaJson = "" }) {
+function layout({ title, description, body, canonical = "/", image = site.socialImage, schemaJson = "", robots = "index,follow,max-image-preview:large" }) {
   const canonicalUrl = `${site.origin}${canonical}`;
   const imageUrl = image.startsWith("http") ? image : `${site.origin}${image}`;
   return `<!doctype html>
@@ -203,7 +386,7 @@ function layout({ title, description, body, canonical = "/", image = site.social
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="robots" content="${escapeHtml(robots)}">
   <meta name="theme-color" content="${site.themeColor}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="${escapeHtml(site.name)}">
@@ -240,7 +423,7 @@ function layout({ title, description, body, canonical = "/", image = site.social
   ${body}
   <footer class="site-footer">
     <p>${site.name} is an independent collection of word solving tools. Game names are used descriptively and do not imply affiliation.</p>
-    <p><a href="/sitemap.xml">Sitemap</a></p>
+    <p><a href="/about/">About</a> · <a href="/how-it-works/">How it works</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/contact/">Contact</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </footer>
   <script src="/assets/app.js" defer></script>
 </body>
@@ -264,7 +447,7 @@ function toolPanel(page) {
   const [mainLabel, mainHelp] = labels[mode] || labels.letters;
   return `<section class="tool-panel" data-tool-mode="${mode}" data-page-keyword="${escapeHtml(page.keyword)}">
     <div class="tool-heading">
-      <p class="eyebrow">${escapeHtml(page.cluster.replaceAll("-", " "))}</p>
+      <p class="eyebrow">${escapeHtml(clusterLabel(page))}</p>
       <h1>${escapeHtml(title)}</h1>
       <p>${escapeHtml(pageAction(page))} Use the controls below and get usable answers without leaving the page.</p>
     </div>
@@ -285,6 +468,7 @@ function toolPanel(page) {
       <div class="button-row">
         <button class="primary-btn" data-action="solve">Solve</button>
         <button class="ghost-btn" data-action="sample">Sample</button>
+        <button class="ghost-btn" data-action="copy-all">Copy all</button>
         <button class="ghost-btn" data-action="clear">Clear</button>
       </div>
       <div class="results" data-role="results" aria-live="polite">
@@ -295,9 +479,14 @@ function toolPanel(page) {
 }
 
 function adjacentLinks(page) {
-  const links = clusterLinks
-    .filter((href) => href !== page.url)
-    .slice(0, 6)
+  const sameCluster = pages
+    .filter((candidate) => candidate.cluster === page.cluster && candidate.url !== page.url)
+    .sort((a, b) => b.volume - a.volume)
+    .slice(0, 5)
+    .map((candidate) => candidate.url);
+  const authority = clusterLinks.filter((href) => href !== page.url && !sameCluster.includes(href));
+  const links = [...sameCluster, ...authority]
+    .slice(0, 8)
     .map((href) => {
       const target = pages.find((p) => p.url === href);
       return `<a href="${href}">${target ? escapeHtml(target.title) : href}</a>`;
@@ -321,7 +510,7 @@ function pageHtml(page) {
     title: `${page.title} - Free ${clusterLabel(page)}`,
     description: pageDescription(page),
     canonical: page.url,
-    schemaJson: schema(page),
+    schemaJson: schema(page, draft),
     body,
   });
 }
@@ -359,40 +548,159 @@ function homeHtml() {
   </main>`;
   const homeSchema = JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: site.name,
-    url: `${site.origin}/`,
-    description: site.description,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${site.origin}/word-finder/?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
+    "@graph": [
+      organizationSchema(),
+      {
+        "@type": "WebSite",
+        "@id": `${site.origin}/#website`,
+        name: site.name,
+        url: `${site.origin}/`,
+        description: site.description,
+        publisher: { "@id": `${site.origin}/#organization` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${site.origin}/word-finder/?q={search_term_string}`,
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${site.origin}/#webpage`,
+        url: `${site.origin}/`,
+        name: site.name,
+        description: site.description,
+        isPartOf: { "@id": `${site.origin}/#website` },
+      },
+    ],
   });
   return layout({ title: `${site.name} - Word Unscrambler and Word Finder Tools`, description: site.description, body, schemaJson: homeSchema });
 }
 
 function toolsHtml() {
-  const rows = pages.map((page) => `<a class="tool-link" href="${page.url}">
-    <strong>${escapeHtml(page.title)}</strong>
-    <span>${escapeHtml(page.cluster.replaceAll("-", " "))} · ${page.volume.toLocaleString()} searches/month</span>
-  </a>`).join("");
+  const groups = [...new Set(pages.map((page) => page.cluster))].map((cluster) => {
+    const clusterPages = pages
+      .filter((page) => page.cluster === cluster)
+      .sort((a, b) => b.volume - a.volume);
+    const label = clusterLabel(clusterPages[0]);
+    const rows = clusterPages.map((page) => `<a class="tool-link" href="${page.url}">
+      <strong>${escapeHtml(page.title)}</strong>
+      <span>${escapeHtml(pageAction(page))}</span>
+    </a>`).join("");
+    return `<section class="tool-cluster" id="${escapeHtml(cluster)}">
+      <div class="cluster-heading"><h2>${escapeHtml(label)}</h2><span>${clusterPages.length} tools</span></div>
+      <div class="tool-grid">${rows}</div>
+    </section>`;
+  }).join("");
   const body = `<main><section class="page-heading"><div class="inner">
-    <p class="eyebrow">All tools</p><h1>Word solver tools</h1><p>Every launch page has a matching keyword, SERP/PAA brief, and interactive tool mode.</p>
-  </div></section><section class="section-band"><div class="inner"><div class="tool-grid">${rows}</div></div></section></main>`;
-  const toolsSchema = JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: `All Word Solver Tools - ${site.name}`,
-    url: `${site.origin}/tools/`,
-    description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.",
-  });
+    <p class="eyebrow">All tools</p><h1>Word solver tools</h1><p>Browse tools by puzzle type, from general letter solving to Wordle, Scrabble, crossword, anagram, and spelling helpers.</p>
+  </div></section><section class="section-band"><div class="inner">${groups}</div></section></main>`;
+  const toolsSchema = graphSchema([
+    organizationSchema(),
+    {
+      "@type": "CollectionPage",
+      "@id": `${site.origin}/tools/#collection`,
+      name: `All Word Solver Tools - ${site.name}`,
+      url: `${site.origin}/tools/`,
+      description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.",
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: pages.map((page, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: page.title,
+          url: absoluteUrl(page.url),
+        })),
+      },
+    },
+    {
+      ...breadcrumbSchema([
+        { name: "Home", url: "/" },
+        { name: "Tools", url: "/tools/" },
+      ]),
+      "@id": `${site.origin}/tools/#breadcrumb`,
+    },
+  ]);
   return layout({ title: `All Word Solver Tools - ${site.name}`, description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.", canonical: "/tools/", body, schemaJson: toolsSchema });
+}
+
+function staticPageSchema(page) {
+  return graphSchema([
+    organizationSchema(),
+    {
+      "@type": "WebPage",
+      "@id": `${absoluteUrl(page.url)}#webpage`,
+      url: absoluteUrl(page.url),
+      name: page.title,
+      description: page.description,
+      isPartOf: { "@id": `${site.origin}/#website` },
+      breadcrumb: { "@id": `${absoluteUrl(page.url)}#breadcrumb` },
+    },
+    {
+      ...breadcrumbSchema([
+        { name: "Home", url: "/" },
+        { name: page.h1, url: page.url },
+      ]),
+      "@id": `${absoluteUrl(page.url)}#breadcrumb`,
+    },
+  ]);
+}
+
+function staticPageHtml(page) {
+  const bodyContent = page.body.map(([type, text]) => {
+    if (type === "h2") return `<h2>${escapeHtml(text)}</h2>`;
+    return `<p>${escapeHtml(text)}</p>`;
+  }).join("");
+  const body = `<main>
+    <section class="page-heading"><div class="inner">
+      <p class="eyebrow">${escapeHtml(page.eyebrow)}</p>
+      <h1>${escapeHtml(page.h1)}</h1>
+      <p>${escapeHtml(page.description)}</p>
+    </div></section>
+    <section class="content-section"><div class="content-inner">${bodyContent}</div></section>
+  </main>`;
+  return layout({
+    title: `${page.title} - ${site.name}`,
+    description: page.description,
+    canonical: page.url,
+    schemaJson: staticPageSchema(page),
+    body,
+  });
+}
+
+function notFoundHtml() {
+  const body = `<main>
+    <section class="page-heading"><div class="inner">
+      <p class="eyebrow">404</p>
+      <h1>Page not found</h1>
+      <p>The page may have moved, or the URL may have a typo. Start with the main word solver tools below.</p>
+      <div class="hero-actions">
+        <a class="primary-link" href="/word-unscrambler/">Open Word Unscrambler</a>
+        <a class="secondary-link" href="/tools/">Browse all tools</a>
+      </div>
+    </div></section>
+    <section class="section-band"><div class="inner">
+      <h2>Popular tools</h2>
+      <div class="link-grid">
+        <a href="/word-finder/">Word Finder</a>
+        <a href="/wordle-solver/">Wordle Solver</a>
+        <a href="/crossword-solver/">Crossword Solver</a>
+        <a href="/anagram-solver/">Anagram Solver</a>
+      </div>
+    </div></section>
+  </main>`;
+  return layout({
+    title: `Page Not Found - ${site.name}`,
+    description: "Find the right word solver tool after a missing page or mistyped URL.",
+    canonical: "/404.html",
+    schemaJson: graphSchema([organizationSchema()]),
+    robots: "noindex,follow",
+    body,
+  });
 }
 
 function writeStaticAssets() {
   ensureDir(path.join(publicDir, "assets"));
-  const css = `:root{--ink:#17202a;--muted:#5c6975;--line:#d7dde2;--paper:#fbfcf8;--panel:#ffffff;--accent:#0f766e;--accent-2:#b45309;--blue:#1d4ed8;--soft:#eef7f5;--shadow:0 18px 60px rgba(23,32,42,.10)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(16px,4vw,48px);background:rgba(251,252,248,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--ink);color:white;letter-spacing:.02em}.top-nav{display:flex;gap:18px;flex-wrap:wrap}.top-nav a{text-decoration:none;color:var(--muted);font-weight:650;font-size:14px}.top-nav a:hover{color:var(--ink)}.home-hero{min-height:560px;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,520px);align-items:center;gap:40px;padding:64px clamp(18px,6vw,80px) 44px;background:linear-gradient(180deg,#f7fbf7 0%,#fbfcf8 100%)}.home-copy h1{font-size:clamp(42px,6vw,76px);line-height:1.02;margin:0 0 18px;letter-spacing:0}.home-copy p{font-size:18px;max-width:680px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;color:var(--accent)}.hero-actions,.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary-link,.secondary-link,.primary-btn,.ghost-btn{border:0;border-radius:8px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer}.primary-link,.primary-btn{background:var(--accent);color:white}.secondary-link,.ghost-btn{background:white;color:var(--ink);border:1px solid var(--line)}.hero-asset{width:100%;max-width:520px;justify-self:center}.tool-panel{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(320px,1.2fr);gap:28px;padding:44px clamp(18px,5vw,72px);background:#f3faf7;border-bottom:1px solid var(--line)}.tool-heading h1{font-size:clamp(34px,4.6vw,58px);line-height:1.05;margin:0 0 14px}.tool-heading p{color:var(--muted);font-size:17px}.solver-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;box-shadow:var(--shadow)}.field{display:grid;gap:6px;font-weight:750;color:var(--ink)}.field span{font-size:13px}.field-help{margin:8px 0 0;color:var(--muted);font-size:13px}.field textarea,.field input{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font:inherit;background:#fff}.field textarea:focus,.field input:focus{outline:3px solid rgba(15,118,110,.18);border-color:var(--accent)}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.results{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;min-height:88px}.result-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}.word-pill{border:1px solid var(--line);border-radius:8px;background:#fbfcff;padding:9px 10px;font-weight:800;text-align:center}.muted{color:var(--muted)}.content-section{padding:42px clamp(18px,5vw,72px);background:var(--paper)}.content-inner{max-width:920px}.content-inner h2{margin-top:34px;font-size:28px}.content-inner h3{margin-top:24px;font-size:20px}.content-inner p,.content-inner li{color:#2f3b45}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;padding:14px 16px;border-radius:8px;margin-top:28px}.section-band{padding:42px clamp(18px,5vw,72px);border-top:1px solid var(--line);background:white}.section-band.alt{background:#f7f8fb}.inner{max-width:1180px;margin:0 auto}.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.tool-link{display:grid;gap:7px;text-decoration:none;background:white;border:1px solid var(--line);border-radius:8px;padding:16px;min-height:118px}.tool-link:hover{border-color:var(--accent);box-shadow:0 10px 26px rgba(15,118,110,.09)}.tool-link span{color:var(--muted);font-size:14px}.link-grid{display:flex;gap:10px;flex-wrap:wrap}.link-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}.cluster-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding:0;list-style:none}.cluster-list li{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:8px;padding:14px;background:white}.page-heading{padding:44px clamp(18px,5vw,72px);background:#f3faf7}.site-footer{padding:34px clamp(18px,5vw,72px);background:var(--ink);color:#dfe7ee}.site-footer a{color:white}@media(max-width:820px){.site-header{align-items:flex-start;flex-direction:column}.top-nav{gap:12px}.home-hero,.tool-panel{grid-template-columns:1fr}.home-hero{padding-top:40px}.field-grid{grid-template-columns:1fr}.hero-asset{max-width:330px}.tool-heading h1{font-size:36px}}`;
+  const css = `:root{--ink:#17202a;--muted:#5c6975;--line:#d7dde2;--paper:#fbfcf8;--panel:#ffffff;--accent:#0f766e;--accent-2:#b45309;--blue:#1d4ed8;--soft:#eef7f5;--shadow:0 18px 60px rgba(23,32,42,.10)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(16px,4vw,48px);background:rgba(251,252,248,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--ink);color:white;letter-spacing:.02em}.top-nav{display:flex;gap:18px;flex-wrap:wrap}.top-nav a{text-decoration:none;color:var(--muted);font-weight:650;font-size:14px}.top-nav a:hover{color:var(--ink)}.home-hero{min-height:560px;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,520px);align-items:center;gap:40px;padding:64px clamp(18px,6vw,80px) 44px;background:linear-gradient(180deg,#f7fbf7 0%,#fbfcf8 100%)}.home-copy h1{font-size:clamp(42px,6vw,76px);line-height:1.02;margin:0 0 18px;letter-spacing:0}.home-copy p{font-size:18px;max-width:680px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;color:var(--accent)}.hero-actions,.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary-link,.secondary-link,.primary-btn,.ghost-btn{border:0;border-radius:8px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer}.primary-link,.primary-btn{background:var(--accent);color:white}.secondary-link,.ghost-btn{background:white;color:var(--ink);border:1px solid var(--line)}.hero-asset{width:100%;max-width:520px;justify-self:center}.tool-panel{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(320px,1.2fr);gap:28px;padding:44px clamp(18px,5vw,72px);background:#f3faf7;border-bottom:1px solid var(--line)}.tool-heading h1{font-size:clamp(34px,4.6vw,58px);line-height:1.05;margin:0 0 14px}.tool-heading p{color:var(--muted);font-size:17px}.solver-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;box-shadow:var(--shadow)}.field{display:grid;gap:6px;font-weight:750;color:var(--ink)}.field span{font-size:13px}.field-help{margin:8px 0 0;color:var(--muted);font-size:13px}.field textarea,.field input{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font:inherit;background:#fff}.field textarea:focus,.field input:focus{outline:3px solid rgba(15,118,110,.18);border-color:var(--accent)}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.results{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;min-height:88px}.result-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.result-group{margin-top:14px}.result-group h3{font-size:15px;margin:0 0 8px;color:var(--muted)}.result-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}.word-pill{display:grid;gap:2px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;padding:9px 10px;font-weight:800;text-align:center;cursor:pointer}.word-pill small{font-size:11px;color:var(--muted);font-weight:700}.muted{color:var(--muted)}.content-section{padding:42px clamp(18px,5vw,72px);background:var(--paper)}.content-inner{max-width:920px}.content-inner h2{margin-top:34px;font-size:28px}.content-inner h3{margin-top:24px;font-size:20px}.content-inner p,.content-inner li{color:#2f3b45}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;padding:14px 16px;border-radius:8px;margin-top:28px}.section-band{padding:42px clamp(18px,5vw,72px);border-top:1px solid var(--line);background:white}.section-band.alt{background:#f7f8fb}.inner{max-width:1180px;margin:0 auto}.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.tool-cluster{margin:0 0 38px}.tool-cluster:last-child{margin-bottom:0}.cluster-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.cluster-heading h2{margin:0;font-size:26px}.cluster-heading span{color:var(--muted);font-weight:800}.tool-link{display:grid;gap:7px;text-decoration:none;background:white;border:1px solid var(--line);border-radius:8px;padding:16px;min-height:118px}.tool-link:hover{border-color:var(--accent);box-shadow:0 10px 26px rgba(15,118,110,.09)}.tool-link span{color:var(--muted);font-size:14px}.link-grid{display:flex;gap:10px;flex-wrap:wrap}.link-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}.cluster-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding:0;list-style:none}.cluster-list li{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:8px;padding:14px;background:white}.page-heading{padding:44px clamp(18px,5vw,72px);background:#f3faf7}.site-footer{padding:34px clamp(18px,5vw,72px);background:var(--ink);color:#dfe7ee}.site-footer a{color:white}@media(max-width:820px){.site-header{align-items:flex-start;flex-direction:column}.top-nav{gap:12px}.home-hero,.tool-panel{grid-template-columns:1fr}.home-hero{padding-top:40px}.field-grid{grid-template-columns:1fr}.hero-asset{max-width:330px}.tool-heading h1{font-size:36px}.result-toolbar,.cluster-heading{align-items:flex-start;flex-direction:column}}`;
   fs.writeFileSync(path.join(publicDir, "assets/styles.css"), css);
   const app = `const WORDS=${JSON.stringify([...new Set(dictionary.map((word) => word.toLowerCase()))])};
 const SCORE={a:1,b:3,c:3,d:2,e:1,f:4,g:2,h:4,i:1,j:8,k:5,l:1,m:3,n:1,o:1,p:3,q:10,r:1,s:1,t:1,u:1,v:4,w:4,x:8,y:4,z:10};
@@ -400,9 +708,11 @@ function normalize(value){return (value||"").toLowerCase().replace(/[^a-z?]/g,""
 function canBuild(word,letters){const pool=normalize(letters).split("");let blanks=pool.filter(c=>c==="?").length;const counts={};for(const c of pool){if(c!=="?")counts[c]=(counts[c]||0)+1;}for(const c of word){if(counts[c])counts[c]--;else if(blanks)blanks--;else return false;}return true;}
 function score(word){return word.split("").reduce((sum,c)=>sum+(SCORE[c]||0),0)}
 function matchPattern(word,pattern){const p=normalize(pattern);if(!p)return true;if(word.length!==p.length)return false;return [...p].every((c,i)=>c==="?"||c===word[i]);}
-function solve(card){const mode=card.closest("[data-tool-mode]")?.dataset.toolMode||card.dataset.toolMode||"letters";const rawLetters=card.querySelector('[data-role="letters"]').value;const letters=normalize(rawLetters);const contains=normalize(card.querySelector('[data-role="contains"]').value);const starts=normalize(card.querySelector('[data-role="starts"]').value);const ends=normalize(card.querySelector('[data-role="ends"]').value);const exclude=normalize(card.querySelector('[data-role="exclude"]').value);let len=Number(card.querySelector('[data-role="length"]').value||0);let pattern=card.querySelector('[data-role="pattern"]').value;if(mode==="wordle"&&!len)len=5;if((mode==="crossword"||mode==="wordle"||mode==="cryptogram")&&letters.includes("?")&&!pattern)pattern=letters;let candidates=WORDS.filter(w=>!len||w.length===len).filter(w=>!starts||w.startsWith(starts)).filter(w=>!ends||w.endsWith(ends)).filter(w=>!contains||contains.split("").every(c=>w.includes(c))).filter(w=>!exclude||!exclude.split("").some(c=>w.includes(c))).filter(w=>matchPattern(w,pattern));if(mode==="spelling"&&letters){const center=letters[0];const allowed=new Set(letters.split(""));candidates=candidates.filter(w=>w.length>=4&&w.includes(center)&&[...w].every(c=>allowed.has(c)));}else if(letters&&!(mode==="crossword"&&letters.includes("?"))&&!(mode==="wordle"&&letters.includes("?"))){candidates=candidates.filter(w=>canBuild(w,letters)||w.includes(letters));}candidates=[...new Set(candidates)].sort((a,b)=>b.length-a.length||score(b)-score(a)||a.localeCompare(b)).slice(0,120);const out=card.querySelector('[data-role="results"]');if(!candidates.length){out.innerHTML='<p class="muted">No matches yet. Try fewer filters, use ? for unknown letters, or check the pattern length.</p>';return;}out.innerHTML='<div class="result-list">'+candidates.map(w=>'<button class="word-pill" type="button" data-copy="'+w+'">'+w+'</button>').join("")+'</div><p class="muted">'+candidates.length+' matches shown. Tap a word to copy it.</p>';}
+function details(word,mode,letters){if(mode==="scrabble")return score(word)+" pts";if(mode==="spelling"){const unique=new Set(letters.split("").filter(Boolean));const pangram=unique.size&&[...unique].every(c=>word.includes(c));return pangram?"pangram":"uses center";}if(mode==="wordle")return "5 letters";return word.length+" letters";}
+function renderResults(card,candidates,mode,letters){const out=card.querySelector('[data-role="results"]');if(!candidates.length){out.innerHTML='<p class="muted">No matches yet. Remove one filter, check the pattern length, or use ? for an unknown letter.</p>';return;}const groups=new Map();for(const word of candidates){const key=word.length+" letters";if(!groups.has(key))groups.set(key,[]);groups.get(key).push(word);}let html='<div class="result-toolbar"><strong>'+candidates.length+' matches</strong><span class="muted">Grouped by word length. Tap a word to copy it.</span></div>';for(const [label,words] of groups){html+='<section class="result-group"><h3>'+label+'</h3><div class="result-list">'+words.map(w=>'<button class="word-pill" type="button" data-copy="'+w+'"><span>'+w+'</span><small>'+details(w,mode,letters)+'</small></button>').join("")+'</div></section>';}out.innerHTML=html;}
+function solve(card){const mode=card.closest("[data-tool-mode]")?.dataset.toolMode||card.dataset.toolMode||"letters";const rawLetters=card.querySelector('[data-role="letters"]').value;const letters=normalize(rawLetters);const contains=normalize(card.querySelector('[data-role="contains"]').value);const starts=normalize(card.querySelector('[data-role="starts"]').value);const ends=normalize(card.querySelector('[data-role="ends"]').value);const exclude=normalize(card.querySelector('[data-role="exclude"]').value);let len=Number(card.querySelector('[data-role="length"]').value||0);let pattern=card.querySelector('[data-role="pattern"]').value;if(mode==="wordle"&&!len)len=5;if((mode==="crossword"||mode==="wordle"||mode==="cryptogram")&&letters.includes("?")&&!pattern)pattern=letters;let candidates=WORDS.filter(w=>!len||w.length===len).filter(w=>!starts||w.startsWith(starts)).filter(w=>!ends||w.endsWith(ends)).filter(w=>!contains||contains.split("").every(c=>w.includes(c))).filter(w=>!exclude||!exclude.split("").some(c=>w.includes(c))).filter(w=>matchPattern(w,pattern));if(mode==="spelling"&&letters){const center=letters[0];const allowed=new Set(letters.split(""));candidates=candidates.filter(w=>w.length>=4&&w.includes(center)&&[...w].every(c=>allowed.has(c)));}else if(letters&&!(mode==="crossword"&&letters.includes("?"))&&!(mode==="wordle"&&letters.includes("?"))){candidates=candidates.filter(w=>canBuild(w,letters)||w.includes(letters));}candidates=[...new Set(candidates)].sort((a,b)=>b.length-a.length||score(b)-score(a)||a.localeCompare(b)).slice(0,160);renderResults(card,candidates,mode,letters);}
 function sample(card){const mode=card.closest("[data-tool-mode]")?.dataset.toolMode||card.dataset.toolMode;const letters=card.querySelector('[data-role="letters"]');const length=card.querySelector('[data-role="length"]');const pattern=card.querySelector('[data-role="pattern"]');card.querySelectorAll("input,textarea").forEach(i=>i.value="");if(mode==="wordle"){letters.value="crane";length.value=5;card.querySelector('[data-role="exclude"]').value="tou";}else if(mode==="crossword"){letters.value="";pattern.value="c?a??";}else if(mode==="spelling"){letters.value="aglnort";}else if(mode==="ladder"){letters.value="cold";card.querySelector('[data-role="contains"]').value="warm";length.value=4;}else if(mode==="boggle"){letters.value="rstlneai";length.value=4;}else{letters.value="tca?rs";length.value="";}solve(card);}
-document.addEventListener("click",async e=>{const btn=e.target.closest("button");if(!btn)return;const card=btn.closest(".solver-card");if(btn.dataset.action==="solve")solve(card);if(btn.dataset.action==="sample")sample(card);if(btn.dataset.action==="clear"){card.querySelectorAll("input,textarea").forEach(i=>i.value="");card.querySelector('[data-role="results"]').innerHTML='<p class="muted">Enter letters or a pattern to see matching words.</p>';}if(btn.dataset.copy){await navigator.clipboard?.writeText(btn.dataset.copy);btn.textContent="Copied";setTimeout(()=>btn.textContent=btn.dataset.copy,900);}});
+document.addEventListener("click",async e=>{const btn=e.target.closest("button");if(!btn)return;const card=btn.closest(".solver-card");if(btn.dataset.action==="solve")solve(card);if(btn.dataset.action==="sample")sample(card);if(btn.dataset.action==="copy-all"){const words=[...card.querySelectorAll("[data-copy]")].map(b=>b.dataset.copy);if(words.length){await navigator.clipboard?.writeText(words.join("\\n"));btn.textContent="Copied all";setTimeout(()=>btn.textContent="Copy all",900);}}if(btn.dataset.action==="clear"){card.querySelectorAll("input,textarea").forEach(i=>i.value="");card.querySelector('[data-role="results"]').innerHTML='<p class="muted">Enter letters or a pattern to see matching words.</p>';}if(btn.dataset.copy){await navigator.clipboard?.writeText(btn.dataset.copy);const old=btn.innerHTML;btn.textContent="Copied";setTimeout(()=>btn.innerHTML=old,900);}});
 document.addEventListener("input",e=>{const card=e.target.closest(".solver-card");if(card&&e.target.matches("input,textarea"))solve(card);});`;
   fs.writeFileSync(path.join(publicDir, "assets/app.js"), app);
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 430" role="img" aria-label="Word solver letter tiles"><rect width="620" height="430" rx="28" fill="#eef7f5"/><g font-family="Inter, Arial, sans-serif" font-weight="800" font-size="54" text-anchor="middle"><rect x="70" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="116" y="144" fill="#17202a">W</text><rect x="178" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="224" y="144" fill="#17202a">O</text><rect x="286" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="332" y="144" fill="#17202a">R</text><rect x="394" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="440" y="144" fill="#17202a">D</text><rect x="124" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="170" y="270" fill="#fff">F</text><rect x="232" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="278" y="270" fill="#fff">I</text><rect x="340" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="386" y="270" fill="#fff">N</text><rect x="448" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="494" y="270" fill="#fff">D</text></g><path d="M92 342h436" stroke="#17202a" stroke-width="8" stroke-linecap="round"/><path d="M460 322l66 20-66 20" fill="none" stroke="#17202a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
@@ -434,9 +744,10 @@ function writePage(page) {
 }
 
 function writeSitemap() {
-  const urls = ["/", "/tools/", ...pages.map((page) => page.url)];
+  const urls = allSitemapUrls();
   fs.writeFileSync(path.join(publicDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${site.origin}${url}</loc></url>`).join("\n")}\n</urlset>\n`);
   fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(publicDir, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/*.svg\n  Cache-Control: public, max-age=31536000, immutable\n/*.webmanifest\n  Cache-Control: public, max-age=86400\n/*.html\n  Cache-Control: public, max-age=0, must-revalidate\n`);
 }
 
 fs.rmSync(publicDir, { recursive: true, force: true });
@@ -445,7 +756,12 @@ writeStaticAssets();
 fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml());
 ensureDir(path.join(publicDir, "tools"));
 fs.writeFileSync(path.join(publicDir, "tools/index.html"), toolsHtml());
+for (const page of staticPages) {
+  ensureDir(path.join(publicDir, page.slug));
+  fs.writeFileSync(path.join(publicDir, page.slug, "index.html"), staticPageHtml(page));
+}
 for (const page of pages) writePage(page);
+fs.writeFileSync(path.join(publicDir, "404.html"), notFoundHtml());
 writeSitemap();
 
-console.log(`Built ${pages.length + 2} pages into ${publicDir}`);
+console.log(`Built ${pages.length + staticPages.length + 3} pages into ${publicDir}`);

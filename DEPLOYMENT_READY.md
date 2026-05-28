@@ -36,16 +36,21 @@ Do not deploy the default `https://example.com` build to production.
 - 50 keyword pages
 - homepage
 - `/tools/` index page
+- trust pages: `/about/`, `/how-it-works/`, `/privacy/`, `/terms/`, `/contact/`
+- `404.html`
 - `sitemap.xml`
 - `robots.txt`
+- Cloudflare Pages `_headers`
 - favicon SVG
 - apple touch icon SVG
 - web app manifest
 - Open Graph and Twitter Card tags
 - social sharing SVG
-- WebApplication schema on tool pages
-- WebSite schema on homepage
-- CollectionPage schema on tools index
+- `@graph` schema on all indexable pages
+- WebApplication + FAQPage + BreadcrumbList on tool pages
+- WebSite + Organization on homepage
+- CollectionPage + ItemList on tools index
+- WebPage + BreadcrumbList on trust pages
 
 ## Pre-deploy check
 
@@ -55,6 +60,7 @@ find public -name 'index.html' | wc -l
 rg "https://example.com" public
 ```
 
-Expected HTML page count: `52`.
+Expected index page count: `57`.
+Expected sitemap URL count: `57`.
 
 After building with the real domain, the `rg "https://example.com" public` command should return no results.
