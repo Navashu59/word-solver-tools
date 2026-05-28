@@ -137,10 +137,16 @@ Current pushed branch:
 main
 ```
 
-Current pushed commit:
+Implementation baseline commit:
 
 ```text
-0de00f3 docs: record project status and deployment next steps
+655b6bb site: improve authority structure and tool UX
+```
+
+The latest pushed commit is the current `origin/main` head. Verify with:
+
+```bash
+git ls-remote --heads origin main
 ```
 
 The repository should use:
