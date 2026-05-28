@@ -7,8 +7,10 @@ const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json
 
 const site = {
   name: "Word Solver Tools",
-  origin: "https://example.com",
+  origin: process.env.SITE_ORIGIN || "https://example.com",
   description: "Fast word unscrambler, word finder, anagram, crossword, and word game solver tools.",
+  themeColor: "#0f766e",
+  socialImage: "/assets/social-card.svg",
 };
 
 const seedDictionary = [
@@ -57,7 +59,66 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function pageAction(page) {
+  const mode = modeFor(page);
+  const byMode = {
+    crossword: `Solve ${page.title.toLowerCase()} clues with known letters, blank spots, and length filters.`,
+    boggle: `Find playable words from your Boggle board letters and narrow the list by length or required letters.`,
+    cryptogram: `Work through cryptogram patterns with known letters, unknown positions, and quick candidate words.`,
+    ladder: `Find word ladder steps by matching length, letters, and possible word changes.`,
+    spelling: `Find Spelling Bee words from your seven letters, including the required center letter.`,
+    wordle: `Find Wordle guesses from known letters, excluded letters, and five-letter patterns.`,
+    scrabble: `Find high-value Scrabble and word-game plays from your rack letters, blanks, and board constraints.`,
+    anagram: `Turn letters or a phrase into anagrams, then filter the answers by length and letter rules.`,
+    letters: `Enter your letters and find words that match your length, pattern, and letter filters.`,
+  };
+  return byMode[mode] || byMode.letters;
+}
+
+function clusterLabel(page) {
+  const labels = {
+    "unscramble-scramble": "word unscrambler",
+    scrabble: "Scrabble word finder",
+    "word-finder": "word finder",
+    "wordle-letter-patterns": "Wordle helper",
+    anagram: "anagram solver",
+    crossword: "crossword solver",
+    "word-search": "word search solver",
+    "words-with-friends": "Words With Friends helper",
+    "spelling-bee": "Spelling Bee solver",
+    boggle: "Boggle solver",
+    cryptogram: "cryptogram solver",
+    "word-ladder": "word ladder solver",
+  };
+  return labels[page.cluster] || page.cluster.replaceAll("-", " ");
+}
+
+function pageDescription(page) {
+  const keyword = page.keyword;
+  const base = pageAction(page);
+  return `${page.title}: ${base} Free, fast, and built for ${keyword} searches.`;
+}
+
+function normalizeContentCopy(text, page) {
+  return text
+    .replaceAll(`Use this page when the user has scrambled letters and needs words that can be made from them.`, `Use this page when you have scrambled letters and need words that can be made from them.`)
+    .replaceAll(`Use this page when the user has letters or word constraints and needs matching English words quickly.`, `Use this page when you have letters, patterns, or word constraints and need matching English words quickly.`)
+    .replaceAll(`Use this page when the user has green, yellow, and gray letters and needs possible next guesses.`, `Use this page when you have green, yellow, and gray letters and need possible next guesses.`)
+    .replaceAll(`Use this page when the user has a crossword clue, known letters, and blank positions.`, `Use this page when you have a crossword clue, known letters, and blank positions.`)
+    .replaceAll(`Use this page when the user has seven letters and a required center letter and needs hints or valid words.`, `Use this page when you have seven letters, a required center letter, and need valid words or hints.`)
+    .replaceAll(`Use this page when the user has a Boggle board and wants all connected words.`, `Use this page when you have a Boggle board and want possible words from the letters.`)
+    .replaceAll(`Use this page when the user needs help with a cryptogram pattern or substitution puzzle.`, `Use this page when you need help with a cryptogram pattern or substitution puzzle.`)
+    .replaceAll(`Use this page when the user needs a valid chain between two same-length words.`, `Use this page when you need a valid chain between two same-length words.`)
+    .replaceAll(`Use this page when the user`, `Use this page when you`)
+    .replaceAll(`the user has`, `you have`)
+    .replaceAll(`the user needs`, `you need`)
+    .replaceAll(`the user wants`, `you want`)
+    .replaceAll(`what you already know`, `what you already know`)
+    .replaceAll(`for ${page.keyword} to enter`, `to enter`);
+}
+
 function markdownToHtml(md) {
+  md = normalizeContentCopy(md, arguments[1] || {});
   const lines = md.split(/\r?\n/);
   let html = "";
   let listOpen = false;
@@ -127,12 +188,14 @@ function schema(page) {
     applicationCategory: "GameApplication",
     operatingSystem: "Any",
     url: `${site.origin}${page.url}`,
-    description: page.user_problem,
+    description: pageDescription(page),
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   });
 }
 
-function layout({ title, description, body, canonical = "/" }) {
+function layout({ title, description, body, canonical = "/", image = site.socialImage, schemaJson = "" }) {
+  const canonicalUrl = `${site.origin}${canonical}`;
+  const imageUrl = image.startsWith("http") ? image : `${site.origin}${image}`;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -140,8 +203,25 @@ function layout({ title, description, body, canonical = "/" }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
-  <link rel="canonical" href="${site.origin}${canonical}">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="${site.themeColor}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="${escapeHtml(site.name)}">
+  <meta property="og:title" content="${escapeHtml(title)}">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:image" content="${imageUrl}">
+  <meta property="og:image:alt" content="${escapeHtml(site.name)} word solver preview">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeHtml(title)}">
+  <meta name="twitter:description" content="${escapeHtml(description)}">
+  <meta name="twitter:image" content="${imageUrl}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/styles.css">
+  ${schemaJson ? `<script type="application/ld+json">${schemaJson}</script>` : ""}
 </head>
 <body>
   <header class="site-header">
@@ -186,7 +266,7 @@ function toolPanel(page) {
     <div class="tool-heading">
       <p class="eyebrow">${escapeHtml(page.cluster.replaceAll("-", " "))}</p>
       <h1>${escapeHtml(title)}</h1>
-      <p>${escapeHtml(page.user_problem)} Use the controls below and get usable answers without leaving the page.</p>
+      <p>${escapeHtml(pageAction(page))} Use the controls below and get usable answers without leaving the page.</p>
     </div>
     <div class="solver-card">
       <label class="field">
@@ -228,7 +308,7 @@ function adjacentLinks(page) {
 
 function pageHtml(page) {
   const draft = readDraft(page.rank, page.slug);
-  const content = markdownToHtml(draft);
+  const content = markdownToHtml(draft, page);
   const brandNote = page.brand_or_game_specific
     ? `<aside class="notice">This is an unofficial helper page. Brand and game names are used only to describe compatibility with the searcher's task.</aside>`
     : "";
@@ -236,12 +316,12 @@ function pageHtml(page) {
     ${toolPanel(page)}
     <section class="content-section"><div class="content-inner">${content}${brandNote}</div></section>
     ${adjacentLinks(page)}
-    <script type="application/ld+json">${schema(page)}</script>
   </main>`;
   return layout({
-    title: `${page.title} - Fast ${page.cluster.replaceAll("-", " ")} tool`,
-    description: page.user_problem,
+    title: `${page.title} - Free ${clusterLabel(page)}`,
+    description: pageDescription(page),
     canonical: page.url,
+    schemaJson: schema(page),
     body,
   });
 }
@@ -249,7 +329,7 @@ function pageHtml(page) {
 function homeHtml() {
   const featured = pages.slice(0, 12).map((page) => `<a class="tool-link" href="${page.url}">
     <strong>${escapeHtml(page.title)}</strong>
-    <span>${escapeHtml(page.user_problem)}</span>
+    <span>${escapeHtml(pageAction(page))}</span>
   </a>`).join("");
   const clusters = [...new Set(pages.map((page) => page.cluster))].map((cluster) => {
     const count = pages.filter((page) => page.cluster === cluster).length;
@@ -277,7 +357,19 @@ function homeHtml() {
       <ul class="cluster-list">${clusters}</ul>
     </div></section>
   </main>`;
-  return layout({ title: `${site.name} - Word Unscrambler and Word Finder Tools`, description: site.description, body });
+  const homeSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: site.name,
+    url: `${site.origin}/`,
+    description: site.description,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${site.origin}/word-finder/?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  });
+  return layout({ title: `${site.name} - Word Unscrambler and Word Finder Tools`, description: site.description, body, schemaJson: homeSchema });
 }
 
 function toolsHtml() {
@@ -288,7 +380,14 @@ function toolsHtml() {
   const body = `<main><section class="page-heading"><div class="inner">
     <p class="eyebrow">All tools</p><h1>Word solver tools</h1><p>Every launch page has a matching keyword, SERP/PAA brief, and interactive tool mode.</p>
   </div></section><section class="section-band"><div class="inner"><div class="tool-grid">${rows}</div></div></section></main>`;
-  return layout({ title: `All Word Solver Tools - ${site.name}`, description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.", canonical: "/tools/", body });
+  const toolsSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `All Word Solver Tools - ${site.name}`,
+    url: `${site.origin}/tools/`,
+    description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.",
+  });
+  return layout({ title: `All Word Solver Tools - ${site.name}`, description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.", canonical: "/tools/", body, schemaJson: toolsSchema });
 }
 
 function writeStaticAssets() {
@@ -308,6 +407,24 @@ document.addEventListener("input",e=>{const card=e.target.closest(".solver-card"
   fs.writeFileSync(path.join(publicDir, "assets/app.js"), app);
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 430" role="img" aria-label="Word solver letter tiles"><rect width="620" height="430" rx="28" fill="#eef7f5"/><g font-family="Inter, Arial, sans-serif" font-weight="800" font-size="54" text-anchor="middle"><rect x="70" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="116" y="144" fill="#17202a">W</text><rect x="178" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="224" y="144" fill="#17202a">O</text><rect x="286" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="332" y="144" fill="#17202a">R</text><rect x="394" y="80" width="92" height="92" rx="14" fill="#fff" stroke="#17202a"/><text x="440" y="144" fill="#17202a">D</text><rect x="124" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="170" y="270" fill="#fff">F</text><rect x="232" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="278" y="270" fill="#fff">I</text><rect x="340" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="386" y="270" fill="#fff">N</text><rect x="448" y="206" width="92" height="92" rx="14" fill="#0f766e"/><text x="494" y="270" fill="#fff">D</text></g><path d="M92 342h436" stroke="#17202a" stroke-width="8" stroke-linecap="round"/><path d="M460 322l66 20-66 20" fill="none" stroke="#17202a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   fs.writeFileSync(path.join(publicDir, "assets/word-tiles.svg"), svg);
+  const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#17202a"/><text x="32" y="41" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#fff">WS</text></svg>`;
+  fs.writeFileSync(path.join(publicDir, "favicon.svg"), favicon);
+  fs.writeFileSync(path.join(publicDir, "apple-touch-icon.svg"), favicon);
+  const social = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#fbfcf8"/><rect x="72" y="72" width="1056" height="486" rx="34" fill="#eef7f5" stroke="#d7dde2" stroke-width="4"/><text x="116" y="176" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#0f766e">Word Solver Tools</text><text x="116" y="280" font-family="Arial, sans-serif" font-size="78" font-weight="800" fill="#17202a">Unscramble letters.</text><text x="116" y="370" font-family="Arial, sans-serif" font-size="78" font-weight="800" fill="#17202a">Find better words.</text><g font-family="Arial, sans-serif" font-size="54" font-weight="800" text-anchor="middle"><rect x="758" y="154" width="92" height="92" rx="14" fill="#fff" stroke="#17202a" stroke-width="3"/><text x="804" y="217" fill="#17202a">W</text><rect x="866" y="154" width="92" height="92" rx="14" fill="#fff" stroke="#17202a" stroke-width="3"/><text x="912" y="217" fill="#17202a">O</text><rect x="974" y="154" width="92" height="92" rx="14" fill="#fff" stroke="#17202a" stroke-width="3"/><text x="1020" y="217" fill="#17202a">R</text><rect x="812" y="280" width="92" height="92" rx="14" fill="#0f766e"/><text x="858" y="343" fill="#fff">F</text><rect x="920" y="280" width="92" height="92" rx="14" fill="#0f766e"/><text x="966" y="343" fill="#fff">I</text><rect x="1028" y="280" width="92" height="92" rx="14" fill="#0f766e"/><text x="1074" y="343" fill="#fff">N</text></g><text x="116" y="470" font-family="Arial, sans-serif" font-size="32" fill="#5c6975">Word unscrambler, Wordle, Scrabble, crossword, anagram, and pattern tools.</text></svg>`;
+  fs.writeFileSync(path.join(publicDir, "assets/social-card.svg"), social);
+  fs.writeFileSync(path.join(publicDir, "site.webmanifest"), JSON.stringify({
+    name: site.name,
+    short_name: "Word Solver",
+    description: site.description,
+    start_url: "/",
+    display: "standalone",
+    background_color: "#fbfcf8",
+    theme_color: site.themeColor,
+    icons: [
+      { src: "/favicon.svg", sizes: "64x64", type: "image/svg+xml" },
+      { src: "/apple-touch-icon.svg", sizes: "180x180", type: "image/svg+xml" },
+    ],
+  }, null, 2));
 }
 
 function writePage(page) {
@@ -319,7 +436,7 @@ function writePage(page) {
 function writeSitemap() {
   const urls = ["/", "/tools/", ...pages.map((page) => page.url)];
   fs.writeFileSync(path.join(publicDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${site.origin}${url}</loc></url>`).join("\n")}\n</urlset>\n`);
-  fs.writeFileSync(path.join(publicDir, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://example.com/sitemap.xml\n");
+  fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
 }
 
 fs.rmSync(publicDir, { recursive: true, force: true });
