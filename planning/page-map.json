@@ -1,0 +1,1894 @@
+{
+  "generated_at": "2026-05-28T06:52:49.877Z",
+  "page_count": 50,
+  "pages": [
+    {
+      "rank": 1,
+      "title": "Word Unscrambler",
+      "keyword": "word unscrambler",
+      "slug": "word-unscrambler",
+      "url": "/word-unscrambler/",
+      "cluster": "unscramble-scramble",
+      "volume": 1220000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 2,
+      "title": "Unscramble Words",
+      "keyword": "unscramble words",
+      "slug": "unscramble-words",
+      "url": "/unscramble-words/",
+      "cluster": "unscramble-scramble",
+      "volume": 1220000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 3,
+      "title": "Unscramble",
+      "keyword": "unscramble",
+      "slug": "unscramble",
+      "url": "/unscramble/",
+      "cluster": "unscramble-scramble",
+      "volume": 1000000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 4,
+      "title": "Scrabble Word Finder",
+      "keyword": "scrabble word finder",
+      "slug": "scrabble-word-finder",
+      "url": "/scrabble-word-finder/",
+      "cluster": "scrabble",
+      "volume": 1000000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has a rack of tiles and needs a valid scoring word.",
+      "first_screen_tool": [
+        "rack input",
+        "blank tile wildcard",
+        "score sorting",
+        "word length filter",
+        "valid-word dictionary note",
+        "copy result"
+      ],
+      "paa_questions": [
+        "What words can I make with my Scrabble letters?",
+        "Can I use blank tiles in a Scrabble word finder?",
+        "How do Scrabble scores work?",
+        "Is this word valid in Scrabble?",
+        "What is the highest scoring word from my tiles?"
+      ],
+      "related_searches": [
+        "scrabble cheat",
+        "scrabble dictionary",
+        "scrabble word checker",
+        "words with these letters scrabble",
+        "blank tile scrabble word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 5,
+      "title": "Word Finder",
+      "keyword": "word finder",
+      "slug": "word-finder",
+      "url": "/word-finder/",
+      "cluster": "word-finder",
+      "volume": 550000,
+      "cpc": 1.16,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 6,
+      "title": "Wordle Solver",
+      "keyword": "wordle solver",
+      "slug": "wordle-solver",
+      "url": "/wordle-solver/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 450000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has green, yellow, and gray letters and needs possible next guesses.",
+      "first_screen_tool": [
+        "green/yellow/gray position input",
+        "required letters",
+        "excluded letters",
+        "possible answer list",
+        "best next guesses",
+        "spoiler-safe hints"
+      ],
+      "paa_questions": [
+        "How do I use a Wordle solver?",
+        "What is the best next Wordle guess?",
+        "Can Wordle answers have repeated letters?",
+        "What do green, yellow, and gray mean?",
+        "How can I get hints without seeing the answer?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 7,
+      "title": "Unscramble Letters",
+      "keyword": "unscramble letters",
+      "slug": "unscramble-letters",
+      "url": "/unscramble-letters/",
+      "cluster": "unscramble-scramble",
+      "volume": 368000,
+      "cpc": 0.01,
+      "competition": 0.01,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 8,
+      "title": "Anagram Solver",
+      "keyword": "anagram solver",
+      "slug": "anagram-solver",
+      "url": "/anagram-solver/",
+      "cluster": "anagram",
+      "volume": 246000,
+      "cpc": 1.23,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
+      "first_screen_tool": [
+        "letters or phrase input",
+        "exact/all letters toggle",
+        "multi-word mode",
+        "length filters",
+        "common word sorting"
+      ],
+      "paa_questions": [
+        "How do I solve an anagram?",
+        "Does an anagram have to use every letter?",
+        "Can I make anagrams from a name?",
+        "Can anagrams be more than one word?",
+        "How do I filter anagrams by length?"
+      ],
+      "related_searches": [
+        "anagram solver",
+        "anagram generator",
+        "name anagram maker",
+        "phrase anagram solver",
+        "multi word anagram solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 9,
+      "title": "Crossword Solver",
+      "keyword": "crossword solver",
+      "slug": "crossword-solver",
+      "url": "/crossword-solver/",
+      "cluster": "crossword",
+      "volume": 135000,
+      "cpc": 0.84,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a clue, length, and some known letters and needs possible answers.",
+      "first_screen_tool": [
+        "clue input",
+        "pattern input",
+        "answer length",
+        "known letters",
+        "ranked candidate answers",
+        "recent/common clue notes"
+      ],
+      "paa_questions": [
+        "How do I solve a crossword clue with missing letters?",
+        "How do I search crossword answers by pattern?",
+        "What does this clue mean?",
+        "How many letters is the answer?",
+        "Can the same clue have different answers?"
+      ],
+      "related_searches": [
+        "crossword clue solver",
+        "crossword answers",
+        "crossword help",
+        "crossword solver missing letters",
+        "crossword pattern solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 10,
+      "title": "Jumble Solver",
+      "keyword": "jumble solver",
+      "slug": "jumble-solver",
+      "url": "/jumble-solver/",
+      "cluster": "unscramble-scramble",
+      "volume": 110000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a Jumble puzzle and needs likely answers from scrambled letters.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "How do I solve a Jumble puzzle?",
+        "How do I unscramble Jumble letters?",
+        "Can a clue narrow the answer?",
+        "What are today Jumble answers?",
+        "Can I find multiple possible answers?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 11,
+      "title": "Word Scramble",
+      "keyword": "word scramble",
+      "slug": "word-scramble",
+      "url": "/word-scramble/",
+      "cluster": "unscramble-scramble",
+      "volume": 246000,
+      "cpc": 0.47,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 12,
+      "title": "Word Unscramble",
+      "keyword": "word unscramble",
+      "slug": "word-unscramble",
+      "url": "/word-unscramble/",
+      "cluster": "unscramble-scramble",
+      "volume": 246000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 13,
+      "title": "Words With Letters",
+      "keyword": "words with letters",
+      "slug": "words-with-letters",
+      "url": "/words-with-letters/",
+      "cluster": "word-finder",
+      "volume": 246000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 14,
+      "title": "5 Letter Word Finder",
+      "keyword": "5 letter word finder",
+      "slug": "5-letter-word-finder",
+      "url": "/5-letter-word-finder/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 201000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user needs a five-letter word that fits known letters or excluded letters.",
+      "first_screen_tool": [
+        "five-letter mode",
+        "known position boxes",
+        "contains/excludes filters",
+        "starts/ends filters",
+        "copy word list"
+      ],
+      "paa_questions": [
+        "What 5 letter words can I make with these letters?",
+        "What 5 letter words start with this letter?",
+        "What 5 letter words end with this letter?",
+        "Can I exclude letters from the results?",
+        "How do I find five-letter words for Wordle?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 15,
+      "title": "Wordle Helper",
+      "keyword": "wordle helper",
+      "slug": "wordle-helper",
+      "url": "/wordle-helper/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 165000,
+      "cpc": 0.01,
+      "competition": 0,
+      "page_type": "core_or_high_priority_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has green, yellow, and gray letters and needs possible next guesses.",
+      "first_screen_tool": [
+        "green/yellow/gray position input",
+        "required letters",
+        "excluded letters",
+        "possible answer list",
+        "best next guesses",
+        "spoiler-safe hints"
+      ],
+      "paa_questions": [
+        "How do I use a Wordle solver?",
+        "What is the best next Wordle guess?",
+        "Can Wordle answers have repeated letters?",
+        "What do green, yellow, and gray mean?",
+        "How can I get hints without seeing the answer?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 16,
+      "title": "Anagram",
+      "keyword": "anagram",
+      "slug": "anagram",
+      "url": "/anagram/",
+      "cluster": "anagram",
+      "volume": 165000,
+      "cpc": 0.51,
+      "competition": 0,
+      "page_type": "support",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
+      "first_screen_tool": [
+        "letters or phrase input",
+        "exact/all letters toggle",
+        "multi-word mode",
+        "length filters",
+        "common word sorting"
+      ],
+      "paa_questions": [
+        "How do I solve an anagram?",
+        "Does an anagram have to use every letter?",
+        "Can I make anagrams from a name?",
+        "Can anagrams be more than one word?",
+        "How do I filter anagrams by length?"
+      ],
+      "related_searches": [
+        "anagram solver",
+        "anagram generator",
+        "name anagram maker",
+        "phrase anagram solver",
+        "multi word anagram solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 17,
+      "title": "Word Search Solver",
+      "keyword": "word search solver",
+      "slug": "word-search-solver",
+      "url": "/word-search-solver/",
+      "cluster": "word-search",
+      "volume": 18100,
+      "cpc": 1.13,
+      "competition": 0.01,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user cannot find words in a letter grid and wants the hidden path highlighted.",
+      "first_screen_tool": [
+        "grid input",
+        "target word list",
+        "all direction search",
+        "path highlight",
+        "print/share solved grid"
+      ],
+      "paa_questions": [
+        "How do I solve a word search?",
+        "Can words go diagonally or backwards?",
+        "How do I enter a word search grid?",
+        "Can I find multiple words at once?",
+        "How do I highlight the hidden word path?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 18,
+      "title": "Word Scrambler",
+      "keyword": "word scrambler",
+      "slug": "word-scrambler",
+      "url": "/word-scrambler/",
+      "cluster": "unscramble-scramble",
+      "volume": 90500,
+      "cpc": 0.47,
+      "competition": 0,
+      "page_type": "support",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 19,
+      "title": "Wordle Finder",
+      "keyword": "wordle finder",
+      "slug": "wordle-finder",
+      "url": "/wordle-finder/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 90500,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has green, yellow, and gray letters and needs possible next guesses.",
+      "first_screen_tool": [
+        "green/yellow/gray position input",
+        "required letters",
+        "excluded letters",
+        "possible answer list",
+        "best next guesses",
+        "spoiler-safe hints"
+      ],
+      "paa_questions": [
+        "How do I use a Wordle solver?",
+        "What is the best next Wordle guess?",
+        "Can Wordle answers have repeated letters?",
+        "What do green, yellow, and gray mean?",
+        "How can I get hints without seeing the answer?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 20,
+      "title": "Word Cheat",
+      "keyword": "word cheat",
+      "slug": "word-cheat",
+      "url": "/word-cheat/",
+      "cluster": "word-finder",
+      "volume": 74000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 21,
+      "title": "Words With These Letters",
+      "keyword": "words with these letters",
+      "slug": "words-with-these-letters",
+      "url": "/words-with-these-letters/",
+      "cluster": "word-finder",
+      "volume": 74000,
+      "cpc": 0.03,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 22,
+      "title": "Scramble Words",
+      "keyword": "scramble words",
+      "slug": "scramble-words",
+      "url": "/scramble-words/",
+      "cluster": "unscramble-scramble",
+      "volume": 60500,
+      "cpc": 0.01,
+      "competition": 0.01,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 23,
+      "title": "Wordle Cheat",
+      "keyword": "wordle cheat",
+      "slug": "wordle-cheat",
+      "url": "/wordle-cheat/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 60500,
+      "cpc": 0.02,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has green, yellow, and gray letters and needs possible next guesses.",
+      "first_screen_tool": [
+        "green/yellow/gray position input",
+        "required letters",
+        "excluded letters",
+        "possible answer list",
+        "best next guesses",
+        "spoiler-safe hints"
+      ],
+      "paa_questions": [
+        "How do I use a Wordle solver?",
+        "What is the best next Wordle guess?",
+        "Can Wordle answers have repeated letters?",
+        "What do green, yellow, and gray mean?",
+        "How can I get hints without seeing the answer?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 24,
+      "title": "Word Generator From Letters",
+      "keyword": "word generator from letters",
+      "slug": "word-generator-from-letters",
+      "url": "/word-generator-from-letters/",
+      "cluster": "word-finder",
+      "volume": 12100,
+      "cpc": 0.02,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 25,
+      "title": "Word Scramble Solver",
+      "keyword": "word scramble solver",
+      "slug": "word-scramble-solver",
+      "url": "/word-scramble-solver/",
+      "cluster": "unscramble-scramble",
+      "volume": 33100,
+      "cpc": 0.01,
+      "competition": 0.01,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 26,
+      "title": "Word Solver",
+      "keyword": "word solver",
+      "slug": "word-solver",
+      "url": "/word-solver/",
+      "cluster": "word-finder",
+      "volume": 40500,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 27,
+      "title": "Letter Solver",
+      "keyword": "letter solver",
+      "slug": "letter-solver",
+      "url": "/letter-solver/",
+      "cluster": "word-finder",
+      "volume": 8100,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters and constraints and needs matching words.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 28,
+      "title": "Word Descrambler",
+      "keyword": "word descrambler",
+      "slug": "word-descrambler",
+      "url": "/word-descrambler/",
+      "cluster": "unscramble-scramble",
+      "volume": 49500,
+      "cpc": 0.01,
+      "competition": 0.01,
+      "page_type": "support",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has scrambled letters and needs words that can be made from them.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 29,
+      "title": "Scrabble Cheat",
+      "keyword": "scrabble cheat",
+      "slug": "scrabble-cheat",
+      "url": "/scrabble-cheat/",
+      "cluster": "scrabble",
+      "volume": 550000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has a rack of tiles and needs a valid scoring word.",
+      "first_screen_tool": [
+        "rack input",
+        "blank tile wildcard",
+        "score sorting",
+        "word length filter",
+        "valid-word dictionary note",
+        "copy result"
+      ],
+      "paa_questions": [
+        "What words can I make with my Scrabble letters?",
+        "Can I use blank tiles in a Scrabble word finder?",
+        "How do Scrabble scores work?",
+        "Is this word valid in Scrabble?",
+        "What is the highest scoring word from my tiles?"
+      ],
+      "related_searches": [
+        "scrabble cheat",
+        "scrabble dictionary",
+        "scrabble word checker",
+        "words with these letters scrabble",
+        "blank tile scrabble word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 30,
+      "title": "Words With Friends Cheat",
+      "keyword": "words with friends cheat",
+      "slug": "words-with-friends-cheat",
+      "url": "/words-with-friends-cheat/",
+      "cluster": "words-with-friends",
+      "volume": 673000,
+      "cpc": 0.03,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user is stuck in Words With Friends and needs valid words under that game ruleset.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 31,
+      "title": "Word Tips",
+      "keyword": "word tips",
+      "slug": "word-tips",
+      "url": "/word-tips/",
+      "cluster": "word-finder",
+      "volume": 60500,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 32,
+      "title": "5 Letter Words",
+      "keyword": "5 letter words",
+      "slug": "5-letter-words",
+      "url": "/5-letter-words/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 550000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user needs a five-letter word that fits known letters or excluded letters.",
+      "first_screen_tool": [
+        "five-letter mode",
+        "known position boxes",
+        "contains/excludes filters",
+        "starts/ends filters",
+        "copy word list"
+      ],
+      "paa_questions": [
+        "What 5 letter words can I make with these letters?",
+        "What 5 letter words start with this letter?",
+        "What 5 letter words end with this letter?",
+        "Can I exclude letters from the results?",
+        "How do I find five-letter words for Wordle?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 33,
+      "title": "Five Letter Words",
+      "keyword": "five letter words",
+      "slug": "five-letter-words",
+      "url": "/five-letter-words/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 201000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user needs a five-letter word that fits known letters or excluded letters.",
+      "first_screen_tool": [
+        "five-letter mode",
+        "known position boxes",
+        "contains/excludes filters",
+        "starts/ends filters",
+        "copy word list"
+      ],
+      "paa_questions": [
+        "What 5 letter words can I make with these letters?",
+        "What 5 letter words start with this letter?",
+        "What 5 letter words end with this letter?",
+        "Can I exclude letters from the results?",
+        "How do I find five-letter words for Wordle?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 34,
+      "title": "Five Letter Word Finder",
+      "keyword": "five letter word finder",
+      "slug": "five-letter-word-finder",
+      "url": "/five-letter-word-finder/",
+      "cluster": "wordle-letter-patterns",
+      "volume": 90500,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user needs a five-letter word that fits known letters or excluded letters.",
+      "first_screen_tool": [
+        "five-letter mode",
+        "known position boxes",
+        "contains/excludes filters",
+        "starts/ends filters",
+        "copy word list"
+      ],
+      "paa_questions": [
+        "What 5 letter words can I make with these letters?",
+        "What 5 letter words start with this letter?",
+        "What 5 letter words end with this letter?",
+        "Can I exclude letters from the results?",
+        "How do I find five-letter words for Wordle?"
+      ],
+      "related_searches": [
+        "5 letter words",
+        "wordle solver",
+        "wordle helper",
+        "wordle hints",
+        "five letter word finder"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 35,
+      "title": "7 Letter Words",
+      "keyword": "7 letter words",
+      "slug": "7-letter-words",
+      "url": "/7-letter-words/",
+      "cluster": "word-finder",
+      "volume": 49500,
+      "cpc": 0.02,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 36,
+      "title": "Word Generator",
+      "keyword": "word generator",
+      "slug": "word-generator",
+      "url": "/word-generator/",
+      "cluster": "word-finder",
+      "volume": 49500,
+      "cpc": 2.05,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 37,
+      "title": "Word Maker",
+      "keyword": "word maker",
+      "slug": "word-maker",
+      "url": "/word-maker/",
+      "cluster": "word-finder",
+      "volume": 12100,
+      "cpc": 1.4,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 38,
+      "title": "Spelling Bee Solver",
+      "keyword": "spelling bee solver",
+      "slug": "spelling-bee-solver",
+      "url": "/spelling-bee-solver/",
+      "cluster": "spelling-bee",
+      "volume": 33100,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "How do I solve a Spelling Bee puzzle?",
+        "What is a pangram?",
+        "Does every word need the center letter?",
+        "Can letters repeat?",
+        "Can I get hints before answers?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 39,
+      "title": "Spelling Bee Answers",
+      "keyword": "spelling bee answers",
+      "slug": "spelling-bee-answers",
+      "url": "/spelling-bee-answers/",
+      "cluster": "spelling-bee",
+      "volume": 450000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "support",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "How do I solve a Spelling Bee puzzle?",
+        "What is a pangram?",
+        "Does every word need the center letter?",
+        "Can letters repeat?",
+        "Can I get hints before answers?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 40,
+      "title": "Spelling Bee Buddy",
+      "keyword": "spelling bee buddy",
+      "slug": "spelling-bee-buddy",
+      "url": "/spelling-bee-buddy/",
+      "cluster": "spelling-bee",
+      "volume": 74000,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "support",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "How do I solve a Spelling Bee puzzle?",
+        "What is a pangram?",
+        "Does every word need the center letter?",
+        "Can letters repeat?",
+        "Can I get hints before answers?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 41,
+      "title": "Nyt Spelling Bee Solver",
+      "keyword": "nyt spelling bee solver",
+      "slug": "nyt-spelling-bee-solver",
+      "url": "/nyt-spelling-bee-solver/",
+      "cluster": "spelling-bee",
+      "volume": 2400,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": true,
+      "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "How do I solve a Spelling Bee puzzle?",
+        "What is a pangram?",
+        "Does every word need the center letter?",
+        "Can letters repeat?",
+        "Can I get hints before answers?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 42,
+      "title": "Crossword Clue Solver",
+      "keyword": "crossword clue solver",
+      "slug": "crossword-clue-solver",
+      "url": "/crossword-clue-solver/",
+      "cluster": "crossword",
+      "volume": 3600,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a clue, length, and some known letters and needs possible answers.",
+      "first_screen_tool": [
+        "clue input",
+        "pattern input",
+        "answer length",
+        "known letters",
+        "ranked candidate answers",
+        "recent/common clue notes"
+      ],
+      "paa_questions": [
+        "How do I solve a crossword clue with missing letters?",
+        "How do I search crossword answers by pattern?",
+        "What does this clue mean?",
+        "How many letters is the answer?",
+        "Can the same clue have different answers?"
+      ],
+      "related_searches": [
+        "crossword clue solver",
+        "crossword answers",
+        "crossword help",
+        "crossword solver missing letters",
+        "crossword pattern solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 43,
+      "title": "Crossword Puzzle Solver",
+      "keyword": "crossword puzzle solver",
+      "slug": "crossword-puzzle-solver",
+      "url": "/crossword-puzzle-solver/",
+      "cluster": "crossword",
+      "volume": 14800,
+      "cpc": 0.88,
+      "competition": 0.01,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a clue, length, and some known letters and needs possible answers.",
+      "first_screen_tool": [
+        "clue input",
+        "pattern input",
+        "answer length",
+        "known letters",
+        "ranked candidate answers",
+        "recent/common clue notes"
+      ],
+      "paa_questions": [
+        "How do I solve a crossword clue with missing letters?",
+        "How do I search crossword answers by pattern?",
+        "What does this clue mean?",
+        "How many letters is the answer?",
+        "Can the same clue have different answers?"
+      ],
+      "related_searches": [
+        "crossword clue solver",
+        "crossword answers",
+        "crossword help",
+        "crossword solver missing letters",
+        "crossword pattern solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 44,
+      "title": "Crossword Help",
+      "keyword": "crossword help",
+      "slug": "crossword-help",
+      "url": "/crossword-help/",
+      "cluster": "crossword",
+      "volume": 14800,
+      "cpc": 1,
+      "competition": 0,
+      "page_type": "support",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a clue, length, and some known letters and needs possible answers.",
+      "first_screen_tool": [
+        "clue input",
+        "pattern input",
+        "answer length",
+        "known letters",
+        "ranked candidate answers",
+        "recent/common clue notes"
+      ],
+      "paa_questions": [
+        "How do I solve a crossword clue with missing letters?",
+        "How do I search crossword answers by pattern?",
+        "What does this clue mean?",
+        "How many letters is the answer?",
+        "Can the same clue have different answers?"
+      ],
+      "related_searches": [
+        "crossword clue solver",
+        "crossword answers",
+        "crossword help",
+        "crossword solver missing letters",
+        "crossword pattern solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 45,
+      "title": "Anagram Generator",
+      "keyword": "anagram generator",
+      "slug": "anagram-generator",
+      "url": "/anagram-generator/",
+      "cluster": "anagram",
+      "volume": 33100,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
+      "first_screen_tool": [
+        "letters or phrase input",
+        "exact/all letters toggle",
+        "multi-word mode",
+        "length filters",
+        "common word sorting"
+      ],
+      "paa_questions": [
+        "How do I solve an anagram?",
+        "Does an anagram have to use every letter?",
+        "Can I make anagrams from a name?",
+        "Can anagrams be more than one word?",
+        "How do I filter anagrams by length?"
+      ],
+      "related_searches": [
+        "anagram solver",
+        "anagram generator",
+        "name anagram maker",
+        "phrase anagram solver",
+        "multi word anagram solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 46,
+      "title": "Anagram Maker",
+      "keyword": "anagram maker",
+      "slug": "anagram-maker",
+      "url": "/anagram-maker/",
+      "cluster": "anagram",
+      "volume": 8100,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
+      "first_screen_tool": [
+        "letters or phrase input",
+        "exact/all letters toggle",
+        "multi-word mode",
+        "length filters",
+        "common word sorting"
+      ],
+      "paa_questions": [
+        "How do I solve an anagram?",
+        "Does an anagram have to use every letter?",
+        "Can I make anagrams from a name?",
+        "Can anagrams be more than one word?",
+        "How do I filter anagrams by length?"
+      ],
+      "related_searches": [
+        "anagram solver",
+        "anagram generator",
+        "name anagram maker",
+        "phrase anagram solver",
+        "multi word anagram solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 47,
+      "title": "Boggle Solver",
+      "keyword": "boggle solver",
+      "slug": "boggle-solver",
+      "url": "/boggle-solver/",
+      "cluster": "boggle",
+      "volume": 1900,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a Boggle board and wants all connected words.",
+      "first_screen_tool": [
+        "4x4/5x5 grid",
+        "dictionary selection",
+        "path highlighting",
+        "score sorting",
+        "word length filters"
+      ],
+      "paa_questions": [
+        "How do you solve Boggle?",
+        "Can Boggle letters be reused?",
+        "How is Boggle scored?",
+        "What words are on this Boggle board?",
+        "Can I use a 5x5 Boggle grid?"
+      ],
+      "related_searches": [
+        "boggle solver",
+        "boggle word finder",
+        "boggle answers",
+        "4x4 boggle solver",
+        "boggle board solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 48,
+      "title": "Cryptogram Solver",
+      "keyword": "cryptogram solver",
+      "slug": "cryptogram-solver",
+      "url": "/cryptogram-solver/",
+      "cluster": "cryptogram",
+      "volume": 3600,
+      "cpc": 1.13,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user is solving a substitution cipher and needs mapping hints or candidate words.",
+      "first_screen_tool": [
+        "cipher text input",
+        "letter mapping table",
+        "locked mappings",
+        "frequency hints",
+        "candidate word suggestions"
+      ],
+      "paa_questions": [
+        "How do I solve a cryptogram?",
+        "What is a substitution cipher?",
+        "How do letter frequencies help?",
+        "Can I lock known letter mappings?",
+        "Can a cryptogram have multiple solutions?"
+      ],
+      "related_searches": [
+        "cryptogram solver",
+        "substitution cipher solver",
+        "letter frequency solver",
+        "cryptoquote solver",
+        "cipher solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 49,
+      "title": "Letter Box Solver",
+      "keyword": "letter box solver",
+      "slug": "letter-box-solver",
+      "url": "/letter-box-solver/",
+      "cluster": "word-finder",
+      "volume": 1600,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has letters or word constraints and needs matching English words quickly.",
+      "first_screen_tool": [
+        "letter input",
+        "wildcards",
+        "length filters",
+        "contains/excludes",
+        "starts/ends",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "What words can I make with these letters?",
+        "Do I have to use every letter?",
+        "Can I use wildcards or blank tiles?",
+        "Can I filter by word length?",
+        "Can I exclude letters from results?"
+      ],
+      "related_searches": [
+        "word finder",
+        "word solver",
+        "words with these letters",
+        "unscramble letters",
+        "word generator from letters"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 50,
+      "title": "Word Ladder Solver",
+      "keyword": "word ladder solver",
+      "slug": "word-ladder-solver",
+      "url": "/word-ladder-solver/",
+      "cluster": "word-ladder",
+      "volume": 1600,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user needs a path from one word to another by changing one letter at a time.",
+      "first_screen_tool": [
+        "start word",
+        "end word",
+        "dictionary choice",
+        "shortest path",
+        "alternate paths"
+      ],
+      "paa_questions": [
+        "How do you solve a word ladder?",
+        "What is the shortest word ladder path?",
+        "Can each step change only one letter?",
+        "What dictionary does the solver use?",
+        "Can there be more than one valid path?"
+      ],
+      "related_searches": [
+        "word ladder solver",
+        "word ladder answers",
+        "word ladder game",
+        "shortest word ladder",
+        "word chain solver"
+      ],
+      "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    }
+  ]
+}
