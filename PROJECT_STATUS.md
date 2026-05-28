@@ -107,16 +107,40 @@ Latest local implementation commit before GitHub push:
 
 ## GitHub State
 
-Target GitHub repository:
+GitHub repository:
 
 ```text
 Navashu59/word-solver-tools
 ```
 
-Expected visibility:
+Repository URL:
+
+```text
+https://github.com/Navashu59/word-solver-tools
+```
+
+Visibility:
 
 ```text
 public
+```
+
+Remote:
+
+```text
+origin https://github.com/Navashu59/word-solver-tools.git
+```
+
+Current pushed branch:
+
+```text
+main
+```
+
+Current pushed commit:
+
+```text
+0de00f3 docs: record project status and deployment next steps
 ```
 
 The repository should use:
