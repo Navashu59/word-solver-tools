@@ -1,72 +1,28 @@
-# SERP/PAA Framework - Word Finder
+# SERP Gap Brief - Word Finder
 
-- Primary keyword: word finder
-- Target URL: /word-finder/
-- Cluster: word-finder
-- SEMrush US volume: 550,000 / month
-- Page type: core_or_high_priority_tool
-- Brand/game-specific: no
+Keyword: word finder
+URL: /word-finder/
 
-## User Problem
+## Live SERP/PAA Signals Checked
 
-The user has letters or word constraints and needs matching English words quickly.
+- Competitors emphasize starts/ends/contains collections and word game use cases.
+- Reddit demand includes finding words with specific included and excluded letters, sometimes in order.
+- The page needs to explain when a word finder is better than an unscrambler.
 
-## Search Intent
+## Page Gaps To Close
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- Add concrete examples instead of generic tool instructions.
+- Explain result interpretation, not just how to click the tool.
+- Distinguish this page from adjacent tools to reduce cannibalization.
+- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
 
-## SEMrush Organic Top Results To Inspect
+## Updated Content Modules
 
-- 1. word.tips — https://word.tips/
-- 2. www.merriam-webster.com — https://www.merriam-webster.com/wordfinder
-- 3. wordfinder.yourdictionary.com — https://wordfinder.yourdictionary.com/
-- 4. play.google.com — https://play.google.com/store/apps/details?id=com.lovetoknow.wordfinder&hl=en_US
-- 5. scrabblewordfinder.org — https://scrabblewordfinder.org/
+- contains vs starts/ends vs pattern search
+- include/exclude workflow
+- searching with partial information
+- difference from word unscrambler
 
-## Expected Top-3 SERP Content Patterns To Verify
+## Implementation Status
 
-- Large letter input above the fold
-- Length-grouped word results
-- Starts/ends/contains filters
-- Wildcard or blank tile support
-- Definitions or dictionary links
-- Results often noisy without clear sorting
-
-## PAA Questions To Cover
-
-- What words can I make with these letters?
-- Do I have to use every letter?
-- Can I use wildcards or blank tiles?
-- Can I filter by word length?
-- Can I exclude letters from results?
-
-## Related Searches / Secondary Intent
-
-- word finder
-- word solver
-- words with these letters
-- unscramble letters
-- word generator from letters
-
-## Page Modules To Add
-
-- Tool panel: letter input, wildcards, length filters, contains/excludes, starts/ends, copyable results
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about word finder. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+Applied to content draft on 2026-05-29.

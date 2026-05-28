@@ -1,6 +1,6 @@
 # Project Status
 
-> Updated: 2026-05-28
+> Updated: 2026-05-29
 > Project: Word Solver Tools
 > Core keyword: `word unscrambler`
 > Core authority field: letter-based word solving tools
@@ -90,6 +90,39 @@ Verified:
 - browser interaction works on core tool pages
 - `/tools/` lists all 50 tool pages by cluster
 - `SITE_ORIGIN` replacement removes `https://example.com` from generated output when a real origin is supplied
+
+## 2026-05-29 SERP Gap Content Deepening
+
+Ten core pages were deepened using the SERP gap method before launch:
+
+- `/word-unscrambler/`
+- `/unscramble-words/`
+- `/word-finder/`
+- `/words-with-these-letters/`
+- `/5-letter-word-finder/`
+- `/wordle-solver/`
+- `/scrabble-word-finder/`
+- `/anagram-solver/`
+- `/crossword-solver/`
+- `/jumble-solver/`
+
+What changed:
+
+- Each page now has a dedicated SERP gap brief in `serp-paa/`.
+- The visible page copy was expanded from roughly 370-430 words to roughly 700-780 words on the ten core pages.
+- Internal SERP analysis was kept out of the user-facing page body.
+- Each page now includes more specific modules for the query intent, such as exact vs contains mode, wildcard handling, blank tile scoring, Wordle duplicate letters, crossword patterns, and Jumble-style exact solving.
+- Repeated boilerplate was reduced on the most important pages.
+
+Post-change verification:
+
+- `npm run build` passed.
+- `node --check public/assets/app.js` passed.
+- 57 index pages generated.
+- 57 sitemap URLs generated.
+- 58 HTML files have parseable JSON-LD, including `404.html`.
+- Internal link check found 0 broken local links.
+- Browser smoke test passed for `/wordle-solver/`, `/scrabble-word-finder/`, `/crossword-solver/`, and mobile `/word-unscrambler/`.
 
 ## Git State
 
@@ -199,6 +232,7 @@ When the domain is available:
     - early ranking pages
     - queries in positions 6-20
     - high-impression / low-CTR snippets
+    - whether the ten deepened pages get indexed and shown before thinner variant pages
 
 ## Post-Launch Operating Focus
 
