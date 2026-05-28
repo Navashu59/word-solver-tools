@@ -4,12 +4,17 @@ This index tracks the full-launch planning package for the Word Unscrambler new 
 
 ## Status
 
-- SERP/PAA framework files: 50
-- Content brief files: 50
-- Planning files: 9
-- Research files: 6
+- planning: 9 files
+- research: 7 files
+- serp-paa: 50 files
+- content-briefs: 50 files
+- content-drafts: 50 files
 
-## Core Planning Files
+## Core Files
+
+- [README.md](README.md)
+
+## planning
 
 - [brand-legal-risk.md](planning/brand-legal-risk.md)
 - [content-guidelines.md](planning/content-guidelines.md)
@@ -21,16 +26,17 @@ This index tracks the full-launch planning package for the Word Unscrambler new 
 - [plan.md](planning/plan.md)
 - [site-map.md](planning/site-map.md)
 
-## Research Files
+## research
 
 - [decision.md](research/decision.md)
 - [deep-validation.md](research/deep-validation.md)
 - [keywords-50-p0.csv](research/keywords-50-p0.csv)
 - [keywords-50-p0.json](research/keywords-50-p0.json)
 - [reddit-validation-50.json](research/reddit-validation-50.json)
+- [semrush-organic-top5-50.json](research/semrush-organic-top5-50.json)
 - [semrush-related-raw.json](research/semrush-related-raw.json)
 
-## SERP/PAA Frameworks
+## serp-paa
 
 - [01-word-unscrambler.md](serp-paa/01-word-unscrambler.md)
 - [02-unscramble-words.md](serp-paa/02-unscramble-words.md)
@@ -83,7 +89,7 @@ This index tracks the full-launch planning package for the Word Unscrambler new 
 - [49-letter-box-solver.md](serp-paa/49-letter-box-solver.md)
 - [50-word-ladder-solver.md](serp-paa/50-word-ladder-solver.md)
 
-## Content Briefs
+## content-briefs
 
 - [01-word-unscrambler.md](content-briefs/01-word-unscrambler.md)
 - [02-unscramble-words.md](content-briefs/02-unscramble-words.md)
@@ -135,3 +141,57 @@ This index tracks the full-launch planning package for the Word Unscrambler new 
 - [48-cryptogram-solver.md](content-briefs/48-cryptogram-solver.md)
 - [49-letter-box-solver.md](content-briefs/49-letter-box-solver.md)
 - [50-word-ladder-solver.md](content-briefs/50-word-ladder-solver.md)
+
+## content-drafts
+
+- [01-word-unscrambler.md](content-drafts/01-word-unscrambler.md)
+- [02-unscramble-words.md](content-drafts/02-unscramble-words.md)
+- [03-unscramble.md](content-drafts/03-unscramble.md)
+- [04-scrabble-word-finder.md](content-drafts/04-scrabble-word-finder.md)
+- [05-word-finder.md](content-drafts/05-word-finder.md)
+- [06-wordle-solver.md](content-drafts/06-wordle-solver.md)
+- [07-unscramble-letters.md](content-drafts/07-unscramble-letters.md)
+- [08-anagram-solver.md](content-drafts/08-anagram-solver.md)
+- [09-crossword-solver.md](content-drafts/09-crossword-solver.md)
+- [10-jumble-solver.md](content-drafts/10-jumble-solver.md)
+- [11-word-scramble.md](content-drafts/11-word-scramble.md)
+- [12-word-unscramble.md](content-drafts/12-word-unscramble.md)
+- [13-words-with-letters.md](content-drafts/13-words-with-letters.md)
+- [14-5-letter-word-finder.md](content-drafts/14-5-letter-word-finder.md)
+- [15-wordle-helper.md](content-drafts/15-wordle-helper.md)
+- [16-anagram.md](content-drafts/16-anagram.md)
+- [17-word-search-solver.md](content-drafts/17-word-search-solver.md)
+- [18-word-scrambler.md](content-drafts/18-word-scrambler.md)
+- [19-wordle-finder.md](content-drafts/19-wordle-finder.md)
+- [20-word-cheat.md](content-drafts/20-word-cheat.md)
+- [21-words-with-these-letters.md](content-drafts/21-words-with-these-letters.md)
+- [22-scramble-words.md](content-drafts/22-scramble-words.md)
+- [23-wordle-cheat.md](content-drafts/23-wordle-cheat.md)
+- [24-word-generator-from-letters.md](content-drafts/24-word-generator-from-letters.md)
+- [25-word-scramble-solver.md](content-drafts/25-word-scramble-solver.md)
+- [26-word-solver.md](content-drafts/26-word-solver.md)
+- [27-letter-solver.md](content-drafts/27-letter-solver.md)
+- [28-word-descrambler.md](content-drafts/28-word-descrambler.md)
+- [29-scrabble-cheat.md](content-drafts/29-scrabble-cheat.md)
+- [30-words-with-friends-cheat.md](content-drafts/30-words-with-friends-cheat.md)
+- [31-word-tips.md](content-drafts/31-word-tips.md)
+- [32-5-letter-words.md](content-drafts/32-5-letter-words.md)
+- [33-five-letter-words.md](content-drafts/33-five-letter-words.md)
+- [34-five-letter-word-finder.md](content-drafts/34-five-letter-word-finder.md)
+- [35-7-letter-words.md](content-drafts/35-7-letter-words.md)
+- [36-word-generator.md](content-drafts/36-word-generator.md)
+- [37-word-maker.md](content-drafts/37-word-maker.md)
+- [38-spelling-bee-solver.md](content-drafts/38-spelling-bee-solver.md)
+- [39-spelling-bee-answers.md](content-drafts/39-spelling-bee-answers.md)
+- [40-spelling-bee-buddy.md](content-drafts/40-spelling-bee-buddy.md)
+- [41-nyt-spelling-bee-solver.md](content-drafts/41-nyt-spelling-bee-solver.md)
+- [42-crossword-clue-solver.md](content-drafts/42-crossword-clue-solver.md)
+- [43-crossword-puzzle-solver.md](content-drafts/43-crossword-puzzle-solver.md)
+- [44-crossword-help.md](content-drafts/44-crossword-help.md)
+- [45-anagram-generator.md](content-drafts/45-anagram-generator.md)
+- [46-anagram-maker.md](content-drafts/46-anagram-maker.md)
+- [47-boggle-solver.md](content-drafts/47-boggle-solver.md)
+- [48-cryptogram-solver.md](content-drafts/48-cryptogram-solver.md)
+- [49-letter-box-solver.md](content-drafts/49-letter-box-solver.md)
+- [50-word-ladder-solver.md](content-drafts/50-word-ladder-solver.md)
+
