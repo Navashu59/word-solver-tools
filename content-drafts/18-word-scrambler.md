@@ -1,53 +1,53 @@
 # Word Scrambler
 
-Use this page when the user has scrambled letters and needs words that can be made from them.
+You need to scramble a word or phrase - maybe for a puzzle, a game, or a creative project. This tool takes any input and returns all possible anagrams or a random scrambled version. It's the opposite of an unscrambler: you start with a word and want to see what jumbles you can make.
 
-## Tool Intro
+## When you'd use a scrambler instead of an unscrambler
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+An unscrambler helps you solve puzzles. A scrambler helps you create them. If you're designing a word game, a treasure hunt, or a brain teaser, you can use this tool to generate scrambled versions of your answer. You can also use it to find anagrams for a word you already know.
 
-## How To Use It
+## Generating all possible anagrams for a word
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Enter a word like "LISTEN" and the tool will show all anagrams: SILENT, ENLIST, INLETS, etc. This is useful for wordplay, poetry, or finding hidden meanings. You can filter results by word length to see only certain anagrams.
 
-## Example
+## Getting a random scramble for games
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+If you just need a random jumble of letters, use the random scramble feature. Enter your word, and the tool will output a single scrambled version. This is great for quick puzzles or party games where you don't need all possibilities.
 
-## What The Results Mean
+## Using the tool for educational purposes
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Teachers can use this tool to create word scramble worksheets. Enter vocabulary words, generate scrambled versions, and have students unscramble them. The tool can also show all anagrams to discuss word roots and patterns.
+
+## Filtering anagrams by length or starting letter
+
+When you have a long word, the list of anagrams can be huge. Use the length filter to see only 4-letter anagrams, or the starts-with filter to find anagrams beginning with a specific letter. This helps you find the exact word you need.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for word scrambler to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+This tool works in reverse: you enter a word, and it shows you all possible rearrangements. If you need to find words from letters, use the unscramble tool instead.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+Yes, for anagrams. The tool shows all words that use exactly the letters you entered. If you want to use a subset, use the word unscramble tool.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+No, this tool is for scrambling known words. For wildcards, use the unscramble tool.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes, when viewing all anagrams, you can filter by length to see only words of a certain size.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for word scrambler to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+No, exclusion is not available in scrambler mode. Use the unscramble tool for that.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Jumble Solver](/jumble-solver/) – Solve Jumble puzzles with scrambled letters.
+- [Word Scramble](/word-scramble/) – Unscramble letters to find words.
+- [Word Unscramble](/word-unscramble/) – Another way to unscramble letters.
+- [Word Finder](/word-finder/) – Find words from letters with advanced filters.
+- [Unscramble Letters](/unscramble-letters/) – Quick anagram solving.

@@ -1,53 +1,53 @@
 # Word Unscramble
 
-Use this page when the user has scrambled letters and needs words that can be made from them.
+You have a set of letters - maybe from a word game, a puzzle, or a text twist - and you need to find all possible words. This tool unscrambles any combination of letters, giving you a list of candidate words grouped by length. It's designed for speed and flexibility.
 
-## Tool Intro
+## How this tool differs from a simple anagram solver
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Most anagram solvers only show words that use all letters. This tool lets you choose whether to use all letters or any subset. It also includes filters for word length, starting and ending letters, and exclusion of unwanted letters. This makes it useful for games where you don't have to use every letter, like Scrabble or Boggle.
 
-## How To Use It
+## Using the starts-with and ends-with filters for pattern matching
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+If you know the first letter of the word, use the "starts with" filter. For example, if you need a word starting with 'C', enter 'C' in that field. Similarly, use "ends with" if you know the last letter. This is helpful when you have partial information from a crossword or word game.
 
-## Example
+## Scanning results by length
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+After generating results, you can scan them by word length. Sorting by length is useful when you need a specific word size, while alphabetical sorting helps you find a word you recognize.
 
-## What The Results Mean
+## Handling large letter sets with multiple filters
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you have 10+ letters, the results can be overwhelming. Start by setting a length range, then add exclusion filters for letters you've already used. You can also use the "contains" filter to require a specific letter. This narrows the list to manageable size.
+
+## Using the tool for word games like Scrabble and Words with Friends
+
+This tool is an unofficial helper for word games. Enter your rack letters, add any board constraints (like a required letter), and see all possible words. Remember to check against your game's game-specific dictionary, as this tool uses a general word list.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for word unscramble to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters and click solve. The tool will display candidate words from its word list that can be formed. Use filters to narrow results.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. By default, the tool returns words using any subset. For exact anagrams, compare the result against every letter you entered.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use ? or * for each unknown letter. The tool will find all possible matches.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Set a specific length  using the length filter.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for word unscramble to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Enter letters to exclude, and the tool will remove any words containing them.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Jumble Solver](/jumble-solver/) – For Jumble puzzles with clue support.
+- [Word Scramble](/word-scramble/) – Similar tool for unscrambling letters.
+- [Word Scrambler](/word-scrambler/) – Generate scrambled words for games.
+- [Word Finder](/word-finder/) – Advanced word search with multiple filters.
+- [Unscramble Letters](/unscramble-letters/) – Quick anagram solving.

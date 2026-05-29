@@ -1,79 +1,55 @@
 # Anagram Solver
 
-Use this anagram solver when you want to rearrange letters from a word, phrase, or name into valid words. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You’re staring at a jumble of letters from a crossword clue, a word game, or a name you want to rearrange. This anagram solver is built for that moment: enter the letters, and it returns every valid word or phrase that uses them. No fluff, just the rearrangements you need to move forward.
 
-## Tool Intro
+## When you need an exact anagram
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports letters or phrase input, exact anagram, shorter sub-anagrams, length filters, wildcard support. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+Sometimes the puzzle requires using every letter you entered - no leftovers. Use the length and pattern filters, then manually confirm every letter is used when you know the answer must be a perfect rearrangement. This is common in games like Scrabble or Words With Friends where you’re trying to play all your tiles. The tool will only show results that consume every character, so you can spot the winning word fast.
 
+## Finding shorter words from a longer set
 
-## How To Use It
+Not every puzzle demands a full anagram. If you have a rack of seven letters but only want a five-letter word, switch to broader word-finder use and set a length filter. The solver will generate every valid sub-anagram, sorted by common usage. This is useful when you’re stuck with a long word and need a shorter play to open up the board.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Multi-word anagrams for phrases and names
 
-## Example
+Enter a phrase like “astronomer” and the tool can split it into multiple words, such as “moon starer.” Use the multi-word mode to control how many words appear in the result. This is especially handy for creating name anagrams or solving phrase-based puzzles where the answer is a sentence, not a single word.
 
-Example: enter `listen` in exact mode to find a true anagram such as `silent`. If you are exploring name or phrase anagrams, remove spaces and punctuation first, then decide whether shorter sub-anagrams are allowed.
+## Filtering results by length and commonality
 
-## What The Results Mean
+After you generate results, the list can be long. Narrow it down with length filters - set an exact word length to remove noise. The common word sorting pushes everyday words to the top, so you’re not wading through obscure dictionary entries. If you’re solving a casual puzzle, this saves time.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## Using wildcards for unknown letters
 
-## Important Rules And Edge Cases
-
-### Exact Anagram Vs Sub-Anagram
-A true anagram uses all original letters exactly once. A sub-anagram uses some letters to make shorter words. Both are useful, but they answer different puzzle questions.
-
-### Name And Phrase Anagrams
-For names and phrases, remove spaces and punctuation before solving. If the phrase is long, start with exact shorter words before trying a full multi-word anagram.
-
-### Wildcards And Repeated Letters
-Repeated letters matter because the solver counts available copies. `letter` has two `t`s and two `e`s; a result that needs three copies should not appear unless a wildcard supplies one.
-
-### Difference From Word Unscrambler
-Anagram solving is about rearrangement. Word unscrambling often includes game-style subwords and broader filters, so use exact mode when the distinction matters.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+If you have a partial pattern or a blank tile, use a question mark or asterisk as a wildcard. The solver treats it as any letter. For example, enter “?a?e” to find all four-letter words with A in the second position and E in the fourth. This works across all modes and is a lifesaver when you’re missing a letter in a crossword or word game.
 
 ## Common Questions
 
-### What is the fastest way to use this anagram solver?
+### How do I solve an anagram?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter the letters or phrase into the input box. Choose whether to use every letter (an exact anagram check) or allow shorter words. Hit the solve button, then scan the results. Use filters to narrow by length or commonality if the list is too long.
 
-### Do I have to use every letter?
+### Does an anagram have to use every letter?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+No. An anagram traditionally uses all letters, but this tool also supports sub-anagrams. Toggle the manual all-letter check to control that behavior. If you want only full rearrangements, keep an exact anagram check on.
 
-### How should I use a wildcard or blank tile?
+### Can I make anagrams from a name?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Yes. Enter any name or phrase. The tool will generate all valid rearrangements, including multi-word results. Use the multi-word mode to specify how many words you want in the output.
 
-### Why did I get no results?
+### Can anagrams be more than one word?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Absolutely. Enable multi-word mode and set the desired word count. The solver will find combinations of words that use your input letters. This is great for creating phrases from names or solving multi-word puzzles.
 
-### When should I use a related tool instead?
+### How do I filter anagrams by length?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+After entering your letters, use the length field. Set an exact word length. The results will update to show only words within that range. Combine this with common word sorting for the fastest results.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Anagram Generator](/anagram-generator/) – Use this when you want to create anagrams for fun or inspiration, not just solve a puzzle.
+- [Anagram Maker](/anagram-maker/) – A playful tool for making name anagrams or custom word rearrangements.
+- [Anagram](/anagram/) – The general resource page for understanding anagrams and exploring all related tools.
+- [Word Solver](/word-solver/) – If you have a pattern or partial word, this tool fills in the blanks.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Optimized for Scrabble tile racks and board positions.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Unofficial helper for finding high-scoring plays in Words With Friends.
+- [Crossword Solver](/crossword-solver/) – Enter clue patterns and letter counts to solve crossword clues.

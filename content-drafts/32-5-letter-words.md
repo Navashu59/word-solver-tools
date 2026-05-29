@@ -1,53 +1,53 @@
 # 5 Letter Words
 
-Use this page when the user needs a five-letter word that fits known letters or excluded letters.
+You need a five-letter word - maybe for Wordle, maybe for a crossword, maybe for a word game you're inventing. You know some letters, you know some positions, and you know which letters are dead. This page is a straight-up list tool: enter your constraints, and it returns every five-letter word that fits. No scoring, no ranking, no game logic - just a clean, filterable word list you can copy or browse.
 
-## Tool Intro
+## Filter by known positions, starts, or ends
 
-Enter the letters you know, lock any known positions, and exclude letters that cannot appear. The goal is to get usable answers quickly, without reading a long explanation first.
+Use the position boxes to lock a letter in a specific spot. If you know the word starts with "S," put S in box 1. If it ends with "E," put E in box 5. You can also use the "starts with" and "ends with" fields for a quicker filter. Combine them for precision: a word that starts with "S" and ends with "E" and has "A" in position 3.
 
-## How To Use It
+## Include or exclude specific letters
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+The "contains" field is for letters you know are in the word but aren't sure where. The "excludes" field is for letters you've ruled out entirely. You can use both at once - for example, include "R" and "T" but exclude "B" and "C." The tool will only return words that have all the included letters and none of the excluded ones.
 
-## Example
+## Copy the list in one click
 
-Example: if `A` is green in position 2 and `R` is yellow, lock the known position, add `R` as a misplaced letter, and exclude gray letters.
+Once you've got your results, you don't need to manually write them down. Click the "Copy List" button to copy all matching words to your clipboard. Paste them into your game, your notes, or your spreadsheet. The list is plain text, one word per line.
 
-## What The Results Mean
+## When you get too many results
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If your filters are too loose, you'll see hundreds of words. Tighten them by adding more known letters or excluding more letters. If you know the word has an "A" and an "E," add both to the contains field. If you know it doesn't have "S," add S to excludes. The goal is to narrow down to a manageable list you can scan quickly.
+
+## When you get zero results
+
+No results usually means your constraints are contradictory - for example, requiring a letter in a position that's also excluded. Check that you haven't accidentally put a letter in both the includes and excludes fields. Also check that your position boxes don't conflict with each other. If everything looks right, try removing one constraint at a time.
 
 ## Common Questions
 
 ### What 5 letter words can I make with these letters?
 
-Use the tool controls for 5 letter words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your known letters in the "contains" field and any position-specific letters in the position boxes. The tool will return all five-letter words that match. If you have no position info, just use the contains field.
 
 ### What 5 letter words start with this letter?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Put the starting letter in box 1 (position 1) or use the "starts with" field. The tool will only return words that begin with that letter.
 
 ### What 5 letter words end with this letter?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Put the ending letter in box 5 (position 5) or use the "ends with" field. The tool will only return words that end with that letter.
 
 ### Can I exclude letters from the results?
 
-Use the tool controls for 5 letter words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Type any letters you want to exclude into the "excludes" field. The tool will remove all words that contain those letters.
 
 ### How do I find five-letter words for Wordle?
 
-Use the tool controls for 5 letter words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Use the position boxes for your green letters, the contains field for your yellow letters, and the excludes field for your gray letters. The tool will return all five-letter words that match your current Wordle board.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Five Letter Words](/five-letter-words/) - Same tool, different slug, if you prefer spelling out "five."
+- [Five Letter Word Finder](/five-letter-word-finder/) - A more advanced version with additional filters like letter frequency and word score.
+- [Wordle Solver](/wordle-solver/) - If you want a solver that ranks guesses by likelihood, not just lists them.
+- [Wordle Helper](/wordle-helper/) - A simpler version for quick hints without the full list.
+- [Wordle Cheat](/wordle-cheat/) - Get the best next guess for your current Wordle board, ranked by information gain.

@@ -1,53 +1,50 @@
 # Word Generator
 
-Use this page when the user has letters or word constraints and needs matching English words quickly.
+You need words from a set of letters – for a game, a puzzle, or just to spark an idea. This generator takes your letters and returns every possible word, sorted by length or score. It’s the fastest way to see what you can make.
 
-## Tool Intro
+## Generate words for any purpose
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Whether you’re brainstorming a username, solving a crossword, or trying to beat your friend in a word game, the generator works the same: type in your letters, hit search, and get a list. No sign-up, no ads interrupting your flow.
 
-## How To Use It
+## Use wildcards for unknown letters
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+If you have blank tiles or missing letters, use `?` or `.` as a placeholder. The generator will fill in every possible letter and show all matching words. This is a lifesaver in Scrabble when you have a blank tile.
 
-## Example
+## Sort results by length or score
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+Longer words usually score more, but sometimes a short word fits the board better. Use the sort options to organize results by word length or by Scrabble/words-with-friends point values. This helps you pick the best move fast.
 
-## What The Results Mean
+## Filter by starts with, ends with, or contains
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you already know part of the word, use the prefix, suffix, or contains filters. For example, if you need a word that starts with “QU” and ends with “E”, enter those and the generator will only show matches.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for word generator to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters in the input box. The generator will list candidate English words that can be formed from those letters.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. The generator includes words that use any subset of your letters. Check “use all letters” if you want only words that consume your entire set.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use `?` or `.` for any single unknown letter. Multiple wildcards are allowed.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Set an exact length to narrow results.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for word generator to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Type letters to exclude, and any word containing them will be removed.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Maker](/word-maker/) – Focus on creating words with a creative twist.
+- [7 Letter Words](/7-letter-words/) – Specifically for seven-letter word searches.
+- [Unscramble Letters](/unscramble-letters/) – Quick unscrambling of any letter set.
+- [Word Finder](/word-finder/) – General word search with advanced filters.
+- [Anagram Solver](/anagram-solver/) – Find all anagrams for a given word or phrase.
+- [Crossword Solver](/crossword-solver/) – Solve crossword clues with pattern matching.

@@ -1,79 +1,52 @@
 # Word Finder
 
-Use this word finder when you know some letters, a pattern, or placement rule and need matching words, not necessarily an exact anagram. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You’ve got a handful of letters, a blank tile, or a partial pattern from a crossword or word game, and you need a list of real words that match. That’s exactly what this tool does: you type in what you know, apply a few filters, and get back only the words that fit your current puzzle. No fluff, no waiting.
 
-## Tool Intro
+## Start with what you’re sure of
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports contains, starts with, ends with, exact length, excludes, pattern with ? blanks. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+Enter the letters you have, even if they’re out of order. If you know the word length, set it. If a letter must be in a specific spot, use a pattern like `S?R?` (where `?` is any letter). The tool works best when you give it the strongest clue first - length is usually the fastest way to shrink the list.
 
+## Narrow down without guessing
 
-## How To Use It
+Once you see the initial results, add one filter at a time. For example, if you need a word that starts with `C` and ends with `E`, set those two filters. If the list is still too long, exclude letters you’ve already ruled out. The goal is to get a short, scannable list, not a dictionary dump.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## When you have wildcards or blanks
 
-## Example
+If you’re playing Scrabble or Words With Friends and have a blank tile, enter `?` in the letter input. The tool treats it as any letter. You can also use multiple blanks - just keep in mind the more blanks you add, the longer the result list will be. Start with a length filter to keep it manageable.
 
-Example: if you need a word that starts with `S`, contains `AR`, and ends in `E`, add those filters directly. That is faster than browsing every word that can be made from the letters.
+## Check your results against game rules
 
-## What The Results Mean
-
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
-
-## Important Rules And Edge Cases
-
-### Contains Vs Starts/Ends Vs Pattern Search
-Contains means the letters can appear anywhere. Starts with and ends with lock the beginning or ending. Pattern search is stricter because it places known letters in exact positions.
-
-### Include/Exclude Workflow
-Add required letters first, then exclude letters only when you are sure they cannot appear. This is useful for Wordle-style feedback and board positions where certain letters are impossible.
-
-### Searching With Partial Information
-Partial information is enough. A pattern like `c?a??` can return useful candidates even before you know the whole word. Add clue context or contains letters to narrow it.
-
-### Difference From Word Unscrambler
-Anagram solving is about rearrangement. Word unscrambling often includes game-style subwords and broader filters, so use exact mode when the distinction matters.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+This tool pulls from a standard English dictionary. Before you play a word, double-check that it’s allowed in your specific game (some games use a smaller word list). The results are a starting point, not a guarantee.
 
 ## Common Questions
 
-### What is the fastest way to use this word finder?
+### What words can I make with these letters?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter your letters in any order, then click solve. The tool will show candidate words that can be formed using those letters. If you don’t have to use every letter, leave the “use all letters” option off.
 
 ### Do I have to use every letter?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+No. By default, the tool finds words that can be made from any subset of your letters. If you want only words that use every letter you entered, manually check whether a result uses every letter on.
 
-### How should I use a wildcard or blank tile?
+### Can I use wildcards or blank tiles?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Yes. Type `?` for each unknown letter. The tool will treat it as a placeholder for any single letter. You can use multiple wildcards at once.
 
-### Why did I get no results?
+### Can I filter by word length?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Yes. Set an exact length, or an exact length. This is the most effective way to reduce a large result set.
 
-### When should I use a related tool instead?
+### Can I exclude letters from results?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+Yes. In the exclude field, type any letters that you know are not in the word. The tool will remove all results containing those letters.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Words With Letters](/words-with-letters/) – If you have a set of letters and want to see every possible word, regardless of order, start here.
+- [Word Cheat](/word-cheat/) – Need a quick answer for a specific game board? This tool is built for speed.
+- [Words With These Letters](/words-with-these-letters/) – When you know which letters must appear but not their positions, this page handles that.
+- [Unscramble Letters](/unscramble-letters/) – If you have a jumble of letters and need the exact anagram, this is the tool.
+- [Letter Box Solver](/letter-box-solver/) – For the NYT Letter Boxed puzzle, this solver finds paths using your given letters.
+- [Wordle Solver](/wordle-solver/) – An unofficial helper for Wordle that narrows possibilities based on green, yellow, and gray tiles.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Filters results by Scrabble tile scores and game-specific word lists.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Similar to the Scrabble tool but optimized for WWF’s board and dictionary.

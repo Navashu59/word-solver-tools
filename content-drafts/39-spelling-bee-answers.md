@@ -1,58 +1,53 @@
 # Spelling Bee Answers
 
-Use this page when the user has seven letters and a required center letter and needs hints or valid words.
+You’ve been staring at the honeycomb for twenty minutes and you just want the answers. No hints, no filters - just the complete list of candidate words for today’s puzzle. This page gives you exactly that: enter the seven letters (center letter first), and get every word that counts in Spelling Bee.
 
-## Tool Intro
+## The fastest way to get all answers
 
-Enter the center letter and the six outer letters to find hints, pangrams, or valid words. The goal is to get usable answers quickly, without reading a long explanation first.
+Type the center letter in the first box, then the six outer letters. Hit search. You’ll see a sorted list of candidate words, from short common ones to long obscure ones. Pangrams are highlighted so you can grab those bonus points immediately.
 
-## How To Use It
+## Why answers are grouped by length
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Longer words score more points, but they’re harder to find. The tool groups results by word length, so you can see at a glance what’s available. If you’re close to Genius, focus on the longer words first. If you just need a few more points, pick from the shorter end.
 
-## Example
+## Pangrams: the fastest way to Genius
 
-Example: enter the required center letter first, then the remaining letters. Use hint mode before showing full answers.
+A pangram uses all seven letters and is worth 7 extra points. In many puzzles, finding the pangram alone can push you from Good to Great. The solver marks pangrams with a special icon, so you can spot them immediately.
 
-## What The Results Mean
+## What about words that aren’t in the dictionary?
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Spelling Bee uses a specific word list that includes many uncommon words. The solver uses the same logic: it includes words that appear in standard dictionaries plus some that are accepted by the game. If a word seems weird, it’s probably still valid.
+
+## Copy and paste to your notes
+
+Once you have the list, you can copy all answers with one click. Paste them into a note, a spreadsheet, or share with a friend. No need to write them down manually.
 
 ## Common Questions
 
 ### How do I solve a Spelling Bee puzzle?
 
-Use the tool controls for spelling bee answers to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+If you want to solve it yourself, start with short words and look for common prefixes and suffixes. If you’re stuck, use this tool to get the answers and move on.
 
 ### What is a pangram?
 
-A pangram uses all available letters. In spelling-bee-style puzzles, every valid word must include the required center letter.
+A pangram is a word that uses every one of the seven letters at least once. It scores 7 bonus points. The solver highlights these words.
 
 ### Does every word need the center letter?
 
-A pangram uses all available letters. In spelling-bee-style puzzles, every valid word must include the required center letter.
+Yes. Every valid word must include the center letter. Letters can repeat.
 
 ### Can letters repeat?
 
-Use the tool controls for spelling bee answers to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes, letters can be used multiple times. The only rule is that the center letter must appear in every word.
 
 ### Can I get hints before answers?
 
-Use the tool controls for spelling bee answers to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+This page is for answer candidates. If you want to keep solving first, use [Spelling Bee Solver](/spelling-bee-solver/) and scan only the lengths or starting letters you need.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
 
-
-## Note
-
-This page is an unofficial helper. It is not affiliated with or endorsed by the game or brand mentioned in the search query.
+- [Spelling Bee Solver](/spelling-bee-solver/) – If you want hints before seeing all answers.
+- [Word Finder](/word-finder/) – For any set of letters, find all possible words.
+- [Words With These Letters](/words-with-these-letters/) – Enter any letters and get candidate words.
+- [Unscramble Letters](/unscramble-letters/) – Perfect for anagrams and word jumbles.
+- [Word Generator From Letters](/word-generator-from-letters/) – Generate word lists for Scrabble or Words With Friends.

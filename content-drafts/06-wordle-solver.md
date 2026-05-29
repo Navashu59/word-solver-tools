@@ -1,79 +1,53 @@
 # Wordle Solver
 
-Use this wordle solver when you have green, yellow, and gray feedback and need possible next guesses without wasting a turn. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You're staring at a Wordle grid with a few green, yellow, and gray squares. Your next guess could make or break your streak. This tool is built for that moment: enter the letters you know, lock their positions, and get a shortlist of possible answers - no spoilers unless you want them.
 
-## Tool Intro
+## When you need a nudge, not the answer
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports green position locks, yellow required letters, gray excluded letters, duplicate-letter handling, 5-letter results. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+Sometimes you just want to confirm a hunch or rule out a bad guess. Use the green/yellow/gray input to mirror your board. The tool filters out impossible words and shows only valid 5-letter candidates. You decide how much to reveal.
 
+## How to handle repeated letters
 
-## How To Use It
+Wordle answers can have double letters (think “ABBOT” or “FLOOD”). If you suspect a repeat, check the “allow duplicates” option. The solver will include words with repeated letters, which many basic tools miss.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Best next guess logic
 
-## Example
+After you enter your constraints, the tool ranks remaining words by how many new letters they test. A good guess isn’t just a possible answer - it’s one that eliminates the most options if it’s wrong. The list shows both likely answers and smart probing words.
 
-Example: if `A` is green in position 2, `R` is yellow, and `S`, `T`, and `L` are gray, lock the `A`, require `R`, and exclude the gray letters. If a duplicate letter was marked gray after another copy was yellow or green, treat that letter carefully instead of excluding it completely.
+## Spoiler-safe hints mode
 
-## What The Results Mean
+Don’t want to see the full answer list? Toggle “hints only.” You’ll get a clue like “starts with C” or “contains two vowels” instead of the actual word. Keeps the puzzle fun while giving you a direction.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## Why this is an independent helper
 
-## Important Rules And Edge Cases
-
-### Green/Yellow/Gray Workflow
-Green letters are fixed positions. Yellow letters are required but cannot stay in the same spot. Gray letters are usually excluded unless duplicate-letter feedback says otherwise.
-
-### Duplicate Letter Rules
-Duplicate letters are the most common source of bad Wordle filtering. If one copy is green or yellow and another copy is gray, the answer may contain that letter only once. Do not exclude the letter entirely without checking the feedback.
-
-### Hard Mode Considerations
-Hard mode requires you to reuse revealed hints in later guesses. That makes pattern discipline important: every green stays fixed and every yellow must appear somewhere else.
-
-### Spoiler-Safe Hint Use
-If you do not want the answer spoiled, use the result list as a hint set. Look for letter patterns and possible vowels instead of copying the first candidate.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+This tool is not affiliated with or endorsed by NYT Wordle. It’s a fan-made utility that uses a standard word list. No live answers, no daily spoilers - just pattern matching based on what you enter.
 
 ## Common Questions
 
-### What is the fastest way to use this wordle solver?
+### How do I use a Wordle solver?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter the letters you know into the corresponding position boxes. Green letters go in the exact spot, yellow letters go into the “misplaced” field, and gray letters go into the excluded list. Hit search and review the filtered results.
 
-### Do I have to use every letter?
+### What is the best next Wordle guess?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+A good next guess uses common letters and avoids letters already ruled out. The solver highlights words that test high-frequency letters like E, A, R, I, O, T, N, S, L, C. If you’re stuck, pick a word from the top of the ranked list.
 
-### How should I use a wildcard or blank tile?
+### Can Wordle answers have repeated letters?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Yes. Words like “PUPIL” or “MAMMA” are valid. Make sure the solver’s duplicate setting matches your puzzle. If you’ve seen a letter twice in the feedback, enable repeats.
 
-### Why did I get no results?
+### What do green, yellow, and gray mean?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Green means the letter is correct and in the right position. Yellow means the letter is in the word but in a different position. Gray means the letter is not in the word at all.
 
-### When should I use a related tool instead?
+### How can I get hints without seeing the answer?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+If you want a hint instead of a full answer, use the result list lightly: look for repeated patterns, likely vowels, or a possible ending without copying the first word.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [5 Letter Word Finder](/5-letter-word-finder/) – If you need to explore all possible 5-letter words beyond Wordle’s dictionary.
+- [Wordle Helper](/wordle-helper/) – A lighter version focused on quick hints and letter tracking.
+- [Wordle Finder](/wordle-finder/) – Search by pattern when you know some letters but not their positions.
+- [5 Letter Words](/5-letter-words/) – Browse a static list of all common 5-letter words.
+- [Wordle Hints](/wordle-helper/) – Get daily hints without any tool input.

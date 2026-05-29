@@ -1,53 +1,52 @@
 # Word Search Solver
 
-Use this page when the user cannot find words in a letter grid and wants the hidden path highlighted.
+Stuck on a word search? Paste your letter grid and the words you need to find, and we'll highlight every hidden path for you.
 
-## Tool Intro
+## Enter Your Grid and Words
 
-Paste the letter grid and the words you need to find, then highlight each hidden path. The goal is to get usable answers quickly, without reading a long explanation first.
+Type or paste the grid as a block of letters (rows separated by newlines or spaces). Then list the words you're looking for, one per line. Select which directions to search: horizontal, vertical, diagonal, and whether words can be written backwards.
 
-## How To Use It
+## See Every Hidden Path Highlighted
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Once you click "Solve," the tool scans the grid in all chosen directions. Each found word is displayed with its starting cell and direction. You can click on any word to see its path highlighted on the grid. The solved grid can be printed or shared as an image.
 
-## Example
+## Example: 4x4 Grid
 
-Example: paste a 10x10 grid and a word list, then check diagonal and backward paths if the puzzle allows them.
+```
+A B C D
+E F G H
+I J K L
+M N O P
+```
 
-## What The Results Mean
+Words: "ABC", "EFG", "MNO"
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Results: ABC at (0,0) right, EFG at (1,0) right, MNO at (3,0) right.
 
 ## Common Questions
 
 ### How do I solve a word search?
 
-Use the tool controls for word search solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter the grid and word list, then click solve. The tool finds all words in the grid.
 
 ### Can words go diagonally or backwards?
 
-Use the tool controls for word search solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. You can enable diagonal and backward searches in the options.
 
 ### How do I enter a word search grid?
 
-Use the tool controls for word search solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Paste the grid as a continuous block of letters, with rows separated by newlines or spaces.
 
 ### Can I find multiple words at once?
 
-Use the tool controls for word search solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. List all the words you need to find, and the tool will locate them simultaneously.
 
 ### How do I highlight the hidden word path?
 
-A path should show each step clearly so you can verify that every word is valid and that only the allowed letter change or grid move happened.
-## Related Tools
+After solving, click on any found word to see its path highlighted on the grid.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Finder](/word-finder/) – find words from a set of letters.
+- [Unscramble Letters](/unscramble-letters/) – unscramble letters to form words.
+- [Word Generator from Letters](/word-generator-from-letters/) – generate all possible words from given letters.

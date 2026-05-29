@@ -246,3 +246,47 @@ Initial observation should focus on these clusters:
 6. `anagram solver`
 
 Do not expand new pages immediately after launch unless GSC or indexing data shows a clear gap. First priority is validating indexing, impressions, and whether the original keyword assumptions hold.
+
+## 2026-05-29 - DeepSeek-Led Content Quality Pass
+
+Purpose:
+
+- Reduce AI-template signals across Word Solver Tools.
+- Make each keyword page solve a distinct user scenario.
+- Add clearer authority signals for Google and users before launch.
+
+Changes:
+
+- Used DeepSeek as the lead content strategist and draft writer for all 50 tool pages.
+- Replaced repeated H2 patterns such as `Tool Intro`, `How To Use It`, and `What The Results Mean`.
+- Kept all 50 tool URLs self-canonical to protect long-tail entry pages.
+- Added visible review/method notes to tool pages.
+- Expanded About, How It Works, and Contact copy with factual site-method details.
+- Added 4 strategy guide pages:
+  - `/guides/wordle-guessing-strategy/`
+  - `/guides/scrabble-rack-strategy/`
+  - `/guides/how-to-solve-crossword-clues/`
+  - `/guides/anagram-solving-techniques/`
+- Added guide links to the homepage and included guide URLs in `sitemap.xml`.
+- Added `dateModified` and review/Article schema signals where appropriate.
+
+Guardrail fixes after DeepSeek drafting:
+
+- Removed hallucinated links to pages that do not exist.
+- Removed claims for features the current UI does not have, such as hint toggles, exact-mode toggles, CSV download, clue-answer databases, and official word lists.
+- Rebuilt generated `public/` output.
+
+Validation:
+
+- Build: `npm run build`
+- Output: 62 HTML files including `404.html`.
+- Sitemap: 61 canonical URLs.
+- Broken internal links: 0.
+- JSON-LD parse errors: 0.
+- Legacy repeated H2 template patterns: 0 detected on tool pages.
+
+Next:
+
+- Keep the site paused until the final domain is available.
+- When the domain is ready, rebuild with `SITE_ORIGIN=https://final-domain npm run build`.
+- After deployment, submit sitemap and observe GSC for indexing and early cluster behavior.

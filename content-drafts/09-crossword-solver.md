@@ -1,79 +1,53 @@
 # Crossword Solver
 
-Use this crossword solver when you have a clue, answer length, and some crossing letters and need likely answers. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You're halfway through a puzzle and stuck on a clue. You know the answer length, a couple of crossing letters, and maybe the clue itself. This tool is built for that moment - enter what you have, and get a ranked list of possible answers without sifting through a dictionary.
 
-## Tool Intro
+## Start with what you know
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports clue text, ? pattern, answer length, known letters, include/exclude letters. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+Type the clue if you have it, then set the answer length. If you have any letters from crossings, enter them as a pattern (e.g., `C?A??E?` for a seven-letter word with known letters in positions 1, 3, and 6). The tool will match against a broad word list and show the most common answers first. If the clue is vague or common, the list will be longer - that's normal.
 
+## Narrow the list without guessing
 
-## How To Use It
+Once you see results, use the include/exclude letters filter to remove words that can't fit. For example, if you know the answer has an 'R' but not in position 2, exclude that. If the list is still too long, add one more known letter. If it's empty, remove the weakest constraint first, usually an uncertain letter or an over-specific pattern.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## When the same clue has multiple answers
 
-## Example
+Crossword constructors reuse clues, and a single clue can map to several answers depending on the puzzle's theme or era. The tool groups answers by frequency, so you'll see the most likely match first. If that doesn't fit, scroll down - the answer you need might be less common but still valid.
 
-Example: for a clue with seven letters and crossings `C?A??E?`, enter the pattern before adding extra filters. The pattern narrows the shape of the answer, and the clue decides between words that fit the same shape.
+## Pattern matching for tricky spots
 
-## What The Results Mean
+If you have no clue but a few letters from crossings, use the pattern field alone. For instance, `?A??LE` will return all words with A in position 2 and LE at the end. This is especially useful when you're stuck on a long word and only have a few letters.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## Using the solver with themed puzzles
 
-## Important Rules And Edge Cases
-
-### Pattern With Blanks
-Use `?` for unknown positions. A pattern like `c?a??` means the first letter is C and the third letter is A. This is usually more reliable than typing only the known letters.
-
-### Using Clue Plus Crossings
-Crossing letters narrow the shape of the answer, while the clue narrows meaning. Use both. Pattern alone can return many words that technically fit but do not answer the clue.
-
-### Crosswordese And Short Answers
-Crosswords often use short, vowel-heavy, or repeated puzzle words. Do not reject an unfamiliar short answer too quickly if it fits every crossing.
-
-### Why Multiple Answers Can Fit One Clue
-The same clue can have different answers depending on theme, tense, abbreviation, or puzzle style. Crossings are the final check.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+Themed puzzles often use obscure words or proper nouns. If your initial search returns nothing, try removing the clue and searching by pattern only. The tool's word list includes many proper nouns and archaic terms that appear in crosswords but not in everyday speech.
 
 ## Common Questions
 
-### What is the fastest way to use this crossword solver?
+### How do I solve a crossword clue with missing letters?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter the clue and the answer length, then use the pattern field to mark known letters with `?` for unknowns. For example, if you know the answer is 8 letters and the third letter is 'A', enter `??A?????` as the pattern. The tool will show only words matching that shape.
 
-### Do I have to use every letter?
+### How do I search crossword answers by pattern?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+Use the pattern input field. Replace unknown letters with `?` and known letters with their actual characters. You can also use `*` for multiple unknown letters if you're unsure of the exact length.
 
-### How should I use a wildcard or blank tile?
+### What does this clue mean?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+The tool does not interpret clue text. Use it to test length and crossing-letter patterns, then use the clue meaning to choose the answer that fits the puzzle.
 
-### Why did I get no results?
+### How many letters is the answer?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Set the answer length in the tool before searching. If you're unsure, try the most likely exact lengths one at a time.
 
-### When should I use a related tool instead?
+### Can the same clue have different answers?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+Yes. Crossword clues often have multiple valid answers depending on the puzzle. The tool ranks them by frequency, but you should always verify against your puzzle's theme and crossing letters.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Crossword Clue Solver](/crossword-clue-solver/) – If you have a tricky clue and need to decode wordplay, this tool focuses on clue interpretation.
+- [Crossword Puzzle Solver](/crossword-puzzle-solver/) – For when you're working on an entire puzzle grid and need help with multiple clues at once.
+- [Crossword Help](/crossword-help/) – A guide with tips and strategies for solving crosswords faster.
+- [Word Finder](/word-finder/) – If you're playing word games like Scrabble or Words With Friends, this tool helps you find words from your letter rack.
+- [Anagram Solver](/anagram-solver/) – When you have a set of letters and need to find all possible words, including those that might fit a crossword clue.

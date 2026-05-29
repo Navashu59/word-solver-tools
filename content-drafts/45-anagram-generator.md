@@ -1,53 +1,55 @@
 # Anagram Generator
 
-Use this page when the user has letters, a word, name, or phrase and wants valid rearrangements.
+You’re not stuck on a puzzle - you want to create something new. Maybe you’re brainstorming a username, a pen name, or a fun rearrangement of a friend’s name. This anagram generator is built for creativity: enter any word or phrase, and it returns all possible rearrangements, sorted to inspire you. Use it when the goal is exploration, not just solving.
 
-## Tool Intro
+## Generating anagrams for names and phrases
 
-Type the letters, word, name, or phrase you want to rearrange and choose whether every letter must be used. The goal is to get usable answers quickly, without reading a long explanation first.
+Enter a name like “William Shakespeare” and the generator will produce hundreds of anagrams, from “I am a weakish speller” to “We all make his praise.” Use the multi-word mode to control how many words appear in each result. This is perfect for creating personalized gifts, social media handles, or just a laugh with friends.
 
-## How To Use It
+## Sorting results by commonality and length
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+When the list is long, sort by common words to see the most recognizable anagrams first. Or sort by length to find short, punchy results or long, elaborate ones. The generator doesn’t just dump every combination - it organizes them so you can scan quickly and pick the one that clicks.
 
-## Example
+## Using wildcards for partial inspiration
 
-Example: enter `listen` to find `silent`, or enter a longer phrase and filter by word count if you want multi-word results.
+If you have a few letters and want to see what words they can form, use wildcards. For example, enter “a?t” to generate all three-letter words with A and T. This is useful when you’re starting from a vague idea and want to see what’s possible.
 
-## What The Results Mean
+## Exact vs. broader word-finder use for different goals
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Toggle between a manual all-letter check and broader word-finder use (allow shorter words). Exact mode is great for finding perfect anagrams of a name or phrase. All-letters mode is better when you want to explore all possible words from a set of letters, even if they don’t use everything.
+
+## Saving and sharing your favorite anagrams
+
+Once you find a result you like, copy it directly from the tool. There’s no account or login required. Use the anagram for a username, a puzzle clue, or a creative project. The generator is designed to be a quick source of ideas, not a complicated app.
 
 ## Common Questions
 
 ### How do I solve an anagram?
 
-Use the tool controls for anagram generator to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter the letters or phrase into the input. Choose an exact anagram check for full rearrangements or broader word-finder use for sub-anagrams. Click Solve, then scan the results. Use filters to narrow by length or commonality.
 
 ### Does an anagram have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. This generator supports both exact anagrams and sub-anagrams. Toggle the switch to control that behavior.
 
 ### Can I make anagrams from a name?
 
-Use the tool controls for anagram generator to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Enter any name or phrase. The generator produces all valid rearrangements, including multi-word results. Use multi-word mode to specify word count.
 
 ### Can anagrams be more than one word?
 
-Use the tool controls for anagram generator to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Enable multi-word mode and set the desired word count. The generator finds combinations of words that use your input letters.
 
 ### How do I filter anagrams by length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
-## Related Tools
+Use the length field after entering your letters. Set an exact word length. Results update to show only words within that range.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Anagram Solver](/anagram-solver/) – For when you need to solve a specific puzzle, not just generate ideas.
+- [Anagram Maker](/anagram-maker/) – A playful tool focused on making name anagrams with a fun twist.
+- [Anagram](/anagram/) – The general resource page for understanding anagrams and exploring all related tools.
+- [Word Generator](/word-generator/) – For creating words from random letters or patterns.
+- [Name Generator](/word-generator/) – If you’re looking for creative names, not just anagrams.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Optimized for Scrabble tile racks and board positions.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Unofficial helper for finding high-scoring plays in Words With Friends.

@@ -1,79 +1,55 @@
 # Scrabble Word Finder
 
-Use this scrabble word finder when you have rack tiles and need valid playable words, ideally sorted by score or length. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You’re staring at your rack with seven tiles, and the board is wide open. You need a valid word that scores well, but your brain is stuck on the same three-letter combos. This tool is for that exact moment: enter your rack, optionally mark blank tiles with `?`, and get a sorted list of playable words. No sign-up, no fluff.
 
-## Tool Intro
+## When you need more than a dictionary
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports rack letters, ? blank tiles, score sorting, length filter, contains/starts/ends, dictionary note. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+A standard dictionary tells you if a word exists. This finder tells you what words you can actually make from your specific set of tiles. It’s built for the middle of a game, not for studying word lists. You type in `A?RSTLE`, hit search, and instantly see that `STARLE` isn’t valid but `STAR` and `RATES` are. The score column lets you pick the highest-value play without manually calculating letter points.
 
+## How blank tiles change your strategy
 
-## How To Use It
+Blank tiles are wildcards, but they also cost you points because they score zero. The tool handles them automatically when you enter `?` for each blank. If you have two blanks, enter `??`. The results will show which letter each blank stands for, so you can see the trade-off between using a blank for a high-value letter versus saving it for a longer word. For example, with `?A?`, you might get `AA`, `AB`, `BA`, but also `ABA` - the blank lets you extend words in ways that aren’t obvious from the rack alone.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Sorting by score vs. length
 
-## Example
+Most players want the highest score first, but sometimes you need a specific length to fit a tight spot on the board. The tool lets you sort by score (descending) or by length (shortest or longest). If you’re trying to land a double-word score, sort by score. If you need exactly a 5-letter word to bridge two premium squares, filter by length. You can also combine both: show only 5-letter words, sorted by score.
 
-Example: enter rack letters `TCA?RS` with `?` for a blank tile. If the board gives you an anchor `E`, add `E` as a contains or ends-with filter. Compare score and fit; the longest word is not always the best play.
+## Checking word validity before you play
 
-## What The Results Mean
+Not every word in the dictionary is allowed in Scrabble. The tool uses the official Scrabble word list (TWL for North America, SOWPODS for international). If you’re playing a house rule or a variant, you can still use the results as a starting point, but always double-check with your group’s accepted list. The tool marks words that are only in certain dictionaries, so you know when a word might be challenged.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## Copying results without losing context
 
-## Important Rules And Edge Cases
-
-### Rack Letters Plus Board Letters
-A rack-only search shows words from your tiles. A real board play may also use anchor letters already on the board, so add contains, starts, or ends filters when a square forces a letter.
-
-### Blank Tile Scoring
-A blank can represent any letter, but it should not add the letter's point value. A high-looking word may score less if a key letter came from a blank.
-
-### Score Vs Length Sorting
-The longest word is not always the best play. Score sorting helps when point value matters; length sorting helps when you need a bingo, a lane fit, or a specific board opening.
-
-### Dictionary And House-Rule Notes
-Different clubs, apps, and casual games can use different word lists. Treat results as candidates and confirm the dictionary before a serious game.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+Once you find a word, you can copy it directly to your clipboard. The tool also copies the score and the word length, so you can paste it into a chat or notes app and remember why you chose it. This is useful if you’re playing online and want to keep a record of your best options.
 
 ## Common Questions
 
-### What is the fastest way to use this scrabble word finder?
+### What words can I make with my Scrabble letters?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter your rack letters in any order. Use `?` for blank tiles. The tool will generate candidate words from those letters, sorted by score by default. You can filter by word length or specific patterns (starts with, ends with, contains).
 
-### Do I have to use every letter?
+### Can I use blank tiles in a Scrabble word finder?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+Yes. Enter `?` for each blank tile. The tool will treat it as a wildcard and show you all possible substitutions. The results will indicate which letter the blank represents in each word.
 
-### How should I use a wildcard or blank tile?
+### How do Scrabble scores work?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Each letter has a point value (A=1, B=3, etc.). The tool calculates the base score for each word without board multipliers. You need to add premium squares (double/triple letter, double/triple word) yourself based on where you place the word.
 
-### Why did I get no results?
+### Is this word valid in Scrabble?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+The tool checks against official Scrabble dictionaries. If a word is only valid in one dictionary (e.g., TWL but not SOWPODS), it will be noted. Always confirm with your game’s rules before playing.
 
-### When should I use a related tool instead?
+### What is the highest scoring word from my tiles?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+The tool sorts results by score descending by default. The top result is the highest-scoring word from your rack. If you have blanks, the highest-scoring word may use a blank for a high-value letter like Z or Q.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Scrabble Cheat](/scrabble-cheat/) – If you want strategy tips alongside word lists, this page frames the same tool as a learning aid for improving your game.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Same core functionality but optimized for Words With Friends’ dictionary and scoring.
+- [Wordle Solver](/wordle-solver/) – For when you need to narrow down a 5-letter word with known and excluded letters.
+- [Anagram Solver](/anagram-solver/) – Enter any set of letters to find all possible anagrams, not limited to Scrabble words.
+- [Letter Unscrambler](/unscramble-letters/) – Quick unscrambling for any word game, with length and pattern filters.
+- [Word Finder](/word-finder/) – General-purpose word finder for crosswords, puzzles, and games.
+- [Scrabble Word Checker](/scrabble-word-finder/) – Verify if a specific word is valid in Scrabble before you play it.

@@ -1,53 +1,47 @@
 # Cryptogram Solver
 
-Use this page when the user is solving a substitution cipher and needs mapping hints or candidate words.
+Stuck on a substitution cipher? Enter the ciphertext, lock any known letter mappings, and get frequency hints and candidate words to crack the code fast.
 
-## Tool Intro
+## Enter Your Ciphertext
 
-Paste the cipher text, lock any letter mappings you already know, and use frequency hints to keep solving. The goal is to get usable answers quickly, without reading a long explanation first.
+Paste the encrypted message into the input box. The solver will analyze letter frequencies and suggest possible plaintext mappings.
 
-## How To Use It
+## Lock Known Mappings
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+If you already know that `X = E` or `Q = T`, lock those mappings before generating candidates. This prevents the solver from overwriting your confirmed letters.
 
-## Example
+## Use Frequency Hints
 
-Example: if you know `X = E`, lock that mapping before asking for candidate words so the solver does not overwrite it.
+The tool displays a letter frequency table for your ciphertext. Compare it to standard English letter frequencies (E, T, A, O, I, N, S, H, R, D, L, C, U, M, W, F, G, Y, P, B, V, K, J, X, Q, Z) to guess common letters.
 
-## What The Results Mean
+## Get Candidate Word Suggestions
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Select a word from the ciphertext and the solver will show possible plaintext words that match the pattern. For example, if the ciphertext word is `XYYX`, the solver might suggest `DEED`, `POOP`, or `NOON`.
 
 ## Common Questions
 
 ### How do I solve a cryptogram?
 
-Use the tool controls for cryptogram solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Start by looking for common short words like `the`, `and`, `of`, `to`. Use the frequency table to guess the most common letters. Lock mappings as you confirm them and use candidate word suggestions for longer words.
 
 ### What is a substitution cipher?
 
-Use the tool controls for cryptogram solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+A substitution cipher replaces each letter in the plaintext with a different letter. The same plaintext letter always maps to the same ciphertext letter. Solving means figuring out the mapping.
 
 ### How do letter frequencies help?
 
-Use the tool controls for cryptogram solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+In English, E is the most common letter, followed by T, A, O, etc. By matching the most frequent ciphertext letters to these common letters, you can start guessing the mapping.
 
 ### Can I lock known letter mappings?
 
-Use the tool controls for cryptogram solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Use the lock feature to fix a mapping so the solver does not change it when generating new suggestions.
 
 ### Can a cryptogram have multiple solutions?
 
-Use the tool controls for cryptogram solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes, especially short messages. The solver may show multiple possible mappings. Use context and common sense to choose the correct one.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Substitution Cipher Solver](/cryptogram-solver/) for a more detailed analysis.
+- [Cipher Identifier](/cryptogram-solver/) to determine what type of cipher you have.
+- [Word Unscrambler](/word-unscrambler/) if you need to unscramble letters instead.

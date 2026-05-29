@@ -1,53 +1,51 @@
 # Word Ladder Solver
 
-Use this page when the user needs a path from one word to another by changing one letter at a time.
+Need to transform one word into another by changing one letter at a time? Enter the start and end words, choose a dictionary, and find the shortest valid path.
 
-## Tool Intro
+## Enter Start and End Words
 
-Enter the start word and target word to find a valid path that changes one letter at a time. The goal is to get usable answers quickly, without reading a long explanation first.
+Type the starting word and the target word. Both must be the same length and exist in the selected dictionary.
 
-## How To Use It
+## Choose a Dictionary
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Select from standard English, common words, or a custom list. The solver only uses words from the chosen dictionary.
 
-## Example
+## Find the Shortest Path
 
-Example: enter `cold` and `warm` to find a chain where each step changes one letter and remains a valid word.
+The solver uses a breadth-first search to find the shortest sequence of candidate words from start to end. For example, from `cold` to `warm`:
 
-## What The Results Mean
+```
+cold → cord → card → ward → warm
+```
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+## View Alternate Paths
+
+If multiple shortest paths exist, the solver can display all of them. You can also request longer paths if you want more steps.
 
 ## Common Questions
 
 ### How do you solve a word ladder?
 
-Use the tool controls for word ladder solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Start by changing one letter at a time, making sure each intermediate word is valid. Use the solver to find the shortest path automatically.
 
 ### What is the shortest word ladder path?
 
-A path should show each step clearly so you can verify that every word is valid and that only the allowed letter change or grid move happened.
+The shortest path is the minimum number of steps (words) needed to change the start word into the end word, changing only one letter per step.
 
 ### Can each step change only one letter?
 
-Use the tool controls for word ladder solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Each step must change exactly one letter, and the new word must be in the dictionary. You cannot add or remove letters.
 
 ### What dictionary does the solver use?
 
-Use the tool controls for word ladder solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+You can choose from several dictionaries, including a standard English word list and a common words list. The solver will only use words from the selected dictionary.
 
 ### Can there be more than one valid path?
 
-Validity depends on the dictionary or game word list. The page should say which list or rule mode is being used before you rely on a result.
-## Related Tools
+Yes. The solver can show all shortest paths. For example, `head` to `tail` might have multiple routes.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Chain Solver](/word-ladder-solver/) for a similar challenge.
+- [Word Finder](/word-finder/) to check if a word is valid.
+- [Anagram Solver](/anagram-solver/) to rearrange letters into new words.

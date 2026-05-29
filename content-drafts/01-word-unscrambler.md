@@ -1,79 +1,69 @@
 # Word Unscrambler
 
-Use this word unscrambler when you have a random set of letters and need every real word you can make from them. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You’re staring at a jumble of letters - maybe from a crossword clue, a Scrabble rack, or a word puzzle app - and you need to know every real word you can form. That’s exactly when you open this word unscrambler. Type in the letters you have, and the tool instantly generates candidate words, sorted by length. No fluff, no definitions you don’t need - just the words.
 
-## Tool Intro
+## Why you need more than a dictionary
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports letter input, ? wildcards, length filters, contains, starts with, ends with, excludes, grouped results. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+A dictionary tells you what a word means, but it won’t help when you have seven random tiles and need to find a bingo. This unscrambler works backward: you give it the letters, it gives you the possibilities. Use it when you’re stuck on a puzzle, want to confirm a word exists, or need to find a high-scoring play in Scrabble or Words With Friends. It’s an unofficial helper - not endorsed by any game company - but it’s built to match standard word lists.
 
+## Using wildcards for blank tiles or unknown letters
 
-## How To Use It
+If you have a blank tile in Scrabble or an unknown letter in a crossword, use the question mark (?) as a wildcard. For example, entering `T?A?` will return words like TEAM, TRAY, and TALK. The tool treats each ? as any single letter. This is especially useful when you know the pattern but not the exact letters.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Filtering results to match your puzzle
 
-## Example
+After you enter your letters, the real power is in the filters. You can:
 
-Example: enter `TCA?RS` when you know six letters and one blank. Filter to 3 letters to find short plays such as `cat` or `act`, then remove the length filter if you want longer words that use more of the rack.
+- Set a minimum or maximum word length to ignore words that don’t fit your board.
+- Require a word to start with a certain letter or end with one.
+- Exclude letters you know aren’t in the solution.
+- Require a word to contain a specific letter.
 
-## What The Results Mean
+Start with no filters, then tighten them one at a time. If you get too many results, add a length filter. If you get zero, remove the weakest constraint first.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## How to handle puzzles that don’t use every letter
 
-## Important Rules And Edge Cases
+Not every puzzle requires you to use all the letters you entered. For example, in a word jumble, you might only need a subset. The tool shows all words that can be formed from any combination of your letters, so you’ll see shorter words alongside longer ones. If you need to use every letter exactly once, set the exact length to match your input and manually scan the longest results.
 
-### Exact Vs Contains Mode
-Use exact mode when the answer must use all letters once. Use contains mode when the word only needs to include your letters somewhere inside it. This difference matters for word games because "TCA" can become "cat" or "act" exactly, while contains mode may also show longer words if extra letters are allowed.
+## Common mistakes when unscrambling
 
-### Wildcard And Blank Tile Examples
-A wildcard stands for one unknown letter. With `TCA?`, the `?` can become different letters across different results. For tile games, remember that a blank tile may complete the word but usually contributes no letter points itself.
+A few things trip people up:
 
-### When No Results Appear
-An empty result does not always mean the puzzle is impossible. Check for swapped letters, a wrong length, a misplaced fixed position, or an excluded letter that should still be allowed.
+- **Typing extra spaces** – The tool treats spaces as characters. Enter letters without spaces.
+- **Forgetting wildcards** – If you’re missing a letter, don’t guess. Use ? and let the tool fill it in.
+- **Ignoring word length** – A 7-letter word might be hiding in your rack, but if you only look at 5-letter results, you’ll miss it. Always check the full list.
+- **Using the wrong dictionary** – Some games use a specific word list (like TWL for Scrabble in North America). Make sure your tool matches your game’s dictionary.
 
-### Difference From Word Finder And Anagram Solver
-A word unscrambler starts from loose letters. A word finder starts from constraints such as contains, starts, ends, or pattern. An anagram solver is stricter when you want a true rearrangement of all letters.
+## When to use this tool vs. a word finder
 
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+A word unscrambler is best when you have a specific set of letters and need all possible words. A word finder is better when you have a pattern (like `?A?E?`) and want to fill in the blanks. This page is the unscrambler - use it for raw letter sets. If you need pattern matching, check out our word finder tool.
 
 ## Common Questions
 
-### What is the fastest way to use this word unscrambler?
+### What words can I make with these letters?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter your letters into the input field above. The tool will generate every valid word from the built-in dictionary. Results are grouped by word length so you can quickly find what fits your puzzle.
 
 ### Do I have to use every letter?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+No. By default, the tool shows words that use any subset of the letters you entered. If you need to use all letters, compare the longest results against your full letter set.
 
-### How should I use a wildcard or blank tile?
+### Can I use wildcards or blank tiles?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Yes. Use the question mark (?) to represent any single letter. You can use multiple wildcards in one search.
 
-### Why did I get no results?
+### Can I filter by word length?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Absolutely. Use the length filter to set an exact word length. This is helpful when you know the answer is exactly 5 letters, for example.
 
-### When should I use a related tool instead?
+### Can I exclude letters from results?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+Yes. Use the exclude filter to remove words that contain certain letters. This is useful when you know a letter isn’t in the solution.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Word Finder](/word-finder/) – Use this when you have a pattern with blanks and need to fill in the missing letters.
+- [Unscramble Letters](/unscramble-letters/) – A dedicated page for when you only have letters and no other constraints.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Specifically tuned for Scrabble tile values and game-specific word lists.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Optimized for the Words With Friends dictionary and scoring.
+- [Anagram Solver](/anagram-solver/) – Perfect for when you need to rearrange all letters into a new word or phrase.

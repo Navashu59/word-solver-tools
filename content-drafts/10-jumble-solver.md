@@ -1,79 +1,53 @@
 # Jumble Solver
 
-Use this jumble solver when you have scrambled Jumble-style letters and need possible answers without manually trying every arrangement. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You're staring at a Jumble puzzle from the newspaper or an app, and the scrambled letters just aren't clicking. This tool is built for that exact moment - enter the letters you see, and get a list of possible answers sorted by likelihood. No fluff, no waiting.
 
-## Tool Intro
+## How Jumble puzzles work and why this tool helps
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports scrambled letters, exact/all-letter mode, answer length, optional clue, copy results. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+Jumble puzzles give you a set of scrambled letters, often with a cartoon clue or a circled answer that forms a final phrase. The trick is that you don't always need to use every letter - sometimes you're solving for a specific word length. This solver lets you enter the exact letters, set a length filter, and even include a clue word to narrow results. It's like having a second brain for anagrams.
 
+## Entering letters with wildcards for unknown spots
 
-## How To Use It
+If you're missing a letter or the puzzle has a blank tile, use a question mark (?) or asterisk (*) as a wildcard. For example, entering "T?A" will return words like TEA, TIA, and TAA. This is especially useful when the Jumble clue hints at a theme but you're stuck on one word.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Using the clue to get closer to the answer
 
-## Example
+Jumble puzzles often include a clue that hints at the answer's meaning. Type that clue into the optional field, and the tool will prioritize words related to it. For instance, if the clue is "feline" and your letters are "TCA", the tool will rank CAT higher than ACT. This saves you from scanning a long list of random anagrams.
 
-Example: if a Jumble panel shows `TCA`, use exact mode first to find `cat` or `act`. If the puzzle has a clue, use the clue to pick the answer that matches the intended meaning.
+## Filtering by word length for multi-word puzzles
 
-## What The Results Mean
+Some Jumble puzzles have multiple words to unscramble, each with a different length. Use the length filter to solve one word at a time. Set it to 4 letters, solve that, then move to the next. This keeps the results manageable and prevents confusion.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## What to do when you get too many results
 
-## Important Rules And Edge Cases
-
-### Jumble-Style Workflow
-Solve each scrambled word first, then use any circled or selected letters for the final answer. The best workflow is exact letters first, clue context second.
-
-### Exact Answer Mode
-Jumble-style clues usually expect one answer that uses every letter. Use exact mode before browsing shorter words.
-
-### Using Clue Context
-If several candidates use the same letters, the clue decides. Prefer the word that matches the clue's part of speech, tense, and theme.
-
-### Difference From General Word Scramble
-A general word scramble can return many playable words. A Jumble solver should prioritize likely exact answers and avoid flooding the page with unrelated subwords.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+If your initial search returns hundreds of words, don't panic. Add an exclusion filter to remove common letters you know aren't in the answer. Or use the "starts with" and "ends with" fields if you have a hunch about the first or last letter. The goal is to shrink the list to a handful of candidates you can test against the puzzle.
 
 ## Common Questions
 
-### What is the fastest way to use this jumble solver?
+### How do I solve a Jumble puzzle?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Start by entering all the scrambled letters into the tool. If you know the answer length, set that filter. If there's a clue, add it. Then scan the results for words that fit the puzzle's theme or cartoon hint. If nothing matches, try removing one constraint or using a wildcard for a letter you're unsure about.
 
-### Do I have to use every letter?
+### Can a clue narrow the answer?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+Yes. The clue field uses semantic matching to prioritize words related to the hint. It's not perfect, but it often cuts the list by half or more. For example, with letters "ELPPA" and clue "fruit", the tool will show APPLE first.
 
-### How should I use a wildcard or blank tile?
+### What are today Jumble answers?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+This tool doesn't pull live puzzle answers from any source. It generates possible words from the letters you enter. For today's specific puzzle, you'll need to input the letters yourself and use the filters to find the solution.
 
-### Why did I get no results?
+### Can I find multiple possible answers?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Absolutely. The tool returns candidate words from its word list that match your filters. You can then pick the one that fits the puzzle's clue and letter positions. If you're solving a multi-word Jumble, solve each word separately.
 
-### When should I use a related tool instead?
+### How do I unscramble Jumble letters quickly?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+Enter the letters, set the length if you know it, and hit generate. Then scan the results from top to bottom - the most common words appear first. If you're still stuck, use the clue field or try a wildcard for a letter you might have misread.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Word Scramble](/word-scramble/) – For general scrambled letter puzzles beyond Jumble, like word games or anagram challenges.
+- [Word Unscramble](/word-unscramble/) – Similar to Jumble Solver but with more flexible filters for any word game.
+- [Word Scrambler](/word-scrambler/) – If you need to generate scrambled words for a game or puzzle you're creating.
+- [Word Finder](/word-finder/) – A broader tool for finding words from letters, useful for Scrabble or Words with Friends.
+- [Unscramble Letters](/unscramble-letters/) – Quick anagram solving without the Jumble-specific features.

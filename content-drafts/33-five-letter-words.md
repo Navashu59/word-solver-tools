@@ -1,53 +1,53 @@
 # Five Letter Words
 
-Use this page when the user needs a five-letter word that fits known letters or excluded letters.
+You're looking for a five-letter word - maybe for a puzzle, a game, or a writing project. You have some letters pinned down, others you're unsure about, and a few you know are wrong. This tool gives you a straightforward list of every five-letter word that fits your pattern. No frills, no scoring, just a filterable word bank you can search through or export.
 
-## Tool Intro
+## Lock letters into specific positions
 
-Enter the letters you know, lock any known positions, and exclude letters that cannot appear. The goal is to get usable answers quickly, without reading a long explanation first.
+If you know the second letter is "A" and the fourth is "R," put them in the corresponding position boxes. The tool will only return words with those letters in those exact spots. You can fill in as many or as few positions as you like. Leave a box blank if you're not sure about that position.
 
-## How To Use It
+## Use starts-with and ends-with for quick narrowing
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Don't want to click through five boxes? Use the "starts with" and "ends with" fields instead. Type a letter or two into "starts with" to see only words beginning with that sequence. Same for "ends with." These fields work alongside the position boxes, so you can combine them for extra precision.
 
-## Example
+## Filter by letters that must (or must not) appear
 
-Example: if `A` is green in position 2 and `R` is yellow, lock the known position, add `R` as a misplaced letter, and exclude gray letters.
+The "contains" field is for letters you know are in the word somewhere. The "excludes" field is for letters you've ruled out. You can enter multiple letters in each field - the tool will include all of the contains letters and exclude any word that has an excludes letter. This is the fastest way to narrow down when you have a mix of known and dead letters.
 
-## What The Results Mean
+## Export your list for offline use
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Once your results are ready, click the copy button to copy the visible list. Paste it into a document, a note app, or directly into your game. The list is plain text, one word per line, no extra formatting. You can also scan grouped results if you prefer.
+
+## Dealing with large result sets
+
+If your filters are too loose, you might get hundreds of matches. Add more constraints: include a rare letter like "Z" or "Q," or exclude common letters like "E" or "S." You can also use the starts-with and ends-with fields to cut the list down to a manageable size.
 
 ## Common Questions
 
 ### What 5 letter words can I make with these letters?
 
-Use the tool controls for five letter words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your known letters in the "contains" field. If you know any positions, fill in the position boxes. The tool will return all five-letter words that match.
 
 ### What 5 letter words start with this letter?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Use the "starts with" field or put the letter in position box 1. The tool will only show words beginning with that letter.
 
 ### What 5 letter words end with this letter?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Use the "ends with" field or put the letter in position box 5. The tool will only show words ending with that letter.
 
 ### Can I exclude letters from the results?
 
-Use the tool controls for five letter words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Type the letters you want to exclude into the "excludes" field. Any word containing those letters will be removed from the results.
 
 ### How do I find five-letter words for Wordle?
 
-Use the tool controls for five letter words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Enter your green letters in the position boxes, your yellow letters in the contains field, and your gray letters in the excludes field. The tool will return all matching five-letter words.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [5 Letter Words](/5-letter-words/) - Same tool with a numeric slug, if you prefer typing "5" instead of "five."
+- [Five Letter Word Finder](/five-letter-word-finder/) - An enhanced version with additional filters like letter frequency and word score.
+- [Wordle Solver](/wordle-solver/) - A solver that ranks guesses by likelihood, not just lists them.
+- [Wordle Helper](/wordle-helper/) - A simpler tool for quick hints without the full list.
+- [Wordle Cheat](/wordle-cheat/) - Get the best next guess for your current Wordle board, ranked by information gain.

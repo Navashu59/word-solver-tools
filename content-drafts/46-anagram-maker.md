@@ -1,53 +1,55 @@
 # Anagram Maker
 
-Use this page when the user has letters, a word, name, or phrase and wants valid rearrangements.
+You want to make something fun out of a name or phrase. Maybe it’s for a party game, a personalized gift, or just to see what hidden words are inside your own name. This anagram maker is designed for playful exploration: enter any word or phrase, and it creates rearrangements that are entertaining and shareable. Use it when the goal is amusement, not just utility.
 
-## Tool Intro
+## Making anagrams from names
 
-Type the letters, word, name, or phrase you want to rearrange and choose whether every letter must be used. The goal is to get usable answers quickly, without reading a long explanation first.
+Enter a name like “Albert Einstein” and the maker will generate anagrams like “Ten elite brains” or “I listen to brain.” Use the multi-word mode to control how many words appear. This is great for creating nicknames, party invitations, or just a fun fact about someone.
 
-## How To Use It
+## Choosing between exact and broader word-finder use
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Exact mode ensures every letter is used, which is ideal for name anagrams. All-letters mode allows shorter words, which can be more flexible for creative projects. Toggle between them to see different sets of results.
 
-## Example
+## Sorting by commonality for the best results
 
-Example: enter `listen` to find `silent`, or enter a longer phrase and filter by word count if you want multi-word results.
+The maker sorts results by common words first, so you see the most recognizable anagrams at the top. This saves you from scrolling through obscure dictionary entries. If you want longer or shorter results, use the length filters to narrow the list.
 
-## What The Results Mean
+## Using wildcards for custom challenges
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you have a partial name or want to include a specific letter, use wildcards. For example, enter “J?n” to find all three-letter anagrams with J and N. This adds a layer of creativity when you’re making anagrams for a specific theme or constraint.
+
+## Sharing your anagrams with others
+
+Once you find a result you like, copy it directly. There’s no account or login required. Use the anagram for a social media post, a game, or a personalized message. The maker is built for quick, fun results.
 
 ## Common Questions
 
 ### How do I solve an anagram?
 
-Use the tool controls for anagram maker to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter the letters or phrase into the input. Choose an exact anagram check for full rearrangements or broader word-finder use for sub-anagrams. Hit make, then scan the results. Use filters to narrow by length or commonality.
 
 ### Does an anagram have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. This maker supports both exact anagrams and sub-anagrams. Toggle the switch to control that behavior.
 
 ### Can I make anagrams from a name?
 
-Use the tool controls for anagram maker to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Enter any name or phrase. The maker produces all valid rearrangements, including multi-word results. Use multi-word mode to specify word count.
 
 ### Can anagrams be more than one word?
 
-Use the tool controls for anagram maker to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes. Enable multi-word mode and set the desired word count. The maker finds combinations of words that use your input letters.
 
 ### How do I filter anagrams by length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
-## Related Tools
+Use the length field after entering your letters. Set an exact word length. Results update to show only words within that range.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Anagram Solver](/anagram-solver/) – For when you need to solve a specific puzzle, not just make fun anagrams.
+- [Anagram Generator](/anagram-generator/) – A more general tool for creating anagrams for any purpose.
+- [Anagram](/anagram/) – The general resource page for understanding anagrams and exploring all related tools.
+- [Word Maker](/word-maker/) – For making words from random letters or patterns.
+- [Name Anagram Maker](/anagram-maker/) – A specialized tool for name anagrams.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Optimized for Scrabble tile racks and board positions.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Unofficial helper for finding high-scoring plays in Words With Friends.

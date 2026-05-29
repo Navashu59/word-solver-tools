@@ -1,58 +1,53 @@
 # Wordle Cheat
 
-Use this page when the user has green, yellow, and gray letters and needs possible next guesses.
+You're staring at a Wordle grid with a few green letters locked in place, some yellows floating, and a row of grays you know are dead ends. You need a next guess that won't waste your streak - not a list of every possible word, but a smart shortlist that respects what you already know. This tool is for that moment: enter your greens, yellows, and grays, and get a curated set of best next guesses, ranked by likelihood and letter frequency. No spoilers unless you want them.
 
-## Tool Intro
+## How to enter your known letters without overthinking
 
-Enter the letters you know, lock any known positions, and exclude letters that cannot appear. The goal is to get usable answers quickly, without reading a long explanation first.
+Type your green letters into the correct position boxes. Add yellow letters in the "misplaced" field - don't worry about which position they appeared in, just list them. Then dump all gray letters into the excluded field. The tool handles the rest. If you're not sure about a letter, leave it blank. You can always tighten the filter after seeing the first batch of results.
 
-## How To Use It
+## Why some guesses are better than others
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+The tool doesn't just match patterns - it ranks guesses by how many new letters they test and how common those letters are in actual Wordle answers. A guess like "CRANE" might be better than "CRAZE" even if both fit, because it uses more high-frequency letters. The results show a "score" next to each word so you can pick the one that gives you the most information for your next turn.
 
-## Example
+## Spoiler-safe hints: see just enough to keep the puzzle fun
 
-Example: if `A` is green in position 2 and `R` is yellow, lock the known position, add `R` as a misplaced letter, and exclude gray letters.
+If you want a nudge without copying the answer, use the result list lightly. Look for common endings, repeated letters, or a likely vowel pattern, then choose your own next guess.
 
-## What The Results Mean
+## What to do when no words match
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If the tool returns zero results, you've likely excluded a letter that's actually in the answer, or you've locked a green in the wrong position. Double-check your grays - it's easy to accidentally type a letter that's yellow. Try removing one constraint at a time to see which filter is too strict. If you're still stuck, reset and start with only the greens.
+
+## Handling repeated letters in Wordle
+
+Wordle answers can have repeated letters - "PUPIL" has two P's, for example. If you suspect a repeat, enter the letter twice in the required letters field. The tool will only return words that use that letter at least as many times as you've entered. This catches cases where a yellow appears more than once in the grid.
 
 ## Common Questions
 
 ### How do I use a Wordle solver?
 
-Use the tool controls for wordle cheat to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter fixed letters as a pattern, put gray letters in the exclude field, and use contains for yellow letters you know must appear. Solve to get a short candidate list, then choose the guess that gives you useful information.
 
 ### What is the best next Wordle guess?
 
-Use the tool controls for wordle cheat to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+The best guess is one that tests multiple high-frequency letters you haven't ruled out yet. The tool ranks guesses by a combination of letter frequency and positional fit, so the top result is usually the most informative.
 
 ### Can Wordle answers have repeated letters?
 
-Repeated letters are possible in many word games. If a letter appears once as yellow or green, do not automatically assume it appears only once.
+Yes. Wordle uses a dictionary that includes words with repeated letters, like "PUPIL" or "MIMIC." If you see a yellow letter more than once, enter it twice in the required letters field.
 
 ### What do green, yellow, and gray mean?
 
-Green letters are locked in place, yellow letters are in the word but in a different position, and gray letters should usually be excluded unless duplicate-letter rules apply.
+Green means the letter is correct and in the right position. Yellow means the letter is in the word but in a different position. Gray means the letter is not in the word at all.
 
 ### How can I get hints without seeing the answer?
 
-Use the tool controls for wordle cheat to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Use the list as a hint by reading patterns instead of copying the first word. For example, notice likely endings, vowel placement, or repeated letters.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
 
-
-## Note
-
-This page is an unofficial helper. It is not affiliated with or endorsed by the game or brand mentioned in the search query.
+- [Wordle Solver](/wordle-solver/) - If you want a full solver that shows every possible answer, not just the best next guess.
+- [Wordle Helper](/wordle-helper/) - A gentler version that gives you hints without ranking or scoring.
+- [5 Letter Words](/5-letter-words/) - Browse all five-letter words by pattern, no game context needed.
+- [Five Letter Word Finder](/five-letter-word-finder/) - Find five-letter words with specific starts, ends, or letter combinations.
+- [Wordle Hints](/wordle-helper/) - Daily hints for the current Wordle puzzle, updated each day.

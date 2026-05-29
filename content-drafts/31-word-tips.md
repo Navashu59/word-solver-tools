@@ -1,53 +1,55 @@
 # Word Tips
 
-Use this page when the user has letters or word constraints and needs matching English words quickly.
+You’re in the middle of a word game - Scrabble, Words With Friends, Wordle, or a crossword - and you need an edge. Word Tips gives you practical advice and strategies to improve your play, along with a tool to find words from your letters. It’s not about memorizing lists; it’s about making smarter decisions in the moment.
 
-## Tool Intro
+## Finding high-scoring words from your rack
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Enter your letters into the tool and see which words score the most points. The results are sorted by score by default, so you can quickly spot the best play. Remember, this is an unofficial helper - always verify with the official game dictionary for tournament play.
 
-## How To Use It
+## Using two-letter words to your advantage
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Two-letter words are the backbone of many word games. They help you use awkward letters, create parallel plays, and open up the board. Common ones like “QI,” “ZA,” “XI,” and “JO” are worth memorizing. The tool includes all valid two-letter words from the official Scrabble dictionary.
 
-## Example
+## When to play defensively
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+Sometimes the best move isn’t the highest score. If you’re ahead, consider playing a word that blocks your opponent’s access to premium squares or uses up high-value letters. The tool can help you find words that fit specific board positions.
 
-## What The Results Mean
+## Improving your anagram skills
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Anagrams are a big part of word games. Practice by entering a set of letters and trying to find all the words before the tool reveals them. Over time, you’ll get faster at spotting patterns like “-ING” endings or “-ED” past tense forms.
+
+## Common mistakes to avoid
+
+- **Playing too many short words** – Sometimes a longer word gives you more points and uses up tiles faster.
+- **Ignoring the board** – A word that scores 20 points might open up a triple-word score for your opponent.
+- **Forgetting about blanks** – Blanks are powerful; use them to make high-scoring words or to fit tricky patterns.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for word tips to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters in the input box and click “Solve.” The tool will show candidate English words, sorted by score or length.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. By default, the tool finds words using any subset of your letters. Enable “use all letters” for anagrams.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use `?` or `*` for unknown letters or blank tiles.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Set an exact length before generating.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for word tips to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Use the “exclude letters” field to remove words containing specific letters.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Generator From Letters](/word-generator-from-letters/) – For generating all possible words from your letters.
+- [Word Solver](/word-solver/) – For solving patterns with known letter positions.
+- [Letter Solver](/letter-solver/) – A focused tool for letter-based puzzles.
+- [Word Finder](/word-finder/) – Combines letter input with pattern matching.
+- [Unscramble Letters](/unscramble-letters/) – Specifically for anagrams and jumbled letters.

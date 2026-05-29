@@ -1,58 +1,55 @@
 # Words With Friends Cheat
 
-Use this page when the user is stuck in Words With Friends and needs valid words under that game ruleset.
+Stuck on a move in Words With Friends? Enter your letters, use wildcards, and filter by length or pattern to find the highest-scoring candidate words.
 
-## Tool Intro
+## Enter Your Letters
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Type the letters you have, including blank tiles as `?` or `*`. The solver will generate all possible words using those letters.
 
-## How To Use It
+## Use Wildcards
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Wildcards (blank tiles) can represent any letter. Enter them as `?` and the solver will substitute each possible letter.
 
-## Example
+## Filter by Word Length
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+Specify the exact length . For example, if you have a 3-letter spot, set the filter to length 3.
 
-## What The Results Mean
+## Contains/Excludes
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you know the word must contain a certain letter (e.g., a high-value letter like Z), use the "contains" filter. Use "excludes" to remove words with unwanted letters.
+
+## Starts/Ends With
+
+If the word must start or end with a specific letter (e.g., because of a premium square), use these filters.
+
+## Copyable Results
+
+Results are displayed in a list with scores. Click to copy a word to your clipboard.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for words with friends cheat to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters and the solver will list all valid Words With Friends words. Use filters to narrow down.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. You can use any subset of your letters. The solver includes words of all lengths from 2 to the number of letters you entered.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Enter blank tiles as `?` or `*`. The solver will treat them as any letter.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Use the length filter to show only words of a specific length .
 
 ### Can I exclude letters from results?
 
-Use the tool controls for words with friends cheat to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Use the "exclude" filter to remove words containing certain letters.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
 
-
-## Note
-
-This page is an unofficial helper. It is not affiliated with or endorsed by the game or brand mentioned in the search query.
+- [Word Finder](/word-finder/) for general word games.
+- [Scrabble Cheat](/scrabble-cheat/) for Scrabble-specific rules.
+- [Anagram Solver](/anagram-solver/) to unscramble letters into words.

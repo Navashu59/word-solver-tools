@@ -1,53 +1,65 @@
 # Letter Solver
 
-Use this page when the user has letters and constraints and needs matching words.
+You have a set of letters - maybe from a word game, a puzzle, or a random jumble - and you need to find all possible words. The Letter Solver is designed for this exact scenario: enter your letters, apply filters, and get a clean list of valid English words. No extra steps, no clutter.
 
-## Tool Intro
+## Finding words from any letter combination
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Start by typing your letters into the input box. The solver will immediately show all words that can be formed from those letters. You don’t have to use every letter - partial matches are included by default. If you want only words that use all letters, manually check whether a result uses every letter.
 
-## How To Use It
+## Using wildcards for unknown letters
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+If you have a blank tile or an unknown letter, use `?` or `*` as a wildcard. The solver will treat that character as any letter. This is useful for Scrabble, Words With Friends, or any game where you have a blank tile.
 
-## Example
+## Filtering results for speed
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+To avoid scrolling through hundreds of words, use the filters:
 
-## What The Results Mean
+- **Word length** – set an exact length.
+- **Starts with / Ends with** – useful when you know the first or last letter.
+- **Contains / Excludes** – force or block specific letters.
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+These filters help you zero in on the words you need in seconds.
+
+## Scanning by word length
+
+Results are easier to scan when you use the length field first. If you need a word of a certain size, set that exact length before solving.
+
+## When the solver returns no results
+
+If you get zero matches, try:
+
+- Removing one filter at a time.
+- Checking that wildcards are entered correctly.
+- Making sure you haven’t accidentally excluded all possible letters.
+
+The solver uses a standard English dictionary, so proper nouns and very obscure terms may not appear.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for letter solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters in the input box and click “Solve.” The tool will list candidate English words that can be formed from those letters, with optional filters.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. By default, the solver finds words using any subset of your letters. Enable “use all letters” if you need anagrams.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use `?` or `*` for unknown letters or blank tiles.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Set an exact length before solving.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for letter solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Use the “exclude letters” field to remove words containing specific letters.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Generator From Letters](/word-generator-from-letters/) – If you need a more general generator with additional filters.
+- [Word Solver](/word-solver/) – For solving patterns with known letter positions.
+- [Word Tips](/word-tips/) – Get strategic advice for word games.
+- [Word Finder](/word-finder/) – A broader tool for any word puzzle.
+- [Unscramble Letters](/unscramble-letters/) – Specifically for anagrams.

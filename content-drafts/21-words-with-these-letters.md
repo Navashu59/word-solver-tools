@@ -1,79 +1,52 @@
 # Words With These Letters
 
-Use this words with these letters when you have required letters and need words that contain them, even if the letters are not in order. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You know which letters must appear in the word, but you don’t know their order or the full set. This tool is for that exact situation: you enter the required letters, and it finds all words that contain them, no matter where they fall. Perfect for crossword clues, word games, or when you’ve spotted a pattern on the board.
 
-## Tool Intro
+## Enter required letters, get matches
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports required letters, optional letters, excluded letters, length, starts/ends, pattern. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+Type the letters that must be in the word. The tool will return all dictionary words that contain every one of those letters. If you have optional letters too, add them in a separate field - the tool will prioritize words that use them.
 
+## Add length and position filters
 
-## How To Use It
+If you know the word is 7 letters long, set that. If a required letter is in a specific position (like the first or last), use the starts-with or ends-with filter. The more you know, the faster you’ll get a usable list.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Exclude letters you don’t want
 
-## Example
+If you’ve already ruled out certain letters, add them to the exclude field. The tool will remove any word that contains those letters. This is especially helpful when you’re working with a limited set of possibilities.
 
-Example: search for words with `A`, `R`, and `T` when those letters must appear somewhere on the board. Add an exclude filter like `QZ` if those letters cannot be used, then choose the length that fits your space.
+## Use wildcards for unknown letters
 
-## What The Results Mean
-
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
-
-## Important Rules And Edge Cases
-
-### Required Letters Anywhere Vs Exact Order
-Required letters anywhere means the word can contain those letters in any position. Exact order means the letters must appear as a sequence. Those are different searches and can return very different lists.
-
-### Using Exclude Letters
-Exclude letters are powerful but easy to overuse. Add excluded letters only when the puzzle or game has clearly ruled them out.
-
-### Examples For Board Positions
-If a board already has `A` in the middle and your rack has `RTE`, search for words containing A plus rack letters, then add starts/ends filters based on open squares.
-
-### When To Use This Instead Of An Anagram Solver
-Use this page when your letters must be present but do not need to be rearranged exactly. Use Anagram Solver when the answer must be made from the exact same letters.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+If you have a blank tile or an unknown letter, use `?` in the required or optional fields. The tool will treat it as a placeholder for any single letter. Combine this with length filters to keep the list manageable.
 
 ## Common Questions
 
-### What is the fastest way to use this words with these letters?
+### What words can I make with these letters?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter your required letters and click solve. The tool will show all words that contain every letter you entered.
 
 ### Do I have to use every letter?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+No. The tool finds words that contain your required letters, but they may also include additional letters. If you want words that use only your letters, use the “use all letters” option.
 
-### How should I use a wildcard or blank tile?
+### Can I use wildcards or blank tiles?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Yes. Type `?` for each unknown letter. The tool treats it as any single letter.
 
-### Why did I get no results?
+### Can I filter by word length?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Yes. Set an exact length . This is the most effective way to narrow results.
 
-### When should I use a related tool instead?
+### Can I exclude letters from results?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+Yes. Type letters you want to exclude in the exclude field. Results containing those letters will be removed.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Word Finder](/word-finder/) – More advanced pattern matching and filters.
+- [Words With Letters](/words-with-letters/) – See all words from a set of letters without requiring specific ones.
+- [Word Cheat](/word-cheat/) – Optimized for speed in games.
+- [Unscramble Letters](/unscramble-letters/) – For exact anagrams.
+- [Letter Box Solver](/letter-box-solver/) – For NYT Letter Boxed puzzles.
+- [Wordle Solver](/wordle-solver/) – Unofficial Wordle helper.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Includes Scrabble scoring.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – Tailored for WWF.

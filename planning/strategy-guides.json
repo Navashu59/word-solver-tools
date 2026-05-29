@@ -1,0 +1,421 @@
+{
+  "homepage_section": {
+    "heading": "Strategy guides for common word puzzles",
+    "intro": "Use the tools first when you need candidates, then use these guides to decide which result actually fits the puzzle, board, or clue.",
+    "links": [
+      {
+        "url": "/guides/wordle-guessing-strategy/",
+        "title": "Wordle Guessing Strategy",
+        "description": "Learn how to use Wordle feedback to narrow down possibilities without spoiling the puzzle. Practical tips for better guesses."
+      },
+      {
+        "url": "/guides/scrabble-rack-strategy/",
+        "title": "Scrabble Rack Strategy",
+        "description": "Learn how to evaluate your Scrabble rack and turn a set of tiles into high-scoring plays. This guide covers rack balancing, vowel-consonant ratios, and when to exchange tiles."
+      },
+      {
+        "url": "/guides/how-to-solve-crossword-clues/",
+        "title": "How to Solve Crossword Clues",
+        "description": "Learn to solve crossword clues by identifying clue types, using crossings, and recognizing patterns. Practical strategies for cryptic and standard crosswords."
+      },
+      {
+        "url": "/guides/anagram-solving-techniques/",
+        "title": "Anagram Solving Techniques",
+        "description": "Learn how to break letter sets into likely word shapes before using an anagram solver for faster results."
+      }
+    ]
+  },
+  "guides": [
+    {
+      "slug": "guides/wordle-guessing-strategy",
+      "title": "Wordle Guessing Strategy",
+      "description": "Learn how to use Wordle feedback to narrow down possibilities without spoiling the puzzle. Practical tips for better guesses.",
+      "h1": "Wordle Guessing Strategy",
+      "eyebrow": "Strategy guide",
+      "body": [
+        [
+          "h2",
+          "Why Guessing Strategy Matters"
+        ],
+        [
+          "p",
+          "Wordle gives you colored tiles after each guess: green for correct letter and position, yellow for correct letter wrong position, gray for letter not in the word. A good strategy uses this feedback to eliminate possibilities efficiently, without resorting to external word lists or spoilers. The goal is to solve in as few guesses as possible while keeping the puzzle fun."
+        ],
+        [
+          "h2",
+          "Start with a Strong Opening Word"
+        ],
+        [
+          "p",
+          "Your first guess should cover common vowels and consonants. Words like \"CRANE\", \"SLATE\", or \"AUDIO\" are popular because they include multiple vowels and frequent consonants (R, S, T, N). Avoid starting with words that have repeated letters or rare letters like X or Z. A balanced opener gives you the most information."
+        ],
+        [
+          "h2",
+          "Use Feedback to Refine"
+        ],
+        [
+          "p",
+          "After each guess, note the colors. For green letters, keep them in that position. For yellow letters, include them but try different positions. For gray letters, eliminate them entirely. Do not reuse gray letters in future guesses. This simple rule cuts down possibilities fast."
+        ],
+        [
+          "h2",
+          "Avoid Common Mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Don't ignore yellow letters: they must appear somewhere, so try them in new spots.",
+            "Don't reuse gray letters: they are not in the word, so remove them from your mental list.",
+            "Don't guess random words: each guess should test multiple new letters or confirm positions.",
+            "Don't fixate on one pattern: be flexible and consider alternative letter combinations."
+          ]
+        ],
+        [
+          "h2",
+          "Example Walkthrough"
+        ],
+        [
+          "p",
+          "Suppose the answer is \"PLANE\". You guess \"CRANE\". Result: C gray, R gray, A yellow, N yellow, E green. You know E is last, A and N are somewhere else, and C,R are out. Next guess: \"ALONE\". A green? No, A is yellow from before, so try A in first position: A green, L gray, O gray, N yellow, E green. Now you have A first, E last, N somewhere in middle. Third guess: \"PLANE\". P green, L green, A green, N green, E green. Solved in three."
+        ],
+        [
+          "h2",
+          "When to Use Letter Frequency"
+        ],
+        [
+          "p",
+          "If you have several yellow letters and need to find their positions, think about common letter patterns. For example, after vowels, common consonants like T, N, S, R, L often appear. Use a word that places your yellow letters in different positions while also testing new common letters. This maximizes information."
+        ],
+        [
+          "h2",
+          "Handling Repeated Letters"
+        ],
+        [
+          "p",
+          "Wordle answers can have repeated letters (e.g., \"MAMMA\"). If you get a yellow or green for a letter, but the word might have two of that letter, consider guessing a word with that letter twice. For example, if you have one yellow E, but the answer might be \"EERIE\", try a word with two E's to test."
+        ],
+        [
+          "h2",
+          "Tools That Help Without Spoiling"
+        ],
+        [
+          "p",
+          "If you get stuck, you can use a word solver tool that lets you input your feedback (green, yellow, gray) and suggests possible words. These tools don't give the answer directly; they just list candidates based on your constraints. For example, our Wordle Solver and Wordle Helper can narrow down options while you still make the final choice. Similarly, a 5 Letter Word Finder can help generate possibilities. These are useful when you want to avoid frustration but keep the puzzle experience intact."
+        ],
+        [
+          "h2",
+          "Practice Makes Perfect"
+        ],
+        [
+          "p",
+          "The more you play, the better you'll recognize patterns and common words. Keep a mental list of frequent Wordle answers (they tend to be common English words). Over time, you'll develop intuition for which letters go where. Remember, the goal is to enjoy the puzzle, not just to win."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/scrabble-rack-strategy",
+      "title": "Scrabble Rack Strategy",
+      "description": "Learn how to evaluate your Scrabble rack and turn a set of tiles into high-scoring plays. This guide covers rack balancing, vowel-consonant ratios, and when to exchange tiles.",
+      "h1": "Scrabble Rack Strategy: Turn a Rack into Better Candidate Plays",
+      "eyebrow": "Strategy guide",
+      "body": [
+        [
+          "h2",
+          "Why Rack Management Matters"
+        ],
+        [
+          "p",
+          "Every Scrabble player knows the frustration of a rack full of vowels or a clump of consonants. The difference between a good player and a great one often comes down to how they manage their rack. A balanced rack gives you more options, higher scoring potential, and better defensive plays. This guide will help you assess your rack quickly and decide whether to play, exchange, or pass."
+        ],
+        [
+          "h2",
+          "The Ideal Vowel-Consonant Balance"
+        ],
+        [
+          "p",
+          "A standard Scrabble set has 42 vowels (including Y) and 58 consonants. The ideal rack has 2-3 vowels and 4-5 consonants. When your rack deviates from this, you need to adjust. Here are some quick checks:"
+        ],
+        [
+          "ul",
+          [
+            "If you have 4 or more vowels, consider exchanging one or two, or playing a word that uses multiple vowels.",
+            "If you have 1 or no vowels, look for words that use Y as a vowel (e.g., MYTH, GYPSY) or exchange tiles.",
+            "If you have 3 or more of the same letter, try to play them in a single word (e.g., TATTLE, BANANA) or exchange duplicates."
+          ]
+        ],
+        [
+          "h2",
+          "Evaluating Tile Values"
+        ],
+        [
+          "p",
+          "Not all tiles are equal. High-value tiles (J, Q, X, Z) are worth 8-10 points but are hard to play. Keep them until you have a good spot, but don't hoard them too long. Low-value tiles (A, E, I, O, U, N, R, S, T) are your workhorses. Aim to have a mix of both. If your rack has three or more high-value tiles, consider exchanging one or two to improve flexibility."
+        ],
+        [
+          "h2",
+          "When to Exchange Tiles"
+        ],
+        [
+          "p",
+          "Exchanging tiles costs your turn but can save your game. Exchange when:"
+        ],
+        [
+          "ul",
+          [
+            "Your rack has 5 or more vowels and no good vowel-heavy words.",
+            "Your rack has 4 or more consonants and no playable spots.",
+            "You have multiple high-value tiles (e.g., J, Q, Z) and no way to play them.",
+            "You are stuck with a Q and no U (exchange the Q if you can't play it)."
+          ]
+        ],
+        [
+          "p",
+          "Remember, you can exchange up to 7 tiles. Use this option sparingly; it's better to play a low-scoring word than to pass entirely."
+        ],
+        [
+          "h2",
+          "Using the Scrabble Word Finder"
+        ],
+        [
+          "p",
+          "When you're unsure about your best play, use our Scrabble Word Finder. Enter your rack and see all possible words. This tool helps you spot bingos (7-letter words) and high-scoring hooks. For example, if your rack is A E R S T L N, the finder might show STERNAL (7 letters) or LEARNS (6 letters). Practice with the tool to improve your pattern recognition."
+        ],
+        [
+          "h2",
+          "Defensive Rack Management"
+        ],
+        [
+          "p",
+          "Your rack also affects your opponent. Avoid leaving high-value tiles in your rack that your opponent could force you to exchange. If you have a Q, try to play it as soon as possible. Similarly, don't hold onto S or blank tiles too long; they are powerful for bingos but also give your opponent information. A balanced rack keeps your options open and your opponent guessing."
+        ],
+        [
+          "h2",
+          "Practice Drills"
+        ],
+        [
+          "p",
+          "Improve your rack management with these drills:"
+        ],
+        [
+          "ul",
+          [
+            "Draw 7 tiles and try to find the highest-scoring word in 30 seconds.",
+            "Practice exchanging tiles: draw 7, then decide which 2-3 to exchange and why.",
+            "Use the Anagram Solver to find all possible words from a random rack.",
+            "Play online games focusing on rack balance; after each move, note your new rack."
+          ]
+        ],
+        [
+          "h2",
+          "Common Mistakes"
+        ],
+        [
+          "p",
+          "Avoid these pitfalls:"
+        ],
+        [
+          "ul",
+          [
+            "Playing a word that uses all your vowels, leaving you with 5 consonants.",
+            "Holding onto a Q too long, hoping for a U.",
+            "Exchanging tiles when you could play a decent word (even 10 points is better than 0).",
+            "Ignoring the board: your rack strategy must consider available spots and scoring opportunities."
+          ]
+        ],
+        [
+          "p",
+          "By mastering rack strategy, you'll turn a random set of tiles into a winning advantage. Use our tools to practice and refine your skills. Happy playing!"
+        ]
+      ]
+    },
+    {
+      "slug": "guides/how-to-solve-crossword-clues",
+      "title": "How to Solve Crossword Clues",
+      "description": "Learn to solve crossword clues by identifying clue types, using crossings, and recognizing patterns. Practical strategies for cryptic and standard crosswords.",
+      "h1": "How to Solve Crossword Clues",
+      "eyebrow": "Strategy guide",
+      "body": [
+        [
+          "h2",
+          "Understanding Clue Types"
+        ],
+        [
+          "p",
+          "Crossword clues fall into several categories. Recognizing the type helps you narrow down the answer. Common types include:"
+        ],
+        [
+          "ul",
+          [
+            "Definition clues: The clue is a direct synonym of the answer (e.g., 'Happy' for GLAD).",
+            "Wordplay clues: Often used in cryptic crosswords, these involve anagrams, hidden words, or reversals.",
+            "Double definition: Two separate definitions lead to the same word (e.g., 'Bank' for RIVER or FINANCIAL INSTITUTION).",
+            "Container clues: One word is placed inside another (e.g., 'C(AR)T' for CART).",
+            "Charade clues: The answer is built from parts (e.g., 'SUN + FLOWER' for SUNFLOWER)."
+          ]
+        ],
+        [
+          "h2",
+          "Using Crossings to Your Advantage"
+        ],
+        [
+          "p",
+          "Crossings are letters shared between across and down answers. They are your most powerful tool. Start with the easiest clues to fill in a few letters, then use those letters to solve harder clues. For example, if you have _A_T from an across clue, and a down clue gives you the second letter as 'R', you now have _ART, which might be PART, MART, or CART. Check the clue's definition to pick the right one."
+        ],
+        [
+          "p",
+          "When stuck, look for common letter patterns. In English, 'Q' is almost always followed by 'U', and 'J', 'X', 'Z' are rare. Use a crossword solver or word finder to generate possibilities based on known letters."
+        ],
+        [
+          "h2",
+          "Recognizing Patterns in Clues"
+        ],
+        [
+          "p",
+          "Many clues follow predictable patterns. For instance, clues ending with a question mark often indicate a pun or playful meaning. Clues with abbreviations like 'abbr.' or 'in short' signal shortened words. Words like 'maybe' or 'perhaps' suggest the answer is not literal. Also, watch for tense and number: a clue in past tense usually requires a past tense answer, and plural clues need plural answers."
+        ],
+        [
+          "p",
+          "In cryptic crosswords, common indicators include 'mixed' for anagrams, 'back' for reversal, and 'in' for hidden words. For example, 'Mixed nuts' might be an anagram of 'nuts' leading to 'STUN'."
+        ],
+        [
+          "h2",
+          "Practical Steps to Solve"
+        ],
+        [
+          "p",
+          "Follow this process when tackling a crossword:"
+        ],
+        [
+          "ul",
+          [
+            "Scan the clues and fill in any answers you know immediately.",
+            "Use crossings to deduce letters for unknown answers.",
+            "Identify the clue type (definition, wordplay, etc.) to guide your thinking.",
+            "If stuck, list possible words that fit the pattern using a crossword helper.",
+            "Check for common crossword words like ERA, ORE, AREA, etc.",
+            "Revisit clues after filling more letters—new crossings often unlock them."
+          ]
+        ],
+        [
+          "h2",
+          "Using Tools Effectively"
+        ],
+        [
+          "p",
+          "Online tools like a crossword clue solver or anagram solver can speed up solving. Enter the known letters and pattern (e.g., ?A?T) to get a list of possible answers. Use a crossword dictionary for obscure words. But remember, tools are aids—understanding clue mechanics is key to improvement."
+        ],
+        [
+          "p",
+          "For cryptic crosswords, a cryptogram solver can help decode substitution ciphers. Combine these with pattern matching to crack tough clues."
+        ],
+        [
+          "h2",
+          "Practice and Patience"
+        ],
+        [
+          "p",
+          "Solving crosswords gets easier with practice. Start with simpler puzzles (like those in newspapers) and gradually tackle harder ones. Keep a list of common crossword words and clue indicators. Over time, you'll recognize patterns faster and solve more efficiently."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/anagram-solving-techniques",
+      "title": "Anagram Solving Techniques",
+      "description": "Learn how to break letter sets into likely word shapes before using an anagram solver for faster results.",
+      "h1": "Anagram Solving Techniques",
+      "eyebrow": "Strategy guide",
+      "body": [
+        [
+          "h2",
+          "Why Break Letters Into Word Shapes?"
+        ],
+        [
+          "p",
+          "Anagrams are a staple of word games, puzzles, and even cryptography. While an anagram solver can quickly generate all possible words from a set of letters, you can speed up the process and improve your own skills by first analyzing the letter set for common patterns. Instead of blindly entering letters, try to identify likely word shapes—prefixes, suffixes, vowel placements, and common letter pairs. This approach helps you narrow down possibilities and often leads to the answer before you even use a tool."
+        ],
+        [
+          "h2",
+          "Step 1: Count and Sort Letters"
+        ],
+        [
+          "p",
+          "Start by writing down the letters in alphabetical order. This gives you a clear view of the letter frequency. For example, if you have letters A, E, R, S, T, you can quickly see that common words like 'stare', 'rates', or 'tears' are possible. Sorting also reveals if you have multiple vowels or rare consonants like Q or Z, which can hint at less common words."
+        ],
+        [
+          "h2",
+          "Step 2: Identify Common Prefixes and Suffixes"
+        ],
+        [
+          "p",
+          "Many English words start with common prefixes like 'un-', 're-', 'pre-', 'dis-', or end with suffixes like '-ing', '-ed', '-er', '-tion'. Check if your letter set contains the letters for these affixes. For instance, if you have I, N, G plus other letters, '-ing' is a strong candidate. Similarly, if you have R, E, plus others, 're-' might be a prefix. This instantly reduces the number of letters you need to arrange."
+        ],
+        [
+          "h2",
+          "Step 3: Look for Common Letter Pairs and Triples"
+        ],
+        [
+          "p",
+          "Certain letter combinations appear frequently in English: 'th', 'sh', 'ch', 'wh', 'qu', 'ph', 'ght', 'tion', 'sion', 'able'. Scan your letters for these pairs. For example, if you have T and H, 'th' is likely. If you have Q and U, 'qu' is almost certain. Grouping these pairs as a single unit makes the remaining letters easier to arrange."
+        ],
+        [
+          "h2",
+          "Step 4: Place Vowels Strategically"
+        ],
+        [
+          "p",
+          "Vowels are the backbone of words. Count your vowels (A, E, I, O, U, and sometimes Y). In a typical 5-7 letter word, you'll have 2-4 vowels. Try placing vowels in positions 2, 4, or 5 (for 5-letter words) or 2, 4, 6 (for 7-letter words). Common vowel patterns include 'ea', 'ai', 'ou', 'ie', 'eo'. If you have multiple vowels, consider words with vowel pairs like 'ae', 'oi', 'ua'."
+        ],
+        [
+          "h2",
+          "Step 5: Use the Anagram Solver as a Check"
+        ],
+        [
+          "p",
+          "After you've formed a few candidate word shapes, enter the letters into the anagram solver to confirm. The solver will list all valid words, and you can quickly see if your guess is correct. This technique is especially useful for longer anagrams where brute-forcing is tedious. By pre-filtering, you reduce the solver's output to a manageable list and often find the answer faster."
+        ],
+        [
+          "h2",
+          "Example: Solving 'RSTAE'"
+        ],
+        [
+          "p",
+          "Take the letters R, S, T, A, E. Sorted: A, E, R, S, T. Common prefixes? None obvious. Suffixes? '-er' is possible (R, E). Common pairs? 'st' (S, T) and 're' (R, E). Vowels: A and E. Try placing 'st' at the start: 'st' + A + R + E = 'stare'? Yes, 'stare' is a word. Or 'st' + E + A + R = 'stear'? Not a word. 'st' + A + E + R = 'staer'? No. But 'stare' works. Alternatively, 're' + A + S + T = 'reast'? No. 're' + S + T + A = 'resta'? No. So 'stare' is likely. The solver confirms it."
+        ],
+        [
+          "h2",
+          "Practice with Common Word Lengths"
+        ],
+        [
+          "p",
+          "Different word lengths have typical patterns. For 4-letter words, look for 'tion'? No, that's 4 letters but rare. Instead, common 4-letter patterns: 'that', 'with', 'from', 'have'. For 5-letter words, think of 'which', 'there', 'their', 'about'. For 6-letter words, '-ing' and '-tion' are common. For 7-letter words, '-ness', '-ment', '-able'. Practice by taking random letter sets and trying to form words before using the solver."
+        ],
+        [
+          "h2",
+          "Advanced: Cryptogram Anagrams"
+        ],
+        [
+          "p",
+          "In cryptograms, anagrams are often used as clues. The same techniques apply, but you also have to consider that the letters might be substituted. First, solve the cryptogram to get the plaintext letters, then apply the anagram techniques. Alternatively, if you have a ciphertext anagram, you can try to identify common word shapes in the ciphertext (like repeated letters) to guess the plaintext word."
+        ],
+        [
+          "h2",
+          "Final Tips"
+        ],
+        [
+          "p",
+          "Use the anagram solver as a learning tool. After it generates words, study the list to see patterns you missed. Over time, you'll get faster at spotting word shapes. Also, try anagram generators that allow filtering by word length or pattern (like _A_E for a 4-letter word with A in second and E in fourth). This combines shape analysis with solver power."
+        ],
+        [
+          "ul",
+          [
+            "Always sort letters alphabetically first.",
+            "Identify common prefixes and suffixes early.",
+            "Look for frequent letter pairs like 'th', 'sh', 'ch'.",
+            "Place vowels in typical positions.",
+            "Use the solver to verify and learn from its output."
+          ]
+        ]
+      ]
+    }
+  ]
+}

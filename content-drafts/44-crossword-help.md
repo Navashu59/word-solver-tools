@@ -1,53 +1,60 @@
 # Crossword Help
 
-Use this page when the user has a clue, length, and some known letters and needs possible answers.
+You're stuck on a crossword and need more than just a list of answers - you want strategies to get unstuck and improve your solving skills. This page is a guide to common crossword techniques, from interpreting clues to using pattern recognition. Use it alongside the tools to become a faster, more confident solver.
 
-## Tool Intro
+## Start with the easy clues
 
-Add the clue, answer length, and any letters you already know to narrow possible answers. The goal is to get usable answers quickly, without reading a long explanation first.
+Don't begin with the longest or most cryptic clue. Scan the puzzle for short answers (3-4 letters) that you know immediately. Filling in those gives you crossing letters for harder entries. Common short answers include articles, prepositions, and abbreviations like "ERA," "ARE," or "TIE."
 
-## How To Use It
+## Use crossing letters as anchors
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Every letter you fill in creates a constraint for the crossing word. If you have a 7-letter answer with only the third letter known, that single letter might be enough to guess the crossing word. Work systematically: fill in what you know, then move to the next clue.
 
-## Example
+## Recognize common clue types
 
-Example: for a 7-letter answer with known letters `C _ A _ _ E _`, enter the pattern and add the clue to narrow similar answers.
+Crossword clues fall into a few categories:
+- **Direct definition**: "Feline friend" = CAT
+- **Wordplay**: "Upset about a pet" = anagram of "a pet" = TAPE
+- **Homophone**: "Heard the bird" = sounds like "heard" = HERD
+- **Abbreviation**: "Doctor" = DR, "North" = N
+- **Hidden word**: "Part of 'theater'" = HEAT (hidden in "theater")
 
-## What The Results Mean
+Knowing the type helps you guess the answer faster.
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+## Use the tools strategically
+
+If you're stuck on a clue, try the [Crossword Clue Solver](/crossword-clue-solver/) to see common answers. If you have partial letters, use the [Crossword Solver](/crossword-solver/) with the pattern. For a full grid, the [Crossword Puzzle Solver](/crossword-puzzle-solver/) can handle multiple entries at once.
+
+## Don't be afraid to guess
+
+Crosswords are meant to be solved, not memorized. If you have a strong hunch, fill it in and see if the crossing words make sense. If they don't, erase and try again. The tools are there to confirm or correct your guesses.
 
 ## Common Questions
 
 ### How do I solve a crossword clue with missing letters?
 
-Use the clue together with the known letter pattern. The pattern narrows the shape of the answer, and the clue helps choose between words that fit the same pattern.
+Use the pattern field in any of the crossword tools. Mark known letters and use `?` for unknowns. The tool will show only words matching that pattern.
 
 ### How do I search crossword answers by pattern?
 
-Use the tool controls for crossword help to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter the pattern with `?` for unknowns. For example, `?A?` returns all three-letter words with A in the second position.
 
 ### What does this clue mean?
 
-Use the clue together with the known letter pattern. The pattern narrows the shape of the answer, and the clue helps choose between words that fit the same pattern.
+If the clue is a direct definition, a dictionary can help. If it's wordplay, look for anagrams, homophones, or hidden words. The [Crossword Clue Solver](/crossword-clue-solver/) helps test answers against clue meaning and known letters.
 
 ### How many letters is the answer?
 
-Use the tool controls for crossword help to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Check the puzzle grid - each answer's length is determined by the number of squares in its row or column.
 
 ### Can the same clue have different answers?
 
-Use the clue together with the known letter pattern. The pattern narrows the shape of the answer, and the clue helps choose between words that fit the same pattern.
-## Related Tools
+Yes. Many clues have multiple valid answers. Use crossing letters to determine which one fits.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Crossword Solver](/crossword-solver/) – For quick answers when you have a clue and some letters.
+- [Crossword Clue Solver](/crossword-clue-solver/) – For decoding tricky wordplay clues.
+- [Crossword Puzzle Solver](/crossword-puzzle-solver/) – For solving entire grids with multiple clues.
+- [Word Finder](/word-finder/) – For word games like Scrabble or Words With Friends.
+- [Anagram Solver](/anagram-solver/) – When you suspect an answer is an anagram of the clue.

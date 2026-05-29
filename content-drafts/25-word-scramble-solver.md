@@ -1,53 +1,54 @@
 # Word Scramble Solver
 
-Use this page when the user has scrambled letters and needs words that can be made from them.
+You’re looking at a scrambled word - maybe from a puzzle book, a mobile game, or a classroom worksheet - and you need the correct spelling. This solver takes your jumbled letters and returns every valid word, but it also lets you add patterns and known letters to narrow down the answer. It’s built for when you have partial information and want to solve faster.
 
-## Tool Intro
+## Solving with known letter positions
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+If you know that the first letter is C and the last is T, enter `C???T` as your pattern. The solver fills in the blanks with your available letters and shows only words that match that shape. This is a huge time-saver for crosswords and word games where you have a few letters already placed.
 
-## How To Use It
+## Using the solver for word games like Wordle
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Wordle gives you feedback on correct letters in the right or wrong positions. Enter your known letters into the pattern field, and use the exclude box for letters that aren’t in the word at all. The solver then shows only words that fit the current game state. It’s an unofficial helper - use it for hints or to check your guesses.
 
-## Example
+## Handling multiple scrambled words at once
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+Some puzzles give you several scrambled words to solve in sequence. The solver works one set at a time, but you can quickly clear the input and enter the next scramble. No need to reload the page. This keeps your workflow fast when you’re working through a list.
 
-## What The Results Mean
+## Sorting results by word score
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you’re playing Scrabble or Words With Friends, you care about points. After entering your letters, switch the sort to “score” to see the highest-scoring words first. The tool uses standard tile values (Scrabble scoring) to rank results. This helps you pick the word that gives you the most points.
+
+## Saving time with the “starts with” and “ends with” filters
+
+When you know the word begins with a certain letter or ends with a certain suffix, use the starts/ends filters. For example, if the word starts with “RE,” enter that in the starts field. The solver only shows words that begin with those letters. Combine this with length filters for even faster results.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for word scramble solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Type your scrambled letters into the input box. The solver returns all dictionary words that can be formed. Use filters to narrow by length, pattern, or excluded letters.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. By default, the solver shows words using any subset. Check “use all letters” if you want only words that consume every letter you entered.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use a question mark (?) or a period (.) for each unknown letter. The solver will try every letter in that position.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Use the length field to set an exact length. Results update instantly.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for word scramble solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Type letters to exclude in the exclude field. Any word containing those letters is removed.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Scramble Words](/scramble-words/) – A simpler version focused on generating all words from a set of letters, without pattern matching.
+- [Word Descrambler](/word-descrambler/) – Specializes in anagramming: enter letters and see every possible rearrangement, grouped by length.
+- [Unscramble Letters](/unscramble-letters/) – Quick tool for when you just need a list of words from scrambled letters.
+- [Word Finder](/word-finder/) – Combines letter input with pattern and position filters, ideal for crosswords and word games.
+- [Words With These Letters](/words-with-these-letters/) – Enter letters and get all possible words, with options to sort by length or score.
+- [Word Generator From Letters](/word-generator-from-letters/) – Generate word lists for creative projects, brainstorming, or game preparation.

@@ -1,53 +1,53 @@
 # Crossword Clue Solver
 
-Use this page when the user has a clue, length, and some known letters and needs possible answers.
+You have a clue and a few crossing letters, but the answer is not obvious yet. This page helps you turn that information into a smaller candidate list: use the answer length, known letters, and likely word shape first, then compare the results against the clue.
 
-## Tool Intro
+## How clues map to answers
 
-Add the clue, answer length, and any letters you already know to narrow possible answers. The goal is to get usable answers quickly, without reading a long explanation first.
+Crossword clues are rarely direct synonyms. They can use wordplay, abbreviations, tense clues, puns, and theme references. The tool does not understand the clue text like a human solver, so use the clue to choose among words that fit your pattern. If the clue suggests a short animal word and your crossings show C?T, CAT is more plausible than a random pattern match.
 
-## How To Use It
+## Enter the clue and length first
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Start by typing the exact clue as it appears in your puzzle. Then set the answer length - this is critical because the same clue can have different answers for different lengths. For example, "River" could be 3 letters ("NILE") or 4 letters ("AMAZON"). The tool will filter results to match your length.
 
-## Example
+## Use known letters to refine
 
-Example: for a 7-letter answer with known letters `C _ A _ _ E _`, enter the pattern and add the clue to narrow similar answers.
+If you have any letters from crossings, add them as a pattern. This dramatically narrows the list. For a 7-letter answer with known letters in positions 2 and 5, enter `?A??E??`. The tool will only show clue-answer pairs that match both the clue and the pattern.
 
-## What The Results Mean
+## When the clue is cryptic
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Cryptic clues usually combine a definition with wordplay. This page will not solve the cryptic mechanism for you, but it can help test candidate word lengths and crossing-letter patterns while you work through the clue.
+
+## Understanding result rankings
+
+Results are ranked by how often that clue-answer pair appears in puzzles. The top result is the most common, but it may not be correct for your specific puzzle. Always verify with crossing letters. If the top result doesn't fit, scroll down - the answer you need might be less frequent but still valid.
 
 ## Common Questions
 
 ### How do I solve a crossword clue with missing letters?
 
-Use the clue together with the known letter pattern. The pattern narrows the shape of the answer, and the clue helps choose between words that fit the same pattern.
+Enter the clue and answer length, then use the pattern field to mark known letters. The tool will show only answers that match both the clue and the pattern. If you have no known letters, the tool will still show all common answers for that clue.
 
 ### How do I search crossword answers by pattern?
 
-Use the tool controls for crossword clue solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Use the pattern input with `?` for unknown letters. For example, `?A?` returns all three-letter words with A in the second position. Combine with a clue to narrow further.
 
 ### What does this clue mean?
 
-Use the clue together with the known letter pattern. The pattern narrows the shape of the answer, and the clue helps choose between words that fit the same pattern.
+The tool shows common answers and sometimes includes notes about the clue's meaning or wordplay. For direct definitions, you may need to check a dictionary. The tool is best for finding answers, not explaining clues.
 
 ### How many letters is the answer?
 
-Use the tool controls for crossword clue solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Set the answer length in the tool. If you're unsure, try a range (e.g., 4-6 letters) and try one exact length at a time.
 
 ### Can the same clue have different answers?
 
-Use the clue together with the known letter pattern. The pattern narrows the shape of the answer, and the clue helps choose between words that fit the same pattern.
-## Related Tools
+Yes. Many clues have multiple valid answers. The tool ranks them by frequency, but you should always check against your puzzle's crossings and theme.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Crossword Solver](/crossword-solver/) – For a more general approach that combines clues, patterns, and known letters.
+- [Crossword Puzzle Solver](/crossword-puzzle-solver/) – If you're working on a full grid and need help with multiple clues.
+- [Crossword Help](/crossword-help/) – A guide with strategies for interpreting tricky clues.
+- [Word Finder](/word-finder/) – For word games where you need to find words from a set of letters.
+- [Anagram Solver](/anagram-solver/) – When you suspect the answer is an anagram of the clue or part of it.

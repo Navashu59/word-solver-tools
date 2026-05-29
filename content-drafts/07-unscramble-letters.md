@@ -1,53 +1,61 @@
 # Unscramble Letters
 
-Use this page when the user has scrambled letters and needs words that can be made from them.
+You’ve got a handful of letters - maybe from a word game, a puzzle, or a random set - and you need to know what words you can make. This page is built for that. Type in the letters, and the tool returns every valid word you can form, sorted by length. It’s the fastest way to go from scrambled letters to usable words.
 
-## Tool Intro
+## Why this page exists
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Other pages on this site focus on specific use cases: Scrabble, Words With Friends, jumble puzzles, crosswords. This page is the generic version. Use it when you don’t have a specific game in mind - just letters and a need for words. It’s also the best starting point if you’re not sure which tool you need.
 
-## How To Use It
+## How to use the length filter effectively
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+The length filter is your best friend. If you know the answer is a 5-letter word, set min and max to 5. If you’re open to any length, leave it at the default (2 to max). Here’s when to use specific lengths:
 
-## Example
+- **2-3 letters** – Good for Scrabble when you have few tiles or need to play off a short word.
+- **4-5 letters** – Common for word games and puzzles.
+- **6-7 letters** – Often the target for jumble puzzles or bingo plays in Scrabble.
+- **8+ letters** – Rare, but useful for anagram games or when you have a long rack.
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+## Using wildcards for unknown letters
 
-## What The Results Mean
+If you have a blank tile in Scrabble or an unknown letter in a crossword, use the question mark (?) as a wildcard. For example, entering `?A?E?` will return words like CABLE, TABLE, and MAPLE. You can use multiple wildcards in one search. This is especially useful when you know the pattern but not the exact letters.
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+## When the answer must use every letter
+
+Some puzzles require you to use every letter exactly once. For example, a jumble puzzle gives you 6 letters and expects a 6-letter word. In that case, set the exact length to match your letters, then manually check the longest words in the results. If you don’t see the option, the tool still shows all words, so just focus on the ones that match the total letter count.
+
+## Common mistakes to avoid
+
+- **Entering spaces** – The tool treats spaces as characters. Enter letters without spaces.
+- **Forgetting to filter** – If you get too many results, use the length filter to narrow it down.
+- **Ignoring short words** – In Scrabble, a 2-letter word can be a game-changer. Don’t overlook them.
+- **Using the wrong dictionary** – Make sure the tool’s dictionary matches your game. This tool uses a standard word list, but some games have their own.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for unscramble letters to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters into the input field. The tool will generate every valid word from the dictionary, grouped by length.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. The tool shows words that use any subset of your letters. If you need to use all letters, look for the longest words or manually compare the result against every letter you entered.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use the question mark (?) to represent any single letter. You can use multiple wildcards.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Use the length filter to set an exact word length. This is the most useful filter for narrowing results.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for unscramble letters to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+This page doesn’t have an exclude filter. For that, use the full Word Unscrambler page.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Unscrambler](/word-unscrambler/) – Full-featured version with wildcards, excludes, and pattern filters.
+- [Unscramble Words](/unscramble-words/) – Focused on solving scrambled words from worksheets and puzzles.
+- [Unscramble](/unscramble/) – A simpler interface for quick unscrambling without extra filters.
+- [Word Finder](/word-finder/) – Use this when you have a pattern with blanks and need to fill in the missing letters.
+- [Letter Unscrambler](/unscramble-letters/) – Another dedicated page for letter-based unscrambling.

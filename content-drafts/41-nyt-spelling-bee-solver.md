@@ -1,58 +1,53 @@
-# Nyt Spelling Bee Solver
+# NYT Spelling Bee Solver
 
-Use this page when the user has seven letters and a required center letter and needs hints or valid words.
+You’re playing the New York Times Spelling Bee and you need a hand. This is an unofficial helper for that specific game. Enter the center letter and the six outer letters exactly as they appear in the NYT puzzle, and get candidate words - including pangrams. It works just like the game’s rules: every word must include the center letter, letters can repeat, and only words from the NYT’s accepted list are shown.
 
-## Tool Intro
+## How this solver matches the NYT word list
 
-Enter the center letter and the six outer letters to find hints, pangrams, or valid words. The goal is to get usable answers quickly, without reading a long explanation first.
+The NYT Spelling Bee uses a curated dictionary that includes many uncommon words. This solver uses the same criteria: words must be in standard English dictionaries and must be accepted by the game. If a word appears here, it’s almost certainly valid in the NYT puzzle.
 
-## How To Use It
+## Pangrams: the key to high scores
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+In NYT Spelling Bee, pangrams are worth 7 extra points. The solver highlights them so you can find them first. If you’re aiming for Genius, pangrams are your best bet.
 
-## Example
+## Using wildcards for partial letters
 
-Example: enter the required center letter first, then the remaining letters. Use hint mode before showing full answers.
+Not sure if a word exists? Use a wildcard (?) for unknown letters. For example, if you think there’s a 6-letter word starting with “C” and ending with “T,” enter C???T and see what comes up. This is great for verifying guesses.
 
-## What The Results Mean
+## Length filters for targeted searching
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you know you need a 5-letter word, set the exact length length to 5. The solver will only show words of that length. This saves time when you’re close to finishing.
+
+## Copy results to share or save
+
+Once you have the list, copy it with one click. Paste it into a note or share with a friend who’s also stuck on the same puzzle.
 
 ## Common Questions
 
 ### How do I solve a Spelling Bee puzzle?
 
-Use the tool controls for nyt spelling bee solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Start by listing all words you can think of that include the center letter. Use this solver to fill gaps. Focus on pangrams first, then work through shorter words.
 
 ### What is a pangram?
 
-A pangram uses all available letters. In spelling-bee-style puzzles, every valid word must include the required center letter.
+A pangram uses all seven letters at least once. It’s worth 7 bonus points in the NYT game. The solver marks these words.
 
 ### Does every word need the center letter?
 
-A pangram uses all available letters. In spelling-bee-style puzzles, every valid word must include the required center letter.
+Yes. That’s the rule in NYT Spelling Bee. Every word must include the center letter. Letters can repeat.
 
 ### Can letters repeat?
 
-Use the tool controls for nyt spelling bee solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Yes, letters can be used multiple times. The only restriction is that every word must contain the center letter.
 
 ### Can I get hints before answers?
 
-Use the tool controls for nyt spelling bee solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+This solver shows candidate answers. If you want a lighter nudge first, try [Spelling Bee Buddy](/spelling-bee-buddy/) and scan only the parts you need.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
 
-
-## Note
-
-This page is an unofficial helper. It is not affiliated with or endorsed by the game or brand mentioned in the search query.
+- [Spelling Bee Solver](/spelling-bee-solver/) – A general solver with more filter options.
+- [Spelling Bee Answers](/spelling-bee-answers/) – Get the complete answer list for any puzzle.
+- [Spelling Bee Buddy](/spelling-bee-buddy/) – Get gentle hints instead of full answers.
+- [Word Finder](/word-finder/) – For any set of letters, find all possible words.
+- [Words With These Letters](/words-with-these-letters/) – Enter any letters and get candidate words.

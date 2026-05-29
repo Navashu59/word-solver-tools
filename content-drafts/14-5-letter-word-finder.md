@@ -1,79 +1,53 @@
 # 5 Letter Word Finder
 
-Use this 5 letter word finder when you need five-letter words that match known positions, required letters, or excluded letters. The tool is first because most visitors arrive with a puzzle already open and need a usable result, not a long definition.
+You need a five-letter word that fits a specific pattern - maybe for a crossword, a word game, or a creative writing block. This tool lets you filter by known letters, excluded letters, start/end characters, and exact positions. No fluff, just a clean list of matching words.
 
-## Tool Intro
+## Filter by known positions
 
-Enter what you know, then add only the filters that matter for the puzzle in front of you. This page supports fixed length 5, known positions, included letters, excluded letters, starts/ends, pattern. Start broad if you are unsure, then tighten the filters until the list is small enough to scan.
+If you know the second letter is A and the last is E, enter those into the position boxes. The finder will show only words matching that pattern. You can fill in as many positions as you know.
 
+## Include or exclude letters
 
-## How To Use It
+Have a set of letters that must appear? Add them to the “contains” field. Want to rule out certain letters? Add them to “excludes.” This is useful when you have a rack of tiles in Scrabble or Words With Friends.
 
-1. Enter the letters, pattern, clue, or rack you already have.
-2. Add the strongest known constraint first: exact length, fixed position, required letter, or excluded letter.
-3. Generate results and scan the grouped list instead of reading every match from top to bottom.
-4. If the list is too large, add one more filter. If the list is empty, remove the weakest filter first.
-5. Copy a result only after checking it against your game rules, dictionary, or puzzle clue.
+## Start and end filters
 
-## Example
+Need a word that starts with “ST” or ends with “ING”? Use the starts-with and ends-with fields. These work together with other filters, so you can narrow down fast.
 
-Example: for a five-letter puzzle with `A` in the second position and no `S`, use a pattern like `?a???`, set length to 5, and add `S` to excluded letters. This gives a cleaner hint list than a raw five-letter word list.
+## Copy the list
 
-## What The Results Mean
+Once you have your results, click the copy button to copy the visible list. Paste it into your game, document, or notes. No ads, no distractions.
 
-The result list is a candidate set. A candidate means the word matches the letters and filters you entered; it does not automatically mean the word is valid for every board, clue, edition, or house rule. Use length groups, score labels, and pattern matches to decide which result is actually playable.
+## Why this is not a solver
 
-## Important Rules And Edge Cases
-
-### Known Position Examples
-If the second letter is `R`, use a pattern like `?r???`. If you also know the word ends in `E`, use `?r??e`. Position filters reduce the result list faster than broad letter searches.
-
-### Included And Excluded Letters
-Included letters must appear somewhere. Excluded letters should not appear at all. In Wordle-style puzzles, be careful with duplicates because a gray copy of a letter does not always mean the letter is absent.
-
-### Wordle-Style Use Without Spoilers
-Use the page to narrow possibilities without jumping straight to one answer. Filter known positions and excluded letters, then scan candidate words as hints.
-
-### Why Five-Letter List Pages Need Filters
-A raw list of five-letter words is too broad. The useful page is the one that lets you combine position, required letters, excluded letters, and starts/ends filters.
-
-## Common Mistakes
-
-- Adding too many filters before seeing the first result set.
-- Treating a blank tile or wildcard as a real printed letter.
-- Forgetting that some games require every letter while others allow shorter words.
-- Reusing an excluded letter because it appears in a tempting result.
-- Assuming every dictionary, puzzle publisher, or app accepts the same word list.
+This is a word finder, not a puzzle solver. It doesn’t guess the best move or rank words by strategy. It simply returns all valid five-letter words that match your criteria. Use it when you want to explore possibilities, not when you need a single answer.
 
 ## Common Questions
 
-### What is the fastest way to use this 5 letter word finder?
+### What 5 letter words can I make with these letters?
 
-Enter the most certain information first. If you know the answer length, set length before anything else. If you only know letters, start with letters and then add contains, starts with, ends with, or excludes.
+Enter your letters in the “contains” field. The tool will list all five-letter words that include those letters, in any order. Add position constraints to narrow further.
 
-### Do I have to use every letter?
+### What 5 letter words start with this letter?
 
-It depends on the puzzle. An exact anagram or Jumble-style answer usually uses every letter. A word finder, Scrabble rack, or "words with these letters" search may return shorter words that use only part of the input.
+Use the “starts with” field. For example, entering “C” returns all five-letter words beginning with C. Combine with other filters for more precision.
 
-### How should I use a wildcard or blank tile?
+### What 5 letter words end with this letter?
 
-Use `?` for one unknown letter. In word games, a blank can stand for different letters, but it usually has special scoring or rule behavior. Check the result before playing it.
+Use the “ends with” field. For example, entering “Y” returns all five-letter words ending in Y.
 
-### Why did I get no results?
+### Can I exclude letters from the results?
 
-The usual causes are a wrong fixed position, too many excluded letters, a length that is too strict, or a word that is outside the current word list. Remove one filter and try again.
+Yes. Add letters to the “excludes” field. The tool will remove any word containing those letters.
 
-### When should I use a related tool instead?
+### How do I find five-letter words for Wordle?
 
-Use Word Unscrambler for jumbled letters, Word Finder for partial constraints, Anagram Solver for exact rearrangements, Wordle Solver for green/yellow/gray feedback, and Crossword Solver when a clue and crossing letters matter.
+Use the position boxes to match your green letters, the “contains” field for yellow letters, and the “excludes” field for gray letters. The finder will show all possible Wordle answers from a standard dictionary.
 
-## Related Tools
+## Next tools to try
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [5 Letter Word Finder](/5-letter-word-finder/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Anagram Solver](/anagram-solver/)
-- [Crossword Solver](/crossword-solver/)
+- [Wordle Solver](/wordle-solver/) – When you need the best next guess, not just a list.
+- [Wordle Helper](/wordle-helper/) – Quick hints without full list overload.
+- [Wordle Finder](/wordle-finder/) – Pattern-based search for Wordle.
+- [5 Letter Words](/5-letter-words/) – Browse a static list of all common 5-letter words.
+- [Wordle Hints](/wordle-helper/) – Daily hints without any tool input.

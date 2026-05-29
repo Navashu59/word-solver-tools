@@ -1,58 +1,53 @@
 # Wordle Finder
 
-Use this page when the user has green, yellow, and gray letters and needs possible next guesses.
+You know some letters but not their exact positions. Or you have a pattern like “?A?E?” and need to fill in the blanks. This finder is built for that: enter the pattern, include or exclude letters, and get a list of matching five-letter words.
 
-## Tool Intro
+## Pattern matching
 
-Enter the letters you know, lock any known positions, and exclude letters that cannot appear. The goal is to get usable answers quickly, without reading a long explanation first.
+Use question marks for unknown positions. For example, “?A?E?” finds all five-letter words with A in position 2 and E in position 4. You can combine this with other filters for precision.
 
-## How To Use It
+## Include and exclude letters
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Add letters that must appear somewhere in the word (yellow letters) and letters that cannot appear (gray letters). The finder will respect both constraints.
 
-## Example
+## Start and end filters
 
-Example: if `A` is green in position 2 and `R` is yellow, lock the known position, add `R` as a misplaced letter, and exclude gray letters.
+Need a word that starts with “ST” or ends with “ING”? Use the starts-with and ends-with fields. These work together with other filters, so you can narrow down fast.
 
-## What The Results Mean
+## Copy the list
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Once you have your results, click the copy button to copy the visible list. Paste it into your game, document, or notes. No ads, no distractions.
+
+## Why this is not a solver
+
+This is a finder, not a solver. It doesn’t rank words by strategy or suggest the best next guess. It simply returns all valid five-letter words that match your criteria. Use it when you want to explore possibilities, not when you need a single answer.
 
 ## Common Questions
 
 ### How do I use a Wordle solver?
 
-Use the tool controls for wordle finder to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your known letters into the position boxes, misplaced letters into the yellow field, and excluded letters into the gray field. Hit search and review the filtered results.
 
 ### What is the best next Wordle guess?
 
-Use the tool controls for wordle finder to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+A good next guess uses common letters and avoids letters already ruled out. The finder doesn’t rank words, but you can manually pick words with high-frequency letters like E, A, R, I, O, T, N, S, L, C.
 
 ### Can Wordle answers have repeated letters?
 
-Repeated letters are possible in many word games. If a letter appears once as yellow or green, do not automatically assume it appears only once.
+Yes. Words like “PUPIL” or “MAMMA” are valid. Make sure the finder’s duplicate setting matches your puzzle. If you’ve seen a letter twice in the feedback, enable repeats.
 
 ### What do green, yellow, and gray mean?
 
-Green letters are locked in place, yellow letters are in the word but in a different position, and gray letters should usually be excluded unless duplicate-letter rules apply.
+Green means the letter is correct and in the right position. Yellow means the letter is in the word but in a different position. Gray means the letter is not in the word at all.
 
 ### How can I get hints without seeing the answer?
 
-Use the tool controls for wordle finder to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+If you want a hint instead of a full answer, use the result list lightly: look for repeated patterns, likely vowels, or a possible ending without copying the first word.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
 
-
-## Note
-
-This page is an unofficial helper. It is not affiliated with or endorsed by the game or brand mentioned in the search query.
+- [Wordle Solver](/wordle-solver/) – More advanced ranking and best-guess logic.
+- [Wordle Helper](/wordle-helper/) – Quick hints without full list overload.
+- [5 Letter Word Finder](/5-letter-word-finder/) – Explore all five-letter words beyond Wordle’s dictionary.
+- [5 Letter Words](/5-letter-words/) – Browse a static list of all common 5-letter words.
+- [Wordle Hints](/wordle-helper/) – Get daily hints without any tool input.

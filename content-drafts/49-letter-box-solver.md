@@ -1,53 +1,50 @@
 # Letter Box Solver
 
-Use this page when the user has letters or word constraints and needs matching English words quickly.
+You’re playing Letter Boxed (the NYT puzzle) and you’re stuck. You have the letters arranged in boxes, and you need to find words that use letters from different sides. This page helps you look for candidate words from the available letters. You still need to check side-to-side movement against the puzzle board.
 
-## Tool Intro
+## How Letter Boxed works
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+The puzzle gives you 12 letters arranged in a square, three per side. You need to form words by connecting letters from different sides – you usually cannot use two letters from the same side in a row. The goal is to use all 12 letters in as few words as possible, so treat this tool as a candidate finder rather than a complete board solver.
 
-## How To Use It
+## Enter your letters by side
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+Type the letters for each side in the input fields. The solver will find all words that can be formed while respecting the side-switching rule. It prioritizes words that use letters from multiple sides, which is exactly what you need.
 
-## Example
+## Find the shortest solution
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+The solver can show you the minimal number of words needed to use all letters. Often, two words are enough. The tool will suggest word pairs that cover every letter without repeating a side consecutively.
 
-## What The Results Mean
+## Use wildcards for tricky spots
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+If you’re not sure about a letter, use `?` or `.` as a wildcard. The solver will try all possibilities and show matching words. This is helpful when the puzzle’s font makes a letter ambiguous.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for letter box solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter the letters from each side of the box. The solver will list candidate words that follow the Letter Boxed rules.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+Not necessarily. The solver shows words that use any subset, but you can filter to see only words that use all letters.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use `?` or `.` for any single unknown letter.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Set an exact length to narrow results.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for letter box solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Type letters to exclude, and words containing them will be removed.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Finder](/word-finder/) – General word search for any puzzle.
+- [Word Unscrambler](/word-unscrambler/) – Unscramble any set of letters.
+- [7 Letter Words](/7-letter-words/) – Find seven-letter words for bingo bonuses.
+- [Word Generator](/word-generator/) – Generate words from letters with sorting.
+- [Crossword Solver](/crossword-solver/) – Solve crossword clues with pattern matching.
+- [Anagram Solver](/anagram-solver/) – Find all anagrams for any word or phrase.

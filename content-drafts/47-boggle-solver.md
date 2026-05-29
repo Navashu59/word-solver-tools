@@ -1,53 +1,50 @@
 # Boggle Solver
 
-Use this page when the user has a Boggle board and wants all connected words.
+Playing Boggle? Enter your board letters and instantly find every valid word you can form by connecting adjacent tiles.
 
-## Tool Intro
+## Enter Your Boggle Board
 
-Enter the board letters and find every word that can be connected through adjacent tiles. The goal is to get usable answers quickly, without reading a long explanation first.
+Choose a 4x4 or 5x5 grid. Type the letters row by row, or paste them as a single string. Select a dictionary (e.g., TWL, SOWPODS) to match your game's word list.
 
-## How To Use It
+## Find All Connected Words
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+The solver finds every word that can be formed by moving from tile to adjacent tile (including diagonals). Each word is shown with its path, length, and score. Results are sorted by score or length. You can filter by minimum word length.
 
-## Example
+## Example: 4x4 Board
 
-Example: enter a 4x4 board row by row, then open any result to see the path that forms the word.
+```
+A B C D
+E F G H
+I J K L
+M N O P
+```
 
-## What The Results Mean
-
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Words found: "AB", "ABC", "ABCD", "AE", "AEI", "AEIM", etc. (depending on dictionary).
 
 ## Common Questions
 
 ### How do you solve Boggle?
 
-Use the tool controls for boggle solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter the board letters and click solve. The tool finds candidate words using adjacent tiles.
 
 ### Can Boggle letters be reused?
 
-Use the tool controls for boggle solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+No. Each tile can be used only once per word.
 
 ### How is Boggle scored?
 
-Scores depend on the game rules. A good result should calculate the base tile score and make it clear when board bonuses are not included.
+Scoring: 3-4 letters = 1 point, 5 = 2, 6 = 3, 7 = 5, 8+ = 11. The tool shows scores.
 
 ### What words are on this Boggle board?
 
-Use the tool controls for boggle solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+The solver lists all dictionary words that can be formed on the board.
 
 ### Can I use a 5x5 Boggle grid?
 
-Use the tool controls for boggle solver to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Select 5x5 before entering letters.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Search Solver](/word-search-solver/) – find words in a grid.
+- [Word Finder](/word-finder/) – find words from a set of letters.
+- [Unscramble Letters](/unscramble-letters/) – unscramble letters to form words.

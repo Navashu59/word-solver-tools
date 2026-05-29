@@ -4,6 +4,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const publicDir = path.join(root, "public");
 const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json"), "utf8")).pages;
+const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
 
 const site = {
   name: "Word Solver Tools",
@@ -12,6 +13,14 @@ const site = {
   themeColor: "#0f766e",
   socialImage: "/assets/social-card.svg",
   legalName: "Word Solver Tools",
+};
+
+const review = {
+  date: "2026-05-29",
+  label: "Last reviewed: May 2026",
+  authorName: "Independent Developer",
+  authorBio: "Built as a practical word-game helper focused on fast client-side filtering, clear puzzle constraints, and transparent limitations.",
+  methodNote: "The current tool filters a built-in English word list in the browser. It is not an official dictionary and results should be checked against the rules or word list for the game you are playing.",
 };
 
 const staticPages = [
@@ -23,12 +32,14 @@ const staticPages = [
     h1: "About Word Solver Tools",
     eyebrow: "About",
     body: [
-      ["h2", "What this site is for"],
-      ["p", "Word Solver Tools is built for people who already have a puzzle in front of them and need a fast way to narrow possible words. The site focuses on letter-based word solving: unscrambling letters, matching patterns, checking possible Wordle guesses, finding crossword candidates, and exploring anagrams."],
-      ["h2", "How the tools are built"],
-      ["p", "The tools use a broad English word list and client-side filters for letters, length, known positions, required letters, excluded letters, and simple puzzle constraints. Results are designed to be easy to scan, copy, and refine without moving through multiple pages."],
+      ["h2", "About Word Solver Tools"],
+      ["p", "Word Solver Tools is an independent, browser-based utility for finding words from letters, patterns, and puzzle filters. It is built for people who already have a board, clue, rack, or word game open and need a short list of candidates they can check quickly."],
+      ["h2", "What the site covers"],
+      ["p", "The site focuses on practical word-solving tasks: unscrambling letters, finding words with specific letters, checking five-letter possibilities, narrowing crossword patterns, exploring anagrams, and handling common word-game constraints such as wildcards or excluded letters."],
+      ["h2", "How the tools are maintained"],
+      ["p", "The tools use a built-in English word list and client-side filters. The list is broad enough for everyday puzzle solving, but it is not an official dictionary for every game, app, or publisher. Treat results as candidates and confirm important plays against the rule set you are using."],
       ["h2", "Independence"],
-      ["p", "Word Solver Tools is independent. Game and brand names are used descriptively to explain compatibility with common puzzle formats and do not imply endorsement, sponsorship, or affiliation."],
+      ["p", "Word Solver Tools is not affiliated with Scrabble, Wordle, The New York Times, Words With Friends, or any other named game or organization. Those names are used only to describe the type of puzzle a page can help with."],
     ],
   },
   {
@@ -40,13 +51,15 @@ const staticPages = [
     eyebrow: "Method",
     body: [
       ["h2", "Inputs"],
-      ["p", "Most pages start with letters, a known pattern, or a puzzle clue. You can add filters such as starts with, ends with, contains, excludes, word length, and blank letters."],
+      ["p", "Most pages start with the information you already have: loose letters, a rack, a clue pattern, fixed positions, required letters, or excluded letters. You can add filters such as length, contains, starts with, ends with, and pattern matching with question marks for unknown letters."],
       ["h2", "Filtering"],
-      ["p", "The solver removes words that do not match the visible constraints. For example, Wordle pages default to five-letter words, spelling pages require the center letter, and crossword pages treat question marks as unknown positions."],
-      ["h2", "Ranking"],
-      ["p", "Results are sorted to make scanning easier. Longer matches and higher scoring word-game candidates are surfaced before lower-value matches, while filters let you quickly reduce broad result sets."],
+      ["p", "The solver checks the built-in word list against those constraints in the browser. A word is removed when it does not fit the letters, pattern, length, or exclusion rules you entered. Different pages adjust the defaults for different puzzle types, such as five-letter searches for Wordle-style pages or center-letter requirements for spelling pages."],
+      ["h2", "Sorting and scanning"],
+      ["p", "Results are grouped or sorted to make scanning easier. Some pages favor longer words, some favor score-style candidates, and some focus on matching a fixed pattern. The goal is to reduce a large word list into a set you can inspect quickly."],
+      ["h2", "Limits"],
+      ["p", "No single word list matches every game, dictionary, app, or house rule. A result means the word fits the filters you entered, not that it is guaranteed to be accepted by a specific game. Check serious plays against the official rules for your game."],
       ["h2", "Privacy"],
-      ["p", "The solving happens in the browser. The current static version does not require an account and does not need to send your puzzle letters to a server to return results."],
+      ["p", "The current static version does not require an account, and the solving logic runs in the browser. Future hosting or analytics tools may still collect standard technical logs, so the privacy policy should be reviewed after the production domain is connected."],
     ],
   },
   {
@@ -89,16 +102,24 @@ const staticPages = [
     h1: "Contact",
     eyebrow: "Feedback",
     body: [
-      ["p", "Use this page as the contact destination for corrections, word list issues, tool feedback, and content questions once the production domain is connected."],
-      ["h2", "What to include"],
-      ["p", "For word list issues, include the page URL, the letters or filters you entered, the result you expected, and the result you saw."],
-      ["h2", "Production setup"],
-      ["p", "A public contact method should be added after the final domain and email routing are ready."],
+      ["p", "Contact information will be added after the production domain and public email routing are ready."],
+      ["h2", "Report word list issues"],
+      ["p", "If you notice a missing word, an unexpected result, or a filter that behaves incorrectly, include the page URL, the letters or pattern you entered, the filters you used, and what you expected to see."],
+      ["h2", "Game and publisher questions"],
+      ["p", "Word Solver Tools is independent and cannot provide official support for Scrabble, Wordle, The New York Times, Words With Friends, or other games. For official rule disputes or account issues, use the publisher's own support channel."],
     ],
   },
 ];
 
-const allSitemapUrls = () => ["/", "/tools/", ...pages.map((page) => page.url), ...staticPages.map((page) => page.url)];
+const guideUrl = (guide) => `/${guide.slug}/`;
+
+const allSitemapUrls = () => [
+  "/",
+  "/tools/",
+  ...pages.map((page) => page.url),
+  ...guideData.guides.map(guideUrl),
+  ...staticPages.map((page) => page.url),
+];
 
 const seedDictionary = [
   "about","above","actor","acute","adapt","admit","adore","after","again","agent","agree","alert","alien","align","alike","alive","allow","alone","along","alter","amber","angle","apple","apply","arena","argue","arise","array","aside","asset","audio","avoid","awake","award","aware","badge","baker","basic","beach","began","begin","being","below","bench","berry","birth","black","blade","blank","blend","block","board","brain","brand","brave","bread","break","brick","bring","broad","brown","brush","build","cable","carry","catch","cause","chain","chair","chart","cheap","check","chess","chief","child","claim","class","clean","clear","climb","clock","close","cloud","coach","coast","color","could","count","court","cover","craft","crane","crash","cream","cross","crowd","crown","daily","dance","dealt","death","debug","delay","delta","depth","diary","digit","dirty","doubt","draft","drain","dream","dress","drink","drive","eager","early","earth","eight","elite","empty","enter","equal","error","event","every","exact","faith","false","fault","field","fifth","final","first","flame","flash","floor","focus","force","forth","found","frame","fresh","front","fruit","giant","given","glass","globe","glory","grace","grade","grain","grant","graph","great","green","group","guard","guess","guide","habit","happy","heart","heavy","hello","honey","honor","house","human","ideal","image","index","input","issue","joint","judge","known","label","large","laser","later","laugh","layer","learn","leave","legal","level","light","limit","local","logic","loose","lucky","magic","major","maker","march","match","maybe","media","metal","minor","model","money","month","moral","motor","mount","mouse","music","never","night","noise","north","novel","nurse","ocean","offer","often","olive","onset","order","other","outer","paint","panel","paper","party","peace","phase","phone","photo","piano","piece","pilot","pitch","place","plain","plane","plant","plate","point","power","press","price","pride","prime","print","proof","queen","query","quick","quiet","radio","raise","range","rapid","ratio","reach","react","ready","realm","refer","reply","reset","right","river","rough","round","route","scale","scene","score","scope","scrap","scrub","search","serve","seven","shade","shake","shape","share","sharp","sheet","shift","shine","shirt","shock","short","shown","sight","since","skill","sleep","slice","smart","smile","solid","solve","sound","south","space","spare","speak","speed","spell","spend","split","sport","stack","stage","stand","start","state","steam","steel","still","stone","store","story","study","style","sugar","table","taken","teach","thank","their","theme","there","thick","thing","think","third","three","throw","tight","timer","title","today","topic","total","touch","tower","trace","track","trade","train","treat","trend","trial","trick","trust","truth","under","union","until","upper","upset","usage","value","video","visit","vital","voice","waste","watch","water","wheel","where","which","while","white","whole","whose","world","worry","worth","would","write","wrong","yield","young","zebra",
@@ -148,8 +169,18 @@ function escapeHtml(value) {
 
 function inlineMarkdown(value) {
   return escapeHtml(value)
+    .replace(/&lt;a href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g, '<a href="$1">$2</a>')
     .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '<a href="$2">$1</a>');
+}
+
+function blocksToHtml(blocks) {
+  return blocks.map(([type, value]) => {
+    if (type === "h2") return `<h2>${inlineMarkdown(value)}</h2>`;
+    if (type === "h3") return `<h3>${inlineMarkdown(value)}</h3>`;
+    if (type === "ul") return `<ul>${value.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ul>`;
+    return `<p>${inlineMarkdown(value)}</p>`;
+  }).join("");
 }
 
 function pageAction(page) {
@@ -338,6 +369,11 @@ function schema(page, draft) {
       isPartOf: { "@id": `${site.origin}/#website` },
       breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
       mainEntity: { "@id": `${pageUrl}#tool` },
+      dateModified: review.date,
+      reviewedBy: {
+        "@type": "Person",
+        name: review.authorName,
+      },
     },
     {
       "@type": "WebApplication",
@@ -349,6 +385,7 @@ function schema(page, draft) {
       description: pageDescription(page),
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
       featureList: page.first_screen_tool || [],
+      dateModified: review.date,
     },
     {
       ...breadcrumbSchema([
@@ -501,9 +538,14 @@ function pageHtml(page) {
   const brandNote = page.brand_or_game_specific
     ? `<aside class="notice">This is an unofficial helper page. Brand and game names are used only to describe compatibility with the searcher's task.</aside>`
     : "";
+  const trustNote = `<aside class="trust-note" aria-label="Page review and method">
+      <p><strong>${escapeHtml(review.label)}</strong> by ${escapeHtml(review.authorName)}.</p>
+      <p>${escapeHtml(review.authorBio)}</p>
+      <p>${escapeHtml(review.methodNote)}</p>
+    </aside>`;
   const body = `<main>
     ${toolPanel(page)}
-    <section class="content-section"><div class="content-inner">${content}${brandNote}</div></section>
+    <section class="content-section"><div class="content-inner">${trustNote}${content}${brandNote}</div></section>
     ${adjacentLinks(page)}
   </main>`;
   return layout({
@@ -524,6 +566,10 @@ function homeHtml() {
     const count = pages.filter((page) => page.cluster === cluster).length;
     return `<li><strong>${escapeHtml(cluster.replaceAll("-", " "))}</strong><span>${count} tools</span></li>`;
   }).join("");
+  const guideLinks = guideData.homepage_section.links.map((guide) => `<a class="tool-link" href="${escapeHtml(guide.url)}">
+    <strong>${escapeHtml(guide.title)}</strong>
+    <span>${escapeHtml(guide.description)}</span>
+  </a>`).join("");
   const body = `<main>
     <section class="home-hero">
       <div class="home-copy">
@@ -540,6 +586,11 @@ function homeHtml() {
     <section class="section-band"><div class="inner">
       <h2>Popular tools</h2>
       <div class="tool-grid">${featured}</div>
+    </div></section>
+    <section class="section-band alt"><div class="inner">
+      <h2>${escapeHtml(guideData.homepage_section.heading)}</h2>
+      <p class="section-intro">${escapeHtml(guideData.homepage_section.intro)}</p>
+      <div class="tool-grid">${guideLinks}</div>
     </div></section>
     <section class="section-band alt"><div class="inner">
       <h2>Coverage map</h2>
@@ -634,6 +685,7 @@ function staticPageSchema(page) {
       description: page.description,
       isPartOf: { "@id": `${site.origin}/#website` },
       breadcrumb: { "@id": `${absoluteUrl(page.url)}#breadcrumb` },
+      dateModified: review.date,
     },
     {
       ...breadcrumbSchema([
@@ -646,10 +698,7 @@ function staticPageSchema(page) {
 }
 
 function staticPageHtml(page) {
-  const bodyContent = page.body.map(([type, text]) => {
-    if (type === "h2") return `<h2>${escapeHtml(text)}</h2>`;
-    return `<p>${escapeHtml(text)}</p>`;
-  }).join("");
+  const bodyContent = blocksToHtml(page.body);
   const body = `<main>
     <section class="page-heading"><div class="inner">
       <p class="eyebrow">${escapeHtml(page.eyebrow)}</p>
@@ -663,6 +712,64 @@ function staticPageHtml(page) {
     description: page.description,
     canonical: page.url,
     schemaJson: staticPageSchema(page),
+    body,
+  });
+}
+
+function guidePageSchema(guide) {
+  const url = guideUrl(guide);
+  return graphSchema([
+    organizationSchema(),
+    {
+      "@type": "Article",
+      "@id": `${absoluteUrl(url)}#article`,
+      headline: guide.title,
+      description: guide.description,
+      url: absoluteUrl(url),
+      dateModified: review.date,
+      author: {
+        "@type": "Person",
+        name: review.authorName,
+      },
+      publisher: { "@id": `${site.origin}/#organization` },
+      isPartOf: { "@id": `${site.origin}/#website` },
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${absoluteUrl(url)}#webpage`,
+      url: absoluteUrl(url),
+      name: guide.title,
+      description: guide.description,
+      mainEntity: { "@id": `${absoluteUrl(url)}#article` },
+      breadcrumb: { "@id": `${absoluteUrl(url)}#breadcrumb` },
+      dateModified: review.date,
+    },
+    {
+      ...breadcrumbSchema([
+        { name: "Home", url: "/" },
+        { name: "Guides", url: "/tools/" },
+        { name: guide.title, url },
+      ]),
+      "@id": `${absoluteUrl(url)}#breadcrumb`,
+    },
+  ]);
+}
+
+function guidePageHtml(guide) {
+  const bodyContent = blocksToHtml(guide.body);
+  const body = `<main>
+    <section class="page-heading"><div class="inner">
+      <p class="eyebrow">${escapeHtml(guide.eyebrow || "Strategy guide")}</p>
+      <h1>${escapeHtml(guide.h1)}</h1>
+      <p>${escapeHtml(guide.description)}</p>
+    </div></section>
+    <section class="content-section"><div class="content-inner">${bodyContent}</div></section>
+  </main>`;
+  return layout({
+    title: `${guide.title} - ${site.name}`,
+    description: guide.description,
+    canonical: guideUrl(guide),
+    schemaJson: guidePageSchema(guide),
     body,
   });
 }
@@ -700,7 +807,7 @@ function notFoundHtml() {
 
 function writeStaticAssets() {
   ensureDir(path.join(publicDir, "assets"));
-  const css = `:root{--ink:#17202a;--muted:#5c6975;--line:#d7dde2;--paper:#fbfcf8;--panel:#ffffff;--accent:#0f766e;--accent-2:#b45309;--blue:#1d4ed8;--soft:#eef7f5;--shadow:0 18px 60px rgba(23,32,42,.10)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(16px,4vw,48px);background:rgba(251,252,248,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--ink);color:white;letter-spacing:.02em}.top-nav{display:flex;gap:18px;flex-wrap:wrap}.top-nav a{text-decoration:none;color:var(--muted);font-weight:650;font-size:14px}.top-nav a:hover{color:var(--ink)}.home-hero{min-height:560px;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,520px);align-items:center;gap:40px;padding:64px clamp(18px,6vw,80px) 44px;background:linear-gradient(180deg,#f7fbf7 0%,#fbfcf8 100%)}.home-copy h1{font-size:clamp(42px,6vw,76px);line-height:1.02;margin:0 0 18px;letter-spacing:0}.home-copy p{font-size:18px;max-width:680px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;color:var(--accent)}.hero-actions,.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary-link,.secondary-link,.primary-btn,.ghost-btn{border:0;border-radius:8px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer}.primary-link,.primary-btn{background:var(--accent);color:white}.secondary-link,.ghost-btn{background:white;color:var(--ink);border:1px solid var(--line)}.hero-asset{width:100%;max-width:520px;justify-self:center}.tool-panel{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(320px,1.2fr);gap:28px;padding:44px clamp(18px,5vw,72px);background:#f3faf7;border-bottom:1px solid var(--line)}.tool-heading h1{font-size:clamp(34px,4.6vw,58px);line-height:1.05;margin:0 0 14px}.tool-heading p{color:var(--muted);font-size:17px}.solver-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;box-shadow:var(--shadow)}.field{display:grid;gap:6px;font-weight:750;color:var(--ink)}.field span{font-size:13px}.field-help{margin:8px 0 0;color:var(--muted);font-size:13px}.field textarea,.field input{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font:inherit;background:#fff}.field textarea:focus,.field input:focus{outline:3px solid rgba(15,118,110,.18);border-color:var(--accent)}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.results{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;min-height:88px}.result-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.result-group{margin-top:14px}.result-group h3{font-size:15px;margin:0 0 8px;color:var(--muted)}.result-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}.word-pill{display:grid;gap:2px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;padding:9px 10px;font-weight:800;text-align:center;cursor:pointer}.word-pill small{font-size:11px;color:var(--muted);font-weight:700}.muted{color:var(--muted)}.content-section{padding:42px clamp(18px,5vw,72px);background:var(--paper)}.content-inner{max-width:920px}.content-inner h2{margin-top:34px;font-size:28px}.content-inner h3{margin-top:24px;font-size:20px}.content-inner p,.content-inner li{color:#2f3b45}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;padding:14px 16px;border-radius:8px;margin-top:28px}.section-band{padding:42px clamp(18px,5vw,72px);border-top:1px solid var(--line);background:white}.section-band.alt{background:#f7f8fb}.inner{max-width:1180px;margin:0 auto}.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.tool-cluster{margin:0 0 38px}.tool-cluster:last-child{margin-bottom:0}.cluster-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.cluster-heading h2{margin:0;font-size:26px}.cluster-heading span{color:var(--muted);font-weight:800}.tool-link{display:grid;gap:7px;text-decoration:none;background:white;border:1px solid var(--line);border-radius:8px;padding:16px;min-height:118px}.tool-link:hover{border-color:var(--accent);box-shadow:0 10px 26px rgba(15,118,110,.09)}.tool-link span{color:var(--muted);font-size:14px}.link-grid{display:flex;gap:10px;flex-wrap:wrap}.link-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}.cluster-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding:0;list-style:none}.cluster-list li{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:8px;padding:14px;background:white}.page-heading{padding:44px clamp(18px,5vw,72px);background:#f3faf7}.site-footer{padding:34px clamp(18px,5vw,72px);background:var(--ink);color:#dfe7ee}.site-footer a{color:white}@media(max-width:820px){.site-header{align-items:flex-start;flex-direction:column}.top-nav{gap:12px}.home-hero,.tool-panel{grid-template-columns:1fr}.home-hero{padding-top:40px}.field-grid{grid-template-columns:1fr}.hero-asset{max-width:330px}.tool-heading h1{font-size:36px}.result-toolbar,.cluster-heading{align-items:flex-start;flex-direction:column}}`;
+  const css = `:root{--ink:#17202a;--muted:#5c6975;--line:#d7dde2;--paper:#fbfcf8;--panel:#ffffff;--accent:#0f766e;--accent-2:#b45309;--blue:#1d4ed8;--soft:#eef7f5;--shadow:0 18px 60px rgba(23,32,42,.10)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(16px,4vw,48px);background:rgba(251,252,248,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--ink);color:white;letter-spacing:.02em}.top-nav{display:flex;gap:18px;flex-wrap:wrap}.top-nav a{text-decoration:none;color:var(--muted);font-weight:650;font-size:14px}.top-nav a:hover{color:var(--ink)}.home-hero{min-height:560px;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,520px);align-items:center;gap:40px;padding:64px clamp(18px,6vw,80px) 44px;background:linear-gradient(180deg,#f7fbf7 0%,#fbfcf8 100%)}.home-copy h1{font-size:clamp(42px,6vw,76px);line-height:1.02;margin:0 0 18px;letter-spacing:0}.home-copy p{font-size:18px;max-width:680px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;color:var(--accent)}.hero-actions,.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary-link,.secondary-link,.primary-btn,.ghost-btn{border:0;border-radius:8px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer}.primary-link,.primary-btn{background:var(--accent);color:white}.secondary-link,.ghost-btn{background:white;color:var(--ink);border:1px solid var(--line)}.hero-asset{width:100%;max-width:520px;justify-self:center}.tool-panel{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(320px,1.2fr);gap:28px;padding:44px clamp(18px,5vw,72px);background:#f3faf7;border-bottom:1px solid var(--line)}.tool-heading h1{font-size:clamp(34px,4.6vw,58px);line-height:1.05;margin:0 0 14px}.tool-heading p{color:var(--muted);font-size:17px}.solver-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;box-shadow:var(--shadow)}.field{display:grid;gap:6px;font-weight:750;color:var(--ink)}.field span{font-size:13px}.field-help{margin:8px 0 0;color:var(--muted);font-size:13px}.field textarea,.field input{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font:inherit;background:#fff}.field textarea:focus,.field input:focus{outline:3px solid rgba(15,118,110,.18);border-color:var(--accent)}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.results{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;min-height:88px}.result-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.result-group{margin-top:14px}.result-group h3{font-size:15px;margin:0 0 8px;color:var(--muted)}.result-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}.word-pill{display:grid;gap:2px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;padding:9px 10px;font-weight:800;text-align:center;cursor:pointer}.word-pill small{font-size:11px;color:var(--muted);font-weight:700}.muted{color:var(--muted)}.content-section{padding:42px clamp(18px,5vw,72px);background:var(--paper)}.content-inner{max-width:920px}.content-inner h2{margin-top:34px;font-size:28px}.content-inner h3{margin-top:24px;font-size:20px}.content-inner p,.content-inner li{color:#2f3b45}.trust-note{border:1px solid var(--line);background:#fff;border-radius:8px;padding:16px 18px;margin:0 0 30px;box-shadow:0 10px 30px rgba(23,32,42,.05)}.trust-note p{margin:0 0 8px}.trust-note p:last-child{margin-bottom:0}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;padding:14px 16px;border-radius:8px;margin-top:28px}.section-band{padding:42px clamp(18px,5vw,72px);border-top:1px solid var(--line);background:white}.section-band.alt{background:#f7f8fb}.inner{max-width:1180px;margin:0 auto}.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.tool-cluster{margin:0 0 38px}.tool-cluster:last-child{margin-bottom:0}.cluster-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.cluster-heading h2{margin:0;font-size:26px}.cluster-heading span{color:var(--muted);font-weight:800}.tool-link{display:grid;gap:7px;text-decoration:none;background:white;border:1px solid var(--line);border-radius:8px;padding:16px;min-height:118px}.tool-link:hover{border-color:var(--accent);box-shadow:0 10px 26px rgba(15,118,110,.09)}.tool-link span{color:var(--muted);font-size:14px}.link-grid{display:flex;gap:10px;flex-wrap:wrap}.link-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}.cluster-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding:0;list-style:none}.cluster-list li{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:8px;padding:14px;background:white}.page-heading{padding:44px clamp(18px,5vw,72px);background:#f3faf7}.site-footer{padding:34px clamp(18px,5vw,72px);background:var(--ink);color:#dfe7ee}.site-footer a{color:white}@media(max-width:820px){.site-header{align-items:flex-start;flex-direction:column}.top-nav{gap:12px}.home-hero,.tool-panel{grid-template-columns:1fr}.home-hero{padding-top:40px}.field-grid{grid-template-columns:1fr}.hero-asset{max-width:330px}.tool-heading h1{font-size:36px}.result-toolbar,.cluster-heading{align-items:flex-start;flex-direction:column}}`;
   fs.writeFileSync(path.join(publicDir, "assets/styles.css"), css);
   const app = `const WORDS=${JSON.stringify([...new Set(dictionary.map((word) => word.toLowerCase()))])};
 const SCORE={a:1,b:3,c:3,d:2,e:1,f:4,g:2,h:4,i:1,j:8,k:5,l:1,m:3,n:1,o:1,p:3,q:10,r:1,s:1,t:1,u:1,v:4,w:4,x:8,y:4,z:10};
@@ -756,6 +863,11 @@ writeStaticAssets();
 fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml());
 ensureDir(path.join(publicDir, "tools"));
 fs.writeFileSync(path.join(publicDir, "tools/index.html"), toolsHtml());
+for (const guide of guideData.guides) {
+  const guideDir = path.join(publicDir, guide.slug);
+  ensureDir(guideDir);
+  fs.writeFileSync(path.join(guideDir, "index.html"), guidePageHtml(guide));
+}
 for (const page of staticPages) {
   ensureDir(path.join(publicDir, page.slug));
   fs.writeFileSync(path.join(publicDir, page.slug, "index.html"), staticPageHtml(page));
@@ -764,4 +876,4 @@ for (const page of pages) writePage(page);
 fs.writeFileSync(path.join(publicDir, "404.html"), notFoundHtml());
 writeSitemap();
 
-console.log(`Built ${pages.length + staticPages.length + 3} pages into ${publicDir}`);
+console.log(`Built ${pages.length + guideData.guides.length + staticPages.length + 3} pages into ${publicDir}`);

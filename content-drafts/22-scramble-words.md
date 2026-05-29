@@ -1,53 +1,54 @@
 # Scramble Words
 
-Use this page when the user has scrambled letters and needs words that can be made from them.
+You’ve got a handful of jumbled letters and need to find every real word hidden inside. Maybe you’re stuck on a word puzzle, playing a board game like Scrabble, or just testing your vocabulary. This tool takes your scrambled letters and returns all possible words, grouped by length, so you can spot the answer fast.
 
-## Tool Intro
+## When you need to unscramble a set of letters
 
-Type your letters, add any filters you know, and narrow the results to words that fit your puzzle or game. The goal is to get usable answers quickly, without reading a long explanation first.
+Enter any combination of letters - no spaces, no punctuation. The tool instantly generates candidate words from that set. Use it when you’re staring at a jumble and can’t see the answer, or when you want to double-check that a word actually exists. It’s also handy for word games where you have a fixed set of tiles and need to maximize your score.
 
-## How To Use It
+## Using wildcards for blank tiles or unknown letters
 
-1. Enter the letters, clue, pattern, or grid you already have.
-2. Add any constraints, such as word length, known positions, required letters, or excluded letters.
-3. Review the results and use filters to remove words that cannot fit your game.
-4. Copy the answer or use the result as a hint before returning to the puzzle.
+If you have a blank tile in Scrabble or an unknown letter in a crossword, type a question mark (?) or a period (.) in place of that letter. The tool treats wildcards as any letter from A to Z. This is especially useful when you know part of the word but not the whole thing. For example, entering `?A?` returns all three-letter words with A in the middle.
 
-## Example
+## Filtering results by word length
 
-Example: enter `TCA` and choose 3-letter words if you need `cat` or `act`, or allow longer words if you can use extra letters.
+Not every word fits your puzzle grid or game board. After entering your letters, use the length slider to show only words of a specific size. If you need a five-letter word for Wordle, set the filter to 5. If you’re playing a game where longer words score more, set a minimum length. This cuts the list down to what’s actually useful.
 
-## What The Results Mean
+## Excluding letters you can’t use
 
-Results should be grouped so you can make a decision fast. Shorter words, longer words, score-based words, and pattern matches should not be mixed together without filters. If no result appears, remove one constraint or check whether a letter was entered in the wrong position.
+Sometimes you know certain letters aren’t in the answer. Type those letters into the exclude box, and the tool removes any word containing them. This is a quick way to eliminate false leads. For example, if you’re sure the word doesn’t have an E, exclude E and see only words without it.
+
+## Copying results for your game or puzzle
+
+Once you find the word you need, click the copy button next to it. The word is copied to your clipboard, ready to paste into a game, a message, or a document. No extra steps, no formatting issues.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Use the tool controls for scramble words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
+Enter your letters into the input box and click the search button. The tool returns every valid word from the dictionary that can be formed using those letters. Results are grouped by length, with the longest words first.
 
 ### Do I have to use every letter?
 
-Not always. Some pages should have an exact mode that uses every letter and a broader mode that finds words containing some or all of the letters.
+No. The tool shows words that use any subset of your letters. If you want only words that use all letters, check the “use all letters” option. Otherwise, you’ll see all possible combinations.
 
 ### Can I use wildcards or blank tiles?
 
-Use `?` for any unknown or blank letter. The results should show words that can be made when that blank stands in for different letters.
+Yes. Use a question mark (?) or a period (.) for each unknown letter. The tool will replace it with every letter of the alphabet and show matching words.
 
 ### Can I filter by word length?
 
-Use filters when the result list is too broad. Word length, starts with, ends with, contains, and excludes filters help you move from a large list to words that actually fit.
+Yes. Use the length field to set an exact word length. Results update automatically.
 
 ### Can I exclude letters from results?
 
-Use the tool controls for scramble words to enter what you already know, then narrow the result until it fits your puzzle, board, or clue.
-## Related Tools
+Yes. Type letters you want to exclude into the exclude field. Any word containing those letters will be removed from the results.
 
-- [Word Unscrambler](/word-unscrambler/)
-- [Word Finder](/word-finder/)
-- [Words With These Letters](/words-with-these-letters/)
-- [Anagram Solver](/anagram-solver/)
-- [Scrabble Word Finder](/scrabble-word-finder/)
-- [Wordle Solver](/wordle-solver/)
-- [Crossword Solver](/crossword-solver/)
+## Next tools to try
+
+- [Word Scramble Solver](/word-scramble-solver/) – If you need a solver that also handles patterns and known positions, this tool adds more advanced filters.
+- [Word Descrambler](/word-descrambler/) – Focuses on anagramming: enter letters and get every possible rearrangement, perfect for word games and puzzles.
+- [Unscramble Letters](/unscramble-letters/) – A straightforward tool for when you just need all words from a set of letters, no extra options.
+- [Word Finder](/word-finder/) – Combines letter input with pattern matching, great for crosswords and word games.
+- [Words With These Letters](/words-with-these-letters/) – Enter letters and see all words that can be formed, sorted by length or score.
+- [Word Generator From Letters](/word-generator-from-letters/) – Generate word lists for creative writing, brainstorming, or game preparation.
