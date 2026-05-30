@@ -48,5 +48,5 @@ Yes. Type letters you want to exclude in the exclude field. Results containing t
 - [Unscramble Letters](/unscramble-letters/) – If you need the exact anagram of a set of letters.
 - [Letter Box Solver](/letter-box-solver/) – For the NYT Letter Boxed puzzle, finds word paths.
 - [Wordle Solver](/wordle-solver/) – Unofficial helper for Wordle, narrows based on feedback.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Includes tile scores and official Scrabble word lists.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Tailored for WWF’s board and dictionary.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Rack-style search for candidate words from your letters.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar letter helper for Words With Friends-style searches.

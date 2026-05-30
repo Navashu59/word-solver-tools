@@ -21,7 +21,7 @@ This is useful when you already have a few words and want to avoid duplicates.
 
 A pangram uses all seven letters at least once. It’s worth 7 extra points in the game. The solver flags pangrams automatically, so you can spot them first. If you’re close to Genius rank, pangrams are your best shortcut.
 
-## Hint mode vs. full answers
+## Using the list as a hint or as answer candidates
 
 Not ready to see everything? Use the result list carefully: look at lengths, starting letters, or one small section at a time instead of reading every candidate. That keeps the page useful as a nudge rather than a full spoiler.
 

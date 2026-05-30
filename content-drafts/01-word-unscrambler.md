@@ -4,7 +4,7 @@ You’re staring at a jumble of letters - maybe from a crossword clue, a Scrabbl
 
 ## Why you need more than a dictionary
 
-A dictionary tells you what a word means, but it won’t help when you have seven random tiles and need to find a bingo. This unscrambler works backward: you give it the letters, it gives you the possibilities. Use it when you’re stuck on a puzzle, want to confirm a word exists, or need to find a high-scoring play in Scrabble or Words With Friends. It’s an unofficial helper - not endorsed by any game company - but it’s built to match standard word lists.
+A dictionary tells you what a word means, but it won’t help when you have seven random tiles and need to find candidates. This unscrambler works backward: you give it the letters, it gives you the possibilities. Use it when you’re stuck on a puzzle, want to confirm a word exists, or need ideas for a board game. It’s an unofficial helper with a built-in word list, so confirm important plays against the rules or dictionary for your game.
 
 ## Using wildcards for blank tiles or unknown letters
 
@@ -32,7 +32,7 @@ A few things trip people up:
 - **Typing extra spaces** – The tool treats spaces as characters. Enter letters without spaces.
 - **Forgetting wildcards** – If you’re missing a letter, don’t guess. Use ? and let the tool fill it in.
 - **Ignoring word length** – A 7-letter word might be hiding in your rack, but if you only look at 5-letter results, you’ll miss it. Always check the full list.
-- **Using the wrong dictionary** – Some games use a specific word list (like TWL for Scrabble in North America). Make sure your tool matches your game’s dictionary.
+- **Using the wrong dictionary** – Some games use a specific accepted word list. This site is a helper, not an official referee, so confirm serious plays in the game you are using.
 
 ## When to use this tool vs. a word finder
 
@@ -42,7 +42,7 @@ A word unscrambler is best when you have a specific set of letters and need all 
 
 ### What words can I make with these letters?
 
-Enter your letters into the input field above. The tool will generate every valid word from the built-in dictionary. Results are grouped by word length so you can quickly find what fits your puzzle.
+Enter your letters into the input field above. The tool will generate candidate words from the built-in word list. Use length and pattern filters to find what fits your puzzle.
 
 ### Do I have to use every letter?
 
@@ -64,6 +64,6 @@ Yes. Use the exclude filter to remove words that contain certain letters. This i
 
 - [Word Finder](/word-finder/) – Use this when you have a pattern with blanks and need to fill in the missing letters.
 - [Unscramble Letters](/unscramble-letters/) – A dedicated page for when you only have letters and no other constraints.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Specifically tuned for Scrabble tile values and game-specific word lists.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Optimized for the Words With Friends dictionary and scoring.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Rack-style search for candidate words from letters and board patterns.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar letter helper for Words With Friends-style searches.
 - [Anagram Solver](/anagram-solver/) – Perfect for when you need to rearrange all letters into a new word or phrase.

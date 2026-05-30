@@ -1,10 +1,10 @@
 # NYT Spelling Bee Solver
 
-You’re playing the New York Times Spelling Bee and you need a hand. This is an unofficial helper for that specific game. Enter the center letter and the six outer letters exactly as they appear in the NYT puzzle, and get candidate words - including pangrams. It works just like the game’s rules: every word must include the center letter, letters can repeat, and only words from the NYT’s accepted list are shown.
+You’re playing the New York Times Spelling Bee and you need a hand. This is an unofficial helper for that style of puzzle. Enter the center letter first, add the six outer letters, and get candidate words that follow the basic rules: every word should include the center letter, letters can repeat, and pangram candidates use all seven letters.
 
-## How this solver matches the NYT word list
+## How this solver differs from the official NYT word list
 
-The NYT Spelling Bee uses a curated dictionary that includes many uncommon words. This solver uses the same criteria: words must be in standard English dictionaries and must be accepted by the game. If a word appears here, it’s almost certainly valid in the NYT puzzle.
+The NYT Spelling Bee uses its own curated answer list. This site is independent and does not claim to use that official list. Treat results as candidates: helpful for brainstorming, but always confirm questionable words in the game before assuming they count.
 
 ## Pangrams: the key to high scores
 
@@ -12,11 +12,11 @@ In NYT Spelling Bee, pangrams are worth 7 extra points. The solver highlights th
 
 ## Using wildcards for partial letters
 
-Not sure if a word exists? Use a wildcard (?) for unknown letters. For example, if you think there’s a 6-letter word starting with “C” and ending with “T,” enter C???T and see what comes up. This is great for verifying guesses.
+Not sure if a word exists? Use the pattern field with `?` for unknown letters. For example, if you think there is a 6-letter word starting with C and ending with T, try `c????t` and combine it with the available-letter filters.
 
 ## Length filters for targeted searching
 
-If you know you need a 5-letter word, set the exact length length to 5. The solver will only show words of that length. This saves time when you’re close to finishing.
+If you know you need a 5-letter word, set the length field to 5. The solver will show only candidates of that length, which saves time when you are close to finishing.
 
 ## Copy results to share or save
 
@@ -42,12 +42,12 @@ Yes, letters can be used multiple times. The only restriction is that every word
 
 ### Can I get hints before answers?
 
-This solver shows candidate answers. If you want a lighter nudge first, try [Spelling Bee Buddy](/spelling-bee-buddy/) and scan only the parts you need.
+This solver shows candidate words from the site’s word list. If you want a lighter nudge first, try [Spelling Bee Buddy](/spelling-bee-buddy/) and scan only the parts you need.
 
 ## Next tools to try
 
 - [Spelling Bee Solver](/spelling-bee-solver/) – A general solver with more filter options.
-- [Spelling Bee Answers](/spelling-bee-answers/) – Get the complete answer list for any puzzle.
-- [Spelling Bee Buddy](/spelling-bee-buddy/) – Get gentle hints instead of full answers.
+- [Spelling Bee Answers](/spelling-bee-answers/) – Inspect answer candidates more directly.
+- [Spelling Bee Buddy](/spelling-bee-buddy/) – Get gentler nudges before scanning candidates.
 - [Word Finder](/word-finder/) – For any set of letters, find all possible words.
 - [Words With These Letters](/words-with-these-letters/) – Enter any letters and get candidate words.

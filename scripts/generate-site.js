@@ -192,7 +192,7 @@ function pageAction(page) {
     ladder: `Find word ladder steps by matching length, letters, and possible word changes.`,
     spelling: `Find Spelling Bee words from your seven letters, including the required center letter.`,
     wordle: `Find Wordle guesses from known letters, excluded letters, and five-letter patterns.`,
-    scrabble: `Find high-value Scrabble and word-game plays from your rack letters, blanks, and board constraints.`,
+    scrabble: `Find candidate Scrabble-style and word-game plays from your rack letters, blanks, and board constraints.`,
     anagram: `Turn letters or a phrase into anagrams, then filter the answers by length and letter rules.`,
     letters: `Enter your letters and find words that match your length, pattern, and letter filters.`,
   };

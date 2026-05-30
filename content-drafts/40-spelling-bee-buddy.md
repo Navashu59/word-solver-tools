@@ -24,7 +24,7 @@ Some words in Spelling Bee are obscure. That’s okay. The page is there to narr
 
 If a long candidate uses all seven letters, that is your best lead. A pangram uses all seven letters, so it’s often a longer, compound word. Try combining letters in your head: if you have A, C, E, L, N, O, T, think “cantaloupe” or “coatl” (if allowed).
 
-## When you’re ready for full answers
+## When you’re ready to inspect candidates
 
 If hints are not enough, move from strategy notes to the result list and inspect candidates directly.
 

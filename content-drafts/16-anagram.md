@@ -8,15 +8,15 @@ An anagram is a rearrangement of letters from one word or phrase to form another
 
 ## Entering your letters or phrase
 
-Type any set of letters, a single word, or a longer phrase into the input. The tool will process it and show all valid rearrangements. You can choose between a manual all-letter check or broader word-finder use (allow shorter words). Start broad if you’re unsure, then narrow down with filters.
+Type any set of letters, a single word, or a longer phrase into the input. The tool returns word candidates that fit the letters and filters you provide. Start broad if you’re unsure, then narrow down with length, contains, starts with, ends with, exclude, and pattern filters.
 
 ## Using filters to get the right results
 
-After entering your input, apply filters to refine the list. Length filters let you set an exact length word size. Common word sorting pushes everyday words to the top. If you’re solving a puzzle, these filters save time by removing obscure or irrelevant results.
+After entering your input, apply filters to refine the list. Length filters let you set an exact word size. Contains, starts with, ends with, and exclude filters remove candidates that do not fit your clue, rack, or board.
 
-## Multi-word anagrams for phrases
+## Phrase and name anagrams
 
-If you enter a phrase like “astronomer,” the tool can split it into multiple words, such as “moon starer.” Use the multi-word mode to control how many words appear. This is useful for creating name anagrams or solving puzzles where the answer is a sentence.
+If you enter a phrase or name, use the results as building blocks. The current tool does not automatically compose polished multi-word anagrams, so the best workflow is to copy promising words and combine them manually into a phrase that still reads naturally.
 
 ## Wildcards for incomplete information
 
@@ -26,19 +26,19 @@ When you don’t know all the letters, use a question mark or asterisk as a wild
 
 ### How do I solve an anagram?
 
-Enter the letters or phrase into the input. Choose an exact anagram check if you want to use every letter, or broader word-finder use for sub-anagrams. Click Solve, then scan the results. Use filters to narrow by length or commonality.
+Enter the letters or phrase into the input, click Solve, then scan the results. Use length and pattern filters when you need a tighter answer.
 
 ### Does an anagram have to use every letter?
 
-Traditionally, yes, but this tool also supports sub-anagrams. Toggle the manual all-letter check to control that. If you want only full rearrangements, keep an exact anagram check on.
+Traditionally, yes. In word games, people also search for shorter words made from the same letters. If you need a full rearrangement, set the length to the number of letters you entered and verify the final word against your puzzle rules.
 
 ### Can I make anagrams from a name?
 
-Yes. Enter any name or phrase. The tool generates all valid rearrangements, including multi-word results. Use multi-word mode to specify word count.
+Yes. Enter any name or phrase to find candidate words from those letters. For multi-word name anagrams, combine the strongest candidates manually.
 
 ### Can anagrams be more than one word?
 
-Yes. Enable multi-word mode and set the desired word count. The solver finds combinations of words that use your input letters.
+Yes, but this page does not automatically assemble every phrase. Use the candidate list as a starting point, then build the phrase yourself.
 
 ### How do I filter anagrams by length?
 

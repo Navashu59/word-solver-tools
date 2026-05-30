@@ -1,50 +1,47 @@
 # Boggle Solver
 
-Playing Boggle? Enter your board letters and instantly find every valid word you can form by connecting adjacent tiles.
+Playing a Boggle-style letter grid and need ideas fast? Enter the letters you can see, then use length, contains, starts with, ends with, exclude, and pattern filters to find candidate words. This page is an independent helper for brainstorming; it does not verify a full board path or replace the rules of the game you are playing.
 
-## Enter Your Boggle Board
+## Enter the board letters you have
 
-Choose a 4x4 or 5x5 grid. Type the letters row by row, or paste them as a single string. Select a dictionary (e.g., TWL, SOWPODS) to match your game's word list.
+Type the letters from your board into the main input. If you are only checking part of the board, enter that smaller set of letters. The current tool searches the built-in word list against your letters and filters, so use the results as candidates to check against the actual tile path.
 
-## Find All Connected Words
+## Filter candidates before checking paths
 
-The solver finds every word that can be formed by moving from tile to adjacent tile (including diagonals). Each word is shown with its path, length, and score. Results are sorted by score or length. You can filter by minimum word length.
+Boggle-style boards can produce a lot of possible-looking words. Start with a length filter, then add starts with, ends with, contains, or exclude filters when you know more about the word. Pattern search is useful when you remember the rough shape of a word but not every letter.
 
-## Example: 4x4 Board
+## Check the board path manually
 
-```
-A B C D
-E F G H
-I J K L
-M N O P
-```
+In most Boggle rules, letters must connect across adjacent tiles and the same tile cannot be reused within one word. This page helps you find words worth checking, but you should still trace the word on the board before counting it.
 
-Words found: "AB", "ABC", "ABCD", "AE", "AEI", "AEIM", etc. (depending on dictionary).
+## Score after you confirm the word
+
+Different Boggle versions and house rules can score words differently. Confirm that the word is accepted, traceable, and long enough for your rule set before adding points.
 
 ## Common Questions
 
-### How do you solve Boggle?
+### How do you solve a Boggle board?
 
-Enter the board letters and click solve. The tool finds candidate words using adjacent tiles.
+Start by finding short words, common prefixes, and longer word endings. Use this page to create a candidate list, then trace each promising word on the actual board.
 
 ### Can Boggle letters be reused?
 
-No. Each tile can be used only once per word.
+Usually no. A tile can normally be used once per word. Check your version’s rules before scoring.
 
-### How is Boggle scored?
+### Does this page show the tile path?
 
-Scoring: 3-4 letters = 1 point, 5 = 2, 6 = 3, 7 = 5, 8+ = 11. The tool shows scores.
+No. It gives word candidates from letters and filters. You still need to confirm the path on your board.
 
-### What words are on this Boggle board?
+### Can I filter by word length?
 
-The solver lists all dictionary words that can be formed on the board.
+Yes. Set a length when you only want words of a specific size.
 
-### Can I use a 5x5 Boggle grid?
+### Is this an official Boggle dictionary?
 
-Yes. Select 5x5 before entering letters.
+No. This is an independent helper with a built-in word list. Confirm final answers against the game or dictionary you use.
 
 ## Next tools to try
 
-- [Word Search Solver](/word-search-solver/) – find words in a grid.
-- [Word Finder](/word-finder/) – find words from a set of letters.
-- [Unscramble Letters](/unscramble-letters/) – unscramble letters to form words.
+- [Word Search Solver](/word-search-solver/) – Use this when you are looking for known words in a grid.
+- [Word Finder](/word-finder/) – Find words from letters, patterns, and filters.
+- [Unscramble Letters](/unscramble-letters/) – Unscramble letters for anagrams and jumbles.

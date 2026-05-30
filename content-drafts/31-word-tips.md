@@ -4,11 +4,11 @@ You’re in the middle of a word game - Scrabble, Words With Friends, Wordle, or
 
 ## Finding high-scoring words from your rack
 
-Enter your letters into the tool and see which words score the most points. The results are sorted by score by default, so you can quickly spot the best play. Remember, this is an unofficial helper - always verify with the official game dictionary for tournament play.
+Enter your letters into the tool and narrow the candidates by length, pattern, and known board letters. Then score the strongest candidates against the real board. Remember, this is an unofficial helper - always verify important plays with the accepted word list for your game.
 
 ## Using two-letter words to your advantage
 
-Two-letter words are the backbone of many word games. They help you use awkward letters, create parallel plays, and open up the board. Common ones like “QI,” “ZA,” “XI,” and “JO” are worth memorizing. The tool includes all valid two-letter words from the official Scrabble dictionary.
+Two-letter words are the backbone of many word games. They help you use awkward letters, create parallel plays, and open up the board. Common short words are worth studying, but always confirm the exact accepted list for your game.
 
 ## When to play defensively
 
@@ -28,11 +28,11 @@ Anagrams are a big part of word games. Practice by entering a set of letters and
 
 ### What words can I make with these letters?
 
-Enter your letters in the input box and click “Solve.” The tool will show candidate English words, sorted by score or length.
+Enter your letters in the input box and click Solve. The tool will show candidate English words that you can narrow with length and pattern filters.
 
 ### Do I have to use every letter?
 
-No. By default, the tool finds words using any subset of your letters. Enable “use all letters” for anagrams.
+No. The tool can show shorter candidates from the same letters. If you need to use every letter, match the length to your input and verify the final word.
 
 ### Can I use wildcards or blank tiles?
 

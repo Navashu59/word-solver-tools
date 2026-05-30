@@ -1,48 +1,48 @@
 # Scrabble Word Finder
 
-You’re staring at your rack with seven tiles, and the board is wide open. You need a valid word that scores well, but your brain is stuck on the same three-letter combos. This tool is for that exact moment: enter your rack, optionally mark blank tiles with `?`, and get a sorted list of playable words. No sign-up, no fluff.
+You’re staring at your rack with seven tiles, and the board is wide open. You need candidate words that can be made from those letters, but your brain is stuck on the same three-letter combos. This tool is for that exact moment: enter your rack, optionally mark blank tiles with `?`, and narrow the list with length, pattern, contains, starts with, ends with, or exclude filters. No sign-up, no fluff.
 
 ## When you need more than a dictionary
 
-A standard dictionary tells you if a word exists. This finder tells you what words you can actually make from your specific set of tiles. It’s built for the middle of a game, not for studying word lists. You type in `A?RSTLE`, hit search, and instantly see that `STARLE` isn’t valid but `STAR` and `RATES` are. The score column lets you pick the highest-value play without manually calculating letter points.
+A standard dictionary tells you if a word exists. This finder helps you reduce a rack of letters into words worth checking. It’s built for the middle of a game, not for studying word lists. Type in your rack, hit Solve, and use the filters when you need a specific length or board pattern.
 
 ## How blank tiles change your strategy
 
-Blank tiles are wildcards, but they also cost you points because they score zero. The tool handles them automatically when you enter `?` for each blank. If you have two blanks, enter `??`. The results will show which letter each blank stands for, so you can see the trade-off between using a blank for a high-value letter versus saving it for a longer word. For example, with `?A?`, you might get `AA`, `AB`, `BA`, but also `ABA` - the blank lets you extend words in ways that aren’t obvious from the rack alone.
+Blank tiles are wildcards, but they also cost you points because they score zero in the game. Enter `?` for each blank tile so the search can consider unknown letters. If you have two blanks, enter `??`. After you find a candidate, check the actual tile placement and score in your game before playing it.
 
-## Sorting by score vs. length
+## Filtering by length and board pattern
 
-Most players want the highest score first, but sometimes you need a specific length to fit a tight spot on the board. The tool lets you sort by score (descending) or by length (shortest or longest). If you’re trying to land a double-word score, sort by score. If you need exactly a 5-letter word to bridge two premium squares, filter by length. You can also combine both: show only 5-letter words, sorted by score.
+Sometimes you need a specific length to fit a tight spot on the board. Use the length field for exact word size, and use the pattern field when known board letters are already fixed. If you need exactly a 5-letter word with A in the third position, a pattern like `??a??` cuts the list down quickly.
 
 ## Checking word validity before you play
 
-Not every word in the dictionary is allowed in Scrabble. The tool uses the official Scrabble word list (TWL for North America, SOWPODS for international). If you’re playing a house rule or a variant, you can still use the results as a starting point, but always double-check with your group’s accepted list. The tool marks words that are only in certain dictionaries, so you know when a word might be challenged.
+Not every word in a general dictionary is allowed in Scrabble, and different apps or clubs may use different accepted lists. This site is an independent helper and does not claim to be an official Scrabble dictionary. Use results as candidates, then confirm important plays against the word list or rules your game uses.
 
 ## Copying results without losing context
 
-Once you find a word, you can copy it directly to your clipboard. The tool also copies the score and the word length, so you can paste it into a chat or notes app and remember why you chose it. This is useful if you’re playing online and want to keep a record of your best options.
+Once you find useful candidates, use Copy all to move the list into notes, chat, or a spreadsheet. This is useful if you want to compare possible plays without rerunning the same search.
 
 ## Common Questions
 
 ### What words can I make with my Scrabble letters?
 
-Enter your rack letters in any order. Use `?` for blank tiles. The tool will generate candidate words from those letters, sorted by score by default. You can filter by word length or specific patterns (starts with, ends with, contains).
+Enter your rack letters in any order. Use `?` for blank tiles. The tool will generate candidate words from those letters, and you can filter by word length or specific patterns.
 
 ### Can I use blank tiles in a Scrabble word finder?
 
-Yes. Enter `?` for each blank tile. The tool will treat it as a wildcard and show you all possible substitutions. The results will indicate which letter the blank represents in each word.
+Yes. Enter `?` for each blank tile. The tool will treat it as a wildcard while searching, then you can decide which candidate makes sense for your board.
 
 ### How do Scrabble scores work?
 
-Each letter has a point value (A=1, B=3, etc.). The tool calculates the base score for each word without board multipliers. You need to add premium squares (double/triple letter, double/triple word) yourself based on where you place the word.
+Each letter has a point value, and board squares can multiply letters or whole words. Use the candidate list to find possible plays, then calculate the final score from your actual board position.
 
 ### Is this word valid in Scrabble?
 
-The tool checks against official Scrabble dictionaries. If a word is only valid in one dictionary (e.g., TWL but not SOWPODS), it will be noted. Always confirm with your game’s rules before playing.
+This tool gives candidate words from its built-in list. Always confirm a challenged or high-value play with your game’s official dictionary or house rules before playing.
 
 ### What is the highest scoring word from my tiles?
 
-The tool sorts results by score descending by default. The top result is the highest-scoring word from your rack. If you have blanks, the highest-scoring word may use a blank for a high-value letter like Z or Q.
+Start by finding longer candidates, then score them against your actual board because premium squares change the best play. A shorter word on a double-word or triple-word square can beat a longer word in a plain position.
 
 ## Next tools to try
 

@@ -1,6 +1,6 @@
 # Spelling Bee Answers
 
-You’ve been staring at the honeycomb for twenty minutes and you just want the answers. No hints, no filters - just the complete list of candidate words for today’s puzzle. This page gives you exactly that: enter the seven letters (center letter first), and get every word that counts in Spelling Bee.
+You’ve been staring at the honeycomb for twenty minutes and you want answer candidates without a long walkthrough. Enter the seven letters with the center letter first, then scan the words that fit the basic Spelling Bee rules.
 
 ## The fastest way to get all answers
 
@@ -14,9 +14,9 @@ Longer words score more points, but they’re harder to find. The tool groups re
 
 A pangram uses all seven letters and is worth 7 extra points. In many puzzles, finding the pangram alone can push you from Good to Great. The solver marks pangrams with a special icon, so you can spot them immediately.
 
-## What about words that aren’t in the dictionary?
+## What about words that are not accepted?
 
-Spelling Bee uses a specific word list that includes many uncommon words. The solver uses the same logic: it includes words that appear in standard dictionaries plus some that are accepted by the game. If a word seems weird, it’s probably still valid.
+Spelling Bee games use curated word lists, and this independent page does not claim to match any official answer list. If a word seems unusual, treat it as a candidate and confirm it in the game before counting on it.
 
 ## Copy and paste to your notes
 

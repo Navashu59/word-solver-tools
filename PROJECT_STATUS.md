@@ -1,6 +1,6 @@
 # Project Status
 
-> Updated: 2026-05-29
+> Updated: 2026-05-30
 > Project: Word Solver Tools
 > Core keyword: `word unscrambler`
 > Core authority field: letter-based word solving tools
@@ -64,9 +64,8 @@ public
 
 Current generated output:
 
-- `57` index pages
-- `58` HTML files including `404.html`
-- `57` sitemap URLs
+- `61` indexable sitemap URLs
+- `62` HTML files including `404.html`
 
 The current default build still uses:
 
@@ -123,6 +122,28 @@ Post-change verification:
 - 58 HTML files have parseable JSON-LD, including `404.html`.
 - Internal link check found 0 broken local links.
 - Browser smoke test passed for `/wordle-solver/`, `/scrabble-word-finder/`, `/crossword-solver/`, and mobile `/word-unscrambler/`.
+
+## 2026-05-30 Factual Consistency and Trust Cleanup
+
+Adjusted the content and schema so pages no longer claim capabilities the current browser tool does not provide.
+
+Changed:
+
+- Removed or softened unsupported anagram claims around exact/all-letter toggles, automatic multi-word anagram mode, and common-word sorting.
+- Reworked `/anagram-solver/`, `/anagram/`, `/anagram-generator/`, and `/anagram-maker/` to describe the actual workflow: candidate generation plus length, contains, starts, ends, exclude, and pattern filters.
+- Reworked Spelling Bee and NYT Spelling Bee pages to state that results are independent candidates, not an official NYT accepted list.
+- Reworked Scrabble-style pages so they no longer claim official dictionaries, score sorting, score columns, or official word-list validation.
+- Reworked `/boggle-solver/` so it does not claim grid-path validation or official Boggle scoring.
+- Updated `planning/page-map.json` feature lists to match the real visible controls.
+
+Post-change verification:
+
+- `npm run build` passed.
+- 62 HTML files generated.
+- 61 sitemap URLs generated.
+- Internal link check found 0 broken local links.
+- JSON-LD parsed on every HTML page.
+- Repeated-H2 audit found no repeated content framework across generated Word Solver pages.
 
 ## Git State
 

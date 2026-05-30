@@ -4,15 +4,15 @@ You want to make something fun out of a name or phrase. Maybe it’s for a party
 
 ## Making anagrams from names
 
-Enter a name like “Albert Einstein” and the maker will generate anagrams like “Ten elite brains” or “I listen to brain.” Use the multi-word mode to control how many words appear. This is great for creating nicknames, party invitations, or just a fun fact about someone.
+Enter a name and look for words hidden inside the letters. The current maker is best for finding candidate words, not automatically writing polished multi-word phrases. For nicknames, party games, or personalized jokes, copy the strongest words and combine them manually.
 
 ## Choosing between exact and broader word-finder use
 
-Exact mode ensures every letter is used, which is ideal for name anagrams. All-letters mode allows shorter words, which can be more flexible for creative projects. Toggle between them to see different sets of results.
+If you need a strict name anagram, set the length to match the number of letters you entered and check the letters yourself. If you are brainstorming, shorter candidate words can be more useful than a forced full-letter result.
 
 ## Sorting by commonality for the best results
 
-The maker sorts results by common words first, so you see the most recognizable anagrams at the top. This saves you from scrolling through obscure dictionary entries. If you want longer or shorter results, use the length filters to narrow the list.
+If you want longer or shorter results, use the length filter to narrow the list. Add contains, starts with, ends with, exclude, or pattern filters when you already know part of the word you want.
 
 ## Using wildcards for custom challenges
 
@@ -26,19 +26,19 @@ Once you find a result you like, copy it directly. There’s no account or login
 
 ### How do I solve an anagram?
 
-Enter the letters or phrase into the input. Choose an exact anagram check for full rearrangements or broader word-finder use for sub-anagrams. Hit make, then scan the results. Use filters to narrow by length or commonality.
+Enter the letters or phrase into the input, click Solve, then scan the results. Use filters to narrow by length, known letters, excluded letters, or pattern.
 
 ### Does an anagram have to use every letter?
 
-No. This maker supports both exact anagrams and sub-anagrams. Toggle the switch to control that behavior.
+Not always. A strict anagram uses every letter, but creative name searches often start with shorter words. If every letter matters, match the length and verify the final result.
 
 ### Can I make anagrams from a name?
 
-Yes. Enter any name or phrase. The maker produces all valid rearrangements, including multi-word results. Use multi-word mode to specify word count.
+Yes. Enter any name or phrase to find candidate words. For multi-word name anagrams, combine the best candidates manually.
 
 ### Can anagrams be more than one word?
 
-Yes. Enable multi-word mode and set the desired word count. The maker finds combinations of words that use your input letters.
+Yes, but this page does not automatically compose every multi-word phrase. Use the result list as raw material and build the phrase yourself.
 
 ### How do I filter anagrams by length?
 

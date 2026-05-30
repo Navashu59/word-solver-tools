@@ -8,7 +8,7 @@ In competitive Scrabble, top players study word lists and tile distributions. Th
 
 ## Reading the board with your rack
 
-The tool doesn’t know where your tiles are on the board, but you do. When you enter your rack, the results show every valid word. Your job is to cross-reference with the board: which words fit the open squares? Which ones use premium squares? The score column gives you the base score; add the board multipliers mentally. For example, if you have `E?R` and the board has a triple-word score open, a 3-letter word like `ARE` (score 3) becomes 9 points, but `ERA` (also 3) might hit a double-letter square for 4 points before the triple.
+The tool doesn’t know where your tiles are on the board, but you do. When you enter your rack, the results show candidate words from the site’s built-in list. Your job is to cross-reference with the board: which words fit the open squares, which ones use premium squares, and which ones are accepted by your game’s dictionary.
 
 ## Pattern matching for advanced plays
 
@@ -20,36 +20,35 @@ After each game, run your rack through the tool and compare the results to what 
 
 ## Using blanks effectively
 
-Blank tiles are the most powerful in Scrabble because they can be any letter, but they score zero. The tool shows you every substitution for a blank. A common strategy is to use a blank to complete a bingo (7-letter word) because the 50-point bonus outweighs the zero from the blank. For example, with `?RSTLEA`, the tool might show `STARLE?` isn’t valid, but `RESTEAL` is - and that uses the blank as `E`. The cheat here is knowing when to burn a blank for a bingo versus saving it for a high-value letter like `Z`.
+Blank tiles are powerful because they can stand in for unknown letters, but they score zero in the game. Enter `?` for a blank, then check which candidates actually fit your board. The strategic question is whether the blank helps you make a better placement now or is worth saving for a later turn.
 
 ## Common Questions
 
 ### What words can I make with my Scrabble letters?
 
-Enter your rack letters in any order. Use `?` for blank tiles. The tool will generate candidate words from those letters, sorted by score by default. You can filter by word length or specific patterns (starts with, ends with, contains).
+Enter your rack letters in any order. Use `?` for blank tiles. The tool will generate candidate words from those letters, and you can filter by word length or specific patterns.
 
 ### Can I use blank tiles in a Scrabble word finder?
 
-Yes. Enter `?` for each blank tile. The tool will treat it as a wildcard and show you all possible substitutions. The results will indicate which letter the blank represents in each word.
+Yes. Enter `?` for each blank tile. The tool will treat it as a wildcard while searching, then you can decide which candidate makes sense for your board.
 
 ### How do Scrabble scores work?
 
-Each letter has a point value (A=1, B=3, etc.). The tool calculates the base score for each word without board multipliers. You need to add premium squares (double/triple letter, double/triple word) yourself based on where you place the word.
+Each letter has a point value, and board squares can multiply letters or whole words. Use the candidate list to find possible plays, then calculate the final score from your actual board position.
 
 ### Is this word valid in Scrabble?
 
-The tool checks against official Scrabble dictionaries. If a word is only valid in one dictionary (e.g., TWL but not SOWPODS), it will be noted. Always confirm with your game’s rules before playing.
+The tool gives candidates from its built-in word list. Always confirm a challenged or high-value play with the official word list or house rules for your game before playing.
 
 ### What is the highest scoring word from my tiles?
 
-The tool sorts results by score descending by default. The top result is the highest-scoring word from your rack. If you have blanks, the highest-scoring word may use a blank for a high-value letter like Z or Q.
+Use the tool to find candidates, then score them against your actual board. Premium squares, cross words, and blank tiles decide the real best play.
 
 ## Next tools to try
 
 - [Scrabble Word Finder](/scrabble-word-finder/) – The raw tool version if you just want results without strategy tips.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Same concept but for Words With Friends’ different dictionary and scoring.
-- [Scrabble Dictionary](/scrabble-word-finder/) – Look up any word to see its definition and validity in Scrabble.
-- [Scrabble Word Checker](/scrabble-word-finder/) – Verify if a specific word is allowed before you play it.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar helper for Words With Friends-style searches.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Use the focused rack helper when you want fewer strategy notes.
 - [Anagram Solver](/anagram-solver/) – Find all anagrams from any set of letters, useful for brainstorming.
 - [Letter Unscrambler](/unscramble-letters/) – Quick unscrambling for any word game, with length and pattern filters.
 - [Word Finder](/word-finder/) – General-purpose word finder for crosswords, puzzles, and games.

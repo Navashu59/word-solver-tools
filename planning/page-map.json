@@ -130,12 +130,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has a rack of tiles and needs a valid scoring word.",
       "first_screen_tool": [
-        "rack input",
+        "rack or letter input",
         "blank tile wildcard",
-        "score sorting",
-        "word length filter",
-        "valid-word dictionary note",
-        "copy result"
+        "length filter",
+        "contains/starts/ends filters",
+        "pattern filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "What words can I make with my Scrabble letters?",
@@ -283,10 +283,11 @@
       "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
       "first_screen_tool": [
         "letters or phrase input",
-        "exact/all letters toggle",
-        "multi-word mode",
-        "length filters",
-        "common word sorting"
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "pattern wildcard filter",
+        "sample/copy/clear controls"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -585,10 +586,11 @@
       "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
       "first_screen_tool": [
         "letters or phrase input",
-        "exact/all letters toggle",
-        "multi-word mode",
-        "length filters",
-        "common word sorting"
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "pattern wildcard filter",
+        "sample/copy/clear controls"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -1076,12 +1078,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has a rack of tiles and needs a valid scoring word.",
       "first_screen_tool": [
-        "rack input",
+        "rack or letter input",
         "blank tile wildcard",
-        "score sorting",
-        "word length filter",
-        "valid-word dictionary note",
-        "copy result"
+        "length filter",
+        "contains/starts/ends filters",
+        "pattern filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "What words can I make with my Scrabble letters?",
@@ -1114,12 +1116,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user is stuck in Words With Friends and needs valid words under that game ruleset.",
       "first_screen_tool": [
-        "letter input",
-        "wildcards",
-        "length filters",
-        "contains/excludes",
-        "starts/ends",
-        "copyable results"
+        "rack or letter input",
+        "blank tile wildcard",
+        "length filter",
+        "contains/starts/ends filters",
+        "pattern filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1415,12 +1417,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
       "first_screen_tool": [
-        "letter input",
-        "wildcards",
-        "length filters",
-        "contains/excludes",
-        "starts/ends",
-        "copyable results"
+        "seven-letter input",
+        "required center-letter workflow",
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1453,12 +1455,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
       "first_screen_tool": [
-        "letter input",
-        "wildcards",
-        "length filters",
-        "contains/excludes",
-        "starts/ends",
-        "copyable results"
+        "seven-letter input",
+        "required center-letter workflow",
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1491,12 +1493,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
       "first_screen_tool": [
-        "letter input",
-        "wildcards",
-        "length filters",
-        "contains/excludes",
-        "starts/ends",
-        "copyable results"
+        "seven-letter input",
+        "required center-letter workflow",
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1529,12 +1531,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has seven letters and a required center letter and needs hints or valid words.",
       "first_screen_tool": [
-        "letter input",
-        "wildcards",
-        "length filters",
-        "contains/excludes",
-        "starts/ends",
-        "copyable results"
+        "seven-letter input",
+        "required center-letter workflow",
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1682,10 +1684,11 @@
       "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
       "first_screen_tool": [
         "letters or phrase input",
-        "exact/all letters toggle",
-        "multi-word mode",
-        "length filters",
-        "common word sorting"
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "pattern wildcard filter",
+        "sample/copy/clear controls"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -1719,10 +1722,11 @@
       "user_problem": "The user has letters, a word, name, or phrase and wants valid rearrangements.",
       "first_screen_tool": [
         "letters or phrase input",
-        "exact/all letters toggle",
-        "multi-word mode",
-        "length filters",
-        "common word sorting"
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "pattern wildcard filter",
+        "sample/copy/clear controls"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -1755,11 +1759,12 @@
       "brand_or_game_specific": false,
       "user_problem": "The user has a Boggle board and wants all connected words.",
       "first_screen_tool": [
-        "4x4/5x5 grid",
-        "dictionary selection",
-        "path highlighting",
-        "score sorting",
-        "word length filters"
+        "board-letter input",
+        "length filter",
+        "contains/starts/ends filters",
+        "exclude letters filter",
+        "pattern wildcard filter",
+        "copyable candidate results"
       ],
       "paa_questions": [
         "How do you solve Boggle?",

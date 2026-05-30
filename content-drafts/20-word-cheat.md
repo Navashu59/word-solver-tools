@@ -4,7 +4,7 @@ You’re in the middle of a word game - Scrabble, Words With Friends, or a cross
 
 ## Enter your rack, get options
 
-Type your letters into the input. If you have a blank tile, use `?`. The tool will immediately show candidate words you can make. The results are sorted by length and score (if applicable), so the best options appear first.
+Type your letters into the input. If you have a blank tile, use `?`. The tool will show candidate words you can make. Use length and pattern filters to reduce the list, then score the best candidates against your actual board.
 
 ## Add constraints only if needed
 
@@ -16,13 +16,13 @@ If you’ve already tried some letters and they didn’t work, add them to the e
 
 ## Check the word before you play
 
-This tool uses a general English dictionary. Some games have their own game-specific word lists (like Scrabble’s TWL or WWF’s list). Before you commit, make sure the word is allowed in your specific game. The tool is a helper, not a referee.
+This tool uses the site’s built-in word list. Some games have their own accepted lists, so confirm important words inside your specific game before playing. The tool is a helper, not a referee.
 
 ## Common Questions
 
 ### What words can I make with these letters?
 
-Enter your letters and click solve. The tool will return candidate words that can be formed from those letters, sorted by length and score.
+Enter your letters and click solve. The tool will return candidate words that can be formed from those letters, then you can narrow the list with filters.
 
 ### Do I have to use every letter?
 
@@ -48,5 +48,5 @@ Yes. Type letters you want to exclude in the exclude field. Results containing t
 - [Unscramble Letters](/unscramble-letters/) – For exact anagrams.
 - [Letter Box Solver](/letter-box-solver/) – For NYT Letter Boxed puzzles.
 - [Wordle Solver](/wordle-solver/) – Unofficial Wordle helper.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Includes Scrabble-specific scoring and word lists.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Optimized for WWF.
+- [Scrabble Word Finder](/scrabble-word-finder/) – Rack-style search for Scrabble-like letter constraints.
+- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar helper for Words With Friends-style searches.

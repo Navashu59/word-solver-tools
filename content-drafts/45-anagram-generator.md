@@ -1,14 +1,14 @@
 # Anagram Generator
 
-You’re not stuck on a puzzle - you want to create something new. Maybe you’re brainstorming a username, a pen name, or a fun rearrangement of a friend’s name. This anagram generator is built for creativity: enter any word or phrase, and it returns all possible rearrangements, sorted to inspire you. Use it when the goal is exploration, not just solving.
+You’re not stuck on a puzzle - you want to create something new. Maybe you’re brainstorming a username, a pen name, or a fun rearrangement of a friend’s name. This anagram generator is built for exploration: enter any word or phrase, then use filters to find candidate words you can turn into something memorable.
 
 ## Generating anagrams for names and phrases
 
-Enter a name like “William Shakespeare” and the generator will produce hundreds of anagrams, from “I am a weakish speller” to “We all make his praise.” Use the multi-word mode to control how many words appear in each result. This is perfect for creating personalized gifts, social media handles, or just a laugh with friends.
+Enter a name or phrase and look for words that stand out. The current tool does not automatically write polished multi-word phrases, so use it as an idea board: collect strong candidates, remove awkward ones, and combine the best words yourself.
 
-## Sorting results by commonality and length
+## Narrowing results by length and letter filters
 
-When the list is long, sort by common words to see the most recognizable anagrams first. Or sort by length to find short, punchy results or long, elaborate ones. The generator doesn’t just dump every combination - it organizes them so you can scan quickly and pick the one that clicks.
+When the list is long, use the length field to find short, punchy words or longer candidates. Contains, starts with, ends with, exclude, and pattern filters help you keep only the words that match the tone or clue you have in mind.
 
 ## Using wildcards for partial inspiration
 
@@ -16,7 +16,7 @@ If you have a few letters and want to see what words they can form, use wildcard
 
 ## Exact vs. broader word-finder use for different goals
 
-Toggle between a manual all-letter check and broader word-finder use (allow shorter words). Exact mode is great for finding perfect anagrams of a name or phrase. All-letters mode is better when you want to explore all possible words from a set of letters, even if they don’t use everything.
+For a perfect anagram, set the length to match the number of letters you entered and manually confirm the result uses the right letters. For brainstorming, keep the search broader and collect shorter words that could work inside a name, clue, or creative phrase.
 
 ## Saving and sharing your favorite anagrams
 
@@ -26,19 +26,19 @@ Once you find a result you like, copy it directly from the tool. There’s no ac
 
 ### How do I solve an anagram?
 
-Enter the letters or phrase into the input. Choose an exact anagram check for full rearrangements or broader word-finder use for sub-anagrams. Click Solve, then scan the results. Use filters to narrow by length or commonality.
+Enter the letters or phrase into the input, click Solve, then scan the candidates. Use length and pattern filters when you need a tighter set.
 
 ### Does an anagram have to use every letter?
 
-No. This generator supports both exact anagrams and sub-anagrams. Toggle the switch to control that behavior.
+Not always in casual word searches. If you need a strict anagram, match the length to your input and verify the final result against your letters.
 
 ### Can I make anagrams from a name?
 
-Yes. Enter any name or phrase. The generator produces all valid rearrangements, including multi-word results. Use multi-word mode to specify word count.
+Yes. Enter any name or phrase to find candidate words. For multi-word name anagrams, combine the useful results manually.
 
 ### Can anagrams be more than one word?
 
-Yes. Enable multi-word mode and set the desired word count. The generator finds combinations of words that use your input letters.
+Yes, but this page does not automatically assemble phrase-length anagrams. Use the output as a source of words and build the final phrase yourself.
 
 ### How do I filter anagrams by length?
 
