@@ -60,6 +60,17 @@ Use this page when you want candidates that follow the basic Spelling Bee-style 
 People also search for spelling bee, spelling bee answers, nyt spelling bee, spelling bee nyt, connections hint today mashable, nytimes spelling bee. The useful overlap is not just “answers”; it is narrowing a seven-letter puzzle without losing track of the center letter, pangrams, and word length.
 
 
+## Quick checks before you use these results
+
+A spelling bee solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For Spelling Bee-style puzzles, confirm the center letter, minimum length, and pangram expectation before scanning longer words.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as Spelling Bee Solver today, Spelling Bee answers Yesterday, Spelling Bee Solver unscramble, Spelling Bee Solver NYT, Spelling Bee Solver hints. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) – If you have a different set of letters and need all possible words.

@@ -57,6 +57,17 @@ Use this page as a rack and pattern helper. Enter your letters, use ? for blanks
 Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, scrabble cheat, word finder. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
 
 
+## Quick checks before you use these results
+
+A words with friends cheat should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as More, See more, Words With Friends cheat download, Words With Friends cheat app, Words with Friends cheat app Android. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) for general word games.

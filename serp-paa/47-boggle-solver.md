@@ -46,3 +46,53 @@ The user has a Boggle board and wants all connected words.
 - pattern wildcard filter
 - copyable candidate results
 - 4x4/5x5 board-path check when full board is entered
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Boggle Solver - https://www.thewordfinder.com/boggle-with-friends-solver/
+2. Boggle Solver Cheat Word Race Crack Shaker - https://www.anagrammer.com/boggle-solver/
+3. Boggle Solver - https://boggle.wordsmuggler.com/
+4. Boggle Solver 5x5 - Online Puzzle Cheat Word Finder - https://www.dcode.fr/big-boggle-solver-5x5
+5. Word Games Word Puzzles Helper - App Store - Apple - https://apps.apple.com/us/app/word-games-word-puzzles-helper/id1659955337#:~:text=Boggle%20solver%20(Ruzzle%20solver).,the%20'FILL'%20key).
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Read more
+- List the rules of Boggle
+- Give me strategies for finding long words
+- YouTube
+- Boggle Solver 4x4
+- Boggle Solver 5x5
+- Boggle solver from image
+- Boggle solver 6x6
+
+## Competitor Structure Notes
+
+### Competitor 1: thewordfinder.com
+
+- Title: Boggle Solver
+- H1: BOGGLE SOLVER
+- H2 themes: 0 Results | How to use our Boggle Solver | Boggle the mind
+- Interactive elements: inputs 0, buttons 4, tables 1
+
+### Competitor 2: anagrammer.com
+
+- Title: Boggle Solver Cheat Word Race Crack Shaker
+- H1: Boggle Solver & Word Finder cheat help
+- H2 themes: n/a
+- Interactive elements: inputs 83, buttons 5, tables 0
+
+### Competitor 3: boggle.wordsmuggler.com
+
+- Title: Boggle Solver
+- H1: n/a
+- H2 themes: Boggle Solver powered by the Word Smuggler
+- Interactive elements: inputs 3, buttons 3, tables 1

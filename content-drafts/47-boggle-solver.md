@@ -49,6 +49,17 @@ Use this page to find candidate words from a Boggle-style board. If you enter a 
 Related searches include boggle scramble, boggle game online, boggle game solver, boggle board, boggle dictionary, boggle brainbusters answers today. The important gap is board practicality: a word is only useful when it fits the letter path and the rule set you are playing.
 
 
+## Quick checks before you use these results
+
+A boggle solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For Boggle-style boards, check that each word can be traced through adjacent letters instead of only checking whether the letters exist.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as List the rules of Boggle, Give me strategies for finding long words, YouTube, Boggle Solver 4x4, Boggle Solver 5x5. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Word Search Solver](/word-search-solver/) – Use this when you are looking for known words in a grid.

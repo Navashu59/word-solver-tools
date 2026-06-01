@@ -46,3 +46,53 @@ The user has scrambled letters and needs words that can be made from them.
 - starts/ends
 - copyable results
 - exact/all letters mode
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Word Unscrambler - Unscramble Letters To Find Words - https://wordunscrambler.me/
+2. Word Unscrambler - Unscramble Words and Letters - https://unscrambled-words.com/
+3. Word Unscrambler - Unscramble Words & Letters Instantly - https://www.wordunscrambler.net/
+4. Unscramble Words from Letters - https://word.tips/unscramble-word-finder/
+5. Word Finder & Unscrambler - https://www.dictionary.com/games/word-finder
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Clear
+- Unscramble
+- Word Descrambler
+- Read more
+- Best word unscrambler
+- 5 letter words using these letters
+- 5 letter Word unscrambler
+- 2 word unscrambler
+
+## Competitor Structure Notes
+
+### Competitor 1: wordunscrambler.me
+
+- Title: Word Unscrambler - Unscramble Letters To Find Words
+- H1: Word Unscrambler
+- H2 themes: What is the use of Word Unscrambler? | How to use advanced options? | How does this work ?
+- Interactive elements: inputs 5, buttons 3, tables 0
+
+### Competitor 2: unscrambled-words.com
+
+- Title: Word Unscrambler - Unscramble Words and Letters
+- H1: Word Unscrambler
+- H2 themes: Unscramble Letters to Make Words | Popular sets | Alphabetical | What is a Word Unscrambler | How to unscramble words
+- Interactive elements: inputs 10, buttons 2, tables 0
+
+### Competitor 3: wordunscrambler.net
+
+- Title: Word Unscrambler - Unscramble Words & Letters Instantly
+- H1: Word Unscrambler
+- H2 themes: Unscrambled Words from the Letters LTTBOAOGY | How Many Words can be Made From LTTBOAOGY? | L T T B O A O G Y Letter Values in Word Scrabble and Words With Friends | If You Unscramble LTTBOAOGY... What Does It Mean? | Unscrambling LTTBOAOGY for Other Word Scramble Games | Unscrambling Words | Unscrambling Letters | Word Scramble Tools
+- Interactive elements: inputs 8, buttons 2, tables 0

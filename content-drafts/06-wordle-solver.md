@@ -53,6 +53,17 @@ Use this page when you know some five-letter constraints and want a shorter cand
 Related searches include wordle, wordle hint, wordle today, nyt wordle, unscramble words, wordle nyt. The common need is not a giant word list; it is reducing guesses with the clues you already have.
 
 
+## Quick checks before you use these results
+
+A wordle solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For Wordle-style play, enter confirmed letters, possible letters, and excluded letters before judging a guess.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as 5 letter Wordle Solver, 6 letter Wordle Solver, Wordle Solver today, Wordle Solver NYT, 7 letter Wordle Solver. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [5 Letter Word Finder](/5-letter-word-finder/) – If you need to explore all possible 5-letter words beyond Wordle’s dictionary.

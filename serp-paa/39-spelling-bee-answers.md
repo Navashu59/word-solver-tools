@@ -47,3 +47,53 @@ The user has seven letters and a required center letter and needs hints or valid
 - copyable candidate results
 - center-letter filtering
 - pangram candidate labels
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Today's Spelling Bee Answers - https://www.sbsolver.com/answers
+2. Today's NYT Spelling Bee Answers - https://word.tips/spelling-bee-answers/
+3. Spelling Bee Answers - https://nytbee.com/
+4. NYT Spelling Bee Answers for May 31, 2026 - https://www.nytimes.com/2026/05/31/crosswords/spelling-bee-forum.html
+5. NYT Spelling Bee Answers for May 19. 2026 - https://www.nytimes.com/2026/05/19/crosswords/spelling-bee-forum.html
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Read more
+- Spelling Bee answers today
+- Spelling Bee answers Yesterday
+- NYT Spelling Bee answers
+- Spelling Bee words
+- Spelling Bee answers tuesday
+- Spelling Bee answers friday
+- Spelling Bee answers and analysis
+
+## Competitor Structure Notes
+
+### Competitor 1: sbsolver.com
+
+- Title: Today's Spelling Bee Answers | Spelling Bee Solver
+- H1: n/a
+- H2 themes: Get ad-free hints!
+- Interactive elements: inputs 12, buttons 16, tables 2
+
+### Competitor 2: word.tips
+
+- Title: Today's NYT Spelling Bee Answers - Word Tips
+- H1: Today's NYT Spelling Bee Answers
+- H2 themes: May 31, 2026 | Today's Pangrams | Today's Answers | Want to Play More NYT Spelling Bee Games? | Daily Games Hints & Answers: | But first, What is the NYT Spelling Bee Game? | Sneak Peek - Spelling Bee Answers Today | How do I Play The Spelling Bee Puzzle?
+- Interactive elements: inputs 7, buttons 54, tables 0
+
+### Competitor 3: nytbee.com
+
+- Title: Spelling Bee Answers
+- H1: NYT Spelling Bee Answers and Analysis
+- H2 themes: Sunday, May 31, 2026
+- Interactive elements: inputs 2, buttons 2, tables 0

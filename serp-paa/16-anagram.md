@@ -46,3 +46,48 @@ The user has letters, a word, name, or phrase and wants valid rearrangements.
 - pattern wildcard filter
 - sample/copy/clear controls
 - exact/all letters mode
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Anagram Solver - Find all possible words - https://www.thewordfinder.com/anagram-solver/
+2. Anagram - https://en.wikipedia.org/wiki/Anagram
+3. Anagram Solver - Find all Available Words - https://word.tips/anagram-solver/
+4. Jennifer Aniston has awkward interview with BBC Radio reporter - https://www.cbsnews.com/news/jennifer-aniston-has-awkward-interview-with-bbc-radio-reporter/#:~:text=He%20then%20turned%20the%20conversation,Aniston%20hadn't%20before%20realized.
+5. Anagram: #1 Insurance Billing Software Platform for ... - https://www.goanagram.com/
+
+## People Also Ask Captured
+
+- In Literature . How are anagrams used in literature?
+- History . What is the history of anagrams?
+- Types . What are the different types of anagrams?
+
+## Related Searches Captured
+
+- YouTube
+- Read more
+- Anagram generator
+- Anagram examples
+- Anagram sentence
+- Anagram game
+- Name anagram
+- Anagram words
+
+## Competitor Structure Notes
+
+### Competitor 1: thewordfinder.com
+
+- Title: Anagram Solver - Find all possible words
+- H1: ANAGRAM SOLVER
+- H2 themes: n/a
+- Interactive elements: inputs 9, buttons 5, tables 0
+
+### Competitor 2: word.tips
+
+- Title: Anagram Solver - Find all Available Words - Word Finder
+- H1: Anagram Solver
+- H2 themes: 5 Letter Words | Word Games | Daily Word Games Hints & Answers | Popular Word Games Solvers & Helpers | Crossword Clues | Anagrams - Definition and Examples | Anagram Solver for Scrabble, Words with Friends and Crosswords | Anagramming Example
+- Interactive elements: inputs 5, buttons 40, tables 0

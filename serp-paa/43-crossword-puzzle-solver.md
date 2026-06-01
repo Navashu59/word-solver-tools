@@ -45,3 +45,53 @@ The user has a clue, length, and some known letters and needs possible answers.
 - known letters
 - ranked candidate answers
 - recent/common clue notes
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Crossword Solver - https://www.wordplays.com/crossword-solver
+2. Crossword Solver by Dictionary.com - https://www.dictionary.com/games/crossword-solver
+3. Crossword Solver: Get Crossword Help and Solve Word Games - https://www.crosswordsolver.com/
+4. Crossword Solver - Missing Letters? We Help Finish Your ... - https://www.crosswordsolver.org/
+5. Crossword Solver: Clue Answers and Helpful Hints - https://word.tips/crossword-solver/
+
+## People Also Ask Captured
+
+- Crossword Solver - Missing Letters? We Help Finish Your ...
+
+## Related Searches Captured
+
+- Read more
+- Crossword solver enter clue
+- Quick crossword Solver
+- Crossword puzzle Solver camera
+- Free crossword solver
+- Best crossword solver
+- Crossword Puzzle answers for TODAY
+- Wordplays Crossword Solver
+
+## Competitor Structure Notes
+
+### Competitor 1: wordplays.com
+
+- Title: Crossword Solver, Crossword Clues, Daily Celebrity, NYT, USA Today, The Guardian, Daily Mirror, LA Times | Wordplays.com
+- H1: CROSSWORD SOLVER
+- H2 themes: CROSSWORD SOLVER QUICK HELP
+- Interactive elements: inputs 30, buttons 0, tables 5
+
+### Competitor 2: dictionary.com
+
+- Title: Crossword Solver by Dictionary.com | Dictionary.com
+- H1: Crossword Solver
+- H2 themes: n/a
+- Interactive elements: inputs 6, buttons 7, tables 0
+
+### Competitor 3: crosswordsolver.com
+
+- Title: Crossword Solver: Get Crossword Help and Solve Word Games
+- H1: Crossword Solver: Get Free Crossword Answers in One Click | New Crossword Clues
+- H2 themes: Get Crossword Help Anytime, Anywhere | How Crossword Solver Works | Get Cryptic Crossword Puzzle Help | Trending Clues & Community Favorites | Newly Solved: Fresh Answers for Tough Clues
+- Interactive elements: inputs 1, buttons 11, tables 1

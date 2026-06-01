@@ -60,6 +60,17 @@ Use this page when you have letters, blanks, or a word pattern and need candidat
 Related searches include crossword, nyt mini, crossword puzzle, nyt crossword, nyt crossword clues, nyt crossword answers. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
 
 
+## Quick checks before you use these results
+
+A crossword help should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For crossword clues, use known crossings and answer length first; a valid word is not automatically the right clue answer.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as Anagram Solver, WWF Solver, Crossword solver enter clue, Quick crossword Solver, Free crossword solver. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Crossword Solver](/crossword-solver/) – For quick answers when you have a clue and some letters.

@@ -53,6 +53,17 @@ Use this page when you know some five-letter constraints and want a shorter cand
 Related searches include wordle, unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat. The common need is not a giant word list; it is reducing guesses with the clues you already have.
 
 
+## Quick checks before you use these results
+
+A 5 letter word finder should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For Wordle-style play, enter confirmed letters, possible letters, and excluded letters before judging a guess.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as 6 Letter Words, 7 Letter Words, 5 letter word Finder for Wordle, 5 letter words using these letters, 6 letter word finder. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Wordle Solver](/wordle-solver/) – When you need the best next guess, not just a list.

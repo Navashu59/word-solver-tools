@@ -45,3 +45,53 @@ The user has green, yellow, and gray letters and needs possible next guesses.
 - possible answer list
 - best next guesses
 - spoiler-safe hints
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Wordle Answer Finder - https://word.tips/wordle/
+2. Wordle Solver - https://www.thewordfinder.com/wordle-solver/
+3. Wordle Solver and Wordle Answer Finder - https://capitalizemytitle.com/wordle-solver/
+4. Word Finder: Scrabble & Word Game Solver - https://www.merriam-webster.com/wordfinder
+5. Wordle Solver: Find the Solution In Seconds - https://wordsrated.com/solvers/wordle/
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Read more
+- Previous Wordle Answers
+- Wordle finder NYT
+- Wordle finder 6 letters
+- Wordle finder 7 letters
+- 5 letter Wordle Solver
+- Wordle finder 4 letters
+- Wordle finder 8 letters
+
+## Competitor Structure Notes
+
+### Competitor 1: word.tips
+
+- Title: Wordle Answer Finder - Word Finder
+- H1: Wordle Word Finder
+- H2 themes: What is Wordle? | How To Play Wordle | Wordle Tips and Tricks | 25 Best Starting Words For Wordle | About | Piano | House | Alone
+- Interactive elements: inputs 12, buttons 24, tables 0
+
+### Competitor 2: thewordfinder.com
+
+- Title: Wordle Solver
+- H1: Wordle Solver
+- H2 themes: Frequently Asked Questions (FAQ) | The Word Finder | More Tools | Wordy Stuff | Connect with Us
+- Interactive elements: inputs 27, buttons 17, tables 0
+
+### Competitor 3: capitalizemytitle.com
+
+- Title: Wordle Solver and Wordle Answer Finder - Capitalize My Title
+- H1: Wordle Answer Finder
+- H2 themes: Best Next Guess | Common Solutions | All Possible Solutions | Daily Games Hints & Answers | Need Help With Today’s Wordle Word? | How Our Wordle Solver Works | Strategic Tips for Wordle Success | Daily Games Hints & Answers:
+- Interactive elements: inputs 14, buttons 1, tables 0

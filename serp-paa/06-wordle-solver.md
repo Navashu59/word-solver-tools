@@ -45,3 +45,53 @@ The user has green, yellow, and gray letters and needs possible next guesses.
 - possible answer list
 - best next guesses
 - spoiler-safe hints
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Wordle Solver - https://www.thewordfinder.com/wordle-solver/
+2. Wordle Answer Finder - https://word.tips/wordle/
+3. Wordle Solver Pro: Help & Hints for Today's 5-Letter Word - https://wordlesolver.pro/
+4. Wordle - A daily word game - https://www.nytimes.com/games/wordle/index.html
+5. Wordle Solver and Wordle Answer Finder - https://capitalizemytitle.com/wordle-solver/
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Read more
+- 5 letter Wordle Solver
+- 6 letter Wordle Solver
+- Wordle Solver today
+- Wordle Solver NYT
+- 7 letter Wordle Solver
+- Wordle solver hint
+- French Wordle Solver
+
+## Competitor Structure Notes
+
+### Competitor 1: thewordfinder.com
+
+- Title: Wordle Solver
+- H1: Wordle Solver
+- H2 themes: Frequently Asked Questions (FAQ) | The Word Finder | More Tools | Wordy Stuff | Connect with Us
+- Interactive elements: inputs 27, buttons 17, tables 0
+
+### Competitor 2: word.tips
+
+- Title: Wordle Answer Finder - Word Finder
+- H1: Wordle Word Finder
+- H2 themes: What is Wordle? | How To Play Wordle | Wordle Tips and Tricks | 25 Best Starting Words For Wordle | About | Piano | House | Alone
+- Interactive elements: inputs 12, buttons 24, tables 0
+
+### Competitor 3: wordlesolver.pro
+
+- Title: Wordle Solver Pro: Help & Hints for Today's 5-Letter Word
+- H1: Wordle Solver5-Letter Words
+- H2 themes: Words found by Wordle Solver | Wordle Solving Strategy | Wordle Statistics & Global Benchmarks | Wordle Solver FAQ | Wordle History & FAQ
+- Interactive elements: inputs 69, buttons 22, tables 0

@@ -53,6 +53,17 @@ Use this page when you know some five-letter constraints and want a shorter cand
 Related searches include unscramble words, scrabble word finder, unscramble, 5 letter words, scrabble cheat, word finder. The common need is not a giant word list; it is reducing guesses with the clues you already have.
 
 
+## Quick checks before you use these results
+
+A five letter words should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For Wordle-style play, enter confirmed letters, possible letters, and excluded letters before judging a guess.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as 6 Letter Words, 7 Letter Words, 116 more rows, Five letter words with these letters, Five letter words in English. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [5 Letter Words](/5-letter-words/) - Same tool with a numeric slug, if you prefer typing "5" instead of "five."

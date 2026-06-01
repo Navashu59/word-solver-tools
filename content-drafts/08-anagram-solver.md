@@ -53,6 +53,17 @@ Use this page for both loose letter exploration and stricter anagram checks. Tur
 Related searches include unscramble, anagram, anagram and, anagram generator, anagrams, anagram of solver. The shared intent is simple: enter letters, remove impossible candidates, then decide whether the answer needs a full rearrangement, a shorter word, or a phrase you assemble manually.
 
 
+## Quick checks before you use these results
+
+A anagram solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle expects a true anagram, use every entered letter exactly once and remove spaces or punctuation before searching.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as Anagram generator, Anagram solver free, Multiple word anagram solver, Anagram Solver 2 words, Multiple word anagram solver free. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Anagram Generator](/anagram-generator/) – Use this when you want to create anagrams for fun or inspiration, not just solve a puzzle.

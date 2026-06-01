@@ -46,3 +46,53 @@ The user has letters or word constraints and needs matching English words quickl
 - starts/ends
 - copyable results
 - exact/all letters mode
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Letter Boxed Solver - https://letterboxed.aliceyliang.com/
+2. Today's Letter Boxed Hints & Answers for May 31, 2026 - https://word.tips/letterboxed-todays-hints-answers/
+3. Letter Boxed Solver - Get Today's NYT Puzzle Answers - https://www.thewordfinder.com/letter-boxed-solver/
+4. Letter Boxed Solver and Solutions | LetterBoxedPlus - https://letterboxedplus.com/
+5. Letter Boxed Solver : r/SideProject - https://www.reddit.com/r/SideProject/comments/18aniwn/letter_boxed_solver/
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Clear
+- Read more
+- Letter Boxed Answers Today
+- Xfire Solver
+- New York Times Letter Boxed
+- Letter Boxed answer today
+- Letter box solver free
+- Letter box solver app
+
+## Competitor Structure Notes
+
+### Competitor 1: letterboxed.aliceyliang.com
+
+- Title: Letter Boxed Solver
+- H1: Letter Boxed Solver
+- H2 themes: n/a
+- Interactive elements: inputs 7, buttons 2, tables 0
+
+### Competitor 2: word.tips
+
+- Title: Letter Boxed Solver Answers & Hints - Solution for Today May 31 #2735 - Word Tips
+- H1: Today's Letter Boxed Hints & Answers for May 31, 2026
+- H2 themes: Letter Boxed #2735, Sunday May 31, 2026 solution! | Today’s NYT Letter Boxed Answer | Possible Solutions: | Daily Games Hints & Answers: | Yesterday’s NYT Letter Boxed Answers | What is NYT Letter Boxed Puzzle Game? | Basic Layout and Objective | Why This Puzzle Stands Out
+- Interactive elements: inputs 0, buttons 51, tables 0
+
+### Competitor 3: thewordfinder.com
+
+- Title: Letter Boxed Solver - Get Today's NYT Puzzle Answers | The Word Finder
+- H1: Letter Boxed Solver
+- H2 themes: Stuck on Letter Boxed? You're not alone | How to Use Our Custom Letter Boxed Solver | What Makes Letter Boxed So Hard? | Letter Boxed Tips and Tricks | What is NYT Letter Boxed? | Why Use Our Solver? | Have Feedback or Feature Ideas? | The Word Finder
+- Interactive elements: inputs 0, buttons 0, tables 0

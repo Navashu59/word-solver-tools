@@ -46,3 +46,48 @@ The user has scrambled letters and needs words that can be made from them.
 - starts/ends
 - copyable results
 - exact/all letters mode
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Word Unscrambler - Unscramble Letters To Find Words - https://wordunscrambler.me/
+2. Unscramble - https://wordunscrambler.me/unscramble/*
+3. Letters - https://wordunscrambler.me/unscramble/letters
+4. Word Descrambler - https://wordunscrambler.me/descrambler
+5. Unscramble : quickly - https://wordunscrambler.me/unscramble/quickly
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- News
+- Maps
+- Books
+
+## Competitor Structure Notes
+
+### Competitor 1: wordunscrambler.me
+
+- Title: Word Unscrambler - Unscramble Letters To Find Words
+- H1: Word Unscrambler
+- H2 themes: What is the use of Word Unscrambler? | How to use advanced options? | How does this work ?
+- Interactive elements: inputs 5, buttons 3, tables 0
+
+### Competitor 2: wordunscrambler.me
+
+- Title: Unscramble Letters : ? To Find All Words - WordUnscrambler.Me
+- H1: Unscramble : ?
+- H2 themes: Tips for scoring better!
+- Interactive elements: inputs 5, buttons 3, tables 0
+
+### Competitor 3: wordunscrambler.me
+
+- Title: Unscramble Letters : LETTERS To Find All Words - WordUnscrambler.Me
+- H1: Unscramble : letters
+- H2 themes: Tips for scoring better!
+- Interactive elements: inputs 5, buttons 3, tables 0

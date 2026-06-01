@@ -49,6 +49,17 @@ Use this page when you have letters, blanks, or a word pattern and need candidat
 Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
 
 
+## Quick checks before you use these results
+
+A word cheat should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as 51 answers, Tell me more about the Konami Code, Explain the origin of cheat codes, List other famous GTA cheat codes, Word cheat Wordle. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) – More filters for complex puzzles.

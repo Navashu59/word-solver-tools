@@ -46,3 +46,53 @@ The user has scrambled letters and needs words that can be made from them.
 - starts/ends
 - copyable results
 - exact/all letters mode
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Word Unscrambler - Unscramble Letters To Find Words - https://wordunscrambler.me/
+2. Word Scramble - Unscramble Letters To Find Words - https://word.tips/word-scramble/
+3. Word Unscrambler & Scramble Solver - https://www.hanginghyena.com/solvers/word-scramble-solver
+4. Fast Word Unscrambler – Instantly Unscramble Letters into ... - https://www.wordsies.com/
+5. Word Unscrambler - Unscramble Words and Letters - https://unscrambled-words.com/
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Clear
+- Read more
+- Word scramble generator
+- Word Scramble game
+- Find 20 Words with these letters
+- Word scramble answers free
+- Word Scramble examples
+- Word Scramble puzzle
+
+## Competitor Structure Notes
+
+### Competitor 1: wordunscrambler.me
+
+- Title: Word Unscrambler - Unscramble Letters To Find Words
+- H1: Word Unscrambler
+- H2 themes: What is the use of Word Unscrambler? | How to use advanced options? | How does this work ?
+- Interactive elements: inputs 5, buttons 3, tables 0
+
+### Competitor 2: word.tips
+
+- Title: Word Scramble - Unscramble Letters To Find Words - Word Finder
+- H1: Word Scramble - Word Finder
+- H2 themes: 5 Letter Words | Word Games | Daily Word Games Hints & Answers | Popular Word Games Solvers & Helpers | Crossword Clues | Word Scramble Game | Anagrams | Letter Arrangements. Unscramble Online vs. Offline
+- Interactive elements: inputs 5, buttons 39, tables 0
+
+### Competitor 3: hanginghyena.com
+
+- Title: Word Unscrambler & Scramble Solver – Unscramble Letters for Any Word Game
+- H1: Word Scramble Solver
+- H2 themes: Hanging Hyena | Word Scramble Solver | Hanging Hyena | Using Our Word Scramble Solver
+- Interactive elements: inputs 9, buttons 3, tables 0

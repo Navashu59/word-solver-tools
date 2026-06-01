@@ -45,3 +45,53 @@ The user has a clue, length, and some known letters and needs possible answers.
 - known letters
 - ranked candidate answers
 - recent/common clue notes
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Crossword Solver - https://www.wordplays.com/crossword-solver
+2. Crossword Solver - Missing Letters? We Help Finish Your ... - https://www.crosswordsolver.org/
+3. Crossword Solver: Clue Answers and Helpful Hints - https://word.tips/crossword-solver/
+4. Crossword Solver by Dictionary.com - https://www.dictionary.com/games/crossword-solver
+5. Crossword Solver: Get Crossword Help and Solve Word Games - https://www.crosswordsolver.com/
+
+## People Also Ask Captured
+
+- Crossword Solver - Missing Letters? We Help Finish Your ...
+
+## Related Searches Captured
+
+- Anagram Solver
+- WWF Solver
+- Read more
+- Crossword solver enter clue
+- Quick crossword Solver
+- Free crossword solver
+- Best crossword solver
+- Wordplays Crossword Solver
+
+## Competitor Structure Notes
+
+### Competitor 1: wordplays.com
+
+- Title: Crossword Solver, Crossword Clues, Daily Celebrity, NYT, USA Today, The Guardian, Daily Mirror, LA Times | Wordplays.com
+- H1: CROSSWORD SOLVER
+- H2 themes: CROSSWORD SOLVER QUICK HELP
+- Interactive elements: inputs 30, buttons 0, tables 5
+
+### Competitor 2: crosswordsolver.org
+
+- Title: Crossword Solver - Missing Letters? We Help Finish Your Crossword!
+- H1: The Crossword Solver
+- H2 themes: Crossword Help | Anagram Solver | Solve Our Crossword Puzzles
+- Interactive elements: inputs 18, buttons 0, tables 1
+
+### Competitor 3: word.tips
+
+- Title: Crossword Solver: Clue Answers and Helpful Hints
+- H1: Crossword Solver - Find Answers To Any Clue
+- H2 themes: Search Crossword Solver | Today's Trending Clues | Daily Games Hints & Answers: | Popular Crosswords | Daily Games Hints & Answers: | Today's Trending Clues | Popular Trending Clues | Fresh Clues From Recent Puzzles
+- Interactive elements: inputs 1, buttons 50, tables 0

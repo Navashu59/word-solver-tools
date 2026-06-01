@@ -47,3 +47,46 @@ The user has seven letters and a required center letter and needs hints or valid
 - copyable candidate results
 - center-letter filtering
 - pangram candidate labels
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Spelling Bee Buddy: Personalized Hints That Update as ... - https://www.nytimes.com/interactive/2023/upshot/spelling-bee-buddy.html
+2. Spelling Bee Buddy : r/NYTSpellingBee - https://www.reddit.com/r/NYTSpellingBee/comments/16tzjyx/spelling_bee_buddy/
+3. Introducing Spelling Bee Buddy: Your Personalized Daily ... - https://www.nytimes.com/2023/04/10/upshot/spelling-bee-buddy-introduction.html
+4. Spelling Bee - NYT Help Center - The New York Times - https://help.nytimes.com/360011158491-New-York-Times-Games/23675493312404-Spelling-Bee
+5. Always the best way to start the NYTimes Spelling Bee. ... - https://www.instagram.com/p/DU-6_0bEUmR/
+
+## People Also Ask Captured
+
+- When do you use hints? When do you use the spelling bee ...
+
+## Related Searches Captured
+
+- Read more
+- 65 answers
+- Spelling Bee Buddy answers today
+- NYT Spelling Bee Buddy
+- Spelling Bee Buddy not working today
+- Spelling Bee Buddy paywall
+- Spelling Bee Buddy answers today nyt
+- Spelling Bee Buddy google search
+
+## Competitor Structure Notes
+
+### Competitor 1: nytimes.com
+
+- Title: Spelling Bee Buddy: Personalized Hints That Update as You Play - The New York Times
+- H1: Spelling Bee Buddy: Personalized Hints That Update as You Play | ERROR: Uh oh! It looks like JavaScript isn't working. If iOS “Reader Mode” is on, try disabling it for this page.
+- H2 themes: Related Content | Site Index | Site Information Navigation
+- Interactive elements: inputs 2, buttons 24, tables 1
+
+### Competitor 2: nytimes.com
+
+- Title: Introducing Spelling Bee Buddy: Your Personalized Daily Bee Helper - The New York Times
+- H1: Introducing Spelling Bee Buddy: Your Personalized Daily Bee Helper
+- H2 themes: Related Content | Site Index | Site Information Navigation
+- Interactive elements: inputs 0, buttons 8, tables 0

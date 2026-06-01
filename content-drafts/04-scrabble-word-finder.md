@@ -53,6 +53,17 @@ Use this page as a rack and pattern helper. Enter your letters, use ? for blanks
 Related searches include unscramble words, word unscrambler, unscramble, words with friends cheat, 5 letter words, scrabble cheat. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
 
 
+## Quick checks before you use these results
+
+A scrabble word finder should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
+
+- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
+- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
+- **Game rules:** For Scrabble-style play, confirm the word against the word list your room, app, or tournament uses before treating it as final.
+- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
+
+People searching this topic often compare nearby tasks such as Scrabble word Finder French, Scrabble word Finder online, Scrabble word finder official, 5 letter Scrabble word Finder, Scrabble word finder Merriam. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
+
 ## Next tools to try
 
 - [Scrabble Cheat](/scrabble-cheat/) – If you want strategy tips alongside word lists, this page frames the same tool as a learning aid for improving your game.

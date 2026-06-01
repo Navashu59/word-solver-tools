@@ -46,3 +46,53 @@ The user has scrambled letters and needs words that can be made from them.
 - starts/ends
 - copyable results
 - exact/all letters mode
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Word Unscrambler - Unscramble Letters To Find Words - https://wordunscrambler.me/
+2. Word Scramble Generator - https://www.education.com/worksheet-generator/reading/word-scramble/
+3. Word Scramble - Unscramble Letters To Find Words - https://word.tips/word-scramble/
+4. Word Finder & Unscrambler - https://www.dictionary.com/games/word-finder
+5. Unscrambler | Unscramble Scrabble Words | Word ... - http://content.allscrabblewords.com/
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Clear
+- word unscrambler
+- word scrambler
+- Read more
+- Word scramble generator
+- Word Scramble game
+- Word scramble Generator free
+- Big word unscrambler
+
+## Competitor Structure Notes
+
+### Competitor 1: wordunscrambler.me
+
+- Title: Word Unscrambler - Unscramble Letters To Find Words
+- H1: Word Unscrambler
+- H2 themes: What is the use of Word Unscrambler? | How to use advanced options? | How does this work ?
+- Interactive elements: inputs 5, buttons 3, tables 0
+
+### Competitor 2: education.com
+
+- Title: Word Scramble Generator | Education.com
+- H1: Word Scramble Generator
+- H2 themes: n/a
+- Interactive elements: inputs 8, buttons 10, tables 0
+
+### Competitor 3: word.tips
+
+- Title: Word Scramble - Unscramble Letters To Find Words - Word Finder
+- H1: Word Scramble - Word Finder
+- H2 themes: 5 Letter Words | Word Games | Daily Word Games Hints & Answers | Popular Word Games Solvers & Helpers | Crossword Clues | Word Scramble Game | Anagrams | Letter Arrangements. Unscramble Online vs. Offline
+- Interactive elements: inputs 5, buttons 39, tables 0

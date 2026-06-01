@@ -44,3 +44,52 @@ The user needs a path from one word to another by changing one letter at a time.
 - dictionary choice
 - shortest path
 - alternate paths
+
+## Real Google SERP Snapshot - 2026-06-01
+
+Captured: 2026-06-01
+
+## Top Organic Results
+
+1. Word Ladder Solver - https://ceptimus.co.uk/wordladder.php
+2. Word Ladder Solver - https://wordladdergames.com/solver.html
+3. Laddergram Puzzle Solver - http://lewhunt.github.io/laddergram-puzzle-solver/
+4. Word Ladder Solver - http://datagenetics.com/blog/april22019/index.html
+5. Word Ladder Solver - Solve Word Puzzles Step-by- ... - https://aifreeforever.com/tools/word-ladder-solver
+
+## People Also Ask Captured
+
+- None captured in this snapshot.
+
+## Related Searches Captured
+
+- Read more
+- Laddergram Puzzle Solver
+- Keith Schwarz Word Ladders Tool
+- Word ladder solver online
+- Word ladder solver with letters
+- Word ladder solver 7 steps
+- Word ladder solver 5 letters
+
+## Competitor Structure Notes
+
+### Competitor 1: ceptimus.co.uk
+
+- Title: Word Ladder Solver
+- H1: n/a
+- H2 themes: n/a
+- Interactive elements: inputs 4, buttons 0, tables 2
+
+### Competitor 2: wordladdergames.com
+
+- Title: Word Ladder Solver
+- H1: n/a
+- H2 themes: Word Ladder Solver | Shortest Path Solver | Common Words Solver
+- Interactive elements: inputs 4, buttons 2, tables 0
+
+### Competitor 3: lewhunt.github.io
+
+- Title: Laddergram Puzzle Solver
+- H1: laddergram Puzzle Solver
+- H2 themes: n/a
+- Interactive elements: inputs 2, buttons 1, tables 0
