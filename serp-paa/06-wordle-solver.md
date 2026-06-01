@@ -1,28 +1,47 @@
-# SERP Gap Brief - Wordle Solver
+# SERP/PAA Mature Launch Framework - Wordle Solver
 
-Keyword: wordle solver
-URL: /wordle-solver/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+wordle solver
 
-- Top results and recent Wordle guides emphasize green/yellow/gray rules, duplicate letters, and accepted guess lists.
-- PAA questions often ask how to use a solver, best next guesses, repeated letters, and spoiler-safe hints.
-- Reddit discussions show duplicate-letter logic and gray-letter reuse cause confusion.
+## Intent
 
-## Page Gaps To Close
+The user has green, yellow, and gray letters and needs possible next guesses.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- wordle (55600000 searches/mo)
+- wordle hint (4090000 searches/mo)
+- wordle today (2740000 searches/mo)
+- nyt wordle (1500000 searches/mo)
+- unscramble words (1220000 searches/mo)
+- wordle nyt (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- word (1000000 searches/mo)
+- wordle unlimited (673000 searches/mo)
 
-- green/yellow/gray workflow
-- duplicate letter rules
-- hard mode considerations
-- spoiler-safe hint use
+## Required SERP/PAA coverage
 
-## Implementation Status
+- How do I use a Wordle solver?
+- What is the best next Wordle guess?
+- Can Wordle answers have repeated letters?
+- What do green, yellow, and gray mean?
+- How can I get hints without seeing the answer?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- green/yellow/gray position input
+- required letters
+- excluded letters
+- possible answer list
+- best next guesses
+- spoiler-safe hints

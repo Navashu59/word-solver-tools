@@ -44,6 +44,15 @@ Yes. Type any letters you want to exclude into the "excludes" field. The tool wi
 
 Use the position boxes for your green letters, the contains field for your yellow letters, and the excludes field for your gray letters. The tool will return all five-letter words that match your current Wordle board.
 
+## What this 5 letter words page covers
+
+Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
+
+## Searches this page is built to answer
+
+Related searches include wordle, wordle today, nyt wordle, unscramble words, word unscrambler, wordle nyt. The common need is not a giant word list; it is reducing guesses with the clues you already have.
+
+
 ## Next tools to try
 
 - [Five Letter Words](/five-letter-words/) - Same tool, different slug, if you prefer spelling out "five."

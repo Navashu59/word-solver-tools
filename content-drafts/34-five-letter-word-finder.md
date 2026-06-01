@@ -44,6 +44,15 @@ Yes. Type the letters you want to exclude into the "excludes" field. Any word co
 
 Enter your green letters in the position boxes, your yellow letters in the contains field, and your gray letters in the excludes field. Use wildcards for unknown positions. The finder will return all matching five-letter words.
 
+## What this five letter word finder page covers
+
+Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
+
+## Searches this page is built to answer
+
+Related searches include wordle, wordle today, unscramble words, word unscrambler, scrabble word finder, unscramble. The common need is not a giant word list; it is reducing guesses with the clues you already have.
+
+
 ## Next tools to try
 
 - [5 Letter Words](/5-letter-words/) - A simpler list tool without wildcards or scoring filters.

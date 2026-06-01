@@ -44,6 +44,15 @@ Set the answer length in the tool. If you're unsure, try a range (e.g., 4-6 lett
 
 Yes. Many clues have multiple valid answers. The tool ranks them by frequency, but you should always check against your puzzle's crossings and theme.
 
+## What this crossword clue solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include crossword solver, mini crossword hint, crossword clues, crossword clue, word solver, crossword solution new york times. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Crossword Solver](/crossword-solver/) – For a more general approach that combines clues, patterns, and known letters.

@@ -44,6 +44,15 @@ Set the answer length for each clue. In grid mode, the length is determined by t
 
 Yes. The tool ranks answers by frequency. In a themed puzzle, the less common answer might be correct if it fits the theme.
 
+## What this crossword puzzle solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include crossword solver, mini crossword hint, crossword clues, crossword clue, word solver, crossword solution new york times. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Crossword Solver](/crossword-solver/) – For individual clue solving when you're not working on a full grid.

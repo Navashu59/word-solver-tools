@@ -44,6 +44,15 @@ Yes. Add letters to the “excludes” field. The tool will remove any word cont
 
 Use the position boxes to match your green letters, the “contains” field for yellow letters, and the “excludes” field for gray letters. The finder will show all possible Wordle answers from a standard dictionary.
 
+## What this 5 letter word finder page covers
+
+Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
+
+## Searches this page is built to answer
+
+Related searches include wordle, unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat. The common need is not a giant word list; it is reducing guesses with the clues you already have.
+
+
 ## Next tools to try
 
 - [Wordle Solver](/wordle-solver/) – When you need the best next guess, not just a list.

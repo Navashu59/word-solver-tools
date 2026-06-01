@@ -1,37 +1,27 @@
-# SERP/PAA Framework - Scrabble Cheat
+# SERP/PAA Mature Launch Framework - Scrabble Cheat
 
-- Primary keyword: scrabble cheat
-- Target URL: /scrabble-cheat/
-- Cluster: scrabble
-- SEMrush US volume: 550,000 / month
-- Page type: tool_or_support_tool
-- Brand/game-specific: yes
+## Keyword
 
-## User Problem
+scrabble cheat
+
+## Intent
 
 The user has a rack of tiles and needs a valid scoring word.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- unscramble words (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- words with friends cheat (673000 searches/mo)
+- 5 letter words (550000 searches/mo)
+- word finder (550000 searches/mo)
+- scrabble dictionary (450000 searches/mo)
+- wordle solver (450000 searches/mo)
+- unscramble letters (368000 searches/mo)
+- merriam webster (301000 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- 1. scrabblewordfinder.org — https://scrabblewordfinder.org/
-- 2. scrabblecheat.com — https://scrabblecheat.com/
-- 3. wordfinder.yourdictionary.com — https://wordfinder.yourdictionary.com/
-- 4. simplyscrabble.com — https://simplyscrabble.com/scrabble-cheat/
-- 5. apps.apple.com — https://apps.apple.com/us/app/word-breaker-scrabble-cheat/id773303981
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Rack/letters input with blank tile support
-- Score/value sorting
-- Dictionary validity notes
-- Lists grouped by length
-- Ads and clutter often push the tool down on mobile
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - What words can I make with my Scrabble letters?
 - Can I use blank tiles in a Scrabble word finder?
@@ -39,33 +29,19 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - Is this word valid in Scrabble?
 - What is the highest scoring word from my tiles?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- scrabble cheat
-- scrabble dictionary
-- scrabble word checker
-- words with these letters scrabble
-- blank tile scrabble word finder
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: rack input, blank tile wildcard, score sorting, word length filter, valid-word dictionary note, copy result
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about scrabble cheat. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- rack or letter input
+- blank tile wildcard
+- length filter
+- contains/starts/ends filters
+- pattern filter
+- copyable candidate results

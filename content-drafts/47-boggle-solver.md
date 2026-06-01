@@ -40,6 +40,15 @@ Yes. Set a length when you only want words of a specific size.
 
 No. This is an independent helper with a built-in word list. Confirm final answers against the game or dictionary you use.
 
+## What this boggle solver page covers
+
+Use this page to find candidate words from a Boggle-style board. If you enter a full 4x4 or 5x5 board, the tool checks whether a candidate can be traced through adjacent tiles without reusing a tile. For partial letter sets, use it as a candidate finder and confirm the board path yourself.
+
+## Searches this page is built to answer
+
+Related searches include boggle scramble, boggle game online, boggle game solver, boggle board, boggle dictionary, boggle brainbusters answers today. The important gap is board practicality: a word is only useful when it fits the letter path and the rule set you are playing.
+
+
 ## Next tools to try
 
 - [Word Search Solver](/word-search-solver/) – Use this when you are looking for known words in a grid.

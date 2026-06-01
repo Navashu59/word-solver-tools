@@ -44,6 +44,15 @@ Yes, letters can be used multiple times. The only rule is that the center letter
 
 This page is for answer candidates. If you want to keep solving first, use [Spelling Bee Solver](/spelling-bee-solver/) and scan only the lengths or starting letters you need.
 
+## What this spelling bee answers page covers
+
+Use this page when you want candidates that follow the basic Spelling Bee-style rules: the center letter is required, letters can repeat, and pangram candidates use all seven letters. This is independent from any official publisher list, so treat unusual words as candidates and confirm them in the game.
+
+## Searches this page is built to answer
+
+People also search for nyt wordle, wordle nyt, nyt strands, nyt games, spelling bee, new york times games. The useful overlap is not just “answers”; it is narrowing a seven-letter puzzle without losing track of the center letter, pangrams, and word length.
+
+
 ## Next tools to try
 
 - [Spelling Bee Solver](/spelling-bee-solver/) – If you want hints before seeing all answers.

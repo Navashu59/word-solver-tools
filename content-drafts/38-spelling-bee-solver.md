@@ -51,6 +51,15 @@ Yes, letters can be used more than once. The only restriction is that every word
 
 Yes. Scan only word lengths, starting letters, or a small part of the list if you want a nudge without reading every answer.
 
+## What this spelling bee solver page covers
+
+Use this page when you want candidates that follow the basic Spelling Bee-style rules: the center letter is required, letters can repeat, and pangram candidates use all seven letters. This is independent from any official publisher list, so treat unusual words as candidates and confirm them in the game.
+
+## Searches this page is built to answer
+
+People also search for spelling bee, spelling bee answers, nyt spelling bee, spelling bee nyt, connections hint today mashable, nytimes spelling bee. The useful overlap is not just “answers”; it is narrowing a seven-letter puzzle without losing track of the center letter, pangrams, and word length.
+
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) – If you have a different set of letters and need all possible words.

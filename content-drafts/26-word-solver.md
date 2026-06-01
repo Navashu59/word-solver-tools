@@ -56,6 +56,15 @@ Yes. Set an exact length before solving. This is one of the most common filters.
 
 Yes. Use the “exclude letters” field to remove words containing specific letters. This helps when you know a letter isn’t in the solution.
 
+## What this word solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include wordle, wordle today, unscramble words, word unscrambler, scrabble word finder, unscramble. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Word Generator From Letters](/word-generator-from-letters/) – If you just need all possible words from a set of letters without pattern matching.

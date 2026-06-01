@@ -51,6 +51,15 @@ Check the puzzle grid - each answer's length is determined by the number of squa
 
 Yes. Many clues have multiple valid answers. Use crossing letters to determine which one fits.
 
+## What this crossword help page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include crossword, nyt mini, crossword puzzle, nyt crossword, nyt crossword clues, nyt crossword answers. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Crossword Solver](/crossword-solver/) – For quick answers when you have a clue and some letters.

@@ -1,33 +1,27 @@
-# SERP/PAA Framework - Crossword Puzzle Solver
+# SERP/PAA Mature Launch Framework - Crossword Puzzle Solver
 
-- Primary keyword: crossword puzzle solver
-- Target URL: /crossword-puzzle-solver/
-- Cluster: crossword
-- SEMrush US volume: 14,800 / month
-- Page type: tool_or_support_tool
-- Brand/game-specific: no
+## Keyword
 
-## User Problem
+crossword puzzle solver
+
+## Intent
 
 The user has a clue, length, and some known letters and needs possible answers.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- crossword solver (135000 searches/mo)
+- mini crossword hint (90500 searches/mo)
+- crossword clues (49500 searches/mo)
+- crossword clue (40500 searches/mo)
+- word solver (40500 searches/mo)
+- crossword solution new york times (33100 searches/mo)
+- heavenly crossword puzzle (27100 searches/mo)
+- answers to the new york times crossword puzzle (22200 searches/mo)
+- clues crossword puzzle clue (22200 searches/mo)
+- crossword crossword heaven (22200 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- Error: ERROR 132 :: API UNITS BALANCE IS ZERO
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Clue search box
-- Pattern input with ? or blanks
-- Answer length filter
-- Recent clue database
-- Multiple possible answers with weak ranking explanations
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - How do I solve a crossword clue with missing letters?
 - How do I search crossword answers by pattern?
@@ -35,33 +29,19 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - How many letters is the answer?
 - Can the same clue have different answers?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- crossword clue solver
-- crossword answers
-- crossword help
-- crossword solver missing letters
-- crossword pattern solver
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: clue input, pattern input, answer length, known letters, ranked candidate answers, recent/common clue notes
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about crossword puzzle solver. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- clue input
+- pattern input
+- answer length
+- known letters
+- ranked candidate answers
+- recent/common clue notes

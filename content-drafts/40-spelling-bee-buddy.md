@@ -50,6 +50,15 @@ Yes, letters can be used multiple times. The only rule is the center letter must
 
 Yes. Use the buddy as a hint by scanning lengths, starting letters, or small groups before reading the full list.
 
+## What this spelling bee buddy page covers
+
+Use this page when you want candidates that follow the basic Spelling Bee-style rules: the center letter is required, letters can repeat, and pangram candidates use all seven letters. This is independent from any official publisher list, so treat unusual words as candidates and confirm them in the game.
+
+## Searches this page is built to answer
+
+People also search for spelling bee, spelling bee answers, nyt spelling bee, spelling bee nyt, nytimes spelling bee, spelling bee game. The useful overlap is not just “answers”; it is narrowing a seven-letter puzzle without losing track of the center letter, pangrams, and word length.
+
+
 ## Next tools to try
 
 - [Spelling Bee Solver](/spelling-bee-solver/) – If you want full control with filters and wildcards.

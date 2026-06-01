@@ -1,37 +1,27 @@
-# SERP/PAA Framework - Anagram
+# SERP/PAA Mature Launch Framework - Anagram
 
-- Primary keyword: anagram
-- Target URL: /anagram/
-- Cluster: anagram
-- SEMrush US volume: 165,000 / month
-- Page type: support
-- Brand/game-specific: no
+## Keyword
 
-## User Problem
+anagram
+
+## Intent
 
 The user has letters, a word, name, or phrase and wants valid rearrangements.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- unscramble (1000000 searches/mo)
+- anagram solver (246000 searches/mo)
+- anagram and (90500 searches/mo)
+- anagram generator (33100 searches/mo)
+- anagrams (33100 searches/mo)
+- anagram of solver (27100 searches/mo)
+- anagram solver anagram (22200 searches/mo)
+- anagram solver anagram solver (18100 searches/mo)
+- anagram solver solver (18100 searches/mo)
+- anagrammen generator (18100 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- 1. word.tips — https://word.tips/anagram-solver/
-- 2. www.thewordfinder.com — https://www.thewordfinder.com/anagram-solver/
-- 3. en.wikipedia.org — https://en.wikipedia.org/wiki/Anagram
-- 4. wordsmith.org — https://wordsmith.org/anagram/
-- 5. www.goanagram.com — https://www.goanagram.com/
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Letters/phrase input
-- All letters vs partial letters
-- Multi-word anagram options
-- Length filters
-- Name/phrase examples
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - How do I solve an anagram?
 - Does an anagram have to use every letter?
@@ -39,33 +29,20 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - Can anagrams be more than one word?
 - How do I filter anagrams by length?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- anagram solver
-- anagram generator
-- name anagram maker
-- phrase anagram solver
-- multi word anagram solver
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: letters or phrase input, exact/all letters toggle, multi-word mode, length filters, common word sorting
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about anagram. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- letters or phrase input
+- length filter
+- contains/starts/ends filters
+- exclude letters filter
+- pattern wildcard filter
+- sample/copy/clear controls
+- exact/all letters mode

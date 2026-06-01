@@ -1,28 +1,46 @@
-# SERP Gap Brief - 5 Letter Word Finder
+# SERP/PAA Mature Launch Framework - 5 Letter Word Finder
 
-Keyword: 5 letter word finder
-URL: /5-letter-word-finder/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+5 letter word finder
 
-- SERP pages often combine 5-letter word finding with Wordle helper workflows.
-- Searchers need examples for known positions, excluded letters, and vowels/consonants.
-- The page should separate general five-letter lists from puzzle-solving filters.
+## Intent
 
-## Page Gaps To Close
+The user needs a five-letter word that fits known letters or excluded letters.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- wordle (55600000 searches/mo)
+- unscramble words (1220000 searches/mo)
+- word unscrambler (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- words with friends cheat (673000 searches/mo)
+- 5 letter words (550000 searches/mo)
+- scrabble cheat (550000 searches/mo)
+- word finder (550000 searches/mo)
+- worlde (550000 searches/mo)
 
-- known position examples
-- included and excluded letters
-- Wordle-style use without spoilers
-- why five-letter list pages need filters
+## Required SERP/PAA coverage
 
-## Implementation Status
+- What 5 letter words can I make with these letters?
+- What 5 letter words start with this letter?
+- What 5 letter words end with this letter?
+- Can I exclude letters from the results?
+- How do I find five-letter words for Wordle?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- five-letter mode
+- known position boxes
+- contains/excludes filters
+- starts/ends filters
+- copy word list

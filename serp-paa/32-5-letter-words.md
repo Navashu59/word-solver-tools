@@ -1,33 +1,27 @@
-# SERP/PAA Framework - 5 Letter Words
+# SERP/PAA Mature Launch Framework - 5 Letter Words
 
-- Primary keyword: 5 letter words
-- Target URL: /5-letter-words/
-- Cluster: wordle-letter-patterns
-- SEMrush US volume: 550,000 / month
-- Page type: tool_or_support_tool
-- Brand/game-specific: no
+## Keyword
 
-## User Problem
+5 letter words
+
+## Intent
 
 The user needs a five-letter word that fits known letters or excluded letters.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- wordle (55600000 searches/mo)
+- wordle today (2740000 searches/mo)
+- nyt wordle (1500000 searches/mo)
+- unscramble words (1220000 searches/mo)
+- word unscrambler (1220000 searches/mo)
+- wordle nyt (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- word (1000000 searches/mo)
+- wordle unlimited (673000 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- Error: ERROR 132 :: API UNITS BALANCE IS ZERO
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Green/yellow/gray input grid
-- Possible answers list
-- Best next guess suggestions
-- Daily-answer adjacency
-- Spoiler risk and repeated-letter explanations
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - What 5 letter words can I make with these letters?
 - What 5 letter words start with this letter?
@@ -35,33 +29,18 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - Can I exclude letters from the results?
 - How do I find five-letter words for Wordle?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- 5 letter words
-- wordle solver
-- wordle helper
-- wordle hints
-- five letter word finder
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: five-letter mode, known position boxes, contains/excludes filters, starts/ends filters, copy word list
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about 5 letter words. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- five-letter mode
+- known position boxes
+- contains/excludes filters
+- starts/ends filters
+- copy word list

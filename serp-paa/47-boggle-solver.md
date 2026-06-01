@@ -1,33 +1,27 @@
-# SERP/PAA Framework - Boggle Solver
+# SERP/PAA Mature Launch Framework - Boggle Solver
 
-- Primary keyword: boggle solver
-- Target URL: /boggle-solver/
-- Cluster: boggle
-- SEMrush US volume: 1,900 / month
-- Page type: tool_or_support_tool
-- Brand/game-specific: no
+## Keyword
 
-## User Problem
+boggle solver
+
+## Intent
 
 The user has a Boggle board and wants all connected words.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- boggle scramble (2900 searches/mo)
+- boggle game online (1300 searches/mo)
+- boggle game solver (1300 searches/mo)
+- boggle board (1000 searches/mo)
+- boggle dictionary (1000 searches/mo)
+- boggle brainbusters answers today (720 searches/mo)
+- boogle online (720 searches/mo)
+- boggle free online (590 searches/mo)
+- boggle answers today (480 searches/mo)
+- boggle free (480 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- Error: ERROR 132 :: API UNITS BALANCE IS ZERO
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Grid input
-- All valid words output
-- Score sorting
-- Path display
-- Limited mobile entry quality
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - How do you solve Boggle?
 - Can Boggle letters be reused?
@@ -35,33 +29,20 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - What words are on this Boggle board?
 - Can I use a 5x5 Boggle grid?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- boggle solver
-- boggle word finder
-- boggle answers
-- 4x4 boggle solver
-- boggle board solver
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: 4x4/5x5 grid, dictionary selection, path highlighting, score sorting, word length filters
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about boggle solver. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- board-letter input
+- length filter
+- contains/starts/ends filters
+- exclude letters filter
+- pattern wildcard filter
+- copyable candidate results
+- 4x4/5x5 board-path check when full board is entered

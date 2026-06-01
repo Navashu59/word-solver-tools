@@ -44,6 +44,15 @@ Absolutely. The tool returns candidate words from its word list that match your 
 
 Enter the letters, set the length if you know it, and hit generate. Then scan the results from top to bottom - the most common words appear first. If you're still stuck, use the clue field or try a wildcard for a letter you might have misread.
 
+## What this jumble solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include usa today games, jumble, jumble today, word solver, daily jumble, scramble into. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Word Scramble](/word-scramble/) – For general scrambled letter puzzles beyond Jumble, like word games or anagram challenges.

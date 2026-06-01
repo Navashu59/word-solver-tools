@@ -44,6 +44,15 @@ Yes, when viewing all anagrams, you can filter by length to see only words of a 
 
 No, exclusion is not available in scrambler mode. Use the unscramble tool for that.
 
+## What this word scrambler page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Jumble Solver](/jumble-solver/) – Solve Jumble puzzles with scrambled letters.

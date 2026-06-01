@@ -44,6 +44,15 @@ Yes. Use the length field to set an exact length. Results update instantly.
 
 Yes. Type letters to exclude in the exclude field. Any word containing those letters is removed.
 
+## What this word scramble solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Scramble Words](/scramble-words/) – A simpler version focused on generating all words from a set of letters, without pattern matching.

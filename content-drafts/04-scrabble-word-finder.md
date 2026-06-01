@@ -44,6 +44,15 @@ This tool gives candidate words from its built-in list. Always confirm a challen
 
 Start by finding longer candidates, then score them against your actual board because premium squares change the best play. A shorter word on a double-word or triple-word square can beat a longer word in a plain position.
 
+## What this scrabble word finder page covers
+
+Use this page as a rack and pattern helper. Enter your letters, use ? for blanks, set a length or board pattern, and copy candidates worth checking. The page is not an official dictionary, so verify challenged or high-value plays in the game you are using.
+
+## Searches this page is built to answer
+
+Related searches include unscramble words, word unscrambler, unscramble, words with friends cheat, 5 letter words, scrabble cheat. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
+
+
 ## Next tools to try
 
 - [Scrabble Cheat](/scrabble-cheat/) – If you want strategy tips alongside word lists, this page frames the same tool as a learning aid for improving your game.

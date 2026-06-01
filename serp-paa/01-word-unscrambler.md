@@ -1,28 +1,48 @@
-# SERP Gap Brief - Word Unscrambler
+# SERP/PAA Mature Launch Framework - Word Unscrambler
 
-Keyword: word unscrambler
-URL: /word-unscrambler/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+word unscrambler
 
-- SERP pages usually explain what a word unscrambler is, but many do not clearly separate exact anagrams from shorter words made from the same rack.
-- PAA-style questions focus on what words can be made, whether all letters must be used, blank tiles, word length filters, and excluding letters.
-- Reddit demand shows users care about include/exclude controls and tools that are not cluttered or slow.
+## Intent
 
-## Page Gaps To Close
+The user has scrambled letters and needs words that can be made from them.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- unscramble words (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- words with friends cheat (673000 searches/mo)
+- 5 letter words (550000 searches/mo)
+- scrabble cheat (550000 searches/mo)
+- word finder (550000 searches/mo)
+- wordle solver (450000 searches/mo)
+- unscramble letters (368000 searches/mo)
+- word scramble (246000 searches/mo)
 
-- exact vs contains mode
-- wildcard and blank tile examples
-- when no results appear
-- difference from word finder and anagram solver
+## Required SERP/PAA coverage
 
-## Implementation Status
+- What words can I make with these letters?
+- Do I have to use every letter?
+- Can I use wildcards or blank tiles?
+- Can I filter by word length?
+- Can I exclude letters from results?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- letter input
+- wildcards
+- length filters
+- contains/excludes
+- starts/ends
+- copyable results
+- exact/all letters mode

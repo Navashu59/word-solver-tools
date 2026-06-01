@@ -44,6 +44,15 @@ The tool gives candidates from its built-in word list. Always confirm a challeng
 
 Use the tool to find candidates, then score them against your actual board. Premium squares, cross words, and blank tiles decide the real best play.
 
+## What this scrabble cheat page covers
+
+Use this page as a rack and pattern helper. Enter your letters, use ? for blanks, set a length or board pattern, and copy candidates worth checking. The page is not an official dictionary, so verify challenged or high-value plays in the game you are using.
+
+## Searches this page is built to answer
+
+Related searches include unscramble words, scrabble word finder, unscramble, words with friends cheat, 5 letter words, word finder. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
+
+
 ## Next tools to try
 
 - [Scrabble Word Finder](/scrabble-word-finder/) – The raw tool version if you just want results without strategy tips.

@@ -1,38 +1,27 @@
-# SERP/PAA Framework - Unscramble Letters
+# SERP/PAA Mature Launch Framework - Unscramble Letters
 
-- Primary keyword: unscramble letters
-- Target URL: /unscramble-letters/
-- Cluster: unscramble-scramble
-- SEMrush US volume: 368,000 / month
-- Page type: core_or_high_priority_tool
-- Brand/game-specific: no
+## Keyword
 
-## User Problem
+unscramble letters
+
+## Intent
 
 The user has scrambled letters and needs words that can be made from them.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- unscramble words (1220000 searches/mo)
+- word unscrambler (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- words with friends cheat (673000 searches/mo)
+- 5 letter words (550000 searches/mo)
+- scrabble cheat (550000 searches/mo)
+- word finder (550000 searches/mo)
+- wordle solver (450000 searches/mo)
+- word scramble (246000 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- 1. wordunscrambler.me — https://wordunscrambler.me/
-- 2. word.tips — https://word.tips/unscramble-word-finder/
-- 3. content.allscrabblewords.com — http://content.allscrabblewords.com/
-- 4. unscrambled-words.com — https://unscrambled-words.com/
-- 5. www.wordsies.com — https://www.wordsies.com/
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Large letter input above the fold
-- Length-grouped word results
-- Starts/ends/contains filters
-- Wildcard or blank tile support
-- Definitions or dictionary links
-- Results often noisy without clear sorting
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - What words can I make with these letters?
 - Do I have to use every letter?
@@ -40,33 +29,20 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - Can I filter by word length?
 - Can I exclude letters from results?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- word finder
-- word solver
-- words with these letters
-- unscramble letters
-- word generator from letters
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: letter input, wildcards, length filters, contains/excludes, starts/ends, copyable results
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about unscramble letters. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- letter input
+- wildcards
+- length filters
+- contains/excludes
+- starts/ends
+- copyable results
+- exact/all letters mode

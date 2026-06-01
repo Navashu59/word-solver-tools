@@ -1,28 +1,48 @@
-# SERP Gap Brief - Jumble Solver
+# SERP/PAA Mature Launch Framework - Jumble Solver
 
-Keyword: jumble solver
-URL: /jumble-solver/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+jumble solver
 
-- Search intent overlaps with unscramble words, but Jumble users often expect exact answer candidates.
-- Jumble references show the puzzle format combines several scrambled words and a final clue answer.
-- The page should explain when to use exact letters and how to avoid spoiler-style overuse.
+## Intent
 
-## Page Gaps To Close
+The user has a Jumble puzzle and needs likely answers from scrambled letters.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- usa today games (110000 searches/mo)
+- jumble (49500 searches/mo)
+- jumble today (49500 searches/mo)
+- word solver (40500 searches/mo)
+- daily jumble (33100 searches/mo)
+- scramble into (33100 searches/mo)
+- word scramble solver (33100 searches/mo)
+- answers jumble today (27100 searches/mo)
+- word jumble (22200 searches/mo)
+- jumble answer today (18100 searches/mo)
 
-- Jumble-style workflow
-- exact answer mode
-- using clue context
-- difference from general word scramble
+## Required SERP/PAA coverage
 
-## Implementation Status
+- How do I solve a Jumble puzzle?
+- How do I unscramble Jumble letters?
+- Can a clue narrow the answer?
+- What are today Jumble answers?
+- Can I find multiple possible answers?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- letter input
+- wildcards
+- length filters
+- contains/excludes
+- starts/ends
+- copyable results
+- exact/all letters mode

@@ -44,6 +44,15 @@ Yes, but this page does not automatically build every multi-word phrase. Use the
 
 After entering your letters, use the length field. Set an exact word length to show only candidates that fit that size, then combine it with contains, starts with, ends with, exclude, or pattern filters.
 
+## What this anagram solver page covers
+
+Use this page for both loose letter exploration and stricter anagram checks. Turn on the all-letters option when the puzzle requires every entered letter exactly once, or leave it off when you only need words made from some of the letters.
+
+## Searches this page is built to answer
+
+Related searches include unscramble, anagram, anagram and, anagram generator, anagrams, anagram of solver. The shared intent is simple: enter letters, remove impossible candidates, then decide whether the answer needs a full rearrangement, a shorter word, or a phrase you assemble manually.
+
+
 ## Next tools to try
 
 - [Anagram Generator](/anagram-generator/) – Use this when you want to create anagrams for fun or inspiration, not just solve a puzzle.

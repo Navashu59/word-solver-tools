@@ -1,28 +1,47 @@
-# SERP Gap Brief - Scrabble Word Finder
+# SERP/PAA Mature Launch Framework - Scrabble Word Finder
 
-Keyword: scrabble word finder
-URL: /scrabble-word-finder/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+scrabble word finder
 
-- SERP competitors emphasize blank tile support, score sorting, and board letters.
-- Scrabble rule sources emphasize choosing a word list before play and blank tiles having no letter value.
-- Reddit feedback complains that existing tools are cluttered and slow on mobile.
+## Intent
 
-## Page Gaps To Close
+The user has a rack of tiles and needs a valid scoring word.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- unscramble words (1220000 searches/mo)
+- word unscrambler (1220000 searches/mo)
+- unscramble (1000000 searches/mo)
+- words with friends cheat (673000 searches/mo)
+- 5 letter words (550000 searches/mo)
+- scrabble cheat (550000 searches/mo)
+- word finder (550000 searches/mo)
+- scrabble dictionary (450000 searches/mo)
+- wordle solver (450000 searches/mo)
+- unscramble letters (368000 searches/mo)
 
-- rack letters plus board letters
-- blank tile scoring
-- score vs length sorting
-- dictionary and house-rule notes
+## Required SERP/PAA coverage
 
-## Implementation Status
+- What words can I make with my Scrabble letters?
+- Can I use blank tiles in a Scrabble word finder?
+- How do Scrabble scores work?
+- Is this word valid in Scrabble?
+- What is the highest scoring word from my tiles?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- rack or letter input
+- blank tile wildcard
+- length filter
+- contains/starts/ends filters
+- pattern filter
+- copyable candidate results

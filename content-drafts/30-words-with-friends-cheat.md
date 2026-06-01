@@ -48,6 +48,15 @@ Yes. Use the length filter to show only words of a specific length .
 
 Yes. Use the "exclude" filter to remove words containing certain letters.
 
+## What this words with friends cheat page covers
+
+Use this page as a rack and pattern helper. Enter your letters, use ? for blanks, set a length or board pattern, and copy candidates worth checking. The page is not an official dictionary, so verify challenged or high-value plays in the game you are using.
+
+## Searches this page is built to answer
+
+Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, scrabble cheat, word finder. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
+
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) for general word games.

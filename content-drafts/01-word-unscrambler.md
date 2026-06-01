@@ -60,6 +60,15 @@ Absolutely. Use the length filter to set an exact word length. This is helpful w
 
 Yes. Use the exclude filter to remove words that contain certain letters. This is useful when you know a letter isn’t in the solution.
 
+## What this word unscrambler page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include unscramble words, scrabble word finder, unscramble, words with friends cheat, 5 letter words, scrabble cheat. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) – Use this when you have a pattern with blanks and need to fill in the missing letters.

@@ -45,6 +45,15 @@ Yes. List all the words you need to find, and the tool will locate them simultan
 
 After solving, click on any found word to see its path highlighted on the grid.
 
+## What this word search solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include wordle, wordle today, unscramble words, word unscrambler, scrabble word finder, unscramble. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) – find words from a set of letters.

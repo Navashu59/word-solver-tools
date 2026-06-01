@@ -40,6 +40,15 @@ Yes. Use the lock feature to fix a mapping so the solver does not change it when
 
 Yes, especially short messages. The solver may show multiple possible mappings. Use context and common sense to choose the correct one.
 
+## What this cryptogram solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include cryptogram, cryptoquip, celebrity cipher, cryptogram puzzles, decipher symbols patternss upload, cryptoquip answers today. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Substitution Cipher Solver](/cryptogram-solver/) for a more detailed analysis.

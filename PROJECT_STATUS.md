@@ -145,6 +145,31 @@ Post-change verification:
 - JSON-LD parsed on every HTML page.
 - Repeated-H2 audit found no repeated content framework across generated Word Solver pages.
 
+## 2026-06-01 Mature Launch Pass
+
+Goal: move the site from minimum launch readiness to mature first-launch readiness, so Google can more quickly understand the authority field after the production domain is connected.
+
+Changed:
+
+- Verified Semrush API access from `/Users/bluepha/seo-revenue-system/.env`.
+- Saved page-level Semrush keyword evidence to `research/semrush-page-keyword-evidence-2026-06-01.json`.
+- Added `planning/mature-launch-inventory.md` as the working inventory for mature-launch gaps.
+- Refreshed every page-level `serp-paa/*.md` brief with Semrush related keywords, required PAA coverage, mature-launch modules, and tool capability checks.
+- Added an exact/all-letters checkbox to the word tool UI.
+- Added stricter all-letter matching logic for exact anagram/unscramble use cases.
+- Added stronger Spelling Bee center-letter and pangram candidate handling.
+- Added Boggle-style path checking when a full 4x4 or 5x5 board is entered.
+- Added mature-launch content modules to all 50 content draft pages, including user intent, related searches, tool limits, and page-specific coverage notes.
+
+Post-change verification:
+
+- `npm run build` passed.
+- `node --check public/assets/app.js` passed.
+- 62 HTML files generated.
+- 61 sitemap URLs generated.
+- Internal link check found 0 broken local links.
+- JSON-LD parsed on every HTML page.
+
 ## Git State
 
 Local branch:

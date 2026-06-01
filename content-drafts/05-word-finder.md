@@ -40,6 +40,15 @@ Yes. Set an exact length, or an exact length. This is the most effective way to 
 
 Yes. In the exclude field, type any letters that you know are not in the word. The tool will remove all results containing those letters.
 
+## What this word finder page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include wordle, online dictionary, dictionary, thesaurus, unscramble words, word unscrambler. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Words With Letters](/words-with-letters/) – If you have a set of letters and want to see every possible word, regardless of order, start here.

@@ -40,6 +40,15 @@ Yes. Set an exact length to narrow results.
 
 Yes. Type letters to exclude, and words containing them will be removed.
 
+## What this letter box solver page covers
+
+Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
+
+## Searches this page is built to answer
+
+Related searches include nyt wordle, spelling bee answers, nytimes wordle, letter boxed, new york times crossword, ny times wordle. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
+
+
 ## Next tools to try
 
 - [Word Finder](/word-finder/) – General word search for any puzzle.

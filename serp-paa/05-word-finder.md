@@ -1,28 +1,48 @@
-# SERP Gap Brief - Word Finder
+# SERP/PAA Mature Launch Framework - Word Finder
 
-Keyword: word finder
-URL: /word-finder/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+word finder
 
-- Competitors emphasize starts/ends/contains collections and word game use cases.
-- Reddit demand includes finding words with specific included and excluded letters, sometimes in order.
-- The page needs to explain when a word finder is better than an unscrambler.
+## Intent
 
-## Page Gaps To Close
+The user has letters or word constraints and needs matching English words quickly.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- wordle (55600000 searches/mo)
+- online dictionary (2240000 searches/mo)
+- dictionary (1500000 searches/mo)
+- thesaurus (1500000 searches/mo)
+- unscramble words (1220000 searches/mo)
+- word unscrambler (1220000 searches/mo)
+- scrabble word finder (1000000 searches/mo)
+- unscramble (1000000 searches/mo)
+- words with friends cheat (673000 searches/mo)
+- 5 letter words (550000 searches/mo)
 
-- contains vs starts/ends vs pattern search
-- include/exclude workflow
-- searching with partial information
-- difference from word unscrambler
+## Required SERP/PAA coverage
 
-## Implementation Status
+- What words can I make with these letters?
+- Do I have to use every letter?
+- Can I use wildcards or blank tiles?
+- Can I filter by word length?
+- Can I exclude letters from results?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- letter input
+- wildcards
+- length filters
+- contains/excludes
+- starts/ends
+- copyable results
+- exact/all letters mode

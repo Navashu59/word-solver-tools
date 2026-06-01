@@ -44,6 +44,15 @@ Green means the letter is correct and in the right position. Yellow means the le
 
 If you want a hint instead of a full answer, use the result list lightly: look for repeated patterns, likely vowels, or a possible ending without copying the first word.
 
+## What this wordle solver page covers
+
+Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
+
+## Searches this page is built to answer
+
+Related searches include wordle, wordle hint, wordle today, nyt wordle, unscramble words, wordle nyt. The common need is not a giant word list; it is reducing guesses with the clues you already have.
+
+
 ## Next tools to try
 
 - [5 Letter Word Finder](/5-letter-word-finder/) – If you need to explore all possible 5-letter words beyond Wordle’s dictionary.

@@ -1,28 +1,48 @@
-# SERP Gap Brief - Anagram Solver
+# SERP/PAA Mature Launch Framework - Anagram Solver
 
-Keyword: anagram solver
-URL: /anagram-solver/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+anagram solver
 
-- SERP pages distinguish exact anagrams from sub-anagrams and phrase anagrams.
-- Reference definitions stress that true anagrams usually use all original letters exactly once.
-- Users need to know when spaces/punctuation matter and when to use shorter word mode.
+## Intent
 
-## Page Gaps To Close
+The user has letters, a word, name, or phrase and wants valid rearrangements.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- unscramble (1000000 searches/mo)
+- anagram (165000 searches/mo)
+- anagram and (90500 searches/mo)
+- anagram generator (33100 searches/mo)
+- anagrams (33100 searches/mo)
+- anagram of solver (27100 searches/mo)
+- anagram solver anagram (22200 searches/mo)
+- anagram solver anagram solver (18100 searches/mo)
+- anagram solver solver (18100 searches/mo)
+- anagrammen generator (18100 searches/mo)
 
-- exact anagram vs sub-anagram
-- name and phrase anagrams
-- wildcards and repeated letters
-- difference from word unscrambler
+## Required SERP/PAA coverage
 
-## Implementation Status
+- How do I solve an anagram?
+- Does an anagram have to use every letter?
+- Can I make anagrams from a name?
+- Can anagrams be more than one word?
+- How do I filter anagrams by length?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- letters or phrase input
+- length filter
+- contains/starts/ends filters
+- exclude letters filter
+- pattern wildcard filter
+- sample/copy/clear controls
+- exact/all letters mode

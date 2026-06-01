@@ -1,34 +1,27 @@
-# SERP/PAA Framework - Spelling Bee Solver
+# SERP/PAA Mature Launch Framework - Spelling Bee Solver
 
-- Primary keyword: spelling bee solver
-- Target URL: /spelling-bee-solver/
-- Cluster: spelling-bee
-- SEMrush US volume: 33,100 / month
-- Page type: tool_or_support_tool
-- Brand/game-specific: yes
+## Keyword
 
-## User Problem
+spelling bee solver
+
+## Intent
 
 The user has seven letters and a required center letter and needs hints or valid words.
 
-## Search Intent
+## Semrush evidence
 
-The searcher wants an immediate answer or a small interactive workflow. The page should open with the tool, then explain how to interpret and refine the result.
+- spelling bee (673000 searches/mo)
+- spelling bee answers (450000 searches/mo)
+- nyt spelling bee (368000 searches/mo)
+- spelling bee nyt (368000 searches/mo)
+- connections hint today mashable (165000 searches/mo)
+- nytimes spelling bee (90500 searches/mo)
+- spelling bee buddy (74000 searches/mo)
+- spelling bee game (74000 searches/mo)
+- nyt spelling bee answers (49500 searches/mo)
+- spelling bee answers today (49500 searches/mo)
 
-## SEMrush Organic Top Results To Inspect
-
-- Error: ERROR 132 :: API UNITS BALANCE IS ZERO
-
-## Expected Top-3 SERP Content Patterns To Verify
-
-- Large letter input above the fold
-- Length-grouped word results
-- Starts/ends/contains filters
-- Wildcard or blank tile support
-- Definitions or dictionary links
-- Results often noisy without clear sorting
-
-## PAA Questions To Cover
+## Required SERP/PAA coverage
 
 - How do I solve a Spelling Bee puzzle?
 - What is a pangram?
@@ -36,33 +29,21 @@ The searcher wants an immediate answer or a small interactive workflow. The page
 - Can letters repeat?
 - Can I get hints before answers?
 
-## Related Searches / Secondary Intent
+## Mature-launch content modules
 
-- word finder
-- word solver
-- words with these letters
-- unscramble letters
-- word generator from letters
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
 
-## Page Modules To Add
+## Tool capability check
 
-- Tool panel: letter input, wildcards, length filters, contains/excludes, starts/ends, copyable results
-- Quick example using a realistic puzzle input
-- Result filters and what each filter changes
-- Common mistakes and edge cases
-- Rules/dictionary notes when the keyword is game-specific
-- FAQ section based on PAA
-- Internal links to adjacent solver pages
-
-## Original Angle
-
-Do not write a generic article about spelling bee solver. Build the answer around the moment when the user is stuck, show exactly what to type, and make the result easy to narrow, copy, or apply back in the game.
-
-## Live SERP Validation Checklist
-
-- [ ] Inspect current Google top 3 results.
-- [ ] Record the result types and weak spots.
-- [ ] Check if a featured snippet, AI answer, or Google widget is present.
-- [ ] Confirm PAA questions and add any missing ones.
-- [ ] Confirm related searches and add page-specific variants.
-- [ ] Identify at least one feature or explanation we can make more useful than the current top results.
+- seven-letter input
+- required center-letter workflow
+- length filter
+- contains/starts/ends filters
+- exclude letters filter
+- copyable candidate results
+- center-letter filtering
+- pangram candidate labels

@@ -21,7 +21,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -59,7 +60,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -97,7 +99,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -173,7 +176,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -249,7 +253,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -287,7 +292,8 @@
         "contains/starts/ends filters",
         "exclude letters filter",
         "pattern wildcard filter",
-        "sample/copy/clear controls"
+        "sample/copy/clear controls",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -363,7 +369,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "How do I solve a Jumble puzzle?",
@@ -401,7 +408,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -439,7 +447,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -477,7 +486,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -590,7 +600,8 @@
         "contains/starts/ends filters",
         "exclude letters filter",
         "pattern wildcard filter",
-        "sample/copy/clear controls"
+        "sample/copy/clear controls",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -665,7 +676,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -741,7 +753,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -779,7 +792,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -817,7 +831,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -893,7 +908,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -931,7 +947,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -969,7 +986,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1007,7 +1025,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1045,7 +1064,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1159,7 +1179,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1308,7 +1329,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1346,7 +1368,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1384,7 +1407,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",
@@ -1422,7 +1446,9 @@
         "length filter",
         "contains/starts/ends filters",
         "exclude letters filter",
-        "copyable candidate results"
+        "copyable candidate results",
+        "center-letter filtering",
+        "pangram candidate labels"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1460,7 +1486,9 @@
         "length filter",
         "contains/starts/ends filters",
         "exclude letters filter",
-        "copyable candidate results"
+        "copyable candidate results",
+        "center-letter filtering",
+        "pangram candidate labels"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1498,7 +1526,9 @@
         "length filter",
         "contains/starts/ends filters",
         "exclude letters filter",
-        "copyable candidate results"
+        "copyable candidate results",
+        "center-letter filtering",
+        "pangram candidate labels"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1536,7 +1566,9 @@
         "length filter",
         "contains/starts/ends filters",
         "exclude letters filter",
-        "copyable candidate results"
+        "copyable candidate results",
+        "center-letter filtering",
+        "pangram candidate labels"
       ],
       "paa_questions": [
         "How do I solve a Spelling Bee puzzle?",
@@ -1688,7 +1720,8 @@
         "contains/starts/ends filters",
         "exclude letters filter",
         "pattern wildcard filter",
-        "sample/copy/clear controls"
+        "sample/copy/clear controls",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -1726,7 +1759,8 @@
         "contains/starts/ends filters",
         "exclude letters filter",
         "pattern wildcard filter",
-        "sample/copy/clear controls"
+        "sample/copy/clear controls",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "How do I solve an anagram?",
@@ -1764,7 +1798,8 @@
         "contains/starts/ends filters",
         "exclude letters filter",
         "pattern wildcard filter",
-        "copyable candidate results"
+        "copyable candidate results",
+        "4x4/5x5 board-path check when full board is entered"
       ],
       "paa_questions": [
         "How do you solve Boggle?",
@@ -1839,7 +1874,8 @@
         "length filters",
         "contains/excludes",
         "starts/ends",
-        "copyable results"
+        "copyable results",
+        "exact/all letters mode"
       ],
       "paa_questions": [
         "What words can I make with these letters?",

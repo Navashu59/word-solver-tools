@@ -1,28 +1,47 @@
-# SERP Gap Brief - Crossword Solver
+# SERP/PAA Mature Launch Framework - Crossword Solver
 
-Keyword: crossword solver
-URL: /crossword-solver/
+## Keyword
 
-## Live SERP/PAA Signals Checked
+crossword solver
 
-- Competitors focus on pattern entry with ? blanks and known letters.
-- Crossword content often references crosswordese and short repeated answer patterns.
-- Searchers ask about clue meaning, answer length, same clue having multiple answers, and pattern search.
+## Intent
 
-## Page Gaps To Close
+The user has a clue, length, and some known letters and needs possible answers.
 
-- Add concrete examples instead of generic tool instructions.
-- Explain result interpretation, not just how to click the tool.
-- Distinguish this page from adjacent tools to reduce cannibalization.
-- Cover edge cases that affect the answer: wildcards, blanks, exact/all-letter mode, position filters, repeated letters, dictionary differences, or clue context.
+## Semrush evidence
 
-## Updated Content Modules
+- crossword (823000 searches/mo)
+- crossword puzzles (673000 searches/mo)
+- crossword puzzle (450000 searches/mo)
+- crosswords (165000 searches/mo)
+- free crossword puzzles (165000 searches/mo)
+- daily crossword (110000 searches/mo)
+- mini crossword hint (90500 searches/mo)
+- crossword clues (49500 searches/mo)
+- free online crossword puzzles (49500 searches/mo)
+- crossword clue (40500 searches/mo)
 
-- pattern with blanks
-- using clue plus crossings
-- crosswordese and short answers
-- why multiple answers can fit one clue
+## Required SERP/PAA coverage
 
-## Implementation Status
+- How do I solve a crossword clue with missing letters?
+- How do I search crossword answers by pattern?
+- What does this clue mean?
+- How many letters is the answer?
+- Can the same clue have different answers?
 
-Applied to content draft on 2026-05-29.
+## Mature-launch content modules
+
+- Tool first: let the user enter data before long reading.
+- Explain the exact filters this page supports.
+- Clarify whether every letter must be used.
+- Include one practical example and one limitation note.
+- Link to the most relevant same-cluster and hub pages.
+
+## Tool capability check
+
+- clue input
+- pattern input
+- answer length
+- known letters
+- ranked candidate answers
+- recent/common clue notes

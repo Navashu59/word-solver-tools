@@ -44,6 +44,15 @@ Yes, but this page does not automatically assemble every phrase. Use the candida
 
 Use the length field after entering your letters. Set an exact word length. Results update to show only words within that range.
 
+## What this anagram page covers
+
+Use this page for both loose letter exploration and stricter anagram checks. Turn on the all-letters option when the puzzle requires every entered letter exactly once, or leave it off when you only need words made from some of the letters.
+
+## Searches this page is built to answer
+
+Related searches include unscramble, anagram solver, anagram and, anagram generator, anagrams, anagram of solver. The shared intent is simple: enter letters, remove impossible candidates, then decide whether the answer needs a full rearrangement, a shorter word, or a phrase you assemble manually.
+
+
 ## Next tools to try
 
 - [Anagram Solver](/anagram-solver/) – Focused on solving puzzles with exact anagrams and sub-anagrams.

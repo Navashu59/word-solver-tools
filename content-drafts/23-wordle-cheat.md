@@ -44,6 +44,15 @@ Green means the letter is correct and in the right position. Yellow means the le
 
 Use the list as a hint by reading patterns instead of copying the first word. For example, notice likely endings, vowel placement, or repeated letters.
 
+## What this wordle cheat page covers
+
+Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
+
+## Searches this page is built to answer
+
+Related searches include wordle, wordle hint, wordle today, nyt wordle, wordle hint today, worlde. The common need is not a giant word list; it is reducing guesses with the clues you already have.
+
+
 ## Next tools to try
 
 - [Wordle Solver](/wordle-solver/) - If you want a full solver that shows every possible answer, not just the best next guess.
