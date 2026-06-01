@@ -22,6 +22,14 @@ Once you have your results, click the copy button to copy the visible list. Past
 
 This is a word finder, not a puzzle solver. It doesn’t guess the best move or rank words by strategy. It simply returns all valid five-letter words that match your criteria. Use it when you want to explore possibilities, not when you need a single answer.
 
+## Wordle-style example
+
+After a guess like `CRANE`, enter confirmed green letters in the pattern, put yellow letters in contains, and put gray letters in exclude. Do not judge the list until all three signals are entered.
+
+## Choose the right word tool
+
+Use this page when your clue information comes from previous guesses: green letters, yellow letters, and excluded gray letters. If you only have loose letters with no positions, an unscrambler or word finder is a better fit.
+
 ## Common Questions
 
 ### What 5 letter words can I make with these letters?
@@ -44,30 +52,6 @@ Yes. Add letters to the “excludes” field. The tool will remove any word cont
 
 Use the position boxes to match your green letters, the “contains” field for yellow letters, and the “excludes” field for gray letters. The finder will show all possible Wordle answers from a standard dictionary.
 
-## What this 5 letter word finder page covers
+## Before your next guess
 
-Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
-
-## Searches this page is built to answer
-
-Related searches include wordle, unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat. The common need is not a giant word list; it is reducing guesses with the clues you already have.
-
-
-## Quick checks before you use these results
-
-A 5 letter word finder should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For Wordle-style play, enter confirmed letters, possible letters, and excluded letters before judging a guess.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as 6 Letter Words, 7 Letter Words, 5 letter word Finder for Wordle, 5 letter words using these letters, 6 letter word finder. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Wordle Solver](/wordle-solver/) – When you need the best next guess, not just a list.
-- [Wordle Helper](/wordle-helper/) – Quick hints without full list overload.
-- [Wordle Finder](/wordle-finder/) – Pattern-based search for Wordle.
-- [5 Letter Words](/5-letter-words/) – Browse a static list of all common 5-letter words.
-- [Wordle Hints](/wordle-helper/) – Daily hints without any tool input.
+Before you use a candidate as your next guess, compare it against every clue from previous guesses. A word that fits the length can still be wrong if it reuses a gray letter or puts a yellow letter back in the same position.

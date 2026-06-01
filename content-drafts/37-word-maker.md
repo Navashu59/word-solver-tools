@@ -18,6 +18,14 @@ If you only want 4-letter words or 6-letter words, set the length filter. This h
 
 Narrow down results even further. For example, if you need a word that contains “X” or starts with “Z”, use the contains or starts-with filter. This is especially useful for games where certain letters are worth more points.
 
+## Pattern search example
+
+If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### What words can I make with these letters?
@@ -40,31 +48,6 @@ Yes. Set an exact length to control the results.
 
 Yes. Type letters to exclude, and words containing them will be removed.
 
-## What this word maker page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word maker should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Word maker from letters, Microsoft Word maker, Word maker 3D, Creative word maker, Word Maker game. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Generator](/word-generator/) – Generate words from letters with sorting by score.
-- [7 Letter Words](/7-letter-words/) – Focus on seven-letter word combinations.
-- [Unscramble Letters](/unscramble-letters/) – Quick unscrambling tool.
-- [Word Finder](/word-finder/) – General word search with pattern matching.
-- [Anagram Solver](/anagram-solver/) – Find all anagrams for any word or phrase.
-- [Crossword Solver](/crossword-solver/) – Solve crossword clues with known letters.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

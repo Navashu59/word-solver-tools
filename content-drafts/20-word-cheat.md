@@ -18,6 +18,14 @@ If you’ve already tried some letters and they didn’t work, add them to the e
 
 This tool uses the site’s built-in word list. Some games have their own accepted lists, so confirm important words inside your specific game before playing. The tool is a helper, not a referee.
 
+## Pattern search example
+
+If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### What words can I make with these letters?
@@ -40,33 +48,6 @@ Yes. Set an exact length . This is the most effective filter for narrowing resul
 
 Yes. Type letters you want to exclude in the exclude field. Results containing those letters will be removed.
 
-## What this word cheat page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word cheat should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as 51 answers, Tell me more about the Konami Code, Explain the origin of cheat codes, List other famous GTA cheat codes, Word cheat Wordle. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Finder](/word-finder/) – More filters for complex puzzles.
-- [Words With Letters](/words-with-letters/) – See all words from a set of letters without constraints.
-- [Words With These Letters](/words-with-these-letters/) – Focus on words that contain specific letters.
-- [Unscramble Letters](/unscramble-letters/) – For exact anagrams.
-- [Letter Box Solver](/letter-box-solver/) – For NYT Letter Boxed puzzles.
-- [Wordle Solver](/wordle-solver/) – Unofficial Wordle helper.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Rack-style search for Scrabble-like letter constraints.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar helper for Words With Friends-style searches.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

@@ -16,8 +16,8 @@ const site = {
 };
 
 const review = {
-  date: "2026-05-29",
-  label: "Last reviewed: May 2026",
+  date: "2026-06-01",
+  label: "Last reviewed: June 2026",
   authorName: "Independent Developer",
   authorBio: "Built as a practical word-game helper focused on fast client-side filtering, clear puzzle constraints, and transparent limitations.",
   methodNote: "The current tool filters a built-in English word list in the browser. It is not an official dictionary and results should be checked against the rules or word list for the game you are playing.",
@@ -493,7 +493,7 @@ function toolPanel(page) {
         <span>${escapeHtml(mainLabel)}</span>
         <textarea data-role="letters" rows="3" placeholder="${mode === "wordle" ? "Try: crane" : mode === "crossword" ? "Try: c?a??" : mode === "ladder" ? "cold" : mode === "spelling" ? "aglnort" : "Try: tca?rs"}"></textarea>
       </label>
-      <p class="field-help">${escapeHtml(mainHelp)}</p>
+      <p class="field-help">${escapeHtml(mainHelp)} Not sure what to enter? Use the Sample button to load a realistic puzzle.</p>
       <div class="field-grid">
         <label class="field"><span>Contains</span><input data-role="contains" placeholder="ar"></label>
         <label class="field"><span>Starts with</span><input data-role="starts" placeholder="s"></label>
@@ -510,7 +510,7 @@ function toolPanel(page) {
         <button class="ghost-btn" data-action="clear">Clear</button>
       </div>
       <div class="results" data-role="results" aria-live="polite">
-        <p class="muted">Enter letters or a pattern to see matching words.</p>
+        <p class="muted">Enter letters or a pattern, or click Sample to see how this tool narrows a real puzzle.</p>
       </div>
     </div>
   </section>`;
@@ -540,9 +540,7 @@ function pageHtml(page) {
     ? `<aside class="notice">This is an unofficial helper page. Brand and game names are used only to describe compatibility with the searcher's task.</aside>`
     : "";
   const trustNote = `<aside class="trust-note" aria-label="Page review and method">
-      <p><strong>${escapeHtml(review.label)}</strong> by ${escapeHtml(review.authorName)}.</p>
-      <p>${escapeHtml(review.authorBio)}</p>
-      <p>${escapeHtml(review.methodNote)}</p>
+      <p><strong>${escapeHtml(review.label)}.</strong> This independent tool runs in your browser and uses a built-in English word list; check official game dictionaries for scored play.</p>
     </aside>`;
   const body = `<main>
     ${toolPanel(page)}

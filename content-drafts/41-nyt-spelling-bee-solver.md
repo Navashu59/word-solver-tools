@@ -22,6 +22,14 @@ If you know you need a 5-letter word, set the length field to 5. The solver will
 
 Once you have the list, copy it with one click. Paste it into a note or share with a friend who’s also stuck on the same puzzle.
 
+## Spelling Bee example
+
+Put the required center letter first, then enter the other six letters. Filter out short words if your puzzle has a minimum length, and scan longer words for possible pangrams.
+
+## Choose the right word tool
+
+Use this page when one letter is required in every answer and the puzzle has a minimum length. If there is no required center letter, use a general word finder instead.
+
 ## Common Questions
 
 ### How do I solve a Spelling Bee puzzle?
@@ -44,30 +52,6 @@ Yes, letters can be used multiple times. The only restriction is that every word
 
 This solver shows candidate words from the site’s word list. If you want a lighter nudge first, try [Spelling Bee Buddy](/spelling-bee-buddy/) and scan only the parts you need.
 
-## What this nyt spelling bee solver page covers
+## Before you count the word
 
-Use this page when you want candidates that follow the basic Spelling Bee-style rules: the center letter is required, letters can repeat, and pangram candidates use all seven letters. This is independent from any official publisher list, so treat unusual words as candidates and confirm them in the game.
-
-## Searches this page is built to answer
-
-People also search for nyt wordle, wordle nyt, nyt strands, nyt games, spelling bee, spelling bee answers. The useful overlap is not just “answers”; it is narrowing a seven-letter puzzle without losing track of the center letter, pangrams, and word length.
-
-
-## Quick checks before you use these results
-
-A nyt spelling bee solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For Spelling Bee-style puzzles, confirm the center letter, minimum length, and pangram expectation before scanning longer words.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Explain how scoring works, Tell me more about Queen Bee status, List all the ranks and their percentages, List useful prefixes and suffixes, Explain how to find pangrams quickly. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Spelling Bee Solver](/spelling-bee-solver/) – A general solver with more filter options.
-- [Spelling Bee Answers](/spelling-bee-answers/) – Inspect answer candidates more directly.
-- [Spelling Bee Buddy](/spelling-bee-buddy/) – Get gentler nudges before scanning candidates.
-- [Word Finder](/word-finder/) – For any set of letters, find all possible words.
-- [Words With These Letters](/words-with-these-letters/) – Enter any letters and get candidate words.
+Before you count a word, confirm it uses the center letter and meets the puzzle minimum length. For pangram hunting, scan longer results first and check whether all seven letters appear.

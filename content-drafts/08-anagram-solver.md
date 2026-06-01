@@ -22,6 +22,14 @@ After you generate results, the list can be long. Narrow it down with length, co
 
 If you have a partial pattern or a blank tile, use a question mark or asterisk as a wildcard. The solver treats it as any letter. For example, enter “?a?e” to find all four-letter words with A in the second position and E in the fourth. This works across all modes and is a lifesaver when you’re missing a letter in a crossword or word game.
 
+## Anagram example
+
+For a true anagram, enter the letters or phrase, turn on the exact/all-letter mode, and remove spaces or punctuation. If the puzzle allows partial words, leave exact mode off and scan by length.
+
+## Choose the right word tool
+
+Use this page when the goal is to rearrange letters into a new word or phrase. Turn on exact/all-letter mode when every letter must be used; leave it off when partial words are allowed.
+
 ## Common Questions
 
 ### How do I solve an anagram?
@@ -44,32 +52,6 @@ Yes, but this page does not automatically build every multi-word phrase. Use the
 
 After entering your letters, use the length field. Set an exact word length to show only candidates that fit that size, then combine it with contains, starts with, ends with, exclude, or pattern filters.
 
-## What this anagram solver page covers
+## Before you accept the anagram
 
-Use this page for both loose letter exploration and stricter anagram checks. Turn on the all-letters option when the puzzle requires every entered letter exactly once, or leave it off when you only need words made from some of the letters.
-
-## Searches this page is built to answer
-
-Related searches include unscramble, anagram, anagram and, anagram generator, anagrams, anagram of solver. The shared intent is simple: enter letters, remove impossible candidates, then decide whether the answer needs a full rearrangement, a shorter word, or a phrase you assemble manually.
-
-
-## Quick checks before you use these results
-
-A anagram solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle expects a true anagram, use every entered letter exactly once and remove spaces or punctuation before searching.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Anagram generator, Anagram solver free, Multiple word anagram solver, Anagram Solver 2 words, Multiple word anagram solver free. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Anagram Generator](/anagram-generator/) – Use this when you want to create anagrams for fun or inspiration, not just solve a puzzle.
-- [Anagram Maker](/anagram-maker/) – A playful tool for making name anagrams or custom word rearrangements.
-- [Anagram](/anagram/) – The general resource page for understanding anagrams and exploring all related tools.
-- [Word Solver](/word-solver/) – If you have a pattern or partial word, this tool fills in the blanks.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Optimized for Scrabble tile racks and board positions.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Unofficial helper for finding high-scoring plays in Words With Friends.
-- [Crossword Solver](/crossword-solver/) – Enter clue patterns and letter counts to solve crossword clues.
+Before you accept an anagram, decide whether the puzzle requires every letter. Exact mode is right for full anagrams; partial mode is better when you are exploring smaller words inside a longer phrase.

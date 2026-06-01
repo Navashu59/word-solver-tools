@@ -22,6 +22,14 @@ Some Jumble puzzles have multiple words to unscramble, each with a different len
 
 If your initial search returns hundreds of words, don't panic. Add an exclusion filter to remove common letters you know aren't in the answer. Or use the "starts with" and "ends with" fields if you have a hunch about the first or last letter. The goal is to shrink the list to a handful of candidates you can test against the puzzle.
 
+## Try it with jumble solver
+
+Enter `tca?rs`, leave the length blank, and solve once. Start by scanning the longest results, then add a length filter if the puzzle slot is fixed. If you are using a blank tile, keep the wildcard in the input until you know which letter gives the strongest result.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### How do I solve a Jumble puzzle?
@@ -44,30 +52,6 @@ Absolutely. The tool returns candidate words from its word list that match your 
 
 Enter the letters, set the length if you know it, and hit generate. Then scan the results from top to bottom - the most common words appear first. If you're still stuck, use the clue field or try a wildcard for a letter you might have misread.
 
-## What this jumble solver page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include usa today games, jumble, jumble today, word solver, daily jumble, scramble into. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A jumble solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Maps, Books. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Scramble](/word-scramble/) – For general scrambled letter puzzles beyond Jumble, like word games or anagram challenges.
-- [Word Unscramble](/word-unscramble/) – Similar to Jumble Solver but with more flexible filters for any word game.
-- [Word Scrambler](/word-scrambler/) – If you need to generate scrambled words for a game or puzzle you're creating.
-- [Word Finder](/word-finder/) – A broader tool for finding words from letters, useful for Scrabble or Words with Friends.
-- [Unscramble Letters](/unscramble-letters/) – Quick anagram solving without the Jumble-specific features.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

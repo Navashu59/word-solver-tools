@@ -18,6 +18,14 @@ The tool displays a letter frequency table for your ciphertext. Compare it to st
 
 Select a word from the ciphertext and the solver will show possible plaintext words that match the pattern. For example, if the ciphertext word is `XYYX`, the solver might suggest `DEED`, `POOP`, or `NOON`.
 
+## Cryptogram example
+
+Use known letters and repeated-letter patterns together. If the cipher pattern is `ABBA`, the answer must repeat the second and third positions the same way.
+
+## Choose the right word tool
+
+Use this page when repeated-letter patterns and known substitutions matter. If you only need ordinary words from letters, a word finder will be faster.
+
 ## Common Questions
 
 ### How do I solve a cryptogram?
@@ -40,28 +48,6 @@ Yes. Use the lock feature to fix a mapping so the solver does not change it when
 
 Yes, especially short messages. The solver may show multiple possible mappings. Use context and common sense to choose the correct one.
 
-## What this cryptogram solver page covers
+## Before you accept the substitution
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include cryptogram, cryptoquip, celebrity cipher, cryptogram puzzles, decipher symbols patternss upload, cryptoquip answers today. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A cryptogram solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For cryptograms, keep letter-pattern consistency in mind: the same cipher letter should map to the same plain letter every time.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Rumkin Cryptogram Solver, Greg Stoll Cryptogram Solver, 5 answers, YouTube, Cryptogram solver Answers. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Substitution Cipher Solver](/cryptogram-solver/) for a more detailed analysis.
-- [Cipher Identifier](/cryptogram-solver/) to determine what type of cipher you have.
-- [Word Unscrambler](/word-unscrambler/) if you need to unscramble letters instead.
+Before you accept a cryptogram candidate, check repeated letters. The same coded letter must stand for the same solved letter every time, or the answer breaks the substitution pattern.

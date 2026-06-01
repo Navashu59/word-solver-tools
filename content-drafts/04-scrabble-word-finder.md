@@ -22,6 +22,14 @@ Not every word in a general dictionary is allowed in Scrabble, and different app
 
 Once you find useful candidates, use Copy all to move the list into notes, chat, or a spreadsheet. This is useful if you want to compare possible plays without rerunning the same search.
 
+## Scrabble rack example
+
+Enter `train?e` as your rack, set starts with or ends with only when the board already forces a hook, and compare the longest results before checking score. A word that appears here still needs to be legal in the dictionary your game uses.
+
+## Choose the right word tool
+
+Use this page when you have rack letters, blank tiles, or board hooks and need playable-looking candidates. If you only know a pattern, start with Word Finder. If every letter must be rearranged into one phrase, use an Anagram page instead.
+
 ## Common Questions
 
 ### What words can I make with my Scrabble letters?
@@ -44,32 +52,6 @@ This tool gives candidate words from its built-in list. Always confirm a challen
 
 Start by finding longer candidates, then score them against your actual board because premium squares change the best play. A shorter word on a double-word or triple-word square can beat a longer word in a plain position.
 
-## What this scrabble word finder page covers
+## Before you score the play
 
-Use this page as a rack and pattern helper. Enter your letters, use ? for blanks, set a length or board pattern, and copy candidates worth checking. The page is not an official dictionary, so verify challenged or high-value plays in the game you are using.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, unscramble, words with friends cheat, 5 letter words, scrabble cheat. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
-
-
-## Quick checks before you use these results
-
-A scrabble word finder should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For Scrabble-style play, confirm the word against the word list your room, app, or tournament uses before treating it as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Scrabble word Finder French, Scrabble word Finder online, Scrabble word finder official, 5 letter Scrabble word Finder, Scrabble word finder Merriam. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Scrabble Cheat](/scrabble-cheat/) – If you want strategy tips alongside word lists, this page frames the same tool as a learning aid for improving your game.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Same core functionality but optimized for Words With Friends’ dictionary and scoring.
-- [Wordle Solver](/wordle-solver/) – For when you need to narrow down a 5-letter word with known and excluded letters.
-- [Anagram Solver](/anagram-solver/) – Enter any set of letters to find all possible anagrams, not limited to Scrabble words.
-- [Letter Unscrambler](/unscramble-letters/) – Quick unscrambling for any word game, with length and pattern filters.
-- [Word Finder](/word-finder/) – General-purpose word finder for crosswords, puzzles, and games.
-- [Scrabble Word Checker](/scrabble-word-finder/) – Verify if a specific word is valid in Scrabble before you play it.
+Before you score a play, check two things the solver cannot know for sure: the dictionary your game accepts and the board position you plan to use. Blank tiles, hooks, and premium squares can change the best choice.

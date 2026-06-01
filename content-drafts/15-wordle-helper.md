@@ -22,6 +22,14 @@ Toggle hints mode to see clues instead of full words. For example, “contains t
 
 This tool is not affiliated with NYT Wordle. It’s a fan-made utility that uses a standard word list. No live answers, no daily spoilers - just pattern matching based on what you enter.
 
+## Wordle-style example
+
+After a guess like `CRANE`, enter confirmed green letters in the pattern, put yellow letters in contains, and put gray letters in exclude. Do not judge the list until all three signals are entered.
+
+## Choose the right word tool
+
+Use this page when your clue information comes from previous guesses: green letters, yellow letters, and excluded gray letters. If you only have loose letters with no positions, an unscrambler or word finder is a better fit.
+
 ## Common Questions
 
 ### How do I use a Wordle solver?
@@ -44,30 +52,6 @@ Green means the letter is correct and in the right position. Yellow means the le
 
 If you want a hint instead of a full answer, use the result list lightly: look for repeated patterns, likely vowels, or a possible ending without copying the first word.
 
-## What this wordle helper page covers
+## Before your next guess
 
-Use this page when you know some five-letter constraints and want a shorter candidate list. Add known letters, excluded letters, pattern clues, and required letters to narrow the list before your next guess.
-
-## Searches this page is built to answer
-
-Related searches include wordle, wordle hint, wordle today, nyt wordle, unscramble words, wordle nyt. The common need is not a giant word list; it is reducing guesses with the clues you already have.
-
-
-## Quick checks before you use these results
-
-A wordle helper should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For Wordle-style play, enter confirmed letters, possible letters, and excluded letters before judging a guess.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Wordle helper today, Wordle helper 5 letter, Wordle helper NYT, Wordle helper tool online, Wordle solver. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Wordle Solver](/wordle-solver/) – More advanced ranking and best-guess logic.
-- [5 Letter Word Finder](/5-letter-word-finder/) – Explore all five-letter words beyond Wordle’s dictionary.
-- [Wordle Finder](/wordle-finder/) – Search by pattern when you know some letters but not their positions.
-- [5 Letter Words](/5-letter-words/) – Browse a static list of all common 5-letter words.
-- [Wordle Hints](/wordle-helper/) – Get daily hints without any tool input.
+Before you use a candidate as your next guess, compare it against every clue from previous guesses. A word that fits the length can still be wrong if it reuses a gray letter or puts a yellow letter back in the same position.

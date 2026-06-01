@@ -34,9 +34,13 @@ A few things trip people up:
 - **Ignoring word length** – A 7-letter word might be hiding in your rack, but if you only look at 5-letter results, you’ll miss it. Always check the full list.
 - **Using the wrong dictionary** – Some games use a specific accepted word list. This site is a helper, not an official referee, so confirm serious plays in the game you are using.
 
-## When to use this tool vs. a word finder
+## Try it with word unscrambler
 
-A word unscrambler is best when you have a specific set of letters and need all possible words. A word finder is better when you have a pattern (like `?A?E?`) and want to fill in the blanks. This page is the unscrambler - use it for raw letter sets. If you need pattern matching, check out our word finder tool.
+Enter `tca?rs`, leave the length blank, and solve once. Start by scanning the longest results, then add a length filter if the puzzle slot is fixed. If you are using a blank tile, keep the wildcard in the input until you know which letter gives the strongest result.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
 
 ## Common Questions
 
@@ -60,30 +64,6 @@ Absolutely. Use the length filter to set an exact word length. This is helpful w
 
 Yes. Use the exclude filter to remove words that contain certain letters. This is useful when you know a letter isn’t in the solution.
 
-## What this word unscrambler page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, scrabble word finder, unscramble, words with friends cheat, 5 letter words, scrabble cheat. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word unscrambler should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Unscramble, Word Descrambler, Best word unscrambler, 5 letter words using these letters, 5 letter Word unscrambler. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Finder](/word-finder/) – Use this when you have a pattern with blanks and need to fill in the missing letters.
-- [Unscramble Letters](/unscramble-letters/) – A dedicated page for when you only have letters and no other constraints.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Rack-style search for candidate words from letters and board patterns.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar letter helper for Words With Friends-style searches.
-- [Anagram Solver](/anagram-solver/) – Perfect for when you need to rearrange all letters into a new word or phrase.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

@@ -22,6 +22,14 @@ Themed puzzles often include long answers like movie titles or famous names. The
 
 If two entries share a crossing letter and the tool suggests different letters, check the frequency ranking. The more common answer is usually correct, but not always. You can also lock a letter in one entry and see how it affects the other.
 
+## Crossword clue example
+
+Start with the answer length and known crossings, such as `c?a??`. Use the clue meaning to choose among candidates; the tool can narrow the pattern, but it cannot know the clue’s wordplay by itself.
+
+## Choose the right word tool
+
+Use this page when a clue gives you answer length and some crossing letters. If you do not have a pattern yet, start broad with Word Finder, then return here once crossings narrow the answer.
+
 ## Common Questions
 
 ### How do I solve a crossword clue with missing letters?
@@ -44,30 +52,6 @@ Set the answer length for each clue. In grid mode, the length is determined by t
 
 Yes. The tool ranks answers by frequency. In a themed puzzle, the less common answer might be correct if it fits the theme.
 
-## What this crossword puzzle solver page covers
+## Before you write it into the grid
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include crossword solver, mini crossword hint, crossword clues, crossword clue, word solver, crossword solution new york times. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A crossword puzzle solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For crossword clues, use known crossings and answer length first; a valid word is not automatically the right clue answer.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Crossword solver enter clue, Quick crossword Solver, Crossword puzzle Solver camera, Free crossword solver, Best crossword solver. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Crossword Solver](/crossword-solver/) – For individual clue solving when you're not working on a full grid.
-- [Crossword Clue Solver](/crossword-clue-solver/) – If you need help interpreting a specific clue's wordplay.
-- [Crossword Help](/crossword-help/) – A guide with tips for solving entire puzzles efficiently.
-- [Word Finder](/word-finder/) – For word games where you need to find words from a set of letters.
-- [Anagram Solver](/anagram-solver/) – When you suspect an answer is an anagram of the clue or a phrase.
+Before you write an answer into a crossword, test it against both the crossings and the clue. Pattern matches are candidates, not proof; clue tense, plural endings, and wordplay can rule out a technically valid word.

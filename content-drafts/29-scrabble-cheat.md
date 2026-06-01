@@ -22,6 +22,14 @@ After each game, run your rack through the tool and compare the results to what 
 
 Blank tiles are powerful because they can stand in for unknown letters, but they score zero in the game. Enter `?` for a blank, then check which candidates actually fit your board. The strategic question is whether the blank helps you make a better placement now or is worth saving for a later turn.
 
+## Scrabble rack example
+
+Enter `train?e` as your rack, set starts with or ends with only when the board already forces a hook, and compare the longest results before checking score. A word that appears here still needs to be legal in the dictionary your game uses.
+
+## Choose the right word tool
+
+Use this page when you have rack letters, blank tiles, or board hooks and need playable-looking candidates. If you only know a pattern, start with Word Finder. If every letter must be rearranged into one phrase, use an Anagram page instead.
+
 ## Common Questions
 
 ### What words can I make with my Scrabble letters?
@@ -44,31 +52,6 @@ The tool gives candidates from its built-in word list. Always confirm a challeng
 
 Use the tool to find candidates, then score them against your actual board. Premium squares, cross words, and blank tiles decide the real best play.
 
-## What this scrabble cheat page covers
+## Before you score the play
 
-Use this page as a rack and pattern helper. Enter your letters, use ? for blanks, set a length or board pattern, and copy candidates worth checking. The page is not an official dictionary, so verify challenged or high-value plays in the game you are using.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, scrabble word finder, unscramble, words with friends cheat, 5 letter words, word finder. The useful intent is finding playable-looking candidates quickly, then checking score, placement, and validity against your real board.
-
-
-## Quick checks before you use these results
-
-A scrabble cheat should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For Scrabble-style play, confirm the word against the word list your room, app, or tournament uses before treating it as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as 42 answers, Scrabble cheat extension, Scrabble cheat screenshot, Scrabble Cheat Sheet PDF, Word Finder Scrabble cheat. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Scrabble Word Finder](/scrabble-word-finder/) – The raw tool version if you just want results without strategy tips.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar helper for Words With Friends-style searches.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Use the focused rack helper when you want fewer strategy notes.
-- [Anagram Solver](/anagram-solver/) – Find all anagrams from any set of letters, useful for brainstorming.
-- [Letter Unscrambler](/unscramble-letters/) – Quick unscrambling for any word game, with length and pattern filters.
-- [Word Finder](/word-finder/) – General-purpose word finder for crosswords, puzzles, and games.
+Before you score a play, check two things the solver cannot know for sure: the dictionary your game accepts and the board position you plan to use. Blank tiles, hooks, and premium squares can change the best choice.

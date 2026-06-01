@@ -34,6 +34,14 @@ If the solver returns nothing, try:
 
 Sometimes the word you’re thinking of isn’t in the dictionary. The solver uses a standard English word list, but it doesn’t include every proper noun or obscure term.
 
+## Pattern search example
+
+If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### What words can I make with these letters?
@@ -56,30 +64,6 @@ Yes. Set an exact length before solving. This is one of the most common filters.
 
 Yes. Use the “exclude letters” field to remove words containing specific letters. This helps when you know a letter isn’t in the solution.
 
-## What this word solver page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include wordle, wordle today, unscramble words, word unscrambler, scrabble word finder, unscramble. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Explain how OCR works, Describe the algorithms used, List popular word search solver apps, Word solver 5 letters, Word solver from letters. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Generator From Letters](/word-generator-from-letters/) – If you just need all possible words from a set of letters without pattern matching.
-- [Letter Solver](/letter-solver/) – A more focused tool for solving letter-based puzzles with advanced filters.
-- [Word Tips](/word-tips/) – Get strategic advice for word games, including high-scoring words and common patterns.
-- [Word Finder](/word-finder/) – Combines letter input with pattern matching for any word puzzle.
-- [Unscramble Letters](/unscramble-letters/) – Specifically for anagrams and jumbled letters.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

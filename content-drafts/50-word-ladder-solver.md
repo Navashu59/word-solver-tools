@@ -22,6 +22,14 @@ cold → cord → card → ward → warm
 
 If multiple shortest paths exist, the solver can display all of them. You can also request longer paths if you want more steps.
 
+## Word ladder example
+
+Enter the start and end words with the same length, then test candidate steps that change one letter at a time. If no route appears, try a more common synonym or a shorter word pair.
+
+## Choose the right word tool
+
+Use this page when the start and end words are the same length and each step may change one letter. If you need words from loose letters, use a solver or unscrambler instead.
+
 ## Common Questions
 
 ### How do you solve a word ladder?
@@ -44,28 +52,6 @@ You can choose from several dictionaries, including a standard English word list
 
 Yes. The solver can show all shortest paths. For example, `head` to `tail` might have multiple routes.
 
-## What this word ladder solver page covers
+## Before you use the ladder path
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include word ladder, word puzzle game solver, word game solver, weaver solver, word ladder 2, letter soup cheats. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word ladder solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Laddergram Puzzle Solver, Keith Schwarz Word Ladders Tool, Word ladder solver online, Word ladder solver with letters, Word ladder solver 7 steps. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Chain Solver](/word-ladder-solver/) for a similar challenge.
-- [Word Finder](/word-finder/) to check if a word is valid.
-- [Anagram Solver](/anagram-solver/) to rearrange letters into new words.
+Before you use a ladder path, check that every step keeps the same length and changes only one letter. A clever-looking jump is not valid if it changes two positions at once.

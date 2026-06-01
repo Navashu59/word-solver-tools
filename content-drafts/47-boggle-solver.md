@@ -18,6 +18,14 @@ In most Boggle rules, letters must connect across adjacent tiles and the same ti
 
 Different Boggle versions and house rules can score words differently. Confirm that the word is accepted, traceable, and long enough for your rule set before adding points.
 
+## Boggle board example
+
+Enter the board letters to get candidates, then verify each promising word can be drawn through adjacent cells without reusing a square. Letter availability alone is not enough.
+
+## Choose the right word tool
+
+Use this page when letters come from a board and candidates still need to be checked for adjacency. If the puzzle only gives loose letters, use an unscrambler instead.
+
 ## Common Questions
 
 ### How do you solve a Boggle board?
@@ -40,28 +48,6 @@ Yes. Set a length when you only want words of a specific size.
 
 No. This is an independent helper with a built-in word list. Confirm final answers against the game or dictionary you use.
 
-## What this boggle solver page covers
+## Before you count it on the board
 
-Use this page to find candidate words from a Boggle-style board. If you enter a full 4x4 or 5x5 board, the tool checks whether a candidate can be traced through adjacent tiles without reusing a tile. For partial letter sets, use it as a candidate finder and confirm the board path yourself.
-
-## Searches this page is built to answer
-
-Related searches include boggle scramble, boggle game online, boggle game solver, boggle board, boggle dictionary, boggle brainbusters answers today. The important gap is board practicality: a word is only useful when it fits the letter path and the rule set you are playing.
-
-
-## Quick checks before you use these results
-
-A boggle solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For Boggle-style boards, check that each word can be traced through adjacent letters instead of only checking whether the letters exist.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as List the rules of Boggle, Give me strategies for finding long words, YouTube, Boggle Solver 4x4, Boggle Solver 5x5. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Search Solver](/word-search-solver/) – Use this when you are looking for known words in a grid.
-- [Word Finder](/word-finder/) – Find words from letters, patterns, and filters.
-- [Unscramble Letters](/unscramble-letters/) – Unscramble letters for anagrams and jumbles.
+Before you count a Boggle word, trace it on the board. A word can use available letters and still be invalid if the letters cannot connect through adjacent cells.

@@ -22,6 +22,14 @@ If you have no clue but a few letters from crossings, use the pattern field alon
 
 Themed puzzles often use obscure words or proper nouns. If your initial search returns nothing, try removing the clue and searching by pattern only. The tool's word list includes many proper nouns and archaic terms that appear in crosswords but not in everyday speech.
 
+## Crossword clue example
+
+Start with the answer length and known crossings, such as `c?a??`. Use the clue meaning to choose among candidates; the tool can narrow the pattern, but it cannot know the clue’s wordplay by itself.
+
+## Choose the right word tool
+
+Use this page when a clue gives you answer length and some crossing letters. If you do not have a pattern yet, start broad with Word Finder, then return here once crossings narrow the answer.
+
 ## Common Questions
 
 ### How do I solve a crossword clue with missing letters?
@@ -44,30 +52,6 @@ Set the answer length in the tool before searching. If you're unsure, try the mo
 
 Yes. Crossword clues often have multiple valid answers depending on the puzzle. The tool ranks them by frequency, but you should always verify against your puzzle's theme and crossing letters.
 
-## What this crossword solver page covers
+## Before you write it into the grid
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include crossword, crossword puzzles, crossword puzzle, crosswords, free crossword puzzles, daily crossword. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A crossword solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For crossword clues, use known crossings and answer length first; a valid word is not automatically the right clue answer.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Crossword solver enter clue, Quick crossword Solver, Free crossword solver, Wordplays Crossword Solver, Crossword solver AI. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Crossword Clue Solver](/crossword-clue-solver/) – If you have a tricky clue and need to decode wordplay, this tool focuses on clue interpretation.
-- [Crossword Puzzle Solver](/crossword-puzzle-solver/) – For when you're working on an entire puzzle grid and need help with multiple clues at once.
-- [Crossword Help](/crossword-help/) – A guide with tips and strategies for solving crosswords faster.
-- [Word Finder](/word-finder/) – If you're playing word games like Scrabble or Words With Friends, this tool helps you find words from your letter rack.
-- [Anagram Solver](/anagram-solver/) – When you have a set of letters and need to find all possible words, including those that might fit a crossword clue.
+Before you write an answer into a crossword, test it against both the crossings and the clue. Pattern matches are candidates, not proof; clue tense, plural endings, and wordplay can rule out a technically valid word.

@@ -2,10 +2,6 @@
 
 You've got a jumble of letters - maybe from a word game, a puzzle app, or a friend's challenge - and you need to find every possible word hidden inside. This tool is your go-to for unscrambling any set of letters, whether you need to use all of them or just some. No sign-up, no ads, just results.
 
-## When to use this tool instead of a dictionary
-
-A dictionary only helps if you already know the word. When you have scrambled letters, you need an anagram solver that can generate all combinations instantly. This tool does that, plus lets you filter by word length, include or exclude specific letters, and use wildcards for blanks. It's faster than flipping through a paper dictionary or guessing.
-
 ## Using wildcards for blank tiles or unknown letters
 
 In games like Scrabble or Words with Friends, you might have a blank tile that can be any letter. Enter a question mark (?) for each blank. For example, "?AT" returns BAT, CAT, FAT, HAT, MAT, PAT, RAT, SAT, and VAT. This helps you see all possibilities without manually substituting each letter.
@@ -21,6 +17,14 @@ Sometimes you know certain letters aren't in the answer. Use the exclude field t
 ## Copying results for quick reference
 
 Once you find the word you need, click the copy button next to it. This puts the word on your clipboard so you can paste it into your game or puzzle without typing. No need to write it down or remember it.
+
+## Try it with word scramble
+
+Enter `tca?rs`, leave the length blank, and solve once. Start by scanning the longest results, then add a length filter if the puzzle slot is fixed. If you are using a blank tile, keep the wildcard in the input until you know which letter gives the strongest result.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
 
 ## Common Questions
 
@@ -44,30 +48,6 @@ Yes. Use the length filter to set a specific word length . This is helpful when 
 
 Yes. Enter letters you want to exclude in the exclude field. The tool will remove any words containing those letters from the results.
 
-## What this word scramble page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word scramble should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Word Scramble game, Word scramble generator, Word Scramble game online, Word Scramble Worksheet, Word Scramble free. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Jumble Solver](/jumble-solver/) – Specifically designed for Jumble puzzles with clue support.
-- [Word Unscramble](/word-unscramble/) – Another way to unscramble letters with similar filters.
-- [Word Scrambler](/word-scrambler/) – If you need to scramble words for a game or puzzle.
-- [Word Finder](/word-finder/) – Find words from letters with advanced search options.
-- [Unscramble Letters](/unscramble-letters/) – Quick anagram solving for any letter set.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

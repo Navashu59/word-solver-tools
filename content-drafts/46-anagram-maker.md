@@ -22,6 +22,14 @@ If you have a partial name or want to include a specific letter, use wildcards. 
 
 Once you find a result you like, copy it directly. There’s no account or login required. Use the anagram for a social media post, a game, or a personalized message. The maker is built for quick, fun results.
 
+## Anagram example
+
+For a true anagram, enter the letters or phrase, turn on the exact/all-letter mode, and remove spaces or punctuation. If the puzzle allows partial words, leave exact mode off and scan by length.
+
+## Choose the right word tool
+
+Use this page when the goal is to rearrange letters into a new word or phrase. Turn on exact/all-letter mode when every letter must be used; leave it off when partial words are allowed.
+
 ## Common Questions
 
 ### How do I solve an anagram?
@@ -44,32 +52,6 @@ Yes, but this page does not automatically compose every multi-word phrase. Use t
 
 Use the length field after entering your letters. Set an exact word length. Results update to show only words within that range.
 
-## What this anagram maker page covers
+## Before you accept the anagram
 
-Use this page for both loose letter exploration and stricter anagram checks. Turn on the all-letters option when the puzzle requires every entered letter exactly once, or leave it off when you only need words made from some of the letters.
-
-## Searches this page is built to answer
-
-Related searches include unscramble, anagram solver, anagram, anagram and, anagram generator, anagrams. The shared intent is simple: enter letters, remove impossible candidates, then decide whether the answer needs a full rearrangement, a shorter word, or a phrase you assemble manually.
-
-
-## Quick checks before you use these results
-
-A anagram maker should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle expects a true anagram, use every entered letter exactly once and remove spaces or punctuation before searching.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Boxentriq Anagram Solver, Anagram name generator, Anagram generator free, Anagram generator from letters, Multiple word anagram solver. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Anagram Solver](/anagram-solver/) – For when you need to solve a specific puzzle, not just make fun anagrams.
-- [Anagram Generator](/anagram-generator/) – A more general tool for creating anagrams for any purpose.
-- [Anagram](/anagram/) – The general resource page for understanding anagrams and exploring all related tools.
-- [Word Maker](/word-maker/) – For making words from random letters or patterns.
-- [Name Anagram Maker](/anagram-maker/) – A specialized tool for name anagrams.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Optimized for Scrabble tile racks and board positions.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – Unofficial helper for finding high-scoring plays in Words With Friends.
+Before you accept an anagram, decide whether the puzzle requires every letter. Exact mode is right for full anagrams; partial mode is better when you are exploring smaller words inside a longer phrase.

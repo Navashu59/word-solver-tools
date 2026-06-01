@@ -18,6 +18,14 @@ If you already know part of the word, use the starts-with, ends-with, or contain
 
 If you’ve already tried some letters and they didn’t work, add them to the exclude field. The tool will remove any word that contains those letters. This is especially useful when you’re narrowing down a crossword clue or a Wordle guess.
 
+## Pattern search example
+
+If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### What words can I make with these letters?
@@ -40,33 +48,6 @@ Yes. Set an exact length, or an exact length. This is the fastest way to reduce 
 
 Yes. Type letters you want to exclude in the exclude field. Results containing those letters will be removed.
 
-## What this words with letters page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A words with letters should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as 5 letter words using these letters, Words with letters english, Words with letters L, Find 20 Words with these letters, Words with letters b. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Finder](/word-finder/) – More advanced filters including pattern matching and position constraints.
-- [Word Cheat](/word-cheat/) – Optimized for speed when you need an answer fast.
-- [Words With These Letters](/words-with-these-letters/) – Focuses on words that contain specific letters, regardless of order.
-- [Unscramble Letters](/unscramble-letters/) – If you need the exact anagram of a set of letters.
-- [Letter Box Solver](/letter-box-solver/) – For the NYT Letter Boxed puzzle, finds word paths.
-- [Wordle Solver](/wordle-solver/) – Unofficial helper for Wordle, narrows based on feedback.
-- [Scrabble Word Finder](/scrabble-word-finder/) – Rack-style search for candidate words from your letters.
-- [Words With Friends Cheat](/words-with-friends-cheat/) – A similar letter helper for Words With Friends-style searches.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

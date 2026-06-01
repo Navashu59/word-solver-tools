@@ -30,6 +30,14 @@ Some puzzles require you to use every letter exactly once. For example, a jumble
 - **Ignoring short words** – In Scrabble, a 2-letter word can be a game-changer. Don’t overlook them.
 - **Using the wrong dictionary** – Make sure the tool’s dictionary matches your game. This tool uses a standard word list, but some games have their own.
 
+## Try it with unscramble letters
+
+Enter `tca?rs`, leave the length blank, and solve once. Start by scanning the longest results, then add a length filter if the puzzle slot is fixed. If you are using a blank tile, keep the wildcard in the input until you know which letter gives the strongest result.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### What words can I make with these letters?
@@ -52,30 +60,6 @@ Yes. Use the length filter to set an exact word length. This is the most useful 
 
 This page doesn’t have an exclude filter. For that, use the full Word Unscrambler page.
 
-## What this unscramble letters page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A unscramble letters should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as News, Maps, Books. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Word Unscrambler](/word-unscrambler/) – Full-featured version with wildcards, excludes, and pattern filters.
-- [Unscramble Words](/unscramble-words/) – Focused on solving scrambled words from worksheets and puzzles.
-- [Unscramble](/unscramble/) – A simpler interface for quick unscrambling without extra filters.
-- [Word Finder](/word-finder/) – Use this when you have a pattern with blanks and need to fill in the missing letters.
-- [Letter Unscrambler](/unscramble-letters/) – Another dedicated page for letter-based unscrambling.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.

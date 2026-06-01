@@ -22,6 +22,14 @@ If you’re playing Scrabble or Words With Friends, you care about points. After
 
 When you know the word begins with a certain letter or ends with a certain suffix, use the starts/ends filters. For example, if the word starts with “RE,” enter that in the starts field. The solver only shows words that begin with those letters. Combine this with length filters for even faster results.
 
+## Try it with word scramble solver
+
+Enter `tca?rs`, leave the length blank, and solve once. Start by scanning the longest results, then add a length filter if the puzzle slot is fixed. If you are using a blank tile, keep the wildcard in the input until you know which letter gives the strongest result.
+
+## Choose the right word tool
+
+Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+
 ## Common Questions
 
 ### What words can I make with these letters?
@@ -44,31 +52,6 @@ Yes. Use the length field to set an exact length. Results update instantly.
 
 Yes. Type letters to exclude in the exclude field. Any word containing those letters is removed.
 
-## What this word scramble solver page covers
+## Before you use the word list
 
-Use this page when you have letters, blanks, or a word pattern and need candidate words quickly. Start broad, then add length, contains, starts with, ends with, exclude, pattern, or all-letter filters when the first list is too wide.
-
-## Searches this page is built to answer
-
-Related searches include unscramble words, word unscrambler, scrabble word finder, unscramble, words with friends cheat, 5 letter words. The overlap is practical: users want to know what words can be made, whether every letter must be used, and how to narrow the list without starting over.
-
-
-## Quick checks before you use these results
-
-A word scramble solver should reduce the list without hiding the rules behind the result. Before you play, submit, or copy a word, check these points:
-
-- **Letter use:** If the puzzle only needs a shorter word, allow subset results; if it must use every tile, match the length to your input and check the longest group first.
-- **Wildcards:** Treat ? or blank tiles as flexible letters, then remove them if the game does not allow blanks.
-- **Game rules:** For named word games, check the accepted dictionary or house rules before using a result as final.
-- **Result sanity:** If a word looks unfamiliar, verify it before using it in a scored game or published puzzle answer.
-
-People searching this topic often compare nearby tasks such as Word scramble generator, Word Scramble game, Find 20 Words with these letters, Word scramble answers free, Word Scramble examples. Use those as clues for which filter to try next when the first result list is too broad. The goal is not just to produce more words; it is to help you reject the wrong candidates faster.
-
-## Next tools to try
-
-- [Scramble Words](/scramble-words/) – A simpler version focused on generating all words from a set of letters, without pattern matching.
-- [Word Descrambler](/word-descrambler/) – Specializes in anagramming: enter letters and see every possible rearrangement, grouped by length.
-- [Unscramble Letters](/unscramble-letters/) – Quick tool for when you just need a list of words from scrambled letters.
-- [Word Finder](/word-finder/) – Combines letter input with pattern and position filters, ideal for crosswords and word games.
-- [Words With These Letters](/words-with-these-letters/) – Enter letters and get all possible words, with options to sort by length or score.
-- [Word Generator From Letters](/word-generator-from-letters/) – Generate word lists for creative projects, brainstorming, or game preparation.
+Before you use a result, check the constraint that matters most for your puzzle: exact length, required letters, excluded letters, or whether every tile must be used. Tighten only one filter at a time so you can see which rule removed the right candidates.
