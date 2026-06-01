@@ -240,13 +240,20 @@ Completed:
 Current Cloudflare Pages preview:
 
 ```text
-https://4517b45c.word-solver-tools.pages.dev
+https://0455dfe7.word-solver-tools.pages.dev
+```
+
+Cloudflare Pages custom domains:
+
+```text
+wordsolvertools.org added
+www.wordsolvertools.org added
 ```
 
 Blocked / pending:
 
 - Cloudflare DNS zone creation is pending because the current API token does not have `account zone create` permission.
-- Custom domain attachment for `wordsolvertools.org` and `www.wordsolvertools.org` is pending until the DNS zone exists.
+- Cloudflare DNS records for `wordsolvertools.org` and `www.wordsolvertools.org` are pending until the DNS zone exists.
 - Namecheap nameserver change is pending until Cloudflare returns the zone nameservers.
 - GSC property setup and sitemap submission are pending until the domain is live and verifiable.
 
