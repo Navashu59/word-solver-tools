@@ -43,7 +43,7 @@ async function getOrCreateZone() {
 }
 
 async function upsertCname(zoneId, name) {
-  const existing = await cf(`/zones/${zoneId}/dns_records?type=CNAME&name=${encodeURIComponent(name)}`);
+  const existing = await cf(`/zones/${zoneId}/dns_records?name=${encodeURIComponent(name)}`);
   const body = {
     type: "CNAME",
     name,
@@ -51,11 +51,15 @@ async function upsertCname(zoneId, name) {
     ttl: 1,
     proxied: true,
   };
-  if (existing.length) {
-    return cf(`/zones/${zoneId}/dns_records/${existing[0].id}`, {
+  const cname = existing.find((record) => record.type === "CNAME");
+  if (cname) {
+    return cf(`/zones/${zoneId}/dns_records/${cname.id}`, {
       method: "PUT",
       body: JSON.stringify(body),
     });
+  }
+  for (const record of existing.filter((item) => ["A", "AAAA"].includes(item.type))) {
+    await cf(`/zones/${zoneId}/dns_records/${record.id}`, { method: "DELETE" });
   }
   return cf(`/zones/${zoneId}/dns_records`, {
     method: "POST",
