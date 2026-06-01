@@ -2,6 +2,7 @@ const domain = process.env.SITE_DOMAIN;
 const projectName = process.env.CLOUDFLARE_PAGES_PROJECT;
 const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
 const token = process.env.CLOUDFLARE_API_TOKEN;
+const gscVerifyTxt = process.env.GSC_VERIFY_TXT;
 
 if (!domain || !projectName || !accountId || !token) {
   throw new Error("SITE_DOMAIN, CLOUDFLARE_PAGES_PROJECT, CLOUDFLARE_ACCOUNT_ID, and CLOUDFLARE_API_TOKEN are required.");
@@ -67,6 +68,24 @@ async function upsertCname(zoneId, name) {
   });
 }
 
+async function upsertTxt(zoneId, name, content) {
+  if (!content) return "skipped";
+  const existing = await cf(`/zones/${zoneId}/dns_records?type=TXT&name=${encodeURIComponent(name)}`);
+  const body = {
+    type: "TXT",
+    name,
+    content,
+    ttl: 1,
+  };
+  const same = existing.find((record) => record.content === content);
+  if (same) return "exists";
+  await cf(`/zones/${zoneId}/dns_records`, {
+    method: "POST",
+    body: JSON.stringify(body),
+  });
+  return "added";
+}
+
 async function addPagesDomain(name) {
   try {
     await cf(`/accounts/${accountId}/pages/projects/${projectName}/domains`, {
@@ -105,6 +124,7 @@ async function addPagesDomain(name) {
   await upsertCname(zone.id, `www.${domain}`);
   const apex = directApex;
   const www = directWww;
+  const gscTxt = await upsertTxt(zone.id, domain, gscVerifyTxt);
 
   console.log("Cloudflare setup complete");
   console.log(`domain=${domain}`);
@@ -114,5 +134,6 @@ async function addPagesDomain(name) {
   console.log(`pages_host=${pagesHost}`);
   console.log(`custom_domain_apex=${apex}`);
   console.log(`custom_domain_www=${www}`);
+  console.log(`gsc_txt=${gscTxt}`);
   console.log(`name_servers=${(zone.name_servers || []).join(",")}`);
 })();
