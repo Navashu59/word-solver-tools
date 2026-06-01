@@ -49,7 +49,7 @@ async function upsertCname(zoneId, name) {
     name,
     content: pagesHost,
     ttl: 1,
-    proxied: true,
+    proxied: false,
   };
   const cname = existing.find((record) => record.type === "CNAME");
   if (cname) {
