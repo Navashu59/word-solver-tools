@@ -77,7 +77,21 @@ async function addPagesDomain(name) {
 }
 
 (async () => {
-  const zone = await getOrCreateZone();
+  let zone;
+  try {
+    zone = await getOrCreateZone();
+  } catch (error) {
+    if (/zone\.create|create zones/i.test(error.message)) {
+      console.log("Cloudflare DNS setup pending");
+      console.log(`domain=${domain}`);
+      console.log(`pages_project=${projectName}`);
+      console.log(`pages_host=${pagesHost}`);
+      console.log('reason=API token lacks "account zone create" permission');
+      console.log("next=Add the domain as a Cloudflare zone manually or update the token with zone create + DNS edit permissions, then rerun this workflow.");
+      return;
+    }
+    throw error;
+  }
   await upsertCname(zone.id, domain);
   await upsertCname(zone.id, `www.${domain}`);
   const apex = await addPagesDomain(domain);

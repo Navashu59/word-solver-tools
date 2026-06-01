@@ -218,6 +218,42 @@ main
 
 Implementation baseline commit:
 
+## 2026-06-01 Production Domain Deployment
+
+Production domain selected:
+
+```text
+wordsolvertools.org
+```
+
+Completed:
+
+- Rebuilt `public/` with `SITE_ORIGIN=https://wordsolvertools.org`.
+- Confirmed no `https://example.com` remains in generated output.
+- Added Cloudflare Pages workflow at `.github/workflows/deploy-cloudflare-pages.yml`.
+- Added `scripts/cloudflare-postdeploy.js` to configure DNS records and custom domains when the Cloudflare token has the required permissions.
+- Added `_redirects` generation for `www.wordsolvertools.org` to redirect to `https://wordsolvertools.org`.
+- Pushed production-domain build to GitHub.
+- GitHub Actions created the Cloudflare Pages project `word-solver-tools`.
+- GitHub Actions deployed the site to Cloudflare Pages.
+
+Current Cloudflare Pages preview:
+
+```text
+https://4517b45c.word-solver-tools.pages.dev
+```
+
+Blocked / pending:
+
+- Cloudflare DNS zone creation is pending because the current API token does not have `account zone create` permission.
+- Custom domain attachment for `wordsolvertools.org` and `www.wordsolvertools.org` is pending until the DNS zone exists.
+- Namecheap nameserver change is pending until Cloudflare returns the zone nameservers.
+- GSC property setup and sitemap submission are pending until the domain is live and verifiable.
+
+Next step:
+
+Update the Cloudflare API token with zone creation and DNS edit permissions, or manually add `wordsolvertools.org` as a Cloudflare zone, then rerun the `Deploy Cloudflare Pages` workflow.
+
 ```text
 655b6bb site: improve authority structure and tool UX
 ```
