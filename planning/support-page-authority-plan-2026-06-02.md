@@ -88,3 +88,4 @@ Implemented the four P0 support pages in `planning/strategy-guides.json` and upd
 - Broken internal links: 0
 - JSON-LD parse errors: 0
 - Browser DOM smoke test: passed for the four new guides plus `/spelling-bee-solver/` and `/word-unscrambler/`
+- DeepSeek content review: passed with no material findings, saved at `research/deepseek-support-pages-review-2026-06-02.json`

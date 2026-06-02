@@ -405,6 +405,8 @@ Validation:
 - Broken internal links: 0
 - JSON-LD parse errors: 0
 - Browser DOM smoke test passed for all four new guide pages and two parent tools.
+- DeepSeek content review: passed with no material findings.
+  - `research/deepseek-support-pages-review-2026-06-02.json`
 
 ```text
 655b6bb site: improve authority structure and tool UX
