@@ -28,10 +28,10 @@ Decision impact: GSC cannot yet prioritize support pages by observed query expos
 
 | Status | Priority | URL | Primary keyword | Semrush evidence | Parent tools | Decision |
 |---|---:|---|---|---|---|---|
-| implemented_local_pending_deploy | P0 | `/guides/spelling-bee-pangram/` | spelling bee pangram | `spelling bee pangram` 9,900; `pangram solver` 6,600; `pangram today` 18,100 | `/spelling-bee-solver/`, `/spelling-bee-buddy/`, `/nyt-spelling-bee-solver/` | Built locally with parent-tool internal links. |
-| implemented_local_pending_deploy | P0 | `/guides/anagram-examples/` | anagram examples | `anagram examples` 1,900; related cluster includes `anagram solver` 246,000 | `/anagram-solver/`, `/anagram-generator/`, `/anagram-maker/` | Built locally with parent-tool internal links. |
-| implemented_local_pending_deploy | P0 | `/guides/boggle-rules/` | boggle rules | `boggle rules` 1,900 | `/boggle-solver/` | Built locally with parent-tool internal links. |
-| implemented_local_pending_deploy | P0 | `/guides/how-to-unscramble-words/` | how to unscramble words | `how to unscramble words` 880 | `/word-unscrambler/`, `/unscramble-words/`, `/unscramble-letters/`, `/words-with-these-letters/` | Built locally with parent-tool internal links. |
+| deployed | P0 | `/guides/spelling-bee-pangram/` | spelling bee pangram | `spelling bee pangram` 9,900; `pangram solver` 6,600; `pangram today` 18,100 | `/spelling-bee-solver/`, `/spelling-bee-buddy/`, `/nyt-spelling-bee-solver/` | Live on Cloudflare Pages. |
+| deployed | P0 | `/guides/anagram-examples/` | anagram examples | `anagram examples` 1,900; related cluster includes `anagram solver` 246,000 | `/anagram-solver/`, `/anagram-generator/`, `/anagram-maker/` | Live on Cloudflare Pages. |
+| deployed | P0 | `/guides/boggle-rules/` | boggle rules | `boggle rules` 1,900 | `/boggle-solver/` | Live on Cloudflare Pages. |
+| deployed | P0 | `/guides/how-to-unscramble-words/` | how to unscramble words | `how to unscramble words` 880 | `/word-unscrambler/`, `/unscramble-words/`, `/unscramble-letters/`, `/words-with-these-letters/` | Live on Cloudflare Pages. |
 | deferred | P1 | `/guides/crossword-patterns-and-known-letters/` | crossword pattern solver | `crossword pattern solver` 30; adjacent terms include `missing letter crossword` 6,600 and `crossword help` 14,800 | `/crossword-solver/`, `/crossword-clue-solver/`, `/crossword-help/` | Build after P0 if indexing and guide crawl paths are healthy. Avoid tool-page cannibalization. |
 | deferred | P1 | `/guides/spelling-bee-rules/` | spelling bee rules | `spelling bee rules` 590 | `/spelling-bee-solver/`, `/spelling-bee-buddy/` | Consider merging into pangram page first; split only if SERP/GSC supports. |
 | deferred | P1 | `/guides/wordle-repeated-letters/` | repeated letters in wordle | `repeated letters in wordle` 20 | `/wordle-solver/`, `/wordle-helper/`, `/5-letter-word-finder/` | Helpful explanation topic, but Semrush demand is weak. |
@@ -73,7 +73,7 @@ For each P0 support page:
 - [x] Rebuild with `SITE_ORIGIN=https://wordsolvertools.org npm run build`
 - [x] Run internal link validation
 - [x] Run JSON-LD validation
-- [ ] Deploy to Cloudflare Pages
+- [x] Deploy to Cloudflare Pages
 - [ ] Submit or inspect new URLs in GSC after deployment
 - [ ] Recheck GSC after 14-30 days
 
@@ -89,3 +89,4 @@ Implemented the four P0 support pages in `planning/strategy-guides.json` and upd
 - JSON-LD parse errors: 0
 - Browser DOM smoke test: passed for the four new guides plus `/spelling-bee-solver/` and `/word-unscrambler/`
 - DeepSeek content review: passed with no material findings, saved at `research/deepseek-support-pages-review-2026-06-02.json`
+- Deployment: GitHub Actions runs `26806974064` and `26807098188` completed successfully. Live checks returned HTTP 200 for all four P0 support pages and confirmed sitemap inclusion.

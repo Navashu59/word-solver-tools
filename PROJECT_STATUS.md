@@ -381,9 +381,9 @@ Deferred pages:
 
 Current status:
 
-- P0 pages are implemented locally and pending deployment.
-- Internal-link and sitemap updates passed local validation.
-- Deployment is pending.
+- P0 pages are deployed.
+- Internal-link and sitemap updates passed local and live validation.
+- GSC submission/inspection and 14-30 day observation are still pending.
 
 2026-06-02 local implementation:
 
@@ -407,6 +407,11 @@ Validation:
 - Browser DOM smoke test passed for all four new guide pages and two parent tools.
 - DeepSeek content review: passed with no material findings.
   - `research/deepseek-support-pages-review-2026-06-02.json`
+- Deployment:
+  - GitHub Actions run `26806974064`: success
+  - GitHub Actions run `26807098188`: success
+  - Live HTTP checks: 200 for all four new support pages
+  - Live sitemap contains all four new support pages
 
 ```text
 655b6bb site: improve authority structure and tool UX
