@@ -311,8 +311,35 @@ Google Search Console:
 
 Known follow-up:
 
-- The generated `_redirects` file does not currently force `www.wordsolvertools.org` to 301 redirect to the bare domain on Cloudflare Pages custom domains. This is not blocking indexing because all canonicals and sitemap URLs use the bare domain, but a Cloudflare Redirect Rule should be added later if strict host canonicalization is required.
 - Start the 14-30 day post-launch observation window before making large content changes.
+
+## 2026-06-02 Cloudflare SEO Canonicalization
+
+Completed:
+
+- Added an active Cloudflare Redirect Rule:
+
+  ```text
+  SEO canonical redirect: www to wordsolvertools.org
+  ```
+
+- Rule behavior:
+
+  ```text
+  https://www.wordsolvertools.org/* -> https://wordsolvertools.org/${1}
+  ```
+
+- The redirect uses HTTP `301` and preserves the query string.
+- Updated the `www.wordsolvertools.org` DNS CNAME to `proxied: true` so the Cloudflare Redirect Rule can run.
+- Kept the apex `wordsolvertools.org` CNAME as DNS-only to preserve the stable Cloudflare Pages deployment path.
+
+Verification:
+
+- `https://www.wordsolvertools.org/` returns `301` to `https://wordsolvertools.org/`.
+- `https://www.wordsolvertools.org/some-path/?x=1` returns `301` to `https://wordsolvertools.org/some-path/?x=1`.
+- `https://wordsolvertools.org/` remains HTTP `200`.
+- `http://wordsolvertools.org/` returns `301` to `https://wordsolvertools.org/`.
+- `http://www.wordsolvertools.org/test?x=1` resolves through HTTPS and then to the bare-domain canonical URL.
 
 ```text
 655b6bb site: improve authority structure and tool UX
