@@ -16,7 +16,7 @@ const site = {
 };
 
 const review = {
-  date: "2026-06-01",
+  date: "2026-06-02",
   label: "Last reviewed: June 2026",
   authorName: "Independent Developer",
   authorBio: "Built as a practical word-game helper focused on fast client-side filtering, clear puzzle constraints, and transparent limitations.",
@@ -185,6 +185,14 @@ function blocksToHtml(blocks) {
     if (type === "ul") return `<ul>${value.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ul>`;
     return `<p>${inlineMarkdown(value)}</p>`;
   }).join("");
+}
+
+function sourcesHtml(sources) {
+  if (!Array.isArray(sources) || sources.length === 0) return "";
+  const items = sources
+    .map((source) => `<li><a href="${escapeHtml(source.url)}" rel="noopener">${escapeHtml(source.title)}</a>${source.note ? `: ${escapeHtml(source.note)}` : ""}</li>`)
+    .join("");
+  return `<section class="sources-note"><h2>Sources and limits</h2><ul>${items}</ul><p>${escapeHtml(review.methodNote)}</p></section>`;
 }
 
 function pageAction(page) {
@@ -596,7 +604,7 @@ function homeHtml() {
       <h2>Popular tools</h2>
       <div class="tool-grid">${featured}</div>
     </div></section>
-    <section class="section-band alt"><div class="inner">
+    <section class="section-band alt" id="strategy-guides"><div class="inner">
       <h2>${escapeHtml(guideData.homepage_section.heading)}</h2>
       <p class="section-intro">${escapeHtml(guideData.homepage_section.intro)}</p>
       <div class="tool-grid">${guideLinks}</div>
@@ -742,6 +750,7 @@ function guidePageSchema(guide) {
       },
       publisher: { "@id": `${site.origin}/#organization` },
       isPartOf: { "@id": `${site.origin}/#website` },
+      citation: Array.isArray(guide.sources) ? guide.sources.map((source) => source.url) : undefined,
     },
     {
       "@type": "WebPage",
@@ -756,7 +765,7 @@ function guidePageSchema(guide) {
     {
       ...breadcrumbSchema([
         { name: "Home", url: "/" },
-        { name: "Guides", url: "/tools/" },
+        { name: "Strategy guides", url: "/#strategy-guides" },
         { name: guide.title, url },
       ]),
       "@id": `${absoluteUrl(url)}#breadcrumb`,
@@ -783,7 +792,7 @@ function guidePageHtml(guide) {
       <h1>${escapeHtml(guide.h1)}</h1>
       <p>${escapeHtml(guide.description)}</p>
     </div></section>
-    <section class="content-section"><div class="content-inner">${bodyContent}</div></section>
+    <section class="content-section"><div class="content-inner">${bodyContent}${sourcesHtml(guide.sources)}</div></section>
     ${relatedTools}
   </main>`;
   return layout({
@@ -828,7 +837,7 @@ function notFoundHtml() {
 
 function writeStaticAssets() {
   ensureDir(path.join(publicDir, "assets"));
-  const css = `:root{--ink:#17202a;--muted:#5c6975;--line:#d7dde2;--paper:#fbfcf8;--panel:#ffffff;--accent:#0f766e;--accent-2:#b45309;--blue:#1d4ed8;--soft:#eef7f5;--shadow:0 18px 60px rgba(23,32,42,.10)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(16px,4vw,48px);background:rgba(251,252,248,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--ink);color:white;letter-spacing:.02em}.top-nav{display:flex;gap:18px;flex-wrap:wrap}.top-nav a{text-decoration:none;color:var(--muted);font-weight:650;font-size:14px}.top-nav a:hover{color:var(--ink)}.home-hero{min-height:560px;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,520px);align-items:center;gap:40px;padding:64px clamp(18px,6vw,80px) 44px;background:linear-gradient(180deg,#f7fbf7 0%,#fbfcf8 100%)}.home-copy h1{font-size:clamp(42px,6vw,76px);line-height:1.02;margin:0 0 18px;letter-spacing:0}.home-copy p{font-size:18px;max-width:680px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;color:var(--accent)}.hero-actions,.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary-link,.secondary-link,.primary-btn,.ghost-btn{border:0;border-radius:8px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer}.primary-link,.primary-btn{background:var(--accent);color:white}.secondary-link,.ghost-btn{background:white;color:var(--ink);border:1px solid var(--line)}.hero-asset{width:100%;max-width:520px;justify-self:center}.tool-panel{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(320px,1.2fr);gap:28px;padding:44px clamp(18px,5vw,72px);background:#f3faf7;border-bottom:1px solid var(--line)}.tool-heading h1{font-size:clamp(34px,4.6vw,58px);line-height:1.05;margin:0 0 14px}.tool-heading p{color:var(--muted);font-size:17px}.solver-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;box-shadow:var(--shadow)}.field{display:grid;gap:6px;font-weight:750;color:var(--ink)}.field span{font-size:13px}.field-help{margin:8px 0 0;color:var(--muted);font-size:13px}.field textarea,.field input{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font:inherit;background:#fff}.field textarea:focus,.field input:focus{outline:3px solid rgba(15,118,110,.18);border-color:var(--accent)}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.check-field{display:flex;align-items:center;gap:10px;margin-top:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fbfcf8;font-weight:750}.check-field input{width:18px;height:18px;accent-color:var(--accent)}.results{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;min-height:88px}.result-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.result-group{margin-top:14px}.result-group h3{font-size:15px;margin:0 0 8px;color:var(--muted)}.result-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}.word-pill{display:grid;gap:2px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;padding:9px 10px;font-weight:800;text-align:center;cursor:pointer}.word-pill small{font-size:11px;color:var(--muted);font-weight:700}.muted{color:var(--muted)}.content-section{padding:42px clamp(18px,5vw,72px);background:var(--paper)}.content-inner{max-width:920px}.content-inner h2{margin-top:34px;font-size:28px}.content-inner h3{margin-top:24px;font-size:20px}.content-inner p,.content-inner li{color:#2f3b45}.trust-note{border:1px solid var(--line);background:#fff;border-radius:8px;padding:16px 18px;margin:0 0 30px;box-shadow:0 10px 30px rgba(23,32,42,.05)}.trust-note p{margin:0 0 8px}.trust-note p:last-child{margin-bottom:0}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;padding:14px 16px;border-radius:8px;margin-top:28px}.section-band{padding:42px clamp(18px,5vw,72px);border-top:1px solid var(--line);background:white}.section-band.alt{background:#f7f8fb}.inner{max-width:1180px;margin:0 auto}.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.tool-cluster{margin:0 0 38px}.tool-cluster:last-child{margin-bottom:0}.cluster-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.cluster-heading h2{margin:0;font-size:26px}.cluster-heading span{color:var(--muted);font-weight:800}.tool-link{display:grid;gap:7px;text-decoration:none;background:white;border:1px solid var(--line);border-radius:8px;padding:16px;min-height:118px}.tool-link:hover{border-color:var(--accent);box-shadow:0 10px 26px rgba(15,118,110,.09)}.tool-link span{color:var(--muted);font-size:14px}.link-grid{display:flex;gap:10px;flex-wrap:wrap}.link-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}.cluster-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding:0;list-style:none}.cluster-list li{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:8px;padding:14px;background:white}.page-heading{padding:44px clamp(18px,5vw,72px);background:#f3faf7}.site-footer{padding:34px clamp(18px,5vw,72px);background:var(--ink);color:#dfe7ee}.site-footer a{color:white}@media(max-width:820px){.site-header{align-items:flex-start;flex-direction:column}.top-nav{gap:12px}.home-hero,.tool-panel{grid-template-columns:1fr}.home-hero{padding-top:40px}.field-grid{grid-template-columns:1fr}.hero-asset{max-width:330px}.tool-heading h1{font-size:36px}.result-toolbar,.cluster-heading{align-items:flex-start;flex-direction:column}}`;
+  const css = `:root{--ink:#17202a;--muted:#5c6975;--line:#d7dde2;--paper:#fbfcf8;--panel:#ffffff;--accent:#0f766e;--accent-2:#b45309;--blue:#1d4ed8;--soft:#eef7f5;--shadow:0 18px 60px rgba(23,32,42,.10)}*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(16px,4vw,48px);background:rgba(251,252,248,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:8px;background:var(--ink);color:white;letter-spacing:.02em}.top-nav{display:flex;gap:18px;flex-wrap:wrap}.top-nav a{text-decoration:none;color:var(--muted);font-weight:650;font-size:14px}.top-nav a:hover{color:var(--ink)}.home-hero{min-height:560px;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,520px);align-items:center;gap:40px;padding:64px clamp(18px,6vw,80px) 44px;background:linear-gradient(180deg,#f7fbf7 0%,#fbfcf8 100%)}.home-copy h1{font-size:clamp(42px,6vw,76px);line-height:1.02;margin:0 0 18px;letter-spacing:0}.home-copy p{font-size:18px;max-width:680px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;color:var(--accent)}.hero-actions,.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.primary-link,.secondary-link,.primary-btn,.ghost-btn{border:0;border-radius:8px;padding:12px 16px;font-weight:800;text-decoration:none;cursor:pointer}.primary-link,.primary-btn{background:var(--accent);color:white}.secondary-link,.ghost-btn{background:white;color:var(--ink);border:1px solid var(--line)}.hero-asset{width:100%;max-width:520px;justify-self:center}.tool-panel{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(320px,1.2fr);gap:28px;padding:44px clamp(18px,5vw,72px);background:#f3faf7;border-bottom:1px solid var(--line)}.tool-heading h1{font-size:clamp(34px,4.6vw,58px);line-height:1.05;margin:0 0 14px}.tool-heading p{color:var(--muted);font-size:17px}.solver-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;box-shadow:var(--shadow)}.field{display:grid;gap:6px;font-weight:750;color:var(--ink)}.field span{font-size:13px}.field-help{margin:8px 0 0;color:var(--muted);font-size:13px}.field textarea,.field input{width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font:inherit;background:#fff}.field textarea:focus,.field input:focus{outline:3px solid rgba(15,118,110,.18);border-color:var(--accent)}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.check-field{display:flex;align-items:center;gap:10px;margin-top:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fbfcf8;font-weight:750}.check-field input{width:18px;height:18px;accent-color:var(--accent)}.results{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;min-height:88px}.result-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.result-group{margin-top:14px}.result-group h3{font-size:15px;margin:0 0 8px;color:var(--muted)}.result-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}.word-pill{display:grid;gap:2px;border:1px solid var(--line);border-radius:8px;background:#fbfcff;padding:9px 10px;font-weight:800;text-align:center;cursor:pointer}.word-pill small{font-size:11px;color:var(--muted);font-weight:700}.muted{color:var(--muted)}.content-section{padding:42px clamp(18px,5vw,72px);background:var(--paper)}.content-inner{max-width:920px}.content-inner h2{margin-top:34px;font-size:28px}.content-inner h3{margin-top:24px;font-size:20px}.content-inner p,.content-inner li{color:#2f3b45}.trust-note{border:1px solid var(--line);background:#fff;border-radius:8px;padding:16px 18px;margin:0 0 30px;box-shadow:0 10px 30px rgba(23,32,42,.05)}.trust-note p{margin:0 0 8px}.trust-note p:last-child{margin-bottom:0}.sources-note{margin-top:34px;padding:16px 18px;border:1px solid var(--line);border-radius:8px;background:#fff}.sources-note h2{font-size:20px;margin:0 0 10px}.sources-note ul{margin:0 0 10px;padding-left:20px}.sources-note p{margin:0;color:var(--muted);font-size:14px}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;padding:14px 16px;border-radius:8px;margin-top:28px}.section-band{padding:42px clamp(18px,5vw,72px);border-top:1px solid var(--line);background:white}.section-band.alt{background:#f7f8fb}.inner{max-width:1180px;margin:0 auto}.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.tool-cluster{margin:0 0 38px}.tool-cluster:last-child{margin-bottom:0}.cluster-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.cluster-heading h2{margin:0;font-size:26px}.cluster-heading span{color:var(--muted);font-weight:800}.tool-link{display:grid;gap:7px;text-decoration:none;background:white;border:1px solid var(--line);border-radius:8px;padding:16px;min-height:118px}.tool-link:hover{border-color:var(--accent);box-shadow:0 10px 26px rgba(15,118,110,.09)}.tool-link span{color:var(--muted);font-size:14px}.link-grid{display:flex;gap:10px;flex-wrap:wrap}.link-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}.cluster-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;padding:0;list-style:none}.cluster-list li{display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:8px;padding:14px;background:white}.page-heading{padding:44px clamp(18px,5vw,72px);background:#f3faf7}.site-footer{padding:34px clamp(18px,5vw,72px);background:var(--ink);color:#dfe7ee}.site-footer a{color:white}@media(max-width:820px){.site-header{align-items:flex-start;flex-direction:column}.top-nav{gap:12px}.home-hero,.tool-panel{grid-template-columns:1fr}.home-hero{padding-top:40px}.field-grid{grid-template-columns:1fr}.hero-asset{max-width:330px}.tool-heading h1{font-size:36px}.result-toolbar,.cluster-heading{align-items:flex-start;flex-direction:column}}`;
   fs.writeFileSync(path.join(publicDir, "assets/styles.css"), css);
   const app = `const WORDS=${JSON.stringify([...new Set(dictionary.map((word) => word.toLowerCase()))])};
 const SCORE={a:1,b:3,c:3,d:2,e:1,f:4,g:2,h:4,i:1,j:8,k:5,l:1,m:3,n:1,o:1,p:3,q:10,r:1,s:1,t:1,u:1,v:4,w:4,x:8,y:4,z:10};
@@ -884,6 +893,33 @@ if (site.origin === "https://wordsolvertools.org") {
 }
 }
 
+function writeLlmsTxt() {
+  const guideLines = guideData.guides.map((guide) => `- [${guide.title}](${site.origin}${guideUrl(guide)}): ${guide.description}`);
+  const toolLines = pages
+    .filter((page) => clusterLinks.includes(page.url))
+    .map((page) => `- [${page.title}](${site.origin}${page.url}): ${page.description}`);
+  fs.writeFileSync(path.join(publicDir, "llms.txt"), `# WordSolverTools.org
+
+> Browser-based word solver tools and practical guides for word games, anagrams, crosswords, spelling puzzles, and letter searches.
+
+Word Solver Tools provides independent candidate lists from a built-in English word list. The tools run in the browser and are not official dictionaries for Scrabble, Wordle, The New York Times, Words With Friends, Boggle, or any other named game or publisher. Treat results as candidates and confirm important plays against the rule set or word list you are using.
+
+## Core Tools
+
+${toolLines.join("\n")}
+
+## Strategy Guides
+
+${guideLines.join("\n")}
+
+## Method and limits
+
+- [How Word Solver Tools Works](${site.origin}/how-it-works/): Explains browser-side filtering, sorting, and word-list limits.
+- [About Word Solver Tools](${site.origin}/about/): Explains independence and scope.
+- [Sitemap](${site.origin}/sitemap.xml)
+`);
+}
+
 fs.rmSync(publicDir, { recursive: true, force: true });
 ensureDir(publicDir);
 writeStaticAssets();
@@ -902,5 +938,6 @@ for (const page of staticPages) {
 for (const page of pages) writePage(page);
 fs.writeFileSync(path.join(publicDir, "404.html"), notFoundHtml());
 writeSitemap();
+writeLlmsTxt();
 
 console.log(`Built ${pages.length + guideData.guides.length + staticPages.length + 3} pages into ${publicDir}`);

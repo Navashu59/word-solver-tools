@@ -1,0 +1,33 @@
+# WordSolverTools.org
+
+> Browser-based word solver tools and practical guides for word games, anagrams, crosswords, spelling puzzles, and letter searches.
+
+Word Solver Tools provides independent candidate lists from a built-in English word list. The tools run in the browser and are not official dictionaries for Scrabble, Wordle, The New York Times, Words With Friends, Boggle, or any other named game or publisher. Treat results as candidates and confirm important plays against the rule set or word list you are using.
+
+## Core Tools
+
+- [Word Unscrambler](https://wordsolvertools.org/word-unscrambler/): undefined
+- [Scrabble Word Finder](https://wordsolvertools.org/scrabble-word-finder/): undefined
+- [Word Finder](https://wordsolvertools.org/word-finder/): undefined
+- [Wordle Solver](https://wordsolvertools.org/wordle-solver/): undefined
+- [Anagram Solver](https://wordsolvertools.org/anagram-solver/): undefined
+- [Crossword Solver](https://wordsolvertools.org/crossword-solver/): undefined
+- [5 Letter Word Finder](https://wordsolvertools.org/5-letter-word-finder/): undefined
+- [Words With These Letters](https://wordsolvertools.org/words-with-these-letters/): undefined
+
+## Strategy Guides
+
+- [Wordle Guessing Strategy](https://wordsolvertools.org/guides/wordle-guessing-strategy/): Learn how to use Wordle feedback to narrow down possibilities without spoiling the puzzle. Practical tips for better guesses.
+- [Scrabble Rack Strategy](https://wordsolvertools.org/guides/scrabble-rack-strategy/): Learn how to evaluate your Scrabble rack and turn a set of tiles into high-scoring plays. This guide covers rack balancing, vowel-consonant ratios, and when to exchange tiles.
+- [How to Solve Crossword Clues](https://wordsolvertools.org/guides/how-to-solve-crossword-clues/): Learn to solve crossword clues by identifying clue types, using crossings, and recognizing patterns. Practical strategies for cryptic and standard crosswords.
+- [Anagram Solving Techniques](https://wordsolvertools.org/guides/anagram-solving-techniques/): Learn how to break letter sets into likely word shapes before using an anagram solver for faster results.
+- [Spelling Bee Pangram Guide](https://wordsolvertools.org/guides/spelling-bee-pangram/): Learn what a spelling bee pangram is, how pangram scoring works, and how to find words that use all seven letters.
+- [Anagram Examples](https://wordsolvertools.org/guides/anagram-examples/): See practical anagram examples by word length and learn how rearranged letters become new words or phrases.
+- [Boggle Rules](https://wordsolvertools.org/guides/boggle-rules/): Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.
+- [How to Unscramble Words](https://wordsolvertools.org/guides/how-to-unscramble-words/): Learn practical ways to unscramble letters by spotting vowels, prefixes, suffixes, repeated letters, and wildcard patterns.
+
+## Method and limits
+
+- [How Word Solver Tools Works](https://wordsolvertools.org/how-it-works/): Explains browser-side filtering, sorting, and word-list limits.
+- [About Word Solver Tools](https://wordsolvertools.org/about/): Explains independence and scope.
+- [Sitemap](https://wordsolvertools.org/sitemap.xml)

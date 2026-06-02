@@ -456,6 +456,23 @@
         ],
         "serp_gap": "Live SERP pages emphasize all seven letters, center-letter requirement, repeated-letter allowance, scoring bonus, and perfect pangram distinction."
       },
+      "sources": [
+        {
+          "title": "Merriam-Webster, Words About Word Play: Pangram",
+          "url": "https://www.merriam-webster.com/wordplay/playing-with-words",
+          "note": "Used for the general wordplay definition of pangram."
+        },
+        {
+          "title": "The New York Times Spelling Bee Help",
+          "url": "https://nytimes.zendesk.com/hc/en-us/articles/23675493312404-Spelling-Bee",
+          "note": "Used only as a reference for the named NYT game context; this site is independent."
+        },
+        {
+          "title": "Wikipedia: The New York Times Spelling Bee",
+          "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Spelling_Bee",
+          "note": "Used as a secondary reference for NYT-style pangram scoring; official in-game rules should be checked for current play."
+        }
+      ],
       "body": [
         [
           "h2",
@@ -548,6 +565,13 @@
         ],
         "serp_gap": "Live SERP pages define anagrams with concrete examples, then explain that letters are rearranged without adding or removing letters."
       },
+      "sources": [
+        {
+          "title": "Merriam-Webster Dictionary: Anagram",
+          "url": "https://www.merriam-webster.com/dictionary/anagram",
+          "note": "Used for the definition of anagram."
+        }
+      ],
       "body": [
         [
           "h2",
@@ -643,6 +667,13 @@
         ],
         "serp_gap": "Live SERP pages consistently emphasize adjacent letters, no cube reuse in a single word, minimum word length, duplicate-word handling, and dictionary limits."
       },
+      "sources": [
+        {
+          "title": "Hasbro Instructions: Boggle",
+          "url": "https://instructions.hasbro.com/en-ca/instruction/boggle",
+          "note": "Used to confirm the official product context and timer/player basics; rule variants can differ by edition."
+        }
+      ],
       "body": [
         [
           "h2",
@@ -737,6 +768,13 @@
         ],
         "serp_gap": "Live SERP pages focus on entering letters, using wildcards, begins/ends filters, length grouping, and practical by-hand tactics such as prefixes, suffixes, and vowel separation."
       },
+      "sources": [
+        {
+          "title": "How Word Solver Tools Works",
+          "url": "https://wordsolvertools.org/how-it-works/",
+          "note": "Used for the site's own method and word-list limitations."
+        }
+      ],
       "body": [
         [
           "h2",
