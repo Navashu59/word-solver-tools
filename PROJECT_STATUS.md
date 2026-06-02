@@ -341,6 +341,71 @@ Verification:
 - `http://wordsolvertools.org/` returns `301` to `https://wordsolvertools.org/`.
 - `http://www.wordsolvertools.org/test?x=1` resolves through HTTPS and then to the bare-domain canonical URL.
 
+## 2026-06-02 Support Page Authority Plan
+
+Recorded the validated support-page plan for information-first SEO pages that should cover intent the tool pages should not carry.
+
+Evidence files:
+
+- `research/support-pages-semrush-validation-2026-06-02.json`
+- `research/support-pages-question-seeds-semrush-2026-06-02.json`
+- `research/gsc-performance-wordsolvertools-2026-06-02.json`
+- `/Users/bluepha/seo-revenue-system/ops/sites/wordsolvertools/gsc_data.json`
+- `/Users/bluepha/seo-revenue-system/ops/sites/wordsolvertools/support_page_plan_2026-06-02.json`
+
+Detailed plan:
+
+```text
+planning/support-page-authority-plan-2026-06-02.md
+```
+
+GSC status:
+
+- `sc-domain:wordsolvertools.org` is verified and reachable through the Playwright GSC profile.
+- 2026-06-02 Playwright pull shows 0 clicks and 0 impressions for the last 28 days.
+- Search Console API service account currently returns 403 for this property, so API-based query/page pulls need service-account permission before they can be used.
+
+P0 support pages to build first:
+
+- `/guides/spelling-bee-pangram/`
+- `/guides/anagram-examples/`
+- `/guides/boggle-rules/`
+- `/guides/how-to-unscramble-words/`
+
+Deferred pages:
+
+- `/guides/crossword-patterns-and-known-letters/`
+- `/guides/spelling-bee-rules/`
+- `/guides/wordle-repeated-letters/`
+- `/guides/word-ladder-rules/`
+
+Current status:
+
+- P0 pages are implemented locally and pending deployment.
+- Internal-link and sitemap updates passed local validation.
+- Deployment is pending.
+
+2026-06-02 local implementation:
+
+- Added `/guides/spelling-bee-pangram/`
+- Added `/guides/anagram-examples/`
+- Added `/guides/boggle-rules/`
+- Added `/guides/how-to-unscramble-words/`
+- Added parent-tool support-guide links through the static generator.
+- Added real SERP gap evidence:
+  - `research/support-pages-real-serp-gap-2026-06-02.json`
+  - `research/support-pages-real-serp-gap-summary-2026-06-02.md`
+
+Validation:
+
+- Build: `SITE_ORIGIN=https://wordsolvertools.org npm run build`
+- HTML files: 66
+- Indexable HTML: 65
+- Sitemap URLs: 65
+- Broken internal links: 0
+- JSON-LD parse errors: 0
+- Browser DOM smoke test passed for all four new guide pages and two parent tools.
+
 ```text
 655b6bb site: improve authority structure and tool UX
 ```

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boggle Rules - Word Solver Tools</title>
+  <meta name="description" content="Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0f766e">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Word Solver Tools">
+  <meta property="og:title" content="Boggle Rules - Word Solver Tools">
+  <meta property="og:description" content="Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.">
+  <meta property="og:url" content="https://wordsolvertools.org/guides/boggle-rules/">
+  <meta property="og:image" content="https://wordsolvertools.org/assets/social-card.svg">
+  <meta property="og:image:alt" content="Word Solver Tools word solver preview">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Boggle Rules - Word Solver Tools">
+  <meta name="twitter:description" content="Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.">
+  <meta name="twitter:image" content="https://wordsolvertools.org/assets/social-card.svg">
+  <link rel="canonical" href="https://wordsolvertools.org/guides/boggle-rules/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://wordsolvertools.org/#organization","name":"Word Solver Tools","url":"https://wordsolvertools.org/","logo":"https://wordsolvertools.org/favicon.svg"},{"@type":"Article","@id":"https://wordsolvertools.org/guides/boggle-rules/#article","headline":"Boggle Rules","description":"Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.","url":"https://wordsolvertools.org/guides/boggle-rules/","dateModified":"2026-06-01","author":{"@type":"Person","name":"Independent Developer"},"publisher":{"@id":"https://wordsolvertools.org/#organization"},"isPartOf":{"@id":"https://wordsolvertools.org/#website"}},{"@type":"WebPage","@id":"https://wordsolvertools.org/guides/boggle-rules/#webpage","url":"https://wordsolvertools.org/guides/boggle-rules/","name":"Boggle Rules","description":"Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.","mainEntity":{"@id":"https://wordsolvertools.org/guides/boggle-rules/#article"},"breadcrumb":{"@id":"https://wordsolvertools.org/guides/boggle-rules/#breadcrumb"},"dateModified":"2026-06-01"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://wordsolvertools.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://wordsolvertools.org/tools/"},{"@type":"ListItem","position":3,"name":"Boggle Rules","item":"https://wordsolvertools.org/guides/boggle-rules/"}],"@id":"https://wordsolvertools.org/guides/boggle-rules/#breadcrumb"}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Word Solver Tools home">
+      <span class="brand-mark">WS</span>
+      <span>Word Solver Tools</span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="/word-unscrambler/">Unscrambler</a>
+      <a href="/word-finder/">Word Finder</a>
+      <a href="/wordle-solver/">Wordle</a>
+      <a href="/crossword-solver/">Crossword</a>
+      <a href="/tools/">All tools</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-heading"><div class="inner">
+      <p class="eyebrow">Boggle guide</p>
+      <h1>Boggle Rules: Adjacent Letters, Paths, and Scoring Basics</h1>
+      <p>Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.</p>
+    </div></section>
+    <section class="content-section"><div class="content-inner"><h2>The Basic Boggle Goal</h2><p>In Boggle, you find words by tracing connected letters on a grid. Each next letter must touch the previous letter horizontally, vertically, or diagonally. The usual board is 4x4, while larger versions may use 5x5 boards.</p><p>Use the Boggle Solver when you have a full board and want candidate words that can be traced through adjacent letters.</p><h2>Adjacent Letter Rule</h2><p>A word must be formed in order by moving from one cube to an adjacent cube. Diagonal moves count. If two letters are not touching, they cannot be consecutive letters in the same word path.</p><h2>Cube Reuse Rule</h2><p>A single cube cannot be used more than once in the same word path. If the same letter appears on two different cubes, you may use both cubes, but each position on the board can only be visited once for that word.</p><h2>Minimum Word Length</h2><p>Many Boggle rule sets use a three-letter minimum. Some classroom, house, or advanced variants use four or five letters. When you use a solver, set a length filter if your game uses a stricter minimum.</p><h2>Duplicate Words</h2><p>If the same word can be traced in more than one place, it is normally counted once for a player. In multiplayer scoring, duplicate words found by multiple players may be crossed out depending on the rule set being used.</p><h2>Example Path Check</h2><p>Imagine the board has C next to A, A next to R, and R next to T. The word cart is valid only if C-A-R-T can be traced as a connected path without reusing a cube. If T is elsewhere on the board and not adjacent to R, that path fails.</p><h2>Common Mistakes</h2><ul><li>Using any letters from the board without checking adjacency.</li><li>Reusing the same cube twice because the word needs the same letter twice.</li><li>Counting a word that is below the agreed minimum length.</li><li>Assuming every dictionary candidate is valid for the version of Boggle or classroom rules you are using.</li></ul><h2>Related tool</h2><p>Open the <a href="/boggle-solver/">Boggle Solver</a> to enter a 4x4 or 5x5 board and narrow candidate words by length, contains, starts with, and ends with filters.</p></div></section>
+    <section class="section-band"><div class="inner"><h2>Related tools</h2><div class="link-grid"><a href="/boggle-solver/">Boggle Solver</a></div></div></section>
+  </main>
+  <footer class="site-footer">
+    <p>Word Solver Tools is an independent collection of word solving tools. Game names are used descriptively and do not imply affiliation.</p>
+    <p><a href="/about/">About</a> · <a href="/how-it-works/">How it works</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/contact/">Contact</a> · <a href="/sitemap.xml">Sitemap</a></p>
+  </footer>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

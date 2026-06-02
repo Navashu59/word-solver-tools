@@ -113,6 +113,10 @@ const staticPages = [
 
 const guideUrl = (guide) => `/${guide.slug}/`;
 
+function guidesForTool(page) {
+  return guideData.guides.filter((guide) => Array.isArray(guide.parent_tools) && guide.parent_tools.includes(page.url));
+}
+
 const allSitemapUrls = () => [
   "/",
   "/tools/",
@@ -517,6 +521,9 @@ function toolPanel(page) {
 }
 
 function adjacentLinks(page) {
+  const guideLinks = guidesForTool(page)
+    .map((guide) => `<a href="${guideUrl(guide)}">${escapeHtml(guide.title)}</a>`)
+    .join("");
   const sameCluster = pages
     .filter((candidate) => candidate.cluster === page.cluster && candidate.url !== page.url)
     .sort((a, b) => b.volume - a.volume)
@@ -530,7 +537,10 @@ function adjacentLinks(page) {
       return `<a href="${href}">${target ? escapeHtml(target.title) : href}</a>`;
     })
     .join("");
-  return `<section class="section-band"><div class="inner"><h2>Related word tools</h2><div class="link-grid">${links}</div></div></section>`;
+  const guideBlock = guideLinks
+    ? `<h2>Related guides</h2><div class="link-grid">${guideLinks}</div>`
+    : "";
+  return `<section class="section-band"><div class="inner">${guideBlock}<h2>Related word tools</h2><div class="link-grid">${links}</div></div></section>`;
 }
 
 function pageHtml(page) {
@@ -756,6 +766,17 @@ function guidePageSchema(guide) {
 
 function guidePageHtml(guide) {
   const bodyContent = blocksToHtml(guide.body);
+  const parentTools = Array.isArray(guide.parent_tools)
+    ? guide.parent_tools
+        .map((href) => {
+          const target = pages.find((page) => page.url === href);
+          return `<a href="${href}">${target ? escapeHtml(target.title) : escapeHtml(href)}</a>`;
+        })
+        .join("")
+    : "";
+  const relatedTools = parentTools
+    ? `<section class="section-band"><div class="inner"><h2>Related tools</h2><div class="link-grid">${parentTools}</div></div></section>`
+    : "";
   const body = `<main>
     <section class="page-heading"><div class="inner">
       <p class="eyebrow">${escapeHtml(guide.eyebrow || "Strategy guide")}</p>
@@ -763,6 +784,7 @@ function guidePageHtml(guide) {
       <p>${escapeHtml(guide.description)}</p>
     </div></section>
     <section class="content-section"><div class="content-inner">${bodyContent}</div></section>
+    ${relatedTools}
   </main>`;
   return layout({
     title: `${guide.title} - ${site.name}`,

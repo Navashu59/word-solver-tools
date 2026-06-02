@@ -2,7 +2,7 @@
 
 Generated: 2026-06-01
 
-Semrush status: blocked by API key error during verification. GSC status: unavailable until production domain/property exists.
+Status update 2026-06-02: Semrush access was later verified and used for page-level evidence plus support-page candidate validation. The support-page authority plan is now tracked in `planning/support-page-authority-plan-2026-06-02.md`. GSC property `sc-domain:wordsolvertools.org` is verified; Playwright GSC pull shows 0 clicks and 0 impressions for the last 28 days, while the Search Console API service account currently lacks permission for this property.
 
 | Rank | URL | Keyword | Cluster | Intent | Tool maturity | SERP/PAA status | Next maturity action |
 |---:|---|---|---|---|---|---|---|

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-06-02",
+  "site": "wordsolvertools.org",
+  "scope": "P0 support pages",
+  "method": "Live web SERP review plus existing Semrush and GSC validation. GSC property exists but currently has 0 clicks and 0 impressions in the last 28 days.",
+  "pages": [
+    {
+      "url": "/guides/spelling-bee-pangram/",
+      "primary_keyword": "spelling bee pangram",
+      "semrush_evidence": [
+        {"keyword": "spelling bee pangram", "volume": 9900},
+        {"keyword": "pangram solver", "volume": 6600},
+        {"keyword": "pangram today", "volume": 18100}
+      ],
+      "serp_patterns": [
+        "Top results explain that a pangram uses all seven hive letters at least once.",
+        "Ranking pages consistently mention the required center letter.",
+        "Several pages explain the seven-point pangram bonus and distinguish regular pangrams from perfect pangrams.",
+        "Current SERP includes today-answer pages, so this support page should stay evergreen and not publish daily answers."
+      ],
+      "sources_reviewed": [
+        "https://spellbee.us/blogs/spelling-bee-pangram/",
+        "https://beebom.com/puzzle/what-is-pangram-in-spelling-bee/",
+        "https://spellingbeesolver.net/faq/score",
+        "https://en.wikipedia.org/wiki/The_New_York_Times_Spelling_Bee"
+      ],
+      "page_actions": [
+        "Define pangram in the first section.",
+        "Explain center-letter and repeated-letter rules.",
+        "Explain pangram versus perfect pangram.",
+        "Link back to Spelling Bee Solver, Spelling Bee Buddy, and NYT Spelling Bee Solver."
+      ]
+    },
+    {
+      "url": "/guides/anagram-examples/",
+      "primary_keyword": "anagram examples",
+      "semrush_evidence": [
+        {"keyword": "anagram examples", "volume": 1900},
+        {"keyword": "anagram solver", "volume": 246000}
+      ],
+      "serp_patterns": [
+        "Top results define anagrams as rearranged letters.",
+        "Example-led pages perform better for this query than abstract strategy pages.",
+        "The SERP distinguishes full-letter rearrangement from looser word-from-letters workflows."
+      ],
+      "sources_reviewed": [
+        "https://www.crosswordsolver.org/guides/what-is-an-anagram",
+        "https://en.wikipedia.org/wiki/Anagram",
+        "https://www.education.gov.gy/web2/index.php/pri/grade-4/grade4-worksheets/english-3/6636-grade-4-literacy-weeks-9-13-worksheets-term-2/file"
+      ],
+      "page_actions": [
+        "Lead with a clear definition.",
+        "Add short examples and five-/six-letter examples.",
+        "Add a section on strict anagram checking.",
+        "Link back to Anagram Solver, Anagram Generator, and Anagram Maker."
+      ]
+    },
+    {
+      "url": "/guides/boggle-rules/",
+      "primary_keyword": "boggle rules",
+      "semrush_evidence": [
+        {"keyword": "boggle rules", "volume": 1900}
+      ],
+      "serp_patterns": [
+        "Top results emphasize adjacent letter movement.",
+        "Rule pages say the same cube cannot be reused in one word path.",
+        "Several pages mention minimum word length and duplicate-word handling.",
+        "Rule variants differ, so page copy should avoid claiming one universal scoring system."
+      ],
+      "sources_reviewed": [
+        "https://gamerules.com/rules/boggle-rules/",
+        "https://officialgamerules.org/game-rules/boggle/",
+        "https://en.wikipedia.org/wiki/Boggle"
+      ],
+      "page_actions": [
+        "Explain adjacent movement including diagonals.",
+        "Explain no cube reuse.",
+        "Explain minimum word length variants.",
+        "Link back to Boggle Solver."
+      ]
+    },
+    {
+      "url": "/guides/how-to-unscramble-words/",
+      "primary_keyword": "how to unscramble words",
+      "semrush_evidence": [
+        {"keyword": "how to unscramble words", "volume": 880}
+      ],
+      "serp_patterns": [
+        "Tool SERPs emphasize entering letters, wildcards, begins/ends filters, and length grouping.",
+        "Guide SERPs emphasize prefixes, suffixes, vowel separation, repeated letters, and using a solver after manual scanning.",
+        "The page should not compete with /word-unscrambler/ for the main tool job; it should explain the method and then link to tools."
+      ],
+      "sources_reviewed": [
+        "https://www.unscramblerer.com/",
+        "https://thesimpletoolbox.com/blog/how-to-unscramble-letters/",
+        "https://www.wordylab.com/blog/how-to-unscramble-words/"
+      ],
+      "page_actions": [
+        "Lead with a practical method.",
+        "Cover vowels, prefixes, suffixes, short-word anchors, and wildcards.",
+        "Explain unscrambler versus strict anagram solving.",
+        "Link back to Word Unscrambler, Unscramble Words, Unscramble Letters, and Words With These Letters."
+      ]
+    }
+  ]
+}

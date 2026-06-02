@@ -1,0 +1,1192 @@
+{
+  "generated_at": "2026-06-02",
+  "database": "us",
+  "seeds": [
+    "how to unscramble words",
+    "word unscrambler vs anagram solver",
+    "scrabble blank tiles",
+    "word solver wildcard",
+    "wordle letter patterns",
+    "crossword pattern solver",
+    "spelling bee rules",
+    "scrabble vs words with friends",
+    "anagram examples",
+    "how to use a word finder",
+    "words with these letters",
+    "word finder filters",
+    "boggle rules",
+    "word ladder rules",
+    "cryptogram solver tips",
+    "jumble solving techniques",
+    "5 letter word patterns",
+    "crossword known letters",
+    "repeated letters in wordle",
+    "spelling bee pangram",
+    "blank tile scrabble rules",
+    "wildcard word finder"
+  ],
+  "results": [
+    {
+      "seed": "how to unscramble words",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "how to unscramble words",
+          "volume": 880,
+          "cpc": 0.02,
+          "competition": 0.0,
+          "results": 13200000
+        }
+      ],
+      "related_ok": true,
+      "related_error": null,
+      "related_rows": [
+        {
+          "keyword": "unscramble words",
+          "volume": 1220000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 166
+        },
+        {
+          "keyword": "word unscrambler",
+          "volume": 1220000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 170
+        },
+        {
+          "keyword": "scrabble word finder",
+          "volume": 1000000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 125
+        },
+        {
+          "keyword": "unscramble",
+          "volume": 1000000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 173
+        },
+        {
+          "keyword": "word finder",
+          "volume": 550000,
+          "cpc": 1.16,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "unscramble letters",
+          "volume": 368000,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 165
+        },
+        {
+          "keyword": "word scramble",
+          "volume": 246000,
+          "cpc": 0.47,
+          "competition": 0.0,
+          "results": 129
+        },
+        {
+          "keyword": "word unscramble",
+          "volume": 246000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 129
+        },
+        {
+          "keyword": "words with letters",
+          "volume": 246000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 140
+        },
+        {
+          "keyword": "5 letter word finder",
+          "volume": 201000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 94
+        },
+        {
+          "keyword": "wordfinder",
+          "volume": 110000,
+          "cpc": 1.16,
+          "competition": 0.0,
+          "results": 118
+        },
+        {
+          "keyword": "five letter word finder",
+          "volume": 90500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 112
+        },
+        {
+          "keyword": "word scrambler",
+          "volume": 90500,
+          "cpc": 0.47,
+          "competition": 0.0,
+          "results": 130
+        },
+        {
+          "keyword": "word cheat",
+          "volume": 74000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 113
+        },
+        {
+          "keyword": "words with these letters",
+          "volume": 74000,
+          "cpc": 0.03,
+          "competition": 0.0,
+          "results": 116
+        },
+        {
+          "keyword": "scramble words",
+          "volume": 60500,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 124
+        },
+        {
+          "keyword": "word tips",
+          "volume": 60500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 175
+        },
+        {
+          "keyword": "wordle word finder",
+          "volume": 60500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 105
+        },
+        {
+          "keyword": "7 letter words",
+          "volume": 49500,
+          "cpc": 0.02,
+          "competition": 0.0,
+          "results": 124
+        },
+        {
+          "keyword": "word descrambler",
+          "volume": 49500,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 110
+        },
+        {
+          "keyword": "letters to words",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 116
+        },
+        {
+          "keyword": "unscramble letters to make words",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 141
+        },
+        {
+          "keyword": "unscrambler",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 154
+        },
+        {
+          "keyword": "word find",
+          "volume": 40500,
+          "cpc": 1.16,
+          "competition": 0.0,
+          "results": 122
+        },
+        {
+          "keyword": "word solver",
+          "volume": 40500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 131
+        },
+        {
+          "keyword": "words from letters",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 123
+        },
+        {
+          "keyword": "6 letter words",
+          "volume": 33100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 1310000000
+        },
+        {
+          "keyword": "make words with these letters",
+          "volume": 33100,
+          "cpc": 0.02,
+          "competition": 0.0,
+          "results": 150
+        },
+        {
+          "keyword": "scramble into",
+          "volume": 33100,
+          "cpc": 1.97,
+          "competition": 0.04,
+          "results": 118
+        },
+        {
+          "keyword": "word scramble solver",
+          "volume": 33100,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 168
+        }
+      ]
+    },
+    {
+      "seed": "word unscrambler vs anagram solver",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "scrabble blank tiles",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "scrabble blank tiles",
+          "volume": 0,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "word solver wildcard",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "word solver wildcard",
+          "volume": 0,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "wordle letter patterns",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "crossword pattern solver",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "crossword pattern solver",
+          "volume": 30,
+          "cpc": 0.0,
+          "competition": 0.33,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "spelling bee rules",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "spelling bee rules",
+          "volume": 590,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 12900000
+        }
+      ],
+      "related_ok": true,
+      "related_error": null,
+      "related_rows": [
+        {
+          "keyword": "ny times spelling bee",
+          "volume": 33100,
+          "cpc": 1.37,
+          "competition": 0.0,
+          "results": 143
+        },
+        {
+          "keyword": "spell bee spellings",
+          "volume": 33100,
+          "cpc": 1.2,
+          "competition": 0.0,
+          "results": 121
+        },
+        {
+          "keyword": "scripps national spelling bee",
+          "volume": 9900,
+          "cpc": 0.92,
+          "competition": 0.0,
+          "results": 140
+        },
+        {
+          "keyword": "spelling bee pangram",
+          "volume": 9900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 98
+        },
+        {
+          "keyword": "national spelling bee",
+          "volume": 8100,
+          "cpc": 0.92,
+          "competition": 0.0,
+          "results": 125
+        },
+        {
+          "keyword": "spelling bee pangram today",
+          "volume": 8100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 100
+        },
+        {
+          "keyword": "scripps spelling bee",
+          "volume": 6600,
+          "cpc": 3.61,
+          "competition": 0.0,
+          "results": 105
+        },
+        {
+          "keyword": "spelling bee help",
+          "volume": 5400,
+          "cpc": 3.24,
+          "competition": 0.0,
+          "results": 103
+        },
+        {
+          "keyword": "nytimes bee",
+          "volume": 4400,
+          "cpc": 1.04,
+          "competition": 0.0,
+          "results": 132
+        },
+        {
+          "keyword": "spelling bee ranks",
+          "volume": 4400,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 99
+        },
+        {
+          "keyword": "spelling bee ny times",
+          "volume": 3600,
+          "cpc": 1.25,
+          "competition": 0.0,
+          "results": 106
+        },
+        {
+          "keyword": "spelling bee words nyt",
+          "volume": 3600,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 103
+        },
+        {
+          "keyword": "how do spell competition",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 102
+        },
+        {
+          "keyword": "ny spelling bee",
+          "volume": 2900,
+          "cpc": 1.37,
+          "competition": 0.0,
+          "results": 132
+        },
+        {
+          "keyword": "nyt pangram",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 104
+        },
+        {
+          "keyword": "pangram spelling bee",
+          "volume": 2400,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 129
+        },
+        {
+          "keyword": "scripps spelling bee 2025",
+          "volume": 2400,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 136
+        },
+        {
+          "keyword": "new york spelling bee",
+          "volume": 1900,
+          "cpc": 0.64,
+          "competition": 0.03,
+          "results": 130
+        },
+        {
+          "keyword": "new york times spelling bee game",
+          "volume": 1900,
+          "cpc": 2.91,
+          "competition": 0.0,
+          "results": 159
+        },
+        {
+          "keyword": "nyt spelling bee game",
+          "volume": 1900,
+          "cpc": 2.91,
+          "competition": 0.0,
+          "results": 141
+        },
+        {
+          "keyword": "spelling bee pangram hint",
+          "volume": 1900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 93
+        },
+        {
+          "keyword": "words for spelling bee",
+          "volume": 1900,
+          "cpc": 0.51,
+          "competition": 0.18,
+          "results": 140
+        },
+        {
+          "keyword": "national spelling bee 2025",
+          "volume": 1600,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 135
+        },
+        {
+          "keyword": "pangram nyt",
+          "volume": 1600,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 891000
+        },
+        {
+          "keyword": "scripps spelling bee list of words",
+          "volume": 1600,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 156000
+        },
+        {
+          "keyword": "list of spelling bee",
+          "volume": 1300,
+          "cpc": 0.51,
+          "competition": 0.18,
+          "results": 54500000
+        },
+        {
+          "keyword": "nytimes spelling bee forum",
+          "volume": 1300,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 912000
+        },
+        {
+          "keyword": "pangram pangram",
+          "volume": 1300,
+          "cpc": 0.2,
+          "competition": 0.22,
+          "results": 1150000
+        },
+        {
+          "keyword": "scripps howard spelling bee",
+          "volume": 1300,
+          "cpc": 0.92,
+          "competition": 0.0,
+          "results": 577000
+        },
+        {
+          "keyword": "scripps national",
+          "volume": 1300,
+          "cpc": 0.92,
+          "competition": 0.0,
+          "results": 146
+        }
+      ]
+    },
+    {
+      "seed": "scrabble vs words with friends",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "scrabble vs words with friends",
+          "volume": 0,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "anagram examples",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "anagram examples",
+          "volume": 1900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 9000000
+        }
+      ],
+      "related_ok": true,
+      "related_error": null,
+      "related_rows": [
+        {
+          "keyword": "anagram solver",
+          "volume": 246000,
+          "cpc": 1.23,
+          "competition": 0.0,
+          "results": 133
+        },
+        {
+          "keyword": "anagram",
+          "volume": 165000,
+          "cpc": 0.51,
+          "competition": 0.0,
+          "results": 134
+        },
+        {
+          "keyword": "anagram and",
+          "volume": 90500,
+          "cpc": 0.51,
+          "competition": 0.0,
+          "results": 131
+        },
+        {
+          "keyword": "anagram generator",
+          "volume": 33100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 123
+        },
+        {
+          "keyword": "anagrams",
+          "volume": 33100,
+          "cpc": 0.51,
+          "competition": 0.0,
+          "results": 39800000
+        },
+        {
+          "keyword": "anagram of solver",
+          "volume": 27100,
+          "cpc": 1.23,
+          "competition": 0.0,
+          "results": 128
+        },
+        {
+          "keyword": "anagram solver anagram",
+          "volume": 22200,
+          "cpc": 1.23,
+          "competition": 0.0,
+          "results": 133
+        },
+        {
+          "keyword": "anagram solver anagram solver",
+          "volume": 18100,
+          "cpc": 1.23,
+          "competition": 0.0,
+          "results": 129
+        },
+        {
+          "keyword": "anagram solver solver",
+          "volume": 18100,
+          "cpc": 1.23,
+          "competition": 0.0,
+          "results": 132
+        },
+        {
+          "keyword": "anagrammen generator",
+          "volume": 18100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 98
+        },
+        {
+          "keyword": "anagram definition",
+          "volume": 14800,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 122
+        },
+        {
+          "keyword": "anagrammer",
+          "volume": 14800,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 137
+        },
+        {
+          "keyword": "what is an anagram",
+          "volume": 14800,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 125
+        },
+        {
+          "keyword": "anagram finder",
+          "volume": 12100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "anagrams for anagram",
+          "volume": 12100,
+          "cpc": 0.51,
+          "competition": 0.0,
+          "results": 4650000
+        },
+        {
+          "keyword": "s o l v e words",
+          "volume": 12100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 125
+        },
+        {
+          "keyword": "anagrams solver",
+          "volume": 9900,
+          "cpc": 1.23,
+          "competition": 0.0,
+          "results": 127
+        },
+        {
+          "keyword": "mean anagram",
+          "volume": 9900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "anagram maker",
+          "volume": 8100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 125
+        },
+        {
+          "keyword": "anagram meaning",
+          "volume": 8100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "letter solver",
+          "volume": 8100,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 113
+        },
+        {
+          "keyword": "pangram solver",
+          "volume": 6600,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 100
+        },
+        {
+          "keyword": "the word finder",
+          "volume": 5400,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 106
+        },
+        {
+          "keyword": "anogram",
+          "volume": 3600,
+          "cpc": 0.51,
+          "competition": 0.0,
+          "results": 75
+        },
+        {
+          "keyword": "anagram solver free",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 123
+        },
+        {
+          "keyword": "annagram",
+          "volume": 2900,
+          "cpc": 0.51,
+          "competition": 0.0,
+          "results": 134
+        },
+        {
+          "keyword": "nag a ram",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 89
+        },
+        {
+          "keyword": "what is anagram",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "what's an anagram",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "whats an anagram",
+          "volume": 2900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 124
+        }
+      ]
+    },
+    {
+      "seed": "how to use a word finder",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "ERROR 50 :: NOTHING FOUND",
+      "related_rows": []
+    },
+    {
+      "seed": "words with these letters",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "words with these letters",
+          "volume": 74000,
+          "cpc": 0.03,
+          "competition": 0.0,
+          "results": 116
+        }
+      ],
+      "related_ok": true,
+      "related_error": null,
+      "related_rows": [
+        {
+          "keyword": "unscramble words",
+          "volume": 1220000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 166
+        },
+        {
+          "keyword": "word unscrambler",
+          "volume": 1220000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 170
+        },
+        {
+          "keyword": "scrabble word finder",
+          "volume": 1000000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 125
+        },
+        {
+          "keyword": "unscramble",
+          "volume": 1000000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 173
+        },
+        {
+          "keyword": "5 letter words",
+          "volume": 550000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 134
+        },
+        {
+          "keyword": "scrabble cheat",
+          "volume": 550000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 123
+        },
+        {
+          "keyword": "word finder",
+          "volume": 550000,
+          "cpc": 1.16,
+          "competition": 0.0,
+          "results": 126
+        },
+        {
+          "keyword": "unscramble letters",
+          "volume": 368000,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 165
+        },
+        {
+          "keyword": "word scramble",
+          "volume": 246000,
+          "cpc": 0.47,
+          "competition": 0.0,
+          "results": 129
+        },
+        {
+          "keyword": "word unscramble",
+          "volume": 246000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 129
+        },
+        {
+          "keyword": "words with letters",
+          "volume": 246000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 140
+        },
+        {
+          "keyword": "5 letter word finder",
+          "volume": 201000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 94
+        },
+        {
+          "keyword": "five letter words",
+          "volume": 201000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 132
+        },
+        {
+          "keyword": "wordle helper",
+          "volume": 165000,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 96
+        },
+        {
+          "keyword": "wordfinder",
+          "volume": 110000,
+          "cpc": 1.16,
+          "competition": 0.0,
+          "results": 118
+        },
+        {
+          "keyword": "words",
+          "volume": 110000,
+          "cpc": 0.57,
+          "competition": 0.02,
+          "results": 132
+        },
+        {
+          "keyword": "five letter word finder",
+          "volume": 90500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 112
+        },
+        {
+          "keyword": "word scrambler",
+          "volume": 90500,
+          "cpc": 0.47,
+          "competition": 0.0,
+          "results": 130
+        },
+        {
+          "keyword": "wordle finder",
+          "volume": 90500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 97
+        },
+        {
+          "keyword": "word cheat",
+          "volume": 74000,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 113
+        },
+        {
+          "keyword": "5 letter word",
+          "volume": 60500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 128
+        },
+        {
+          "keyword": "scramble words",
+          "volume": 60500,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 124
+        },
+        {
+          "keyword": "word tips",
+          "volume": 60500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 175
+        },
+        {
+          "keyword": "wordle word finder",
+          "volume": 60500,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 105
+        },
+        {
+          "keyword": "7 letter words",
+          "volume": 49500,
+          "cpc": 0.02,
+          "competition": 0.0,
+          "results": 124
+        },
+        {
+          "keyword": "word descrambler",
+          "volume": 49500,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 110
+        },
+        {
+          "keyword": "letters to words",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 116
+        },
+        {
+          "keyword": "unscramble letters to make words",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 141
+        },
+        {
+          "keyword": "unscrambler",
+          "volume": 40500,
+          "cpc": 0.01,
+          "competition": 0.0,
+          "results": 154
+        },
+        {
+          "keyword": "word find",
+          "volume": 40500,
+          "cpc": 1.16,
+          "competition": 0.0,
+          "results": 122
+        }
+      ]
+    },
+    {
+      "seed": "word finder filters",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "boggle rules",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "boggle rules",
+          "volume": 1900,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "results": 1250000
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "word ladder rules",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "word ladder rules",
+          "volume": 20,
+          "cpc": 0.0,
+          "competition": 0.33,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "cryptogram solver tips",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "jumble solving techniques",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+      "related_rows": []
+    },
+    {
+      "seed": "5 letter word patterns",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "5 letter word patterns",
+          "volume": 0,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "crossword known letters",
+      "exact_ok": false,
+      "exact_error": "ERROR 50 :: NOTHING FOUND",
+      "exact_rows": [],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "repeated letters in wordle",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "repeated letters in wordle",
+          "volume": 20,
+          "cpc": 0.0,
+          "competition": 0.33,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "spelling bee pangram",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "spelling bee pangram",
+          "volume": 9900,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 98
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "blank tile scrabble rules",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "blank tile scrabble rules",
+          "volume": 0,
+          "cpc": 0.0,
+          "competition": 0.0,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    },
+    {
+      "seed": "wildcard word finder",
+      "exact_ok": true,
+      "exact_error": null,
+      "exact_rows": [
+        {
+          "keyword": "wildcard word finder",
+          "volume": 20,
+          "cpc": 0.0,
+          "competition": 0.33,
+          "results": 0
+        }
+      ],
+      "related_ok": false,
+      "related_error": "HTTP Error 403: Forbidden",
+      "related_rows": []
+    }
+  ]
+}

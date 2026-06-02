@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-06-02",
+  "siteUrl": "sc-domain:wordsolvertools.org",
+  "dateRange": {
+    "startDate": "2026-05-03",
+    "endDate": "2026-05-31"
+  },
+  "summary": {
+    "ok": false,
+    "error": "User does not have sufficient permission for site 'sc-domain:wordsolvertools.org'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "status": 403
+  },
+  "queries": {
+    "ok": false,
+    "error": "User does not have sufficient permission for site 'sc-domain:wordsolvertools.org'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "status": 403
+  },
+  "pages": {
+    "ok": false,
+    "error": "User does not have sufficient permission for site 'sc-domain:wordsolvertools.org'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "status": 403
+  },
+  "queryPages": {
+    "ok": false,
+    "error": "User does not have sufficient permission for site 'sc-domain:wordsolvertools.org'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "status": 403
+  },
+  "dates": {
+    "ok": false,
+    "error": "User does not have sufficient permission for site 'sc-domain:wordsolvertools.org'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "status": 403
+  }
+}

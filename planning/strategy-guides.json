@@ -22,6 +22,26 @@
         "url": "/guides/anagram-solving-techniques/",
         "title": "Anagram Solving Techniques",
         "description": "Learn how to break letter sets into likely word shapes before using an anagram solver for faster results."
+      },
+      {
+        "url": "/guides/spelling-bee-pangram/",
+        "title": "Spelling Bee Pangram Guide",
+        "description": "Learn what a pangram is, why it scores more, and how to scan seven-letter hives for all-letter words."
+      },
+      {
+        "url": "/guides/anagram-examples/",
+        "title": "Anagram Examples",
+        "description": "See simple anagram examples by word length and learn how to check rearranged letters without losing useful patterns."
+      },
+      {
+        "url": "/guides/boggle-rules/",
+        "title": "Boggle Rules",
+        "description": "Understand adjacent-letter paths, cube reuse, duplicate words, and how a Boggle solver checks a board."
+      },
+      {
+        "url": "/guides/how-to-unscramble-words/",
+        "title": "How to Unscramble Words",
+        "description": "Use vowels, prefixes, suffixes, repeated letters, and wildcard checks to turn scrambled letters into better candidates."
       }
     ]
   },
@@ -414,6 +434,377 @@
             "Place vowels in typical positions.",
             "Use the solver to verify and learn from its output."
           ]
+        ]
+      ]
+    },
+    {
+      "slug": "guides/spelling-bee-pangram",
+      "title": "Spelling Bee Pangram Guide",
+      "description": "Learn what a spelling bee pangram is, how pangram scoring works, and how to find words that use all seven letters.",
+      "h1": "Spelling Bee Pangram Guide",
+      "eyebrow": "Spelling Bee guide",
+      "parent_tools": [
+        "/spelling-bee-solver/",
+        "/spelling-bee-buddy/",
+        "/nyt-spelling-bee-solver/"
+      ],
+      "evidence": {
+        "semrush": [
+          "spelling bee pangram: 9,900",
+          "pangram solver: 6,600",
+          "pangram today: 18,100"
+        ],
+        "serp_gap": "Live SERP pages emphasize all seven letters, center-letter requirement, repeated-letter allowance, scoring bonus, and perfect pangram distinction."
+      },
+      "body": [
+        [
+          "h2",
+          "What a Spelling Bee Pangram Is"
+        ],
+        [
+          "p",
+          "A spelling bee pangram is a word that uses all seven puzzle letters at least once. In honeycomb-style spelling games, it must also include the required center letter because every accepted word must include that center letter. Letters can repeat, so a pangram can be longer than seven letters."
+        ],
+        [
+          "p",
+          "Use the Spelling Bee Solver when you already have the seven letters. Put the center letter first, add the six outer letters, then scan for words marked as pangram candidates."
+        ],
+        [
+          "h2",
+          "Pangram vs Perfect Pangram"
+        ],
+        [
+          "p",
+          "A regular pangram uses every unique letter at least once and may repeat some letters. A perfect pangram uses each of the seven letters exactly once. For example, if the letters are A, E, I, N, R, S, T with E as the center, a seven-letter word using each letter once would be perfect; a longer word that repeats one letter can still be a pangram."
+        ],
+        [
+          "h2",
+          "How Pangram Scoring Usually Works"
+        ],
+        [
+          "p",
+          "In NYT-style Spelling Bee scoring, a pangram gets the normal word-length score plus a seven-point bonus. A seven-letter pangram is often worth 14 points: seven letters plus the seven-point pangram bonus. Different games and practice tools can vary, so treat the score as a guide unless you are checking the official game."
+        ],
+        [
+          "h2",
+          "How to Find a Pangram Faster"
+        ],
+        [
+          "ul",
+          [
+            "Start with the center letter and build around it because every valid answer must include it.",
+            "Look for common long-word endings such as -ing, -tion, -ed, -er, -al, and -ly when the letters allow them.",
+            "Group vowels first. A seven-letter set with only one vowel often needs repeated vowels or a familiar consonant pattern.",
+            "Try compound or extended forms when a short seven-letter word is not obvious.",
+            "Check whether the rarest letter can anchor the word; letters like J, Q, X, and Z narrow the possibilities quickly."
+          ]
+        ],
+        [
+          "h2",
+          "Example Pangram Check"
+        ],
+        [
+          "p",
+          "Suppose your letters are A, G, L, N, O, R, T and the center letter is A. A candidate must include A and can use only those seven letters. The word granola uses G, R, A, N, O, L and repeats none outside the set, but it misses T, so it is not a pangram. A true pangram must include every one of the seven letters at least once."
+        ],
+        [
+          "h2",
+          "Common Mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Counting a word as a pangram when it uses six of the seven letters.",
+            "Forgetting that the center letter is mandatory.",
+            "Assuming a pangram must be exactly seven letters long. It can be longer when letters repeat.",
+            "Assuming every candidate shown by an independent solver is accepted by a specific publisher dictionary."
+          ]
+        ],
+        [
+          "h2",
+          "Related tools"
+        ],
+        [
+          "p",
+          "Use the [Spelling Bee Solver](/spelling-bee-solver/) for center-letter searches, the [Spelling Bee Buddy](/spelling-bee-buddy/) for broader practice, or the [NYT Spelling Bee Solver](/nyt-spelling-bee-solver/) for an independent candidate list with NYT-style constraints."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/anagram-examples",
+      "title": "Anagram Examples",
+      "description": "See practical anagram examples by word length and learn how rearranged letters become new words or phrases.",
+      "h1": "Anagram Examples by Word Length",
+      "eyebrow": "Anagram guide",
+      "parent_tools": [
+        "/anagram-solver/",
+        "/anagram-generator/",
+        "/anagram-maker/"
+      ],
+      "evidence": {
+        "semrush": [
+          "anagram examples: 1,900",
+          "anagram solver: 246,000"
+        ],
+        "serp_gap": "Live SERP pages define anagrams with concrete examples, then explain that letters are rearranged without adding or removing letters."
+      },
+      "body": [
+        [
+          "h2",
+          "What Counts as an Anagram"
+        ],
+        [
+          "p",
+          "An anagram is a new word or phrase made by rearranging the letters of another word or phrase. In strict puzzle use, every original letter is used and no new letters are added. Some word games use looser rules, but full-letter rearrangement is the clearest way to think about anagrams."
+        ],
+        [
+          "p",
+          "Use the Anagram Solver when you have a set of letters and want to check every candidate by length, starts with, ends with, contains, or pattern."
+        ],
+        [
+          "h2",
+          "Short Anagram Examples"
+        ],
+        [
+          "ul",
+          [
+            "act -> cat",
+            "tap -> pat",
+            "ear -> are",
+            "below -> elbow",
+            "stare -> tears, rates, taser"
+          ]
+        ],
+        [
+          "h2",
+          "Five- and Six-Letter Examples"
+        ],
+        [
+          "p",
+          "Five-letter anagrams are common in word games because they are long enough to hide several patterns but short enough to scan by hand. For example, alert can become later, alter, ratel, or artel depending on the word list. Six-letter sets often reveal endings such as -ed, -er, -ing, or -ly."
+        ],
+        [
+          "h2",
+          "Phrase Anagram Examples"
+        ],
+        [
+          "p",
+          "Phrase anagrams rearrange letters across word breaks. Spaces and punctuation usually do not matter, but every letter still has to be accounted for. This is why phrase anagrams can be harder to verify manually than single-word anagrams."
+        ],
+        [
+          "h2",
+          "How to Check an Anagram"
+        ],
+        [
+          "ul",
+          [
+            "Write the original letters in alphabetical order.",
+            "Write the candidate letters in alphabetical order.",
+            "Compare the two sorted strings. They should match exactly for a strict anagram.",
+            "If the candidate is shorter, it may be a word made from letters, but it is not a full anagram.",
+            "Use pattern or length filters when the candidate list is too long."
+          ]
+        ],
+        [
+          "h2",
+          "Common Mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Calling any word made from some letters an anagram when it does not use all letters.",
+            "Ignoring repeated letters. A letter that appears twice in the source must appear twice in the strict anagram.",
+            "Mixing proper names or abbreviations into a game that does not allow them.",
+            "Assuming every anagram candidate is valid in Scrabble, crosswords, or a publisher-specific word list."
+          ]
+        ],
+        [
+          "h2",
+          "Related tools"
+        ],
+        [
+          "p",
+          "Use the [Anagram Solver](/anagram-solver/) for full-letter checks, the [Anagram Generator](/anagram-generator/) for broader candidate lists, or the [Anagram Maker](/anagram-maker/) when you are experimenting with names, phrases, and word shapes."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/boggle-rules",
+      "title": "Boggle Rules",
+      "description": "Learn the core Boggle rules for adjacent letters, cube reuse, word length, duplicate words, and board-path checking.",
+      "h1": "Boggle Rules: Adjacent Letters, Paths, and Scoring Basics",
+      "eyebrow": "Boggle guide",
+      "parent_tools": [
+        "/boggle-solver/"
+      ],
+      "evidence": {
+        "semrush": [
+          "boggle rules: 1,900"
+        ],
+        "serp_gap": "Live SERP pages consistently emphasize adjacent letters, no cube reuse in a single word, minimum word length, duplicate-word handling, and dictionary limits."
+      },
+      "body": [
+        [
+          "h2",
+          "The Basic Boggle Goal"
+        ],
+        [
+          "p",
+          "In Boggle, you find words by tracing connected letters on a grid. Each next letter must touch the previous letter horizontally, vertically, or diagonally. The usual board is 4x4, while larger versions may use 5x5 boards."
+        ],
+        [
+          "p",
+          "Use the Boggle Solver when you have a full board and want candidate words that can be traced through adjacent letters."
+        ],
+        [
+          "h2",
+          "Adjacent Letter Rule"
+        ],
+        [
+          "p",
+          "A word must be formed in order by moving from one cube to an adjacent cube. Diagonal moves count. If two letters are not touching, they cannot be consecutive letters in the same word path."
+        ],
+        [
+          "h2",
+          "Cube Reuse Rule"
+        ],
+        [
+          "p",
+          "A single cube cannot be used more than once in the same word path. If the same letter appears on two different cubes, you may use both cubes, but each position on the board can only be visited once for that word."
+        ],
+        [
+          "h2",
+          "Minimum Word Length"
+        ],
+        [
+          "p",
+          "Many Boggle rule sets use a three-letter minimum. Some classroom, house, or advanced variants use four or five letters. When you use a solver, set a length filter if your game uses a stricter minimum."
+        ],
+        [
+          "h2",
+          "Duplicate Words"
+        ],
+        [
+          "p",
+          "If the same word can be traced in more than one place, it is normally counted once for a player. In multiplayer scoring, duplicate words found by multiple players may be crossed out depending on the rule set being used."
+        ],
+        [
+          "h2",
+          "Example Path Check"
+        ],
+        [
+          "p",
+          "Imagine the board has C next to A, A next to R, and R next to T. The word cart is valid only if C-A-R-T can be traced as a connected path without reusing a cube. If T is elsewhere on the board and not adjacent to R, that path fails."
+        ],
+        [
+          "h2",
+          "Common Mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Using any letters from the board without checking adjacency.",
+            "Reusing the same cube twice because the word needs the same letter twice.",
+            "Counting a word that is below the agreed minimum length.",
+            "Assuming every dictionary candidate is valid for the version of Boggle or classroom rules you are using."
+          ]
+        ],
+        [
+          "h2",
+          "Related tool"
+        ],
+        [
+          "p",
+          "Open the [Boggle Solver](/boggle-solver/) to enter a 4x4 or 5x5 board and narrow candidate words by length, contains, starts with, and ends with filters."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/how-to-unscramble-words",
+      "title": "How to Unscramble Words",
+      "description": "Learn practical ways to unscramble letters by spotting vowels, prefixes, suffixes, repeated letters, and wildcard patterns.",
+      "h1": "How to Unscramble Words from Letters",
+      "eyebrow": "Unscramble guide",
+      "parent_tools": [
+        "/word-unscrambler/",
+        "/unscramble-words/",
+        "/unscramble-letters/",
+        "/words-with-these-letters/"
+      ],
+      "evidence": {
+        "semrush": [
+          "how to unscramble words: 880"
+        ],
+        "serp_gap": "Live SERP pages focus on entering letters, using wildcards, begins/ends filters, length grouping, and practical by-hand tactics such as prefixes, suffixes, and vowel separation."
+      },
+      "body": [
+        [
+          "h2",
+          "Start with the Letters You Have"
+        ],
+        [
+          "p",
+          "To unscramble words, write down the exact letters first, including repeated letters. A repeated letter is not optional: if you have two Es, some answers may need both, and some strict anagram checks should use both."
+        ],
+        [
+          "p",
+          "Use the Word Unscrambler when you want a fast candidate list, then apply the steps below to choose the answer that fits your puzzle or game."
+        ],
+        [
+          "h2",
+          "Separate Vowels and Consonants"
+        ],
+        [
+          "p",
+          "Vowels often reveal the shape of the word. Sort A, E, I, O, U, and sometimes Y away from the consonants. If you have only one vowel, look for shorter words or repeated-vowel possibilities. If you have many vowels, test pairs such as ea, ai, ou, and ie."
+        ],
+        [
+          "h2",
+          "Look for Prefixes and Suffixes"
+        ],
+        [
+          "p",
+          "Common prefixes such as re-, un-, pre-, and dis- can lock in the beginning of a word. Common endings such as -ed, -er, -ing, -tion, -ly, and -s can lock in the end. Once you spot an affix, rearrange the remaining letters instead of starting from scratch."
+        ],
+        [
+          "h2",
+          "Use Short Words as Anchors"
+        ],
+        [
+          "p",
+          "If a long word is hard to see, make short words first. A letter set like A, E, R, S, T can produce are, ear, tea, rate, tear, stare, and tears. Short words reveal common letter pairs and make longer words easier to notice."
+        ],
+        [
+          "h2",
+          "Handle Wildcards and Blank Tiles"
+        ],
+        [
+          "p",
+          "A wildcard or blank tile can stand for an unknown letter, but it should not make every answer equally useful. Use a question mark in the tool, then add filters such as starts with, ends with, contains, or word length to keep the result list readable."
+        ],
+        [
+          "h2",
+          "Unscrambler vs Anagram Solver"
+        ],
+        [
+          "p",
+          "A word unscrambler often shows any word that can be made from some or all of your letters. A strict anagram solver is more useful when the answer must use every letter exactly once. If your puzzle gives all letters for one final answer, turn on exact all-letter matching or check that the candidate uses every letter."
+        ],
+        [
+          "h2",
+          "Example Walkthrough"
+        ],
+        [
+          "p",
+          "For the letters R, S, T, A, E, start by separating vowels A and E. Then look for common pairs such as ST, TR, and ER. Short words include are, ear, tea, and rat. Longer candidates include stare, rates, tears, and taser. If your puzzle needs a five-letter answer, filter by length 5 and compare the remaining options."
+        ],
+        [
+          "h2",
+          "Related tools"
+        ],
+        [
+          "p",
+          "Try the [Word Unscrambler](/word-unscrambler/) for broad searches, [Unscramble Words](/unscramble-words/) for the main letter workflow, [Unscramble Letters](/unscramble-letters/) for raw letter sets, or [Words With These Letters](/words-with-these-letters/) when you need contains-style filtering."
         ]
       ]
     }
