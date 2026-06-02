@@ -74,7 +74,7 @@ For each P0 support page:
 - [x] Run internal link validation
 - [x] Run JSON-LD validation
 - [x] Deploy to Cloudflare Pages
-- [ ] Submit or inspect new URLs in GSC after deployment
+- [x] Submit or inspect new URLs in GSC after deployment
 - [ ] Recheck GSC after 14-30 days
 
 ## 2026-06-02 Local Implementation Pass
@@ -90,3 +90,4 @@ Implemented the four P0 support pages in `planning/strategy-guides.json` and upd
 - Browser DOM smoke test: passed for the four new guides plus `/spelling-bee-solver/` and `/word-unscrambler/`
 - DeepSeek content review: passed with no material findings, saved at `research/deepseek-support-pages-review-2026-06-02.json`
 - Deployment: GitHub Actions runs `26806974064` and `26807098188` completed successfully. Live checks returned HTTP 200 for all four P0 support pages and confirmed sitemap inclusion.
+- GSC sitemap refresh: submitted `https://wordsolvertools.org/sitemap.xml` through the Playwright GSC workflow on 2026-06-02. Result saved to `/Users/bluepha/seo-revenue-system/ops/sites/wordsolvertools/gsc_sitemap_result.json`.
