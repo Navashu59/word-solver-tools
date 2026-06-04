@@ -64,8 +64,8 @@ public
 
 Current generated output:
 
-- `61` indexable sitemap URLs
-- `62` HTML files including `404.html`
+- `68` indexable sitemap URLs
+- `69` HTML files including `404.html`
 
 The current default build still uses:
 
@@ -459,7 +459,14 @@ Local verification:
 
 Deployment:
 
-- Pending commit, push, Cloudflare Pages deployment, and live checks.
+- Commit: `06baf09 site: add p1 word game support guides`
+- GitHub Actions run `26925159074`: success
+- Cloudflare Pages deploy: success
+- Live HTTP checks: 200 for all three P1 support pages.
+- Live content checks: P1 page titles, source sections, and updated factual caveats are present.
+- Live source-risk check: no old `nytimes.zendesk` references found on the three P1 pages.
+- Live sitemap check: all three P1 support pages are included in `https://wordsolvertools.org/sitemap.xml`.
+- Live parent-link checks passed on `/crossword-solver/`, `/spelling-bee-solver/`, `/wordle-solver/`, and `/5-letter-word-finder/`.
 
 The latest pushed commit is the current `origin/main` head. Verify with:
 
