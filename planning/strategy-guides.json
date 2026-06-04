@@ -463,8 +463,8 @@
           "note": "Used for the general wordplay definition of pangram."
         },
         {
-          "title": "The New York Times Spelling Bee Help",
-          "url": "https://nytimes.zendesk.com/hc/en-us/articles/23675493312404-Spelling-Bee",
+          "title": "The New York Times Spelling Bee",
+          "url": "https://www.nytimes.com/puzzles/spelling-bee",
           "note": "Used only as a reference for the named NYT game context; this site is independent."
         },
         {
@@ -843,6 +843,363 @@
         [
           "p",
           "Try the [Word Unscrambler](/word-unscrambler/) for broad searches, [Unscramble Words](/unscramble-words/) for the main letter workflow, [Unscramble Letters](/unscramble-letters/) for raw letter sets, or [Words With These Letters](/words-with-these-letters/) when you need contains-style filtering."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/crossword-patterns-and-known-letters",
+      "title": "Crossword Patterns and Known Letters",
+      "h1": "Crossword Patterns and Known Letters",
+      "description": "Learn how to use known letters, blank positions, word length, and clue context to narrow crossword answers.",
+      "eyebrow": "Crossword guide",
+      "parent_tools": [
+        "/crossword-solver/",
+        "/crossword-clue-solver/",
+        "/crossword-help/"
+      ],
+      "evidence": {
+        "semrush": [
+          "crossword pattern solver: 30",
+          "missing letter crossword: 6,600",
+          "crossword help: 14,800"
+        ],
+        "serp_gap": "Support intent focuses on how to express known letters, unknown positions, answer length, and clue context before using a crossword solver."
+      },
+      "sources": [
+        {
+          "title": "How Word Solver Tools Works",
+          "url": "https://wordsolvertools.org/how-it-works/",
+          "note": "Used for the site's own pattern-filter method and word-list limitations."
+        }
+      ],
+      "body": [
+        [
+          "h2",
+          "Start with the answer length"
+        ],
+        [
+          "p",
+          "Crossword solving gets much easier when you know the answer length. Count the boxes first, then keep that length fixed while you test known letters and clue meaning."
+        ],
+        [
+          "p",
+          "Use the [Crossword Solver](/crossword-solver/) when you have a length pattern such as c?a??, then use the clue to choose from the candidate list."
+        ],
+        [
+          "h2",
+          "Use question marks for unknown letters"
+        ],
+        [
+          "p",
+          "A simple pattern uses letters you know and question marks for blanks. For example, c?a?? means a five-letter answer with C in the first position and A in the third position."
+        ],
+        [
+          "ul",
+          [
+            "????? means any five-letter word.",
+            "s???? means a five-letter word starting with S.",
+            "??ing means a five-letter word ending with ING.",
+            "c?a?? keeps only words that match those fixed positions."
+          ]
+        ],
+        [
+          "h2",
+          "Add letters only when they are confirmed"
+        ],
+        [
+          "p",
+          "Do not lock in a letter just because it feels likely. Crossword crossings can mislead you, especially when a clue has wordplay, abbreviations, foreign words, or a theme answer."
+        ],
+        [
+          "p",
+          "If one crossing answer is uncertain, leave that position as a question mark and use the clue meaning to compare candidates."
+        ],
+        [
+          "h2",
+          "Combine pattern and clue context"
+        ],
+        [
+          "p",
+          "A pattern narrows the word list, but the clue decides which answer fits. Read the clue for tense, part of speech, plural form, abbreviation signals, and question-mark wordplay."
+        ],
+        [
+          "p",
+          "For example, a five-letter pattern p?a?? may still return several candidates. A clue about a musical instrument, a person, or a verb changes which candidate is plausible."
+        ],
+        [
+          "h2",
+          "Handle missing-letter searches"
+        ],
+        [
+          "p",
+          "Missing-letter searches are useful when you know most of a word but one or two boxes are blank. Enter the known letters exactly and use question marks for the unknown positions."
+        ],
+        [
+          "p",
+          "If the result list is too broad, add a contains, starts with, or ends with filter. For clue-specific help, use the [Crossword Clue Solver](/crossword-clue-solver/) after you have the best pattern."
+        ],
+        [
+          "h2",
+          "Watch for rebus and phrase entries"
+        ],
+        [
+          "p",
+          "Most straightforward crossword patterns treat each box as one letter. Some themed puzzles use rebus squares, where one box can represent more than one letter, or phrase entries where spaces are not shown as boxes. If a normal one-letter pattern does not make sense, consider whether the puzzle has a theme entry or a special square."
+        ],
+        [
+          "h2",
+          "Common mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Using a period, dash, or underscore when the tool expects a question mark.",
+            "Counting spaces or punctuation as boxes.",
+            "Forgetting that themed crosswords may use puns or unusual phrase entries.",
+            "Assuming every candidate is accepted by a specific puzzle editor or dictionary.",
+            "Ignoring the clue's tense, plural form, or abbreviation hint."
+          ]
+        ],
+        [
+          "h2",
+          "Related tools"
+        ],
+        [
+          "p",
+          "Use the [Crossword Solver](/crossword-solver/) for known-letter patterns, [Crossword Clue Solver](/crossword-clue-solver/) when the clue meaning matters most, or [Crossword Help](/crossword-help/) for a broader helper page."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/spelling-bee-rules",
+      "title": "Spelling Bee Rules",
+      "h1": "Spelling Bee Rules for Letter Honeycomb Puzzles",
+      "description": "Learn the common rules for Spelling Bee-style puzzles, including center letters, repeated letters, minimum length, and pangrams.",
+      "eyebrow": "Spelling Bee guide",
+      "parent_tools": [
+        "/spelling-bee-solver/",
+        "/spelling-bee-buddy/",
+        "/nyt-spelling-bee-solver/"
+      ],
+      "evidence": {
+        "semrush": [
+          "spelling bee rules: 590"
+        ],
+        "serp_gap": "Rule intent centers on required center letters, four-letter minimums, repeated letters, pangrams, scoring, and dictionary limits."
+      },
+      "sources": [
+        {
+          "title": "The New York Times Spelling Bee",
+          "url": "https://www.nytimes.com/puzzles/spelling-bee",
+          "note": "Used only as a reference for the named NYT game context; this site is independent."
+        },
+        {
+          "title": "Merriam-Webster, Words About Word Play: Pangram",
+          "url": "https://www.merriam-webster.com/wordplay/playing-with-words",
+          "note": "Used for the general wordplay meaning of pangram."
+        }
+      ],
+      "body": [
+        [
+          "h2",
+          "Use the center letter"
+        ],
+        [
+          "p",
+          "In Spelling Bee-style honeycomb puzzles, every accepted word must include the required center letter. The six outside letters are optional, but the center letter is not."
+        ],
+        [
+          "p",
+          "Use the [Spelling Bee Solver](/spelling-bee-solver/) by entering the center letter first, then the six outside letters."
+        ],
+        [
+          "h2",
+          "Use only the seven puzzle letters"
+        ],
+        [
+          "p",
+          "A candidate word can use only the letters from the puzzle. Letters outside the seven-letter set should not appear in the answer."
+        ],
+        [
+          "p",
+          "Letters can usually repeat. If A is one of the seven letters, a valid word may use A more than once as long as every letter in the word comes from the allowed set."
+        ],
+        [
+          "h2",
+          "Check the minimum word length"
+        ],
+        [
+          "p",
+          "Many Spelling Bee-style puzzles use a four-letter minimum. Shorter words may be real words, but they are normally too short for this puzzle type."
+        ],
+        [
+          "p",
+          "If you are playing a specific publisher's game, check that game's current rules and accepted word list. Independent solvers can show candidates, but they are not official answer lists."
+        ],
+        [
+          "h2",
+          "Find pangrams"
+        ],
+        [
+          "p",
+          "A pangram uses all seven puzzle letters at least once. A perfect pangram uses each letter exactly once. Pangrams are important because they often receive a bonus in honeycomb-style word games."
+        ],
+        [
+          "p",
+          "For a deeper explanation, use the [Spelling Bee Pangram Guide](/guides/spelling-bee-pangram/)."
+        ],
+        [
+          "h2",
+          "Understand scoring limits"
+        ],
+        [
+          "p",
+          "Scoring varies by game. NYT-style scoring commonly gives one point for four-letter words, longer words by length, and a pangram bonus. Other practice games or classroom versions may score differently."
+        ],
+        [
+          "p",
+          "Publisher word lists are usually editorial choices, not a promise that every dictionary word will be accepted. Rankings, maximum-score labels, print versions, and digital versions can also differ or change over time, so use this page as a general rule guide rather than an official answer authority."
+        ],
+        [
+          "h2",
+          "Common mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Forgetting the required center letter.",
+            "Rejecting a word because it repeats a letter, even though repeated letters are usually allowed.",
+            "Counting a word as a pangram when it misses one of the seven letters.",
+            "Assuming an independent solver uses the same accepted word list as a publisher's official puzzle.",
+            "Using proper nouns, abbreviations, or hyphenated words when the game does not allow them."
+          ]
+        ],
+        [
+          "h2",
+          "Related tools"
+        ],
+        [
+          "p",
+          "Use the [Spelling Bee Solver](/spelling-bee-solver/) for center-letter candidate searches, [Spelling Bee Buddy](/spelling-bee-buddy/) for practice, or the [NYT Spelling Bee Solver](/nyt-spelling-bee-solver/) for an independent NYT-style helper."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/wordle-repeated-letters",
+      "title": "Wordle Repeated Letters",
+      "h1": "How Repeated Letters Work in Wordle",
+      "description": "Learn how repeated letters affect Wordle clues, including duplicate guesses, green and yellow feedback, and excluded letters.",
+      "eyebrow": "Wordle guide",
+      "parent_tools": [
+        "/wordle-solver/",
+        "/wordle-helper/",
+        "/5-letter-word-finder/"
+      ],
+      "evidence": {
+        "semrush": [
+          "repeated letters in wordle: 20"
+        ],
+        "serp_gap": "Intent focuses on duplicate letters, why one copy can be yellow or gray, and how to avoid over-filtering after a repeated-letter guess."
+      },
+      "sources": [
+        {
+          "title": "The New York Times Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html",
+          "note": "Used only as a reference for the named Wordle game context; this site is independent."
+        },
+        {
+          "title": "Wikipedia: Wordle",
+          "url": "https://en.wikipedia.org/wiki/Wordle",
+          "note": "Used as a secondary reference for repeated-letter feedback behavior."
+        }
+      ],
+      "body": [
+        [
+          "h2",
+          "Yes, Wordle answers can repeat letters"
+        ],
+        [
+          "p",
+          "A Wordle answer can contain the same letter more than once. Words such as level, cocoa, and array show why a single-letter guess is not always enough to rule out a duplicate."
+        ],
+        [
+          "p",
+          "Use the [Wordle Solver](/wordle-solver/) when you know green letters, yellow letters, gray letters, and possible repeated letters."
+        ],
+        [
+          "h2",
+          "One yellow letter does not always mean one copy"
+        ],
+        [
+          "p",
+          "If a guessed letter turns yellow, that means the letter appears in the answer but not in that position. It does not automatically prove there is only one copy of that letter."
+        ],
+        [
+          "p",
+          "A second copy of the same guessed letter can receive different feedback depending on how many copies are in the answer and where they appear."
+        ],
+        [
+          "h2",
+          "Gray repeated letters need care"
+        ],
+        [
+          "p",
+          "A gray tile usually means that letter is not in the answer. But with repeated letters, one copy can be green or yellow while another copy is gray. In that case, the gray copy often means there are no more copies beyond the confirmed one."
+        ],
+        [
+          "p",
+          "Do not exclude a letter entirely if another copy of that same letter was green or yellow in the same guess."
+        ],
+        [
+          "h2",
+          "Example duplicate-letter clue"
+        ],
+        [
+          "p",
+          "Suppose you guess a word with two Es. If one E is green and the other E is gray, the answer may contain exactly one E in the green position. If both Es receive colored feedback, the answer contains at least two Es."
+        ],
+        [
+          "h2",
+          "Count colored copies before excluding a letter"
+        ],
+        [
+          "p",
+          "A practical way to read duplicate feedback is to count the colored copies first. Green copies are fixed in place. Yellow copies are required somewhere else. If the same letter also appears gray in that guess, the gray copy usually means the answer does not contain more copies than the green and yellow ones already shown."
+        ],
+        [
+          "h2",
+          "How to filter repeated letters"
+        ],
+        [
+          "ul",
+          [
+            "Enter green letters in their fixed positions.",
+            "Keep yellow letters as required letters but exclude their known wrong positions.",
+            "Exclude fully gray letters only when no copy of that letter was green or yellow.",
+            "Be careful with guesses that contain two of the same letter.",
+            "Use a five-letter finder when you want to scan possible repeated-letter words by pattern."
+          ]
+        ],
+        [
+          "h2",
+          "Common mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Assuming every answer has five different letters.",
+            "Removing a letter completely after one gray duplicate tile.",
+            "Forgetting that a repeated letter can appear in two different positions.",
+            "Treating a solver candidate as today's answer rather than a possible word that fits your clues."
+          ]
+        ],
+        [
+          "h2",
+          "Related tools"
+        ],
+        [
+          "p",
+          "Use the [Wordle Solver](/wordle-solver/) for green, yellow, and gray feedback, [Wordle Helper](/wordle-helper/) for broader clue filtering, or the [5 Letter Word Finder](/5-letter-word-finder/) when you want to inspect repeated-letter patterns."
         ]
       ]
     }

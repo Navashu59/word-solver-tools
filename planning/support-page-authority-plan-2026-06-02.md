@@ -32,9 +32,9 @@ Decision impact: GSC cannot yet prioritize support pages by observed query expos
 | deployed | P0 | `/guides/anagram-examples/` | anagram examples | `anagram examples` 1,900; related cluster includes `anagram solver` 246,000 | `/anagram-solver/`, `/anagram-generator/`, `/anagram-maker/` | Live on Cloudflare Pages. |
 | deployed | P0 | `/guides/boggle-rules/` | boggle rules | `boggle rules` 1,900 | `/boggle-solver/` | Live on Cloudflare Pages. |
 | deployed | P0 | `/guides/how-to-unscramble-words/` | how to unscramble words | `how to unscramble words` 880 | `/word-unscrambler/`, `/unscramble-words/`, `/unscramble-letters/`, `/words-with-these-letters/` | Live on Cloudflare Pages. |
-| deferred | P1 | `/guides/crossword-patterns-and-known-letters/` | crossword pattern solver | `crossword pattern solver` 30; adjacent terms include `missing letter crossword` 6,600 and `crossword help` 14,800 | `/crossword-solver/`, `/crossword-clue-solver/`, `/crossword-help/` | Build after P0 if indexing and guide crawl paths are healthy. Avoid tool-page cannibalization. |
-| deferred | P1 | `/guides/spelling-bee-rules/` | spelling bee rules | `spelling bee rules` 590 | `/spelling-bee-solver/`, `/spelling-bee-buddy/` | Consider merging into pangram page first; split only if SERP/GSC supports. |
-| deferred | P1 | `/guides/wordle-repeated-letters/` | repeated letters in wordle | `repeated letters in wordle` 20 | `/wordle-solver/`, `/wordle-helper/`, `/5-letter-word-finder/` | Helpful explanation topic, but Semrush demand is weak. |
+| implemented 2026-06-04 | P1 | `/guides/crossword-patterns-and-known-letters/` | crossword pattern solver | `crossword pattern solver` 30; adjacent terms include `missing letter crossword` 6,600 and `crossword help` 14,800 | `/crossword-solver/`, `/crossword-clue-solver/`, `/crossword-help/` | Built as an informational guide for patterns, known letters, unknown positions, clue context, and missing-letter searches. |
+| implemented 2026-06-04 | P1 | `/guides/spelling-bee-rules/` | spelling bee rules | `spelling bee rules` 590 | `/spelling-bee-solver/`, `/spelling-bee-buddy/`, `/nyt-spelling-bee-solver/` | Built as a rules guide with independence/official-list caveats and a link back to the pangram guide. |
+| implemented 2026-06-04 | P1 | `/guides/wordle-repeated-letters/` | repeated letters in wordle | `repeated letters in wordle` 20 | `/wordle-solver/`, `/wordle-helper/`, `/5-letter-word-finder/` | Built as a narrow duplicate-letter explanation page. Low volume, but supports Wordle clue interpretation. |
 | deferred | P2 | `/guides/word-ladder-rules/` | word ladder rules | `word ladder rules` 20 | `/word-ladder-solver/` | Authority-depth page only; not a first-batch traffic play. |
 
 ## Demoted Candidates
@@ -75,6 +75,11 @@ For each P0 support page:
 - [x] Run JSON-LD validation
 - [x] Deploy to Cloudflare Pages
 - [x] Submit or inspect new URLs in GSC after deployment
+- [x] Create `/guides/crossword-patterns-and-known-letters/`
+- [x] Create `/guides/spelling-bee-rules/`
+- [x] Create `/guides/wordle-repeated-letters/`
+- [x] Add parent-tool support links for all P1 pages
+- [x] Rebuild and validate P1 pages locally
 - [ ] Recheck GSC after 14-30 days
 
 ## 2026-06-02 Local Implementation Pass

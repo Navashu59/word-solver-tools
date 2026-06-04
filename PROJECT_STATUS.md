@@ -418,6 +418,49 @@ Validation:
 655b6bb site: improve authority structure and tool UX
 ```
 
+## 2026-06-04 P1 Support Page Implementation
+
+Completed:
+
+- Implemented all P1 support pages:
+  - `/guides/crossword-patterns-and-known-letters/`
+  - `/guides/spelling-bee-rules/`
+  - `/guides/wordle-repeated-letters/`
+- Added the pages to `planning/strategy-guides.json`.
+- Parent-tool guide links are generated on:
+  - `/crossword-solver/`
+  - `/crossword-clue-solver/`
+  - `/crossword-help/`
+  - `/spelling-bee-solver/`
+  - `/spelling-bee-buddy/`
+  - `/wordle-solver/`
+  - `/wordle-helper/`
+  - `/5-letter-word-finder/`
+
+Fact-risk controls:
+
+- Crossword guide explains patterns and known letters without claiming a clue database or official answer list.
+- Spelling Bee rules guide includes independence and accepted-word-list caveats.
+- Wordle repeated-letters guide explains duplicate-letter feedback without claiming today's answer or official support.
+- DeepSeek deputy review completed. Required fixes were applied before release:
+  - replaced stale NYT Zendesk citations with stable game/context references,
+  - added crossword rebus and multi-word entry caveats,
+  - added publisher word-list/scoring caveats for Spelling Bee-style puzzles,
+  - clarified duplicate-letter count behavior for Wordle-style feedback.
+
+Local verification:
+
+- `node --check scripts/generate-site.js` passed.
+- `SITE_ORIGIN=https://wordsolvertools.org npm run build` passed.
+- Generated 69 pages.
+- Internal link validation passed.
+- JSON-LD validation passed.
+- `sitemap.xml` includes all three P1 pages.
+
+Deployment:
+
+- Pending commit, push, Cloudflare Pages deployment, and live checks.
+
 The latest pushed commit is the current `origin/main` head. Verify with:
 
 ```bash
