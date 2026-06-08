@@ -120,6 +120,7 @@ function guidesForTool(page) {
 const allSitemapUrls = () => [
   "/",
   "/tools/",
+  "/guides/",
   ...pages.map((page) => page.url),
   ...guideData.guides.map(guideUrl),
   ...staticPages.map((page) => page.url),
@@ -466,6 +467,7 @@ function layout({ title, description, body, canonical = "/", image = site.social
       <a href="/word-finder/">Word Finder</a>
       <a href="/wordle-solver/">Wordle</a>
       <a href="/crossword-solver/">Crossword</a>
+      <a href="/guides/">Guides</a>
       <a href="/tools/">All tools</a>
     </nav>
   </header>
@@ -691,6 +693,73 @@ function toolsHtml() {
   return layout({ title: `All Word Solver Tools - ${site.name}`, description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.", canonical: "/tools/", body, schemaJson: toolsSchema });
 }
 
+function guidesHtml() {
+  const groups = [
+    {
+      label: "Wordle and letter patterns",
+      items: guideData.guides.filter((guide) => /wordle|vowels|5 letter/i.test(`${guide.title} ${guide.description}`)),
+    },
+    {
+      label: "Scrabble and word games",
+      items: guideData.guides.filter((guide) => /scrabble|boggle|spelling bee|pangram/i.test(`${guide.title} ${guide.description}`)),
+    },
+    {
+      label: "Anagrams and crosswords",
+      items: guideData.guides.filter((guide) => /anagram|crossword|unscramble|cryptogram/i.test(`${guide.title} ${guide.description}`)),
+    },
+  ];
+  const seen = new Set();
+  const sections = groups.map((group) => {
+    const items = group.items.filter((guide) => {
+      if (seen.has(guide.slug)) return false;
+      seen.add(guide.slug);
+      return true;
+    });
+    if (!items.length) return "";
+    const links = items.map((guide) => `<a class="tool-link" href="${guideUrl(guide)}">
+      <strong>${escapeHtml(guide.title)}</strong>
+      <span>${escapeHtml(guide.description)}</span>
+    </a>`).join("");
+    return `<section class="tool-cluster"><div class="cluster-heading"><h2>${escapeHtml(group.label)}</h2><span>${items.length} guides</span></div><div class="tool-grid">${links}</div></section>`;
+  }).join("");
+  const remaining = guideData.guides.filter((guide) => !seen.has(guide.slug));
+  const remainingSection = remaining.length
+    ? `<section class="tool-cluster"><div class="cluster-heading"><h2>More word puzzle guides</h2><span>${remaining.length} guides</span></div><div class="tool-grid">${remaining.map((guide) => `<a class="tool-link" href="${guideUrl(guide)}"><strong>${escapeHtml(guide.title)}</strong><span>${escapeHtml(guide.description)}</span></a>`).join("")}</div></section>`
+    : "";
+  const body = `<main><section class="page-heading"><div class="inner">
+    <p class="eyebrow">Strategy guides</p>
+    <h1>Word puzzle guides for letters, clues, racks, and patterns.</h1>
+    <p>Use these guides when a tool gives candidates but you still need to choose the right word, understand a rule, or read a puzzle clue more carefully.</p>
+  </div></section><section class="section-band"><div class="inner">${sections}${remainingSection}</div></section></main>`;
+  const guidesSchema = graphSchema([
+    organizationSchema(),
+    {
+      "@type": "CollectionPage",
+      "@id": `${site.origin}/guides/#collection`,
+      name: `Word Puzzle Guides - ${site.name}`,
+      url: `${site.origin}/guides/`,
+      description: "Strategy guides for word games, word finding, anagrams, crosswords, Scrabble-style racks, Wordle-style clues, and spelling puzzles.",
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: guideData.guides.map((guide, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: guide.title,
+          url: absoluteUrl(guideUrl(guide)),
+        })),
+      },
+    },
+    {
+      ...breadcrumbSchema([
+        { name: "Home", url: "/" },
+        { name: "Guides", url: "/guides/" },
+      ]),
+      "@id": `${site.origin}/guides/#breadcrumb`,
+    },
+  ]);
+  return layout({ title: `Word Puzzle Guides - ${site.name}`, description: "Browse word puzzle guides for Wordle, Scrabble-style racks, anagrams, crosswords, spelling puzzles, no-vowel words, and letter patterns.", canonical: "/guides/", body, schemaJson: guidesSchema });
+}
+
 function staticPageSchema(page) {
   return graphSchema([
     organizationSchema(),
@@ -765,7 +834,7 @@ function guidePageSchema(guide) {
     {
       ...breadcrumbSchema([
         { name: "Home", url: "/" },
-        { name: "Strategy guides", url: "/#strategy-guides" },
+        { name: "Guides", url: "/guides/" },
         { name: guide.title, url },
       ]),
       "@id": `${absoluteUrl(url)}#breadcrumb`,
@@ -926,6 +995,8 @@ writeStaticAssets();
 fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml());
 ensureDir(path.join(publicDir, "tools"));
 fs.writeFileSync(path.join(publicDir, "tools/index.html"), toolsHtml());
+ensureDir(path.join(publicDir, "guides"));
+fs.writeFileSync(path.join(publicDir, "guides/index.html"), guidesHtml());
 for (const guide of guideData.guides) {
   const guideDir = path.join(publicDir, guide.slug);
   ensureDir(guideDir);

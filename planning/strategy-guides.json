@@ -42,6 +42,16 @@
         "url": "/guides/how-to-unscramble-words/",
         "title": "How to Unscramble Words",
         "description": "Use vowels, prefixes, suffixes, repeated letters, and wildcard checks to turn scrambled letters into better candidates."
+      },
+      {
+        "url": "/guides/two-letter-scrabble-words/",
+        "title": "Two Letter Scrabble Words",
+        "description": "Learn why two-letter words matter, how to check them safely, and how to use short hooks without assuming one universal word list."
+      },
+      {
+        "url": "/guides/words-without-vowels/",
+        "title": "Words Without Vowels",
+        "description": "Learn how no-vowel and sometimes-Y words work, when they help in word games, and how to search them with filters."
       }
     ]
   },
@@ -52,6 +62,11 @@
       "description": "Learn how to use Wordle feedback to narrow down possibilities without spoiling the puzzle. Practical tips for better guesses.",
       "h1": "Wordle Guessing Strategy",
       "eyebrow": "Strategy guide",
+      "parent_tools": [
+        "/wordle-solver/",
+        "/wordle-helper/",
+        "/5-letter-word-finder/"
+      ],
       "body": [
         [
           "h2",
@@ -138,6 +153,11 @@
       "description": "Learn how to evaluate your Scrabble rack and turn a set of tiles into high-scoring plays. This guide covers rack balancing, vowel-consonant ratios, and when to exchange tiles.",
       "h1": "Scrabble Rack Strategy: Turn a Rack into Better Candidate Plays",
       "eyebrow": "Strategy guide",
+      "parent_tools": [
+        "/scrabble-word-finder/",
+        "/scrabble-cheat/",
+        "/word-finder/"
+      ],
       "body": [
         [
           "h2",
@@ -254,6 +274,11 @@
       "description": "Learn to solve crossword clues by identifying clue types, using crossings, and recognizing patterns. Practical strategies for cryptic and standard crosswords.",
       "h1": "How to Solve Crossword Clues",
       "eyebrow": "Strategy guide",
+      "parent_tools": [
+        "/crossword-solver/",
+        "/crossword-clue-solver/",
+        "/crossword-help/"
+      ],
       "body": [
         [
           "h2",
@@ -344,6 +369,11 @@
       "description": "Learn how to break letter sets into likely word shapes before using an anagram solver for faster results.",
       "h1": "Anagram Solving Techniques",
       "eyebrow": "Strategy guide",
+      "parent_tools": [
+        "/anagram-solver/",
+        "/anagram-generator/",
+        "/anagram-maker/"
+      ],
       "body": [
         [
           "h2",
@@ -1081,6 +1111,255 @@
         [
           "p",
           "Use the [Spelling Bee Solver](/spelling-bee-solver/) for center-letter candidate searches, [Spelling Bee Buddy](/spelling-bee-buddy/) for practice, or the [NYT Spelling Bee Solver](/nyt-spelling-bee-solver/) for an independent NYT-style helper."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/two-letter-scrabble-words",
+      "title": "Two Letter Scrabble Words",
+      "h1": "Two Letter Scrabble Words: How to Check and Use Short Plays",
+      "description": "Learn why two-letter Scrabble words matter, how short hooks work, and how to check a two-letter word against the word list for your game.",
+      "eyebrow": "Scrabble guide",
+      "parent_tools": [
+        "/scrabble-word-finder/",
+        "/scrabble-cheat/",
+        "/word-finder/"
+      ],
+      "evidence": {
+        "semrush": [
+          "two letter scrabble words: 4400",
+          "scrabble two letter words: 1900",
+          "scrabble bingo: 210"
+        ],
+        "serp_gap": "Search intent is split between memorizing short words, checking whether a two-letter play is accepted, and understanding hooks/parallel plays. Avoid claiming one complete universal list because word lists vary by game, region, and update cycle."
+      },
+      "sources": [
+        {
+          "title": "Merriam-Webster Scrabble Word Finder",
+          "url": "https://scrabble.merriam.com/",
+          "note": "Used as a reference for North American Scrabble-style word checking."
+        },
+        {
+          "title": "Collins Scrabble Words",
+          "url": "https://www.collinsdictionary.com/scrabble/",
+          "note": "Used as a reference for international Scrabble-style word checking."
+        }
+      ],
+      "body": [
+        [
+          "h2",
+          "Why two-letter words are useful in Scrabble"
+        ],
+        [
+          "p",
+          "Two-letter words matter because they let you play alongside existing tiles, add short hooks, and clear awkward rack letters without needing a long open lane. A small word can create points in two directions when it touches several tiles."
+        ],
+        [
+          "p",
+          "Use the [Scrabble Word Finder](/scrabble-word-finder/) when you want candidate plays from your rack. Use this guide when you need to understand why a short word is useful before you play it."
+        ],
+        [
+          "h2",
+          "How to check if a two-letter word is valid"
+        ],
+        [
+          "p",
+          "Check the word list for the game or event you are playing. A word that is accepted in one Scrabble-style list may not be accepted in another game, classroom list, app, or house rule."
+        ],
+        [
+          "p",
+          "For casual play, agree on the dictionary before the game starts. For competitive play, use the current official list required by that event rather than an independent website's memory list."
+        ],
+        [
+          "h2",
+          "Two-letter hooks and parallel plays"
+        ],
+        [
+          "p",
+          "A hook is a tile that changes an existing word into a new valid word. A parallel play places your word next to existing tiles so each touching pair also forms a valid short word."
+        ],
+        [
+          "p",
+          "Before making a parallel play, check every crossing pair. One invalid two-letter crossing can make the whole move invalid even if your main word is real."
+        ],
+        [
+          "h2",
+          "Short words with high-value tiles"
+        ],
+        [
+          "p",
+          "Short words are especially useful when you have high-value letters such as Q, Z, X, or J. They can help you place a difficult tile on a premium square or clear a risky rack without waiting for a perfect long word."
+        ],
+        [
+          "p",
+          "Do not assume a short high-value play is valid just because it looks familiar. Check it in the word list you are using, especially for Q-without-U and borrowed-word entries."
+        ],
+        [
+          "h2",
+          "How to practice two-letter Scrabble words"
+        ],
+        [
+          "ul",
+          [
+            "Start with the high-value letters you struggle to play.",
+            "Practice hooks by adding one tile before or after an existing word.",
+            "Scan the board for parallel lanes where two-letter crossings are possible.",
+            "Use a word finder to check candidates, then confirm serious plays against the active word list.",
+            "Review missed short plays after each game instead of trying to memorize every entry at once."
+          ]
+        ],
+        [
+          "h2",
+          "Common two-letter word mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Using a word from the wrong word list.",
+            "Checking only the main word and forgetting the crossing words.",
+            "Holding a high-value tile too long when a short legal play is available.",
+            "Assuming every interjection, abbreviation, or slang form is accepted.",
+            "Treating a solver result as official without checking the game rules."
+          ]
+        ],
+        [
+          "h2",
+          "Quick answers"
+        ],
+        [
+          "p",
+          "**Are two-letter Scrabble words always allowed?** They are allowed only if they appear in the word list for your game or event."
+        ],
+        [
+          "p",
+          "**Why do two-letter words score well?** They can create multiple words in one move, especially in parallel plays or near premium squares."
+        ],
+        [
+          "p",
+          "**Should I memorize every two-letter word first?** Start with the short words that use difficult letters and the words that create common hooks."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/words-without-vowels",
+      "title": "Words Without Vowels",
+      "h1": "Words Without Vowels: How No-Vowel and Sometimes-Y Words Work",
+      "description": "Learn how words without A, E, I, O, or U work, when Y acts like a vowel, and how to search no-vowel word patterns.",
+      "eyebrow": "Letter pattern guide",
+      "parent_tools": [
+        "/word-finder/",
+        "/5-letter-word-finder/",
+        "/words-with-these-letters/",
+        "/wordle-solver/"
+      ],
+      "evidence": {
+        "semrush": [
+          "words without vowels: 9900",
+          "5 letter words with no vowels: 4400",
+          "words with q without u: 720",
+          "words ending in q: 6600"
+        ],
+        "serp_gap": "Searchers want examples and a practical way to find words with no A/E/I/O/U. The useful gap is explaining Y, word-game validity, and how to use contains/excludes/length filters."
+      },
+      "sources": [
+        {
+          "title": "Merriam-Webster: Is Y a Vowel?",
+          "url": "https://www.merriam-webster.com/grammar/why-y-is-sometimes-a-vowel-usage",
+          "note": "Used for the general explanation that Y can function as a vowel in English words."
+        }
+      ],
+      "body": [
+        [
+          "h2",
+          "What counts as a word without vowels?"
+        ],
+        [
+          "p",
+          "Most searches for words without vowels mean words without A, E, I, O, or U. Some of those words still use Y, because Y can function like a vowel in words such as rhythm or crypt."
+        ],
+        [
+          "p",
+          "That is why no-vowel word lists often include sometimes-Y words. If your game treats vowels differently, use that game's rule rather than a general English explanation."
+        ],
+        [
+          "h2",
+          "How to find words with no vowels"
+        ],
+        [
+          "p",
+          "Use a word finder with an exclude filter for A, E, I, O, and U. Then set the length you need, such as five letters for Wordle-style searches or shorter lengths for board games."
+        ],
+        [
+          "p",
+          "Try the [Word Finder](/word-finder/) for broad searches or the [5 Letter Word Finder](/5-letter-word-finder/) when you need a fixed five-letter pattern."
+        ],
+        [
+          "h2",
+          "Five-letter words with no vowels"
+        ],
+        [
+          "p",
+          "Five-letter no-vowel searches are common because Wordle-style games use five-letter answers. Many candidate words still contain Y, so do not exclude Y unless the puzzle specifically requires no vowel sounds at all."
+        ],
+        [
+          "p",
+          "If you already know a position, combine the no-vowel search with a pattern. For example, use a known first letter, exclude A/E/I/O/U, and scan candidates that keep Y available."
+        ],
+        [
+          "h2",
+          "Words with Q but no U"
+        ],
+        [
+          "p",
+          "Q-without-U searches are a related problem. Some word games accept entries where Q appears without U, but acceptance depends heavily on the dictionary or game list."
+        ],
+        [
+          "p",
+          "Use this as a candidate search, not a guarantee. For scored play, check the active word list before using a rare Q word."
+        ],
+        [
+          "h2",
+          "When no-vowel words help in word games"
+        ],
+        [
+          "ul",
+          [
+            "When your rack has too many consonants and you need a playable short word.",
+            "When Wordle feedback excludes the common vowels.",
+            "When a crossword pattern has no obvious A/E/I/O/U slot.",
+            "When a puzzle clue points to rhythm, sound, or abbreviated forms.",
+            "When a Q, Y, or W makes ordinary vowel patterns less useful."
+          ]
+        ],
+        [
+          "h2",
+          "Common no-vowel search mistakes"
+        ],
+        [
+          "ul",
+          [
+            "Removing Y too early even though many English words use Y as a vowel sound.",
+            "Assuming every dictionary word is accepted in a word game.",
+            "Ignoring the length filter and getting too many irrelevant candidates.",
+            "Using rare entries in casual games without checking the agreed word list.",
+            "Treating no A/E/I/O/U as the same as no vowel sound."
+          ]
+        ],
+        [
+          "h2",
+          "Quick answers"
+        ],
+        [
+          "p",
+          "**Is Y a vowel in words without vowels?** Y can function as a vowel, so many no-vowel lists include words with Y."
+        ],
+        [
+          "p",
+          "**Can Wordle answers have no vowels?** A Wordle-style answer may have no A/E/I/O/U, but it may still contain Y. Always use the puzzle feedback you have."
+        ],
+        [
+          "p",
+          "**Are Q without U words valid in Scrabble?** Some are valid in some word lists, but you should check the specific dictionary or game list before playing them."
         ]
       ]
     },

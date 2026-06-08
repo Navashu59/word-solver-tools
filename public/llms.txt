@@ -27,6 +27,8 @@ Word Solver Tools provides independent candidate lists from a built-in English w
 - [How to Unscramble Words](https://wordsolvertools.org/guides/how-to-unscramble-words/): Learn practical ways to unscramble letters by spotting vowels, prefixes, suffixes, repeated letters, and wildcard patterns.
 - [Crossword Patterns and Known Letters](https://wordsolvertools.org/guides/crossword-patterns-and-known-letters/): Learn how to use known letters, blank positions, word length, and clue context to narrow crossword answers.
 - [Spelling Bee Rules](https://wordsolvertools.org/guides/spelling-bee-rules/): Learn the common rules for Spelling Bee-style puzzles, including center letters, repeated letters, minimum length, and pangrams.
+- [Two Letter Scrabble Words](https://wordsolvertools.org/guides/two-letter-scrabble-words/): Learn why two-letter Scrabble words matter, how short hooks work, and how to check a two-letter word against the word list for your game.
+- [Words Without Vowels](https://wordsolvertools.org/guides/words-without-vowels/): Learn how words without A, E, I, O, or U work, when Y acts like a vowel, and how to search no-vowel word patterns.
 - [Wordle Repeated Letters](https://wordsolvertools.org/guides/wordle-repeated-letters/): Learn how repeated letters affect Wordle clues, including duplicate guesses, green and yellow feedback, and excluded letters.
 
 ## Method and limits

@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://wordsolvertools.org/</loc></url>
   <url><loc>https://wordsolvertools.org/tools/</loc></url>
+  <url><loc>https://wordsolvertools.org/guides/</loc></url>
   <url><loc>https://wordsolvertools.org/word-unscrambler/</loc></url>
   <url><loc>https://wordsolvertools.org/unscramble-words/</loc></url>
   <url><loc>https://wordsolvertools.org/unscramble/</loc></url>
@@ -62,6 +63,8 @@
   <url><loc>https://wordsolvertools.org/guides/how-to-unscramble-words/</loc></url>
   <url><loc>https://wordsolvertools.org/guides/crossword-patterns-and-known-letters/</loc></url>
   <url><loc>https://wordsolvertools.org/guides/spelling-bee-rules/</loc></url>
+  <url><loc>https://wordsolvertools.org/guides/two-letter-scrabble-words/</loc></url>
+  <url><loc>https://wordsolvertools.org/guides/words-without-vowels/</loc></url>
   <url><loc>https://wordsolvertools.org/guides/wordle-repeated-letters/</loc></url>
   <url><loc>https://wordsolvertools.org/about/</loc></url>
   <url><loc>https://wordsolvertools.org/how-it-works/</loc></url>

@@ -1,0 +1,32 @@
+{
+  "status": 200,
+  "generated_at": "2026-06-08T20:08:58.032Z",
+  "response": {
+    "id": "70154e8b-2fb5-4137-8907-72f8ad6ab092",
+    "object": "chat.completion",
+    "created": 1780949328,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"recommendation\": \"Add /guides/ hub to organize strategy guides and improve internal linking. Build 'Two Letter Scrabble Words' and 'Words Without Vowels' as new support pages.\",\n  \"new_pages\": [\n    {\n      \"title\": \"Two Letter Scrabble Words\",\n      \"slug\": \"two-letter-scrabble-words\",\n      \"h1\": \"Two Letter Scrabble Words\",\n      \"meta_description\": \"Complete list of two-letter Scrabble words, including official TWL and SOWPODS. Learn which are valid, how to use them, and common pitfalls.\",\n      \"sections\": [\n        {\n          \"heading\": \"What Are Two Letter Scrabble Words?\",\n          \"content\": \"Two-letter words are essential in Scrabble for parallel plays, hooks, and clearing tiles. Official word lists vary by region: TWL (North America) and SOWPODS (international).\"\n        },\n        {\n          \"heading\": \"Official Two Letter Scrabble Words List\",\n          \"content\": \"Below is the complete list of 107 two-letter words accepted in TWL (and 124 in SOWPODS). Note that some words like 'qi' are valid in TWL but not in all dictionaries. Always check tournament rules.\"\n        },\n        {\n          \"heading\": \"How to Memorize Two Letter Scrabble Words\",\n          \"content\": \"Group by vowel patterns, use mnemonics, or practice with flashcards. Focus on high-value letters like Q, Z, and J (e.g., qi, za, jo).\"\n        },\n        {\n          \"heading\": \"Common Mistakes with Two Letter Words\",\n          \"content\": \"Avoid invalid words like 'ew' or 'ow' (not in TWL). Remember that 'aa' is valid in SOWPODS but not TWL. Always verify with official sources.\"\n        }\n      ]\n    },\n    {\n      \"title\": \"Words Without Vowels\",\n      \"slug\": \"words-without-vowels\",\n      \"h1\": \"Words Without Vowels\",\n      \"meta_description\": \"List of English words with no vowels (A, E, I, O, U). Includes Scrabble-valid words, rare terms, and tips for word games.\",\n      \"sections\": [\n        {\n          \"heading\": \"What Are Words Without Vowels?\",\n          \"content\": \"Words without vowels use only consonants, often including 'y' as a vowel substitute. Examples: 'myth', 'lynx', 'crypt'. In Scrabble, words like 'hmm' and 'shh' are valid.\"\n        },\n        {\n          \"heading\": \"Complete List of Vowel-less Words\",\n          \"content\": \"Common words: by, cry, dry, fly, fry, gym, hymn, lynx, myth, nymph, pyx, rhythm, shy, sky, sly, spy, sty, sync, thy, try, why, wry. Note: 'y' is considered a vowel in these contexts.\"\n        },\n        {\n          \"heading\": \"Using Vowel-less Words in Scrabble\",\n          \"content\": \"These words are valuable for dumping consonants. However, many are short (2-4 letters). Longer words like 'rhythms' (7 letters) are rare. Check official lists for validity.\"\n        },\n        {\n          \"heading\": \"Words Without Vowels in Other Word Games\",\n          \"content\": \"In Wordle, vowel-less words are uncommon but possible (e.g., 'myths'). In cryptograms, they often indicate 'y' as a vowel. In Boggle, they can be high-scoring if placed well.\"\n        }\n      ]\n    }\n  ],\n  \"guides_hub\": {\n    \"add\": true,\n    \"slug\": \"guides\",\n    \"description\": \"Central hub for all strategy guides, improving navigation and SEO. Link from main menu and footer.\"\n  }\n}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 278,
+      "completion_tokens": 807,
+      "total_tokens": 1085,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 278
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  }
+}
