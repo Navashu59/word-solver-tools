@@ -2,7 +2,11 @@
 
 You’re staring at a crossword clue, a Wordle pattern, or a Scrabble rack, and you need a word that fits. The Word Solver is your go-to: enter the letters you have, add any known positions or constraints, and get a list of matching words instantly. It’s built for speed - no login, no ads, just results.
 
-## Solving patterns with known letters
+## How do I use a word solver tool with letters and blanks?
+
+Use this word solver tool when you know part of the answer but not enough to solve it by memory. Start with the letters you have, then add the strictest rule: exact length, known positions, required letters, or excluded letters. If your puzzle is specifically Wordle-style, the [Wordle solver](/wordle-solver/) is set up for green, yellow, and gray feedback.
+
+## How do I solve a word pattern with known letters?
 
 If you already know some letters and their positions (like in Wordle or a crossword), use the pattern input. For example, `?A?` finds all three-letter words with A in the middle. You can combine this with your letter pool to narrow results further. This is the fastest way to solve a partial word.
 
@@ -10,7 +14,7 @@ If you already know some letters and their positions (like in Wordle or a crossw
 
 Don’t know a letter? Use `?` or `*` as a wildcard. The solver will find all words that match the pattern, regardless of the missing letter. This is especially useful for games like Hangman or when you’re stuck on a crossword clue with only a few letters.
 
-## Filtering by word length and letter constraints
+## How do I filter words by length and letter constraints?
 
 Once you’ve entered your letters or pattern, apply filters:
 
@@ -24,7 +28,11 @@ These filters help you avoid scrolling through hundreds of irrelevant words.
 
 If you’re playing Scrabble or Words With Friends, the solver can sort results by score. Enter your rack letters, set the board constraints (like a premium square), and see which words give you the most points. Remember, this is an unofficial helper - always check the official game dictionary for tournament play.
 
-## What to do if no words appear
+### How do I narrow results without over-filtering?
+
+The fastest workflow is not to turn on every filter at once. Search broadly, scan the first result set, then tighten one rule at a time. That makes it easier to see whether the missing constraint is length, a known letter position, or an excluded letter.
+
+## What should I do if no words appear?
 
 If the solver returns nothing, try:
 

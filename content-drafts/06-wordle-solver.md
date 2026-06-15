@@ -2,7 +2,11 @@
 
 You're staring at a Wordle grid with a few green, yellow, and gray squares. Your next guess could make or break your streak. This tool is built for that moment: enter the letters you know, lock their positions, and get a shortlist of possible answers - no spoilers unless you want them.
 
-## When you need a nudge, not the answer
+## How do I use a Wordle solver after a guess?
+
+Use this Wordle solver after you have at least one guess on the board. Enter green letters in their exact spots, add yellow letters as required but misplaced, and put gray letters in the exclude field. If you want lighter hints instead of a full candidate list, switch to the [Wordle helper](/wordle-helper/).
+
+## How can I narrow Wordle answers without spoilers?
 
 Sometimes you just want to confirm a hunch or rule out a bad guess. Use the green/yellow/gray input to mirror your board. The tool filters out impossible words and shows only valid 5-letter candidates. You decide how much to reveal.
 
@@ -10,11 +14,15 @@ Sometimes you just want to confirm a hunch or rule out a bad guess. Use the gree
 
 Wordle answers can have double letters (think “ABBOT” or “FLOOD”). If you suspect a repeat, check the “allow duplicates” option. The solver will include words with repeated letters, which many basic tools miss.
 
-## Best next guess logic
+## What is the best next Wordle guess?
 
 After you enter your constraints, the tool ranks remaining words by how many new letters they test. A good guess isn’t just a possible answer - it’s one that eliminates the most options if it’s wrong. The list shows both likely answers and smart probing words.
 
-## Spoiler-safe hints mode
+### What should I update after each Wordle guess?
+
+Update the fields after every guess instead of only adding the new green letters. A gray letter from an earlier row can rule out many tempting words, and a yellow letter should not be placed back in the same slot. Rechecking the full board keeps the candidate list honest.
+
+## How can I get Wordle hints without seeing the answer?
 
 Don’t want to see the full answer list? Toggle “hints only.” You’ll get a clue like “starts with C” or “contains two vowels” instead of the actual word. Keeps the puzzle fun while giving you a direction.
 
@@ -22,7 +30,7 @@ Don’t want to see the full answer list? Toggle “hints only.” You’ll get 
 
 This tool is not affiliated with or endorsed by NYT Wordle. It’s a fan-made utility that uses a standard word list. No live answers, no daily spoilers - just pattern matching based on what you enter.
 
-## Wordle-style example
+## Wordle solver example with green, yellow, and gray letters
 
 After a guess like `CRANE`, enter confirmed green letters in the pattern, put yellow letters in contains, and put gray letters in exclude. Do not judge the list until all three signals are entered.
 

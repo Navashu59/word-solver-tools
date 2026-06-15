@@ -266,8 +266,9 @@ function breadcrumbSchema(items) {
 
 function extractFaq(md, page) {
   const normalized = normalizeContentCopy(md, page);
+  const commonQuestions = normalized.split(/\n## Common Questions\n/)[1] || "";
   const faqs = [];
-  const matches = normalized.matchAll(/### ([^\n]+)\n+([\s\S]*?)(?=\n### |\n## |\n# |$)/g);
+  const matches = commonQuestions.matchAll(/### ([^\n]+)\n+([\s\S]*?)(?=\n### |\n## |\n# |$)/g);
   for (const match of matches) {
     const question = match[1].trim();
     const answer = match[2]
@@ -280,6 +281,10 @@ function extractFaq(md, page) {
     if (question && answer) faqs.push({ question, answer });
   }
   return faqs.slice(0, 6);
+}
+
+function modifiedDate(item) {
+  return item.date_modified || review.date;
 }
 
 function graphSchema(nodes) {
@@ -373,6 +378,7 @@ function modeFor(page) {
 function schema(page, draft) {
   const pageUrl = absoluteUrl(page.url);
   const faqs = extractFaq(draft, page);
+  const pageModified = modifiedDate(page);
   const nodes = [
     organizationSchema(),
     {
@@ -384,7 +390,7 @@ function schema(page, draft) {
       isPartOf: { "@id": `${site.origin}/#website` },
       breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
       mainEntity: { "@id": `${pageUrl}#tool` },
-      dateModified: review.date,
+      dateModified: pageModified,
       reviewedBy: {
         "@type": "Person",
         name: review.authorName,
@@ -400,7 +406,7 @@ function schema(page, draft) {
       description: pageDescription(page),
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
       featureList: page.first_screen_tool || [],
-      dateModified: review.date,
+      dateModified: pageModified,
     },
     {
       ...breadcrumbSchema([

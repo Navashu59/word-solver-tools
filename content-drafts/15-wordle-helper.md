@@ -2,27 +2,35 @@
 
 You’ve got a few letters in the right places, some misplaced, and a bunch of grays. You don’t want the answer handed to you - you just want a little help narrowing it down. This helper is designed for that: it shows possible words based on your feedback, but keeps the puzzle intact.
 
-## Light-touch input
+## How do I use a Wordle helper without spoiling the answer?
+
+Use the Wordle helper when you want direction, not a one-click answer. Enter the clues from your board, scan patterns in the result list, and choose a guess that tests useful new letters. If you prefer a fuller candidate list, use the [Wordle solver](/wordle-solver/).
+
+## What should I enter after each Wordle guess?
 
 Enter your green letters in the exact position boxes, yellow letters in the “misplaced” field, and gray letters in the excluded list. The helper returns a filtered list without overwhelming you with every possible word.
 
-## Focus on common words
+## Should a Wordle helper show common words first?
 
 The helper uses a curated dictionary of common five-letter words, not every obscure Scrabble term. This means results are more likely to be the actual Wordle answer, saving you from chasing rare words.
 
-## Duplicate letter handling
+## Can a Wordle helper handle repeated letters?
 
 If you suspect a repeated letter (like in “PUPIL”), use the pattern and exclude fields carefully. The helper will include words with repeats, which many basic tools ignore.
 
-## Hints mode
+## Can I get a Wordle hint instead of the answer?
 
 Toggle hints mode to see clues instead of full words. For example, “contains two vowels” or “ends with T.” This keeps the challenge alive while giving you a push.
+
+### When is a general word solver tool better?
+
+If you are not solving a five-letter Wordle-style puzzle, use the [word solver tool](/word-solver/) instead. It handles loose letters, blanks, starts-with and ends-with filters, and patterns that are not limited to five positions.
 
 ## Why this is an independent helper
 
 This tool is not affiliated with NYT Wordle. It’s a fan-made utility that uses a standard word list. No live answers, no daily spoilers - just pattern matching based on what you enter.
 
-## Wordle-style example
+## Wordle helper example with green, yellow, and gray letters
 
 After a guess like `CRANE`, enter confirmed green letters in the pattern, put yellow letters in contains, and put gray letters in exclude. Do not judge the list until all three signals are entered.
 
@@ -32,23 +40,23 @@ Use this page when your clue information comes from previous guesses: green lett
 
 ## Common Questions
 
-### How do I use a Wordle solver?
+### How do I use a Wordle helper?
 
-Enter your known letters into the position boxes, misplaced letters into the yellow field, and excluded letters into the gray field. Hit search and review the filtered results.
+Enter green letters in their fixed positions, yellow letters as misplaced letters, and gray letters in the excluded field. Then scan the shorter list for patterns instead of taking the first word automatically.
 
-### What is the best next Wordle guess?
+### What makes a good Wordle hint?
 
-A good next guess uses common letters and avoids letters already ruled out. The helper highlights words that test high-frequency letters like E, A, R, I, O, T, N, S, L, C. If you’re stuck, pick a word from the top of the ranked list.
+A useful hint points you toward a pattern, vowel count, ending, or likely letter without revealing the full answer. If you want the full candidate list, use the solver view instead.
 
-### Can Wordle answers have repeated letters?
+### Can repeated letters appear in Wordle?
 
-Yes. Words like “PUPIL” or “MAMMA” are valid. Make sure the helper’s duplicate setting matches your puzzle. If you’ve seen a letter twice in the feedback, enable repeats.
+Yes. Repeated letters can appear, and feedback can be tricky when a letter appears once in the answer but twice in your guess. Recheck both the green/yellow clues and the gray letters before ruling words out.
 
-### What do green, yellow, and gray mean?
+### What do green, yellow, and gray letters mean?
 
-Green means the letter is correct and in the right position. Yellow means the letter is in the word but in a different position. Gray means the letter is not in the word at all.
+Green means the letter is correct and in the right spot. Yellow means the letter is in the answer but somewhere else. Gray means the letter should usually be excluded unless duplicate-letter feedback changes the rule.
 
-### How can I get hints without seeing the answer?
+### How do I keep the puzzle fun while using a helper?
 
 If you want a hint instead of a full answer, use the result list lightly: look for repeated patterns, likely vowels, or a possible ending without copying the first word.
 
