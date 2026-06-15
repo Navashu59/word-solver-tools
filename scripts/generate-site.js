@@ -6,6 +6,7 @@ const publicDir = path.join(root, "public");
 const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json"), "utf8")).pages;
 const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
 const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-06-15";
+const gaMeasurementId = process.env.GA_MEASUREMENT_ID || "G-EHPNMH60G4";
 
 const site = {
   name: "Word Solver Tools",
@@ -60,7 +61,7 @@ const staticPages = [
       ["h2", "Limits"],
       ["p", "No single word list matches every game, dictionary, app, or house rule. A result means the word fits the filters you entered, not that it is guaranteed to be accepted by a specific game. Check serious plays against the official rules for your game."],
       ["h2", "Privacy"],
-      ["p", "The current static version does not require an account, and the solving logic runs in the browser. Future hosting or analytics tools may still collect standard technical logs, so the privacy policy should be reviewed after the production domain is connected."],
+      ["p", "The site does not require an account, and the solving logic runs in the browser. Analytics and hosting logs are used for aggregate page-performance and usage measurement."],
     ],
   },
   {
@@ -75,7 +76,7 @@ const staticPages = [
       ["h2", "Puzzle input"],
       ["p", "Letters, patterns, and filters you type into the tools are processed in your browser for the current session. They are not needed for account creation or personal identification."],
       ["h2", "Analytics and hosting"],
-      ["p", "When the site is deployed, hosting providers and analytics tools may collect standard technical information such as page views, device type, browser type, referring pages, approximate location, and request logs."],
+      ["p", "Google Analytics and hosting providers may collect standard technical information such as page views, device type, browser type, referring pages, approximate location, and request logs. Puzzle inputs are not required for account creation or personal identification."],
       ["h2", "Contact"],
       ["p", "Use the contact page for privacy-related questions after the production domain is connected."],
     ],
@@ -455,6 +456,8 @@ function layout({ title, description, body, canonical = "/", image = site.social
   <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","${gaMeasurementId}",{anonymize_ip:true});</script>
   ${schemaJson ? `<script type="application/ld+json">${schemaJson}</script>` : ""}
 </head>
 <body>
