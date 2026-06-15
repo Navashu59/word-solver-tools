@@ -5,6 +5,7 @@ const root = path.resolve(__dirname, "..");
 const publicDir = path.join(root, "public");
 const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json"), "utf8")).pages;
 const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
+const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-06-15";
 
 const site = {
   name: "Word Solver Tools",
@@ -954,12 +955,12 @@ function writePage(page) {
 
 function writeSitemap() {
   const urls = allSitemapUrls();
-fs.writeFileSync(path.join(publicDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${site.origin}${url}</loc></url>`).join("\n")}\n</urlset>\n`);
-fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
-fs.writeFileSync(path.join(publicDir, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/*.svg\n  Cache-Control: public, max-age=31536000, immutable\n/*.webmanifest\n  Cache-Control: public, max-age=86400\n/*.html\n  Cache-Control: public, max-age=0, must-revalidate\n`);
-if (site.origin === "https://wordsolvertools.org") {
-  fs.writeFileSync(path.join(publicDir, "_redirects"), `https://www.wordsolvertools.org/* https://wordsolvertools.org/:splat 301\n`);
-}
+  fs.writeFileSync(path.join(publicDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${site.origin}${url}</loc><lastmod>${sitemapLastmod}</lastmod></url>`).join("\n")}\n</urlset>\n`);
+  fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(publicDir, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/*.svg\n  Cache-Control: public, max-age=31536000, immutable\n/*.webmanifest\n  Cache-Control: public, max-age=86400\n/*.html\n  Cache-Control: public, max-age=0, must-revalidate\n`);
+  if (site.origin === "https://wordsolvertools.org") {
+    fs.writeFileSync(path.join(publicDir, "_redirects"), `https://www.wordsolvertools.org/* https://wordsolvertools.org/:splat 301\n`);
+  }
 }
 
 function writeLlmsTxt() {
