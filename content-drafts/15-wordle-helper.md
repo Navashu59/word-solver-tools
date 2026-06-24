@@ -34,6 +34,14 @@ This tool is not affiliated with NYT Wordle. It’s a fan-made utility that uses
 
 After a guess like `CRANE`, enter confirmed green letters in the pattern, put yellow letters in contains, and put gray letters in exclude. Do not judge the list until all three signals are entered.
 
+## How do I get help without turning it into a spoiler?
+
+Use the helper to look for patterns instead of copying the top result. Check whether the remaining words share a vowel, ending, or repeated letter, then choose a guess that tests information you still need. If you decide you want the complete candidate list, move to the [Wordle solver](/wordle-solver/).
+
+## When should I switch from hints to a solver?
+
+Switch when the board has enough clues that guessing randomly would waste a turn: two or more confirmed letters, a narrow ending pattern, or several gray letters that rule out common options. If the puzzle is not five letters or not Wordle-style, use the [word solver tool](/word-solver/) instead.
+
 ## Choose the right word tool
 
 Use this page when your clue information comes from previous guesses: green letters, yellow letters, and excluded gray letters. If you only have loose letters with no positions, an unscrambler or word finder is a better fit.

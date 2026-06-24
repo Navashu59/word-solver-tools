@@ -18,7 +18,7 @@ Don’t know a letter? Use `?` or `*` as a wildcard. The solver will find all wo
 
 Once you’ve entered your letters or pattern, apply filters:
 
-- **Word length** – set exact length .
+- **Word length** – set exact length.
 - **Starts with / Ends with** – useful when you know the first or last letter.
 - **Contains / Excludes** – force or block specific letters.
 
@@ -45,6 +45,14 @@ Sometimes the word you’re thinking of isn’t in the dictionary. The solver us
 ## Pattern search example
 
 If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+
+## Is this better than a Wordle helper?
+
+Use the word solver when your puzzle is not locked to one daily five-letter grid. It works for loose letters, blank tiles, starts-with and ends-with filters, longer words, and crossword-style patterns. Use the [Wordle helper](/wordle-helper/) when you want to keep a Wordle-style puzzle mostly intact, and use the [Wordle solver](/wordle-solver/) when you want a fuller candidate list from green, yellow, and gray feedback.
+
+## What should I enter first when I have too many letters?
+
+Enter the rule you trust most. For a crossword, that is usually the pattern and answer length. For loose letter games, start with the letters you actually have, then add contains or starts-with filters only after the first result set is too broad. This keeps the search useful without hiding good candidates too early.
 
 ## Choose the right word tool
 
