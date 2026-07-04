@@ -823,6 +823,7 @@ function staticPageHtml(page) {
 
 function guidePageSchema(guide) {
   const url = guideUrl(guide);
+  const modified = guide.date_modified || review.date;
   return graphSchema([
     organizationSchema(),
     {
@@ -831,7 +832,7 @@ function guidePageSchema(guide) {
       headline: guide.title,
       description: guide.description,
       url: absoluteUrl(url),
-      dateModified: review.date,
+      dateModified: modified,
       author: {
         "@type": "Person",
         name: review.authorName,
@@ -848,7 +849,7 @@ function guidePageSchema(guide) {
       description: guide.description,
       mainEntity: { "@id": `${absoluteUrl(url)}#article` },
       breadcrumb: { "@id": `${absoluteUrl(url)}#breadcrumb` },
-      dateModified: review.date,
+      dateModified: modified,
     },
     {
       ...breadcrumbSchema([
