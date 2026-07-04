@@ -14,7 +14,7 @@ Sometimes you just want to confirm a hunch or rule out a bad guess. Use the gree
 
 Wordle answers can have double letters (think “ABBOT” or “FLOOD”). If you suspect a repeat, check the “allow duplicates” option. The solver will include words with repeated letters, which many basic tools miss.
 
-## What is the best next Wordle guess?
+## How should I choose the next Wordle guess after feedback?
 
 After you enter your constraints, the tool ranks remaining words by how many new letters they test. A good guess isn’t just a possible answer - it’s one that eliminates the most options if it’s wrong. The list shows both likely answers and smart probing words.
 
@@ -25,6 +25,24 @@ Update the fields after every guess instead of only adding the new green letters
 ## How can I get Wordle hints without seeing the answer?
 
 Don’t want to see the full answer list? Toggle “hints only.” You’ll get a clue like “starts with C” or “contains two vowels” instead of the actual word. Keeps the puzzle fun while giving you a direction.
+
+## How does the Wordle solver handle repeated letters?
+
+Repeated-letter feedback is the easiest place to make a mistake. If a letter is green or yellow once, that does not always mean the answer has two copies of it. If your guess uses the same letter twice and one copy is gray, enter the confirmed copy first, then avoid treating the gray copy as a full exclusion until the board makes the count clear.
+
+For example, if one `E` is yellow and another `E` is gray, the answer may contain exactly one `E`. Recheck the row before turning on duplicate-friendly guesses. The solver is most useful when the pattern, required letters, and excluded letters all match the same board state.
+
+## What is a good first Wordle guess?
+
+A good opener tests common letters and vowels without repeating too much. Words such as `CRANE`, `SLATE`, `TRACE`, or `ARISE` are useful because they cover frequent letters, but no first guess is guaranteed. The first row should gather information; the second and third rows should use that information.
+
+If you prefer not to see candidates early, make your first guess by hand, then use the solver only after you have green, yellow, and gray feedback.
+
+## Can the solver suggest a next guess after each turn?
+
+Yes, but treat the list as a set of candidates, not a daily answer feed. After every turn, update all three clue types: fixed green letters, misplaced yellow letters, and gray exclusions. Then scan the remaining words for guesses that test new letters or confirm a likely ending.
+
+If you want a smaller nudge, use the [Wordle helper](/wordle-helper/) instead of the full solver list.
 
 ## Why this is an independent helper
 

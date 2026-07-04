@@ -52,6 +52,16 @@
         "url": "/guides/words-without-vowels/",
         "title": "Words Without Vowels",
         "description": "Learn how no-vowel and sometimes-Y words work, when they help in word games, and how to search them with filters."
+      },
+      {
+        "url": "/guides/word-ladder-solver/",
+        "title": "Word Ladder Solver Guide",
+        "description": "Learn word ladder rules, valid one-letter steps, example paths, and when a solver can help find a shorter route."
+      },
+      {
+        "url": "/guides/q-words-without-u/",
+        "title": "Q Words Without U",
+        "description": "Learn useful Q-without-U words, how to search them from your letters, and why rare Q words should be checked against your game dictionary."
       }
     ]
   },
@@ -1479,6 +1489,200 @@
         [
           "p",
           "Use the [Wordle Solver](/wordle-solver/) for green, yellow, and gray feedback, [Wordle Helper](/wordle-helper/) for broader clue filtering, or the [5 Letter Word Finder](/5-letter-word-finder/) when you want to inspect repeated-letter patterns."
+        ]
+      ]
+    },
+    {
+      "slug": "guides/word-ladder-solver",
+      "title": "Word Ladder Solver Guide",
+      "h1": "Word Ladder Solver Guide: Rules, Examples, and Shortest Paths",
+      "description": "Learn how word ladders work, why each step changes one letter, and when to use a solver to find a shorter path.",
+      "eyebrow": "Word ladder guide",
+      "date_modified": "2026-07-04",
+      "parent_tools": [
+        "/word-ladder-solver/",
+        "/word-finder/",
+        "/word-solver/"
+      ],
+      "evidence": {
+        "semrush": [
+          "word ladder solver: 1600",
+          "word ladder game: 1300",
+          "word ladder examples: 210",
+          "word ladder rules: 20"
+        ],
+        "serp_gap": "SERP intent mixes a solver action with rules, examples, shortest-path explanations, and dictionary caveats. This guide supports the solver page without replacing the tool intent."
+      },
+      "body": [
+        [
+          "h2",
+          "What are the rules of a word ladder?"
+        ],
+        [
+          "p",
+          "A word ladder changes one word into another by altering one letter at a time. Every step should be a real word, the word length usually stays the same, and each move changes only one position. If the puzzle starts with cold and ends with warm, each middle word must bridge that gap one valid word at a time."
+        ],
+        [
+          "p",
+          "Use the [Word Ladder Solver](/word-ladder-solver/) when you know the start word and end word but want help finding a possible path."
+        ],
+        [
+          "h2",
+          "How does a word ladder solver find a path?"
+        ],
+        [
+          "p",
+          "A solver checks words of the same length, connects words that differ by one letter, and searches for a route from the start word to the target word. Shorter routes are usually better, but a longer valid route can still solve the puzzle if every step is accepted by the word list."
+        ],
+        [
+          "h2",
+          "What makes a word ladder path valid?"
+        ],
+        [
+          "ul",
+          [
+            "The start and end words usually have the same number of letters.",
+            "Only one letter changes at each step.",
+            "No step should change letter order, add letters, or remove letters.",
+            "Each intermediate step should be an accepted word for the puzzle you are playing.",
+            "Proper nouns, abbreviations, and rare forms may be rejected depending on the word list."
+          ]
+        ],
+        [
+          "h2",
+          "Can there be more than one word ladder answer?"
+        ],
+        [
+          "p",
+          "Yes. Many word ladders have more than one valid path. One path may be shortest, another may use more familiar words, and a classroom or puzzle book may require a specific dictionary. If your answer is rejected, check whether one of the middle words is outside the accepted list."
+        ],
+        [
+          "h2",
+          "Word ladder example: cold to warm"
+        ],
+        [
+          "p",
+          "One valid path is cold -> cord -> word -> ward -> warm. Each step changes one letter: cold to cord changes L to R, cord to word changes C to W, word to ward changes O to A, and ward to warm changes D to M."
+        ],
+        [
+          "h2",
+          "When should I use the word ladder solver?"
+        ],
+        [
+          "p",
+          "Use a solver after you have tried a few obvious middle words and the path stalls. It is also useful for checking whether two words are connected at all, comparing a long path with a shorter one, or creating practice puzzles for students."
+        ],
+        [
+          "h2",
+          "Common mistakes with word ladders"
+        ],
+        [
+          "ul",
+          [
+            "Changing two letters in one step because the words look close.",
+            "Using a word with a different length in the middle of the ladder.",
+            "Assuming the first valid path is the shortest path.",
+            "Forgetting that the accepted dictionary may differ between games, classrooms, and puzzle books.",
+            "Treating a solver result as final without checking every middle word."
+          ]
+        ]
+      ]
+    },
+    {
+      "slug": "guides/q-words-without-u",
+      "title": "Q Words Without U",
+      "h1": "Q Words Without U: Useful Q-Without-U Words for Word Games",
+      "description": "Learn common Q words without U, why Q usually pairs with U, and how to check whether a rare Q word is accepted in your game.",
+      "eyebrow": "Letter pattern guide",
+      "date_modified": "2026-07-04",
+      "parent_tools": [
+        "/word-finder/",
+        "/words-with-these-letters/",
+        "/scrabble-word-finder/",
+        "/word-solver/"
+      ],
+      "evidence": {
+        "semrush": [
+          "q words without u: 14800",
+          "words ending in q: 8100",
+          "words with q without u: 720"
+        ],
+        "serp_gap": "SERP competitors list rare Q words, but many pages do not clearly separate playable word-game checks from general English examples. This guide focuses on practical lookup workflow and dictionary caution."
+      },
+      "sources": [
+        {
+          "title": "Merriam-Webster: Words with Q and no U",
+          "url": "https://www.merriam-webster.com/wordfinder/q-words-without-u",
+          "note": "Used as a general reference for Q-without-U examples."
+        },
+        {
+          "title": "Wikipedia: English words containing Q not followed by U",
+          "url": "https://en.wikipedia.org/wiki/List_of_English_words_containing_Q_not_followed_by_U",
+          "note": "Used as background for why Q-without-U words are uncommon."
+        }
+      ],
+      "body": [
+        [
+          "h2",
+          "What are Q words without U?"
+        ],
+        [
+          "p",
+          "Q words without U are words where Q is not followed by the usual U. They are useful in word games because a Q tile can be hard to play when you do not also have U. Many of these words come from loanwords, names of scripts, cultural terms, or specialized vocabulary, so you should check the word list for your game before playing one."
+        ],
+        [
+          "h2",
+          "Common Q-without-U words to check first"
+        ],
+        [
+          "p",
+          "Start with shorter and more familiar candidates such as qi, qat, qadi, qoph, faqir, niqab, and tranq. These examples are useful for searching, but acceptance depends on the dictionary used by your game, app, or tournament."
+        ],
+        [
+          "h2",
+          "Are Q words without U valid in Scrabble or Words With Friends?"
+        ],
+        [
+          "p",
+          "Some Q-without-U words are accepted in popular word games, but there is no single universal list across every format. A casual app, a tournament dictionary, and a classroom word list can disagree. Before scoring a rare Q word, confirm it in the active dictionary or with the game itself."
+        ],
+        [
+          "h2",
+          "How do I find Q words without U from my letters?"
+        ],
+        [
+          "p",
+          "Use the [Word Finder](/word-finder/) or [Words With These Letters](/words-with-these-letters/) tool with Q as a required letter and U as an excluded letter. Add a length filter if you only need short plays, or use starts-with and ends-with filters when the board already gives you a hook."
+        ],
+        [
+          "h2",
+          "What about words ending in Q?"
+        ],
+        [
+          "p",
+          "Words ending in Q are rarer than Q-without-U words in general English. If you are searching for a play that ends with Q, use an ends-with filter first, then verify the result carefully. Do not assume every dictionary accepts the same borrowed or abbreviated forms."
+        ],
+        [
+          "h2",
+          "Common mistakes with rare Q words"
+        ],
+        [
+          "ul",
+          [
+            "Assuming every Q-without-U word is valid in your word game.",
+            "Forgetting to exclude U when searching from a rack without one.",
+            "Playing a rare word without checking whether the current dictionary accepts it.",
+            "Looking only for words that start with Q and missing words where Q appears later.",
+            "Ignoring board hooks that can make a short Q word playable."
+          ]
+        ],
+        [
+          "h2",
+          "Related no-vowel and Q searches"
+        ],
+        [
+          "p",
+          "If your rack is awkward, also check [words without vowels](/guides/words-without-vowels/), [two-letter Scrabble words](/guides/two-letter-scrabble-words/), and the [Scrabble Word Finder](/scrabble-word-finder/) for legal short hooks."
         ]
       ]
     }

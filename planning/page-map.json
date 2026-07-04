@@ -202,6 +202,7 @@
       "keyword": "wordle solver",
       "slug": "wordle-solver",
       "url": "/wordle-solver/",
+      "date_modified": "2026-07-04",
       "cluster": "wordle-letter-patterns",
       "volume": 450000,
       "cpc": 0.01,
@@ -232,8 +233,7 @@
         "five letter word finder"
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
-      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler.",
-      "date_modified": "2026-06-24"
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
     },
     {
       "rank": 7,
@@ -357,6 +357,7 @@
       "keyword": "jumble solver",
       "slug": "jumble-solver",
       "url": "/jumble-solver/",
+      "date_modified": "2026-07-04",
       "cluster": "unscramble-scramble",
       "volume": 110000,
       "cpc": 0,
@@ -550,6 +551,7 @@
       "keyword": "wordle helper",
       "slug": "wordle-helper",
       "url": "/wordle-helper/",
+      "date_modified": "2026-06-24",
       "cluster": "wordle-letter-patterns",
       "volume": 165000,
       "cpc": 0.01,
@@ -580,8 +582,7 @@
         "five letter word finder"
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
-      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler.",
-      "date_modified": "2026-06-24"
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
     },
     {
       "rank": 16,
@@ -975,6 +976,7 @@
       "keyword": "word solver",
       "slug": "word-solver",
       "url": "/word-solver/",
+      "date_modified": "2026-07-04",
       "cluster": "word-finder",
       "volume": 40500,
       "cpc": 0,
@@ -1006,8 +1008,7 @@
         "word generator from letters"
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
-      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler.",
-      "date_modified": "2026-06-24"
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
     },
     {
       "rank": 27,
@@ -1788,6 +1789,7 @@
       "keyword": "boggle solver",
       "slug": "boggle-solver",
       "url": "/boggle-solver/",
+      "date_modified": "2026-07-04",
       "cluster": "boggle",
       "volume": 1900,
       "cpc": 0,
@@ -1903,6 +1905,7 @@
       "keyword": "word ladder solver",
       "slug": "word-ladder-solver",
       "url": "/word-ladder-solver/",
+      "date_modified": "2026-07-04",
       "cluster": "word-ladder",
       "volume": 1600,
       "cpc": 0,

@@ -18,6 +18,22 @@ Jumble puzzles often include a clue that hints at the answer's meaning. Type tha
 
 Some Jumble puzzles have multiple words to unscramble, each with a different length. Use the length filter to solve one word at a time. Set it to 4 letters, solve that, then move to the next. This keeps the results manageable and prevents confusion.
 
+## How do I solve a Jumble with known letters in specific positions?
+
+If you already know one or two positions, use a pattern before adding extra filters. For example, if the answer is five letters and the second letter is `A`, try a pattern like `?A???`. Then enter the scrambled letters and scan only the words that fit that shape.
+
+Known positions are stronger than hunches. Add the fixed pattern first, then use starts-with, ends-with, contains, or exclude filters only if the result list is still too broad.
+
+## What if the Jumble answer is a phrase?
+
+Many Jumble puzzles use several scrambled words to reveal letters for a final phrase. Solve each scrambled word separately first. Once you have the circled or selected letters, enter those letters as a new search and use the cartoon clue or phrase length to narrow the final answer.
+
+This page does not pull official daily Jumble answers. It gives candidate words from the letters you enter, so you still need to match the result to the clue and phrase pattern.
+
+## Can the solver handle multiple scrambled words at once?
+
+For best results, solve one scrambled word at a time. Multiple words in one input can create noisy results because the tool treats the letters as one pool. If a puzzle has four jumbled words, run four focused searches, then use the final clue letters for the phrase.
+
 ## What to do when you get too many results
 
 If your initial search returns hundreds of words, don't panic. Add an exclusion filter to remove common letters you know aren't in the answer. Or use the "starts with" and "ends with" fields if you have a hunch about the first or last letter. The goal is to shrink the list to a handful of candidates you can test against the puzzle.

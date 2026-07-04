@@ -18,6 +18,10 @@ In most Boggle rules, letters must connect across adjacent tiles and the same ti
 
 Different Boggle versions and house rules can score words differently. Confirm that the word is accepted, traceable, and long enough for your rule set before adding points.
 
+## What Boggle words should I verify before scoring?
+
+Verify the words that look playable but depend on a tight path. Check that each next letter touches the previous tile, the same tile is not reused in one word, and the word is long enough for your rules. If a candidate comes from rare letters or an unusual ending, also confirm it against the dictionary or word list used by your game.
+
 ## Boggle board example
 
 Enter the board letters to get candidates, then verify each promising word can be drawn through adjacent cells without reusing a square. Letter availability alone is not enough.

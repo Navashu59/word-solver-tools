@@ -58,6 +58,10 @@ Enter the rule you trust most. For a crossword, that is usually the pattern and 
 
 Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
 
+## Word solver, anagram solver, or Wordle solver?
+
+Use the word solver when your letters are flexible and you do not always need to use every tile. Use an [anagram solver](/anagram-solver/) when the puzzle expects every letter to be rearranged into one answer. Use the [Wordle solver](/wordle-solver/) when your clues are green, yellow, and gray five-letter feedback. If you know crossings from a clue, start with the [crossword solver](/crossword-solver/) instead.
+
 ## Common Questions
 
 ### What words can I make with these letters?
