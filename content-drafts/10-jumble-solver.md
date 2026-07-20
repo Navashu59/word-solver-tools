@@ -24,6 +24,20 @@ If you already know one or two positions, use a pattern before adding extra filt
 
 Known positions are stronger than hunches. Add the fixed pattern first, then use starts-with, ends-with, contains, or exclude filters only if the result list is still too broad.
 
+## How do I solve jumbled letters when I know the word length?
+
+Set the length before you scan the list. A six-letter Jumble answer should be filtered to six letters first, even if the same letters can make shorter words. This keeps the results close to the printed puzzle instead of turning the search into a general word finder.
+
+If you are not sure about the length, start with the longest results and then loosen the filter. Most Jumble-style puzzles expect a complete answer from the visible letters, so the longest matching word is often the best place to look.
+
+## Can I use a Jumble solver for daily newspaper puzzles?
+
+Yes, but this page does not fetch official daily answers. Enter the scrambled letters from the puzzle, solve each word separately, and use the cartoon clue or circled letters to choose the answer that fits. If the clue points to a joke or phrase, use the word list as candidates rather than accepting the first result blindly.
+
+## What if the Jumble has repeated letters?
+
+Enter repeated letters exactly as they appear. If the puzzle gives you two `E`s, the solver should see both copies; otherwise it may show words that cannot be made from the real letter set. Repeated letters are especially important in short answers because one missing copy can change the result list completely.
+
 ## What if the Jumble answer is a phrase?
 
 Many Jumble puzzles use several scrambled words to reveal letters for a final phrase. Solve each scrambled word separately first. Once you have the circled or selected letters, enter those letters as a new search and use the cartoon clue or phrase length to narrow the final answer.
@@ -44,7 +58,7 @@ Enter `tca?rs`, leave the length blank, and solve once. Start by scanning the lo
 
 ## Choose the right word tool
 
-Use this page when you have letters or constraints and need to narrow possible words quickly. If the constraint changes, switch tools: pattern pages for fixed blanks, Wordle pages for colored clues, crossword pages for crossings, and anagram pages when every letter must be used.
+Use this page when you have Jumble-style scrambled letters and need likely answers quickly. Use the [word solver](/word-solver/) when you have broader constraints, the [anagram solver](/anagram-solver/) when every letter must be rearranged into one answer, and the [Wordle solver](/wordle-solver/) when your clues are green, yellow, and gray squares.
 
 ## Common Questions
 

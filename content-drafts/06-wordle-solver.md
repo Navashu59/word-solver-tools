@@ -22,6 +22,18 @@ After you enter your constraints, the tool ranks remaining words by how many new
 
 Update the fields after every guess instead of only adding the new green letters. A gray letter from an earlier row can rule out many tempting words, and a yellow letter should not be placed back in the same slot. Rechecking the full board keeps the candidate list honest.
 
+## How do I enter green, yellow, and gray letters?
+
+Put green letters in the exact pattern position, add yellow letters to the required or contains field, and place gray letters in the exclude field only when you are sure that letter is not used elsewhere in the answer. For repeated letters, do not exclude the whole letter just because one copy was gray.
+
+For example, if your guess has one yellow `E` and one gray `E`, the answer may contain exactly one `E`. Keep the confirmed copy in the required letters and avoid adding `E` to exclude unless another row proves it is absent.
+
+## What is the best next guess when there are many Wordle answers left?
+
+When the candidate list is still long, choose a guess that tests common unused letters instead of picking a random possible answer. A probing guess with R, S, T, L, N, E, A, O, or I can be better than a low-information answer candidate if it separates many remaining words.
+
+If the list is already short, switch from information gathering to answer selection. At that point, focus on words that fit every green, yellow, gray, and repeated-letter clue.
+
 ## How can I get Wordle hints without seeing the answer?
 
 Don’t want to see the full answer list? Toggle “hints only.” You’ll get a clue like “starts with C” or “contains two vowels” instead of the actual word. Keeps the puzzle fun while giving you a direction.
