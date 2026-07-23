@@ -5,7 +5,7 @@ const root = path.resolve(__dirname, "..");
 const publicDir = path.join(root, "public");
 const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json"), "utf8")).pages;
 const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
-const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-06-15";
+const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-07-23";
 const gaMeasurementId = process.env.GA_MEASUREMENT_ID || "G-EHPNMH60G4";
 
 const site = {
@@ -18,8 +18,8 @@ const site = {
 };
 
 const review = {
-  date: "2026-06-02",
-  label: "Last reviewed: June 2026",
+  date: "2026-07-23",
+  label: "Last reviewed: July 2026",
   authorName: "Independent Developer",
   authorBio: "Built as a practical word-game helper focused on fast client-side filtering, clear puzzle constraints, and transparent limitations.",
   methodNote: "The current tool filters a built-in English word list in the browser. It is not an official dictionary and results should be checked against the rules or word list for the game you are playing.",
@@ -114,6 +114,8 @@ const staticPages = [
 ];
 
 const guideUrl = (guide) => `/${guide.slug}/`;
+const inactivePageUrls = new Set(["/letter-box-solver/", "/word-ladder-solver/"]);
+const activePages = () => pages.filter((page) => !inactivePageUrls.has(page.url));
 
 function guidesForTool(page) {
   return guideData.guides.filter((guide) => Array.isArray(guide.parent_tools) && guide.parent_tools.includes(page.url));
@@ -123,7 +125,7 @@ const allSitemapUrls = () => [
   "/",
   "/tools/",
   "/guides/",
-  ...pages.map((page) => page.url),
+  ...activePages().map((page) => page.url),
   ...guideData.guides.map(guideUrl),
   ...staticPages.map((page) => page.url),
 ];
@@ -384,6 +386,13 @@ function modeFor(page) {
   return "letters";
 }
 
+function ownerDefaults(page) {
+  return {
+    exact: ["/word-unscrambler/", "/jumble-solver/", "/anagram-solver/"].includes(page.url),
+    length: page.cluster === "wordle-letter-patterns" ? "5" : ""
+  };
+}
+
 function schema(page, draft) {
   const pageUrl = absoluteUrl(page.url);
   const faqs = extractFaq(draft, page);
@@ -502,6 +511,7 @@ function layout({ title, description, body, canonical = "/", image = site.social
 
 function toolPanel(page) {
   const mode = modeFor(page);
+  const defaults = ownerDefaults(page);
   const title = page.title;
   const labels = {
     crossword: ["Clue pattern", "Use ? for unknown letters, like c?a??"],
@@ -531,11 +541,11 @@ function toolPanel(page) {
         <label class="field"><span>Contains</span><input data-role="contains" placeholder="ar"></label>
         <label class="field"><span>Starts with</span><input data-role="starts" placeholder="s"></label>
         <label class="field"><span>Ends with</span><input data-role="ends" placeholder="e"></label>
-        <label class="field"><span>Length</span><input data-role="length" type="number" min="2" max="15" placeholder="${page.keyword.includes("5") ? "5" : ""}"></label>
+        <label class="field"><span>Length</span><input data-role="length" type="number" min="2" max="15" value="${defaults.length}" placeholder="${page.keyword.includes("5") ? "5" : ""}"></label>
         <label class="field"><span>Exclude</span><input data-role="exclude" placeholder="qz"></label>
         <label class="field"><span>Pattern</span><input data-role="pattern" placeholder="c?a??"></label>
       </div>
-      <label class="check-field"><input data-role="exact" type="checkbox"><span>Use every entered letter exactly once</span></label>
+      <label class="check-field"><input data-role="exact" type="checkbox"${defaults.exact ? " checked" : ""}><span>Use every entered letter exactly once</span></label>
       <div class="button-row">
         <button class="primary-btn" data-action="solve">Solve</button>
         <button class="ghost-btn" data-action="sample">Sample</button>
@@ -578,12 +588,15 @@ function pageHtml(page) {
   const brandNote = page.brand_or_game_specific
     ? `<aside class="notice">This is an unofficial helper page. Brand and game names are used only to describe compatibility with the searcher's task.</aside>`
     : "";
+  const inactiveNote = inactivePageUrls.has(page.url)
+    ? `<aside class="notice"><strong>Product status:</strong> this page is not in the active search inventory because the current tool does not yet implement the full named puzzle workflow. Use the general solver while the specialized logic is being rebuilt.</aside>`
+    : "";
   const trustNote = `<aside class="trust-note" aria-label="Page review and method">
       <p><strong>${escapeHtml(review.label)}.</strong> This independent tool runs in your browser and uses a built-in English word list; check official game dictionaries for scored play.</p>
     </aside>`;
   const body = `<main>
     ${toolPanel(page)}
-    <section class="content-section"><div class="content-inner">${trustNote}${content}${brandNote}</div></section>
+    <section class="content-section"><div class="content-inner">${inactiveNote}${trustNote}${content}${brandNote}</div></section>
     ${adjacentLinks(page)}
   </main>`;
   return layout({
@@ -591,12 +604,23 @@ function pageHtml(page) {
     description: pageDescription(page),
     canonical: page.url,
     schemaJson: schema(page, draft),
+    robots: inactivePageUrls.has(page.url) ? "noindex,follow" : "index,follow,max-image-preview:large",
     body,
   });
 }
 
 function homeHtml() {
-  const featured = pages.slice(0, 12).map((page) => `<a class="tool-link" href="${page.url}">
+  const featuredUrls = [
+    "/word-unscrambler/",
+    "/word-solver/",
+    "/jumble-solver/",
+    "/wordle-solver/",
+    "/anagram-solver/",
+    "/crossword-solver/",
+    "/spelling-bee-solver/",
+    "/scrabble-cheat/"
+  ];
+  const featured = featuredUrls.map((url) => pages.find((page) => page.url === url)).filter(Boolean).map((page) => `<a class="tool-link" href="${page.url}">
     <strong>${escapeHtml(page.title)}</strong>
     <span>${escapeHtml(pageAction(page))}</span>
   </a>`).join("");
@@ -648,7 +672,7 @@ function homeHtml() {
         publisher: { "@id": `${site.origin}/#organization` },
         potentialAction: {
           "@type": "SearchAction",
-          target: `${site.origin}/word-finder/?q={search_term_string}`,
+          target: `${site.origin}/word-solver/?q={search_term_string}`,
           "query-input": "required name=search_term_string",
         },
       },
@@ -666,8 +690,10 @@ function homeHtml() {
 }
 
 function toolsHtml() {
-  const groups = [...new Set(pages.map((page) => page.cluster))].map((cluster) => {
-    const clusterPages = pages
+  const principalUrls = ["/word-unscrambler/", "/word-solver/", "/jumble-solver/", "/wordle-solver/", "/anagram-solver/", "/crossword-solver/", "/spelling-bee-solver/", "/scrabble-cheat/", "/boggle-solver/", "/cryptogram-solver/"];
+  const principalPages = principalUrls.map((url) => pages.find((page) => page.url === url)).filter(Boolean);
+  const groups = [...new Set(activePages().map((page) => page.cluster))].map((cluster) => {
+    const clusterPages = activePages()
       .filter((page) => page.cluster === cluster)
       .sort((a, b) => b.volume - a.volume);
     const label = clusterLabel(clusterPages[0]);
@@ -682,7 +708,7 @@ function toolsHtml() {
   }).join("");
   const body = `<main><section class="page-heading"><div class="inner">
     <p class="eyebrow">All tools</p><h1>Word solver tools</h1><p>Browse tools by puzzle type, from general letter solving to Wordle, Scrabble, crossword, anagram, and spelling helpers.</p>
-  </div></section><section class="section-band"><div class="inner">${groups}</div></section></main>`;
+  </div></section><section class="section-band"><div class="inner"><section class="tool-cluster"><div class="cluster-heading"><h2>Principal solver pages</h2><span>${principalPages.length} owners</span></div><div class="tool-grid">${principalPages.map((page) => `<a class="tool-link" href="${page.url}"><strong>${escapeHtml(page.title)}</strong><span>${escapeHtml(pageAction(page))}</span></a>`).join("")}</div></section>${groups}</div></section></main>`;
   const toolsSchema = graphSchema([
     organizationSchema(),
     {
@@ -693,7 +719,7 @@ function toolsHtml() {
       description: "Browse all word unscrambler, word finder, anagram, crossword, and word game solver pages.",
       mainEntity: {
         "@type": "ItemList",
-        itemListElement: pages.map((page, index) => ({
+        itemListElement: activePages().map((page, index) => ({
           "@type": "ListItem",
           position: index + 1,
           name: page.title,
@@ -866,6 +892,7 @@ function guidePageHtml(guide) {
   const bodyContent = blocksToHtml(guide.body);
   const parentTools = Array.isArray(guide.parent_tools)
     ? guide.parent_tools
+        .filter((href) => !inactivePageUrls.has(href))
         .map((href) => {
           const target = pages.find((page) => page.url === href);
           return `<a href="${href}">${target ? escapeHtml(target.title) : escapeHtml(href)}</a>`;

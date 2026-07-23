@@ -1,0 +1,53 @@
+{
+  "reviewed": "2026-07-23",
+  "policy": "Owners are activated before any redirect. Candidate consolidation requires query, SERP, backlink, and owner-index validation.",
+  "protected": [
+    "/",
+    "/wordle-solver/",
+    "/jumble-solver/",
+    "/word-search-solver/",
+    "/scrabble-cheat/",
+    "/guides/wordle-repeated-letters/",
+    "/guides/words-without-vowels/",
+    "/guides/spelling-bee-rules/",
+    "/guides/crossword-patterns-and-known-letters/"
+  ],
+  "ownerCandidates": {
+    "genericPattern": "/word-solver/",
+    "exactLetters": "/word-unscrambler/",
+    "jumble": "/jumble-solver/",
+    "wordle": "/wordle-solver/",
+    "anagram": "/anagram-solver/",
+    "crossword": "/crossword-solver/",
+    "spellingBee": "/spelling-bee-solver/"
+  },
+  "redirectCandidatesPendingValidation": {
+    "generic": [
+      "/unscramble-words/",
+      "/unscramble/",
+      "/word-finder/",
+      "/unscramble-letters/",
+      "/word-scramble/",
+      "/word-unscramble/",
+      "/words-with-letters/",
+      "/word-scrambler/",
+      "/word-cheat/",
+      "/words-with-these-letters/",
+      "/word-generator-from-letters/",
+      "/word-scramble-solver/",
+      "/letter-solver/",
+      "/word-descrambler/",
+      "/word-maker/"
+    ],
+    "wordle": ["/wordle-helper/", "/wordle-finder/", "/wordle-cheat/"],
+    "anagram": ["/anagram/", "/anagram-generator/", "/anagram-maker/"],
+    "crossword": ["/crossword-clue-solver/", "/crossword-puzzle-solver/", "/crossword-help/"],
+    "spellingBee": ["/spelling-bee-answers/", "/spelling-bee-buddy/", "/nyt-spelling-bee-solver/"]
+  },
+  "functionalReview": [
+    "/boggle-solver/",
+    "/cryptogram-solver/",
+    "/letter-box-solver/",
+    "/word-ladder-solver/"
+  ]
+}

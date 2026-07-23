@@ -1524,7 +1524,7 @@
         ],
         [
           "p",
-          "Use the [Word Ladder Solver](/word-ladder-solver/) when you know the start word and end word but want help finding a possible path."
+          "Use the [Word Solver](/word-solver/) to test same-length candidate words while you build and verify each one-letter step manually."
         ],
         [
           "h2",
