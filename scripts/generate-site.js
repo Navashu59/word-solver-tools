@@ -1007,6 +1007,17 @@ function writeSitemap() {
   if (site.origin === "https://wordsolvertools.org") {
     fs.writeFileSync(path.join(publicDir, "_redirects"), `https://www.wordsolvertools.org/* https://wordsolvertools.org/:splat 301\n`);
   }
+  fs.writeFileSync(path.join(publicDir, "_worker.js"), `export default {
+  fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.hostname === "www.wordsolvertools.org") {
+      url.hostname = "wordsolvertools.org";
+      return Response.redirect(url.toString(), 301);
+    }
+    return env.ASSETS.fetch(request);
+  }
+};
+`);
 }
 
 function writeLlmsTxt() {
