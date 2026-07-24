@@ -4,7 +4,7 @@ You're staring at a Wordle grid with a few green, yellow, and gray squares. Your
 
 ## How do I use a Wordle solver after a guess?
 
-Use this Wordle solver after you have at least one guess on the board. Enter green letters in their exact spots, add yellow letters as required but misplaced, and put gray letters in the exclude field. If you want lighter hints instead of a full candidate list, switch to the [Wordle helper](/wordle-helper/).
+Use this Wordle solver after you have at least one guess on the board. Enter green letters in their exact spots, add yellow letters as required but misplaced, and put gray letters in the exclude field. Tighten one clue at a time when you want a lighter hint instead of treating the first candidate as the answer.
 
 ## How can I narrow Wordle answers without spoilers?
 
@@ -54,7 +54,7 @@ If you prefer not to see candidates early, make your first guess by hand, then u
 
 Yes, but treat the list as a set of candidates, not a daily answer feed. After every turn, update all three clue types: fixed green letters, misplaced yellow letters, and gray exclusions. Then scan the remaining words for guesses that test new letters or confirm a likely ending.
 
-If you want a smaller nudge, use the [Wordle helper](/wordle-helper/) instead of the full solver list.
+If you want a smaller nudge, add only the clues you are certain about and leave the remaining fields open.
 
 ## Why this is an independent helper
 
@@ -66,7 +66,7 @@ After a guess like `CRANE`, enter confirmed green letters in the pattern, put ye
 
 ## Wordle solver vs Wordle helper: which should I use?
 
-Use this solver when you want the full candidate list after each guess. It is best after the second or third row, when every gray, yellow, and green clue matters. Use the [Wordle helper](/wordle-helper/) when you only want a nudge, such as a likely pattern or a way to test new letters without treating the first candidate as the answer.
+Use this solver when you want the full candidate list after each guess. It is best after the second or third row, when every gray, yellow, and green clue matters. For a smaller nudge, use a likely pattern or test new letters without treating the first candidate as the answer.
 
 ## Why did the solver remove a word I expected?
 

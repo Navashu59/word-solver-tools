@@ -48,7 +48,7 @@ If the answer looks like `?ra?e`, put that in the pattern field first, then add 
 
 ## Is this better than a Wordle helper?
 
-Use the word solver when your puzzle is not locked to one daily five-letter grid. It works for loose letters, blank tiles, starts-with and ends-with filters, longer words, and crossword-style patterns. Use the [Wordle helper](/wordle-helper/) when you want to keep a Wordle-style puzzle mostly intact, and use the [Wordle solver](/wordle-solver/) when you want a fuller candidate list from green, yellow, and gray feedback.
+Use the word solver when your puzzle is not locked to one daily five-letter grid. It works for loose letters, blank tiles, starts-with and ends-with filters, longer words, and crossword-style patterns. Use the [Wordle solver](/wordle-solver/) when you want a five-letter candidate list from green, yellow, and gray feedback.
 
 ## What should I enter first when I have too many letters?
 

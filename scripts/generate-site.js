@@ -134,6 +134,11 @@ const activeToolPageUrls = new Set([
   "/cryptogram-solver/"
 ]);
 const inactivePageUrls = new Set(pages.filter((page) => !activeToolPageUrls.has(page.url)).map((page) => page.url));
+const retiredRedirects = new Map([
+  ["/wordle-helper/", "/wordle-solver/"],
+  ["/wordle-finder/", "/wordle-solver/"],
+  ["/wordle-cheat/", "/wordle-solver/"],
+]);
 const activePages = () => pages.filter((page) => !inactivePageUrls.has(page.url));
 
 function guidesForTool(page) {
@@ -590,7 +595,7 @@ function adjacentLinks(page) {
     .map((guide) => `<a href="${guideUrl(guide)}">${escapeHtml(guide.title)}</a>`)
     .join("");
   const sameCluster = pages
-    .filter((candidate) => candidate.cluster === page.cluster && candidate.url !== page.url)
+    .filter((candidate) => candidate.cluster === page.cluster && candidate.url !== page.url && !inactivePageUrls.has(candidate.url))
     .sort((a, b) => b.volume - a.volume)
     .slice(0, 5)
     .map((candidate) => candidate.url);
@@ -1031,15 +1036,24 @@ function writeSitemap() {
   fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
   fs.writeFileSync(path.join(publicDir, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/*.svg\n  Cache-Control: public, max-age=31536000, immutable\n/*.webmanifest\n  Cache-Control: public, max-age=86400\n/*.html\n  Cache-Control: public, max-age=0, must-revalidate\n`);
   if (site.origin === "https://wordsolvertools.org") {
-    fs.writeFileSync(path.join(publicDir, "_redirects"), `https://www.wordsolvertools.org/* https://wordsolvertools.org/:splat 301\n`);
+    fs.writeFileSync(path.join(publicDir, "_redirects"), `${[...retiredRedirects].map(([from, to]) => `${from} ${to} 301`).join("\n")}
+https://www.wordsolvertools.org/* https://wordsolvertools.org/:splat 301
+`);
   }
   fs.writeFileSync(path.join(publicDir, "_worker.js"), `export default {
   fetch(request, env) {
     const url = new URL(request.url);
+    let redirect = false;
     if (url.hostname === "www.wordsolvertools.org") {
       url.hostname = "wordsolvertools.org";
-      return Response.redirect(url.toString(), 301);
+      redirect = true;
     }
+    const redirects = ${JSON.stringify(Object.fromEntries(retiredRedirects))};
+    if (redirects[url.pathname]) {
+      url.pathname = redirects[url.pathname];
+      redirect = true;
+    }
+    if (redirect) return Response.redirect(url.toString(), 301);
     return env.ASSETS.fetch(request);
   }
 };
