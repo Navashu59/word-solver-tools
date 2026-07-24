@@ -24,6 +24,7 @@ jobs:
           node-version: 20
 
       - run: npm run build
+      - run: npm run audit:content
 
       - name: Create Pages project
         run: npx wrangler pages project create "$CLOUDFLARE_PAGES_PROJECT" --production-branch main || true

@@ -5,12 +5,12 @@ const root = path.resolve(__dirname, "..");
 const publicDir = path.join(root, "public");
 const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json"), "utf8")).pages;
 const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
-const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-07-23";
+const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-07-24";
 const gaMeasurementId = process.env.GA_MEASUREMENT_ID || "G-EHPNMH60G4";
 
 const site = {
   name: "Word Solver Tools",
-  origin: process.env.SITE_ORIGIN || "https://example.com",
+  origin: process.env.SITE_ORIGIN || "https://wordsolvertools.org",
   description: "Fast word unscrambler, word finder, anagram, crossword, and word game solver tools.",
   themeColor: "#0f766e",
   socialImage: "/assets/social-card.svg",
@@ -18,7 +18,7 @@ const site = {
 };
 
 const review = {
-  date: "2026-07-23",
+  date: "2026-07-24",
   label: "Last reviewed: July 2026",
   authorName: "Independent Developer",
   authorBio: "Built as a practical word-game helper focused on fast client-side filtering, clear puzzle constraints, and transparent limitations.",
@@ -114,7 +114,26 @@ const staticPages = [
 ];
 
 const guideUrl = (guide) => `/${guide.slug}/`;
-const inactivePageUrls = new Set(["/letter-box-solver/", "/word-ladder-solver/"]);
+const activeToolPageUrls = new Set([
+  "/word-unscrambler/",
+  "/scrabble-word-finder/",
+  "/word-finder/",
+  "/wordle-solver/",
+  "/anagram-solver/",
+  "/crossword-solver/",
+  "/jumble-solver/",
+  "/5-letter-word-finder/",
+  "/word-search-solver/",
+  "/words-with-these-letters/",
+  "/word-solver/",
+  "/scrabble-cheat/",
+  "/words-with-friends-cheat/",
+  "/spelling-bee-solver/",
+  "/crossword-clue-solver/",
+  "/boggle-solver/",
+  "/cryptogram-solver/"
+]);
+const inactivePageUrls = new Set(pages.filter((page) => !activeToolPageUrls.has(page.url)).map((page) => page.url));
 const activePages = () => pages.filter((page) => !inactivePageUrls.has(page.url));
 
 function guidesForTool(page) {
@@ -133,7 +152,7 @@ const allSitemapUrls = () => [
 function sitemapLastmodFor(url) {
   if (url === "/" || url === "/tools/" || url === "/guides/") return sitemapLastmod;
   const toolPage = pages.find((page) => page.url === url);
-  if (toolPage) return toolPage.date_modified || sitemapLastmod;
+  if (toolPage) return sitemapLastmod;
   const guide = guideData.guides.find((item) => guideUrl(item) === url);
   if (guide) return guide.date_modified || sitemapLastmod;
   return sitemapLastmod;
@@ -188,6 +207,7 @@ function escapeHtml(value) {
 function inlineMarkdown(value) {
   return escapeHtml(value)
     .replace(/&lt;a href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g, '<a href="$1">$2</a>')
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '<a href="$2">$1</a>');
 }
@@ -206,7 +226,7 @@ function sourcesHtml(sources) {
   const items = sources
     .map((source) => `<li><a href="${escapeHtml(source.url)}" rel="noopener">${escapeHtml(source.title)}</a>${source.note ? `: ${escapeHtml(source.note)}` : ""}</li>`)
     .join("");
-  return `<section class="sources-note"><h2>Sources and limits</h2><ul>${items}</ul><p>${escapeHtml(review.methodNote)}</p></section>`;
+  return `<section class="sources-note" data-audit-exclude><h2>Sources and limits</h2><ul>${items}</ul><p>${escapeHtml(review.methodNote)}</p></section>`;
 }
 
 function pageAction(page) {
@@ -246,7 +266,7 @@ function clusterLabel(page) {
 function pageDescription(page) {
   const keyword = page.keyword;
   const base = pageAction(page);
-  return `${page.title}: ${base} Free, fast, and built for ${keyword} searches.`;
+  return `${page.title}: ${base} Free to use in your browser.`;
 }
 
 function absoluteUrl(url) {
@@ -306,7 +326,11 @@ function graphSchema(nodes) {
 }
 
 function normalizeContentCopy(text, page) {
-  return text
+  const withoutRepeatedSections = text
+    .replace(/\n## Choose the right word tool[\s\S]*?(?=\n## |\s*$)/g, "")
+    .replace(/\n## Before you use the word list[\s\S]*?(?=\n## |\s*$)/g, "")
+    .replace(/\n## Common Questions[\s\S]*?(?=\n## |\s*$)/g, "");
+  return withoutRepeatedSections
     .replaceAll(`Use this page when the user has scrambled letters and needs words that can be made from them.`, `Use this page when you have scrambled letters and need words that can be made from them.`)
     .replaceAll(`Use this page when the user has letters or word constraints and needs matching English words quickly.`, `Use this page when you have letters, patterns, or word constraints and need matching English words quickly.`)
     .replaceAll(`Use this page when the user has green, yellow, and gray letters and needs possible next guesses.`, `Use this page when you have green, yellow, and gray letters and need possible next guesses.`)
@@ -320,6 +344,8 @@ function normalizeContentCopy(text, page) {
     .replaceAll(`the user needs`, `you need`)
     .replaceAll(`the user wants`, `you want`)
     .replaceAll(`what you already know`, `what you already know`)
+    .replaceAll(`Set an exact length, or an exact length.`, `Set an exact length when the puzzle fixes the answer size.`)
+    .replaceAll(`manually check whether a result uses every letter on.`, `manually check whether a result uses every required letter.`)
     .replaceAll(`for ${page.keyword} to enter`, `to enter`);
 }
 
@@ -525,7 +551,7 @@ function toolPanel(page) {
     letters: ["Letters", "Use ? for wildcards"],
   };
   const [mainLabel, mainHelp] = labels[mode] || labels.letters;
-  return `<section class="tool-panel" data-tool-mode="${mode}" data-page-keyword="${escapeHtml(page.keyword)}">
+  return `<section class="tool-panel" data-audit-exclude data-tool-mode="${mode}" data-page-keyword="${escapeHtml(page.keyword)}">
     <div class="tool-heading">
       <p class="eyebrow">${escapeHtml(clusterLabel(page))}</p>
       <h1>${escapeHtml(title)}</h1>
@@ -579,7 +605,7 @@ function adjacentLinks(page) {
   const guideBlock = guideLinks
     ? `<h2>Related guides</h2><div class="link-grid">${guideLinks}</div>`
     : "";
-  return `<section class="section-band"><div class="inner">${guideBlock}<h2>Related word tools</h2><div class="link-grid">${links}</div></div></section>`;
+  return `<section class="section-band" data-audit-exclude><div class="inner">${guideBlock}<h2>Related word tools</h2><div class="link-grid">${links}</div></div></section>`;
 }
 
 function pageHtml(page) {
@@ -591,7 +617,7 @@ function pageHtml(page) {
   const inactiveNote = inactivePageUrls.has(page.url)
     ? `<aside class="notice"><strong>Product status:</strong> this page is not in the active search inventory because the current tool does not yet implement the full named puzzle workflow. Use the general solver while the specialized logic is being rebuilt.</aside>`
     : "";
-  const trustNote = `<aside class="trust-note" aria-label="Page review and method">
+  const trustNote = `<aside class="trust-note" data-audit-exclude aria-label="Page review and method">
       <p><strong>${escapeHtml(review.label)}.</strong> This independent tool runs in your browser and uses a built-in English word list; check official game dictionaries for scored play.</p>
     </aside>`;
   const body = `<main>
@@ -900,7 +926,7 @@ function guidePageHtml(guide) {
         .join("")
     : "";
   const relatedTools = parentTools
-    ? `<section class="section-band"><div class="inner"><h2>Related tools</h2><div class="link-grid">${parentTools}</div></div></section>`
+    ? `<section class="section-band" data-audit-exclude><div class="inner"><h2>Related tools</h2><div class="link-grid">${parentTools}</div></div></section>`
     : "";
   const body = `<main>
     <section class="page-heading"><div class="inner">

@@ -1,0 +1,18 @@
+{
+  "similarityThreshold": 0.78,
+  "minimumWords": 150,
+  "paragraphMinChars": 100,
+  "maxRepeatedParagraphPages": 3,
+  "maxRepeatedHeadingPages": 8,
+  "ignoredHeadings": [
+    "^Related guides$",
+    "^Related word tools$"
+  ],
+  "ignoredParagraphPatterns": [
+    "^This independent tool runs in your browser",
+    "^This is an unofficial helper page\\."
+  ],
+  "minimumWordExemptPaths": [
+    "^/(about|contact|privacy|terms)/$"
+  ]
+}
