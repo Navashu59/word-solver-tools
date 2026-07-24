@@ -21,7 +21,7 @@
     "crossword": "/crossword-solver/",
     "spellingBee": "/spelling-bee-solver/"
   },
-  "redirectCandidatesPendingValidation": {
+  "reviewedRedirectCandidates": {
     "generic": [
       "/unscramble-words/",
       "/unscramble/",
@@ -43,6 +43,20 @@
     "anagram": ["/anagram/", "/anagram-generator/", "/anagram-maker/"],
     "crossword": ["/crossword-clue-solver/", "/crossword-puzzle-solver/", "/crossword-help/"],
     "spellingBee": ["/spelling-bee-answers/", "/spelling-bee-buddy/", "/nyt-spelling-bee-solver/"]
+  },
+  "validationOutcome20260724": {
+    "implemented": {
+      "/wordle-helper/": "/wordle-solver/",
+      "/wordle-finder/": "/wordle-solver/",
+      "/wordle-cheat/": "/wordle-solver/"
+    },
+    "hold": [
+      "generic",
+      "anagram",
+      "crossword",
+      "spellingBee"
+    ],
+    "reason": "Fresh Semrush and live SERP evidence supports one Wordle task owner. Broader clusters remain separate until GSC shows enough owner-level query transfer evidence for a safe migration."
   },
   "functionalReview": [
     "/boggle-solver/",
