@@ -44,7 +44,7 @@ Sometimes the word you’re thinking of isn’t in the dictionary. The solver us
 
 ## Pattern search example
 
-If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+For a partly known answer, enter the known positions before adding broad filters. A pattern search usually gives cleaner candidates than a loose list of required letters.
 
 ## Is this better than a Wordle helper?
 

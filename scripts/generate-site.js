@@ -5,7 +5,7 @@ const root = path.resolve(__dirname, "..");
 const publicDir = path.join(root, "public");
 const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json"), "utf8")).pages;
 const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
-const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-07-24";
+const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-07-28";
 const gaMeasurementId = process.env.GA_MEASUREMENT_ID || "G-EHPNMH60G4";
 
 const site = {
@@ -121,15 +121,20 @@ const activeToolPageUrls = new Set([
   "/wordle-solver/",
   "/anagram-solver/",
   "/crossword-solver/",
+  "/crossword-puzzle-solver/",
+  "/crossword-clue-solver/",
+  "/crossword-pattern-solver/",
+  "/missing-letters-solver/",
   "/jumble-solver/",
   "/5-letter-word-finder/",
+  "/word-finder-by-length/",
   "/word-search-solver/",
   "/words-with-these-letters/",
+  "/word-generator-from-letters/",
   "/word-solver/",
   "/scrabble-cheat/",
   "/words-with-friends-cheat/",
   "/spelling-bee-solver/",
-  "/crossword-clue-solver/",
   "/boggle-solver/",
   "/cryptogram-solver/"
 ]);
@@ -185,7 +190,7 @@ const dictionary = loadDictionary();
 
 const clusterLinks = [
   "/word-unscrambler/","/word-finder/","/words-with-these-letters/","/anagram-solver/",
-  "/scrabble-word-finder/","/wordle-solver/","/crossword-solver/","/5-letter-word-finder/"
+  "/scrabble-word-finder/","/wordle-solver/","/crossword-solver/","/missing-letters-solver/","/word-finder-by-length/","/5-letter-word-finder/"
 ];
 
 function ensureDir(dir) {
@@ -236,6 +241,9 @@ function sourcesHtml(sources) {
 
 function pageAction(page) {
   const mode = modeFor(page);
+  if (page.url === "/missing-letters-solver/") return "Find words from known letters and ? blanks when part of the answer is missing.";
+  if (page.url === "/word-finder-by-length/") return "Find words by exact length, then narrow the list with letters, patterns, starts, ends, contains, and excludes.";
+  if (page.url === "/crossword-pattern-solver/") return "Search crossword-style answer patterns with known letters and ? blanks.";
   const byMode = {
     crossword: `Solve ${page.title.toLowerCase()} clues with known letters, blank spots, and length filters.`,
     boggle: `Find playable words from your Boggle board letters and narrow the list by length or required letters.`,
@@ -404,6 +412,8 @@ function markdownToHtml(md) {
 }
 
 function modeFor(page) {
+  if (page.url === "/missing-letters-solver/" || page.url === "/crossword-pattern-solver/") return "crossword";
+  if (page.url === "/word-finder-by-length/") return "length";
   if (page.cluster === "scrabble") return "scrabble";
   if (page.cluster === "words-with-friends") return "scrabble";
   if (page.cluster === "wordle-letter-patterns") return "wordle";
@@ -546,6 +556,7 @@ function toolPanel(page) {
   const title = page.title;
   const labels = {
     crossword: ["Clue pattern", "Use ? for unknown letters, like c?a??"],
+    length: ["Letters or pattern", "Set the length first, then add letters, starts, ends, contains, or excludes"],
     boggle: ["Board letters", "Enter the board letters you can connect"],
     cryptogram: ["Known letters", "Enter solved letters or a pattern"],
     ladder: ["Start word", "Enter the word you want to change from"],
@@ -556,6 +567,13 @@ function toolPanel(page) {
     letters: ["Letters", "Use ? for wildcards"],
   };
   const [mainLabel, mainHelp] = labels[mode] || labels.letters;
+  const pageSpecificHelp = page.url === "/crossword-solver/"
+    ? "Add a clue in the main box when meaning matters, or use Pattern for fixed letters and blanks."
+    : page.url === "/missing-letters-solver/"
+      ? "Use ? for every missing position, such as ??a?e or c?a??."
+      : page.url === "/word-finder-by-length/"
+        ? "Set Length first when the puzzle fixes the answer size, then add optional letter filters."
+        : mainHelp;
   return `<section class="tool-panel" data-audit-exclude data-tool-mode="${mode}" data-page-keyword="${escapeHtml(page.keyword)}">
     <div class="tool-heading">
       <p class="eyebrow">${escapeHtml(clusterLabel(page))}</p>
@@ -567,7 +585,7 @@ function toolPanel(page) {
         <span>${escapeHtml(mainLabel)}</span>
         <textarea data-role="letters" rows="3" placeholder="${mode === "wordle" ? "Try: crane" : mode === "crossword" ? "Try: c?a??" : mode === "ladder" ? "cold" : mode === "spelling" ? "aglnort" : "Try: tca?rs"}"></textarea>
       </label>
-      <p class="field-help">${escapeHtml(mainHelp)} Not sure what to enter? Use the Sample button to load a realistic puzzle.</p>
+      <p class="field-help">${escapeHtml(pageSpecificHelp)} Not sure what to enter? Use the Sample button to load a realistic puzzle.</p>
       <div class="field-grid">
         <label class="field"><span>Contains</span><input data-role="contains" placeholder="ar"></label>
         <label class="field"><span>Starts with</span><input data-role="starts" placeholder="s"></label>
@@ -644,10 +662,11 @@ function homeHtml() {
   const featuredUrls = [
     "/word-unscrambler/",
     "/word-solver/",
-    "/jumble-solver/",
+    "/crossword-solver/",
+    "/missing-letters-solver/",
     "/wordle-solver/",
     "/anagram-solver/",
-    "/crossword-solver/",
+    "/word-finder-by-length/",
     "/spelling-bee-solver/",
     "/scrabble-cheat/"
   ];
@@ -721,7 +740,7 @@ function homeHtml() {
 }
 
 function toolsHtml() {
-  const principalUrls = ["/word-unscrambler/", "/word-solver/", "/jumble-solver/", "/wordle-solver/", "/anagram-solver/", "/crossword-solver/", "/spelling-bee-solver/", "/scrabble-cheat/", "/boggle-solver/", "/cryptogram-solver/"];
+  const principalUrls = ["/word-unscrambler/", "/word-solver/", "/crossword-solver/", "/missing-letters-solver/", "/word-finder-by-length/", "/wordle-solver/", "/anagram-solver/", "/scrabble-word-finder/", "/spelling-bee-solver/", "/boggle-solver/", "/cryptogram-solver/"];
   const principalPages = principalUrls.map((url) => pages.find((page) => page.url === url)).filter(Boolean);
   const groups = [...new Set(activePages().map((page) => page.cluster))].map((cluster) => {
     const clusterPages = activePages()
@@ -998,7 +1017,7 @@ function matchPattern(word,pattern){const p=normalize(pattern);if(!p)return true
 function details(word,mode,letters){if(mode==="scrabble")return score(word)+" base pts";if(mode==="spelling"){const unique=new Set(letters.split("").filter(Boolean));const pangram=unique.size&&[...unique].every(c=>word.includes(c));return pangram?"pangram":"uses center";}if(mode==="boggle"&&bogglePathExists(word,letters))return "path found";if(mode==="wordle")return "5 letters";return word.length+" letters";}
 function renderResults(card,candidates,mode,letters){const out=card.querySelector('[data-role="results"]');if(!candidates.length){out.innerHTML='<p class="muted">No matches yet. Remove one filter, check the pattern length, or use ? for an unknown letter.</p>';return;}const groups=new Map();for(const word of candidates){const key=word.length+" letters";if(!groups.has(key))groups.set(key,[]);groups.get(key).push(word);}let html='<div class="result-toolbar"><strong>'+candidates.length+' matches</strong><span class="muted">Grouped by word length. Tap a word to copy it.</span></div>';for(const [label,words] of groups){html+='<section class="result-group"><h3>'+label+'</h3><div class="result-list">'+words.map(w=>'<button class="word-pill" type="button" data-copy="'+w+'"><span>'+w+'</span><small>'+details(w,mode,letters)+'</small></button>').join("")+'</div></section>';}out.innerHTML=html;}
 function solve(card){const mode=card.closest("[data-tool-mode]")?.dataset.toolMode||card.dataset.toolMode||"letters";const rawLetters=card.querySelector('[data-role="letters"]').value;const letters=normalize(rawLetters);const contains=normalize(card.querySelector('[data-role="contains"]').value);const starts=normalize(card.querySelector('[data-role="starts"]').value);const ends=normalize(card.querySelector('[data-role="ends"]').value);const exclude=normalize(card.querySelector('[data-role="exclude"]').value);const exact=card.querySelector('[data-role="exact"]')?.checked||false;let len=Number(card.querySelector('[data-role="length"]').value||0);let pattern=card.querySelector('[data-role="pattern"]').value;if(exact&&letters&&!len)len=letters.length;if(mode==="wordle"&&!len)len=5;if((mode==="crossword"||mode==="wordle"||mode==="cryptogram")&&letters.includes("?")&&!pattern)pattern=letters;let candidates=WORDS.filter(w=>!len||w.length===len).filter(w=>!starts||w.startsWith(starts)).filter(w=>!ends||w.endsWith(ends)).filter(w=>!contains||contains.split("").every(c=>w.includes(c))).filter(w=>!exclude||!exclude.split("").some(c=>w.includes(c))).filter(w=>matchPattern(w,pattern));if(mode==="spelling"&&letters){const center=letters[0];const allowed=new Set(letters.split(""));candidates=candidates.filter(w=>w.length>=4&&w.includes(center)&&[...w].every(c=>allowed.has(c)));}else if(mode==="boggle"&&letters.replace(/\\?/g,"").length>=16){candidates=candidates.filter(w=>bogglePathExists(w,letters));}else if(exact&&letters&&!letters.includes("?")){candidates=candidates.filter(w=>usesEveryLetter(w,letters));}else if(letters&&!(mode==="crossword"&&letters.includes("?"))&&!(mode==="wordle"&&letters.includes("?"))){candidates=candidates.filter(w=>canBuild(w,letters)||w.includes(letters));}candidates=[...new Set(candidates)].sort((a,b)=>b.length-a.length||score(b)-score(a)||a.localeCompare(b)).slice(0,160);renderResults(card,candidates,mode,letters);}
-function sample(card){const mode=card.closest("[data-tool-mode]")?.dataset.toolMode||card.dataset.toolMode;const letters=card.querySelector('[data-role="letters"]');const length=card.querySelector('[data-role="length"]');const pattern=card.querySelector('[data-role="pattern"]');card.querySelectorAll("input,textarea").forEach(i=>i.value="");if(mode==="wordle"){letters.value="crane";length.value=5;card.querySelector('[data-role="exclude"]').value="tou";}else if(mode==="crossword"){letters.value="";pattern.value="c?a??";}else if(mode==="spelling"){letters.value="aglnort";}else if(mode==="ladder"){letters.value="cold";card.querySelector('[data-role="contains"]').value="warm";length.value=4;}else if(mode==="boggle"){letters.value="abcdefghijklmnop";length.value=4;}else{letters.value="tca?rs";length.value="";}solve(card);}
+function sample(card){const mode=card.closest("[data-tool-mode]")?.dataset.toolMode||card.dataset.toolMode;const letters=card.querySelector('[data-role="letters"]');const length=card.querySelector('[data-role="length"]');const pattern=card.querySelector('[data-role="pattern"]');card.querySelectorAll("input,textarea").forEach(i=>i.value="");if(mode==="wordle"){letters.value="crane";length.value=5;card.querySelector('[data-role="exclude"]').value="tou";}else if(mode==="crossword"){letters.value="";pattern.value="c?a??";}else if(mode==="length"){letters.value="ar";length.value=5;card.querySelector('[data-role="contains"]').value="a";}else if(mode==="spelling"){letters.value="aglnort";}else if(mode==="ladder"){letters.value="cold";card.querySelector('[data-role="contains"]').value="warm";length.value=4;}else if(mode==="boggle"){letters.value="abcdefghijklmnop";length.value=4;}else{letters.value="tca?rs";length.value="";}solve(card);}
 document.addEventListener("click",async e=>{const btn=e.target.closest("button");if(!btn)return;const card=btn.closest(".solver-card");if(btn.dataset.action==="solve")solve(card);if(btn.dataset.action==="sample")sample(card);if(btn.dataset.action==="copy-all"){const words=[...card.querySelectorAll("[data-copy]")].map(b=>b.dataset.copy);if(words.length){await navigator.clipboard?.writeText(words.join("\\n"));btn.textContent="Copied all";setTimeout(()=>btn.textContent="Copy all",900);}}if(btn.dataset.action==="clear"){card.querySelectorAll("input,textarea").forEach(i=>i.value="");card.querySelector('[data-role="results"]').innerHTML='<p class="muted">Enter letters or a pattern to see matching words.</p>';}if(btn.dataset.copy){await navigator.clipboard?.writeText(btn.dataset.copy);const old=btn.innerHTML;btn.textContent="Copied";setTimeout(()=>btn.innerHTML=old,900);}});
 document.addEventListener("input",e=>{const card=e.target.closest(".solver-card");if(card&&e.target.matches("input,textarea"))solve(card);});`;
   fs.writeFileSync(path.join(publicDir, "assets/app.js"), app);

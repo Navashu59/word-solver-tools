@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-28T06:52:49.877Z",
-  "page_count": 50,
+  "page_count": 53,
   "pages": [
     {
       "rank": 1,
@@ -1936,6 +1936,122 @@
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
       "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+    },
+    {
+      "rank": 51,
+      "title": "Missing Letters Solver",
+      "keyword": "missing letters solver",
+      "slug": "missing-letters-solver",
+      "url": "/missing-letters-solver/",
+      "cluster": "crossword",
+      "volume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user knows some letters in a word and needs candidates for the missing positions.",
+      "first_screen_tool": [
+        "pattern input with ? wildcards",
+        "answer length",
+        "contains/excludes filters",
+        "starts/ends filters",
+        "copyable candidate results"
+      ],
+      "paa_questions": [
+        "How do I find a word with missing letters?",
+        "What symbol should I use for unknown letters?",
+        "Can I search by word pattern?",
+        "Can I filter by length?",
+        "Can I exclude letters?"
+      ],
+      "related_searches": [
+        "crossword solver missing letters",
+        "word pattern solver",
+        "crossword clue solver",
+        "word finder by pattern"
+      ],
+      "serp_gap_method": "Compare crossword and pattern solver pages for first-screen controls and query language.",
+      "content_angle": "Lead with pattern matching, then explain ? wildcards, length, known positions, and clue-based narrowing.",
+      "date_published": "2026-07-28",
+      "date_modified": "2026-07-28"
+    },
+    {
+      "rank": 52,
+      "title": "Word Finder By Length",
+      "keyword": "word finder by length",
+      "slug": "word-finder-by-length",
+      "url": "/word-finder-by-length/",
+      "cluster": "word-finder",
+      "volume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user needs words of a specific length that also match letters or pattern constraints.",
+      "first_screen_tool": [
+        "length filter",
+        "letter input",
+        "contains/excludes filters",
+        "starts/ends filters",
+        "pattern wildcard filter",
+        "copyable results"
+      ],
+      "paa_questions": [
+        "How do I find words by length?",
+        "Can I combine length and letters?",
+        "Can I find words that start with a letter?",
+        "Can I exclude letters from results?",
+        "What length should I use for word games?"
+      ],
+      "related_searches": [
+        "5 letter word finder",
+        "7 letter words",
+        "word finder",
+        "words with these letters"
+      ],
+      "serp_gap_method": "Inspect length-based word pages and make the filter owner clear.",
+      "content_angle": "Make length the primary action, then route users to five-letter and seven-letter pages when needed.",
+      "date_published": "2026-07-28",
+      "date_modified": "2026-07-28"
+    },
+    {
+      "rank": 53,
+      "title": "Crossword Pattern Solver",
+      "keyword": "crossword pattern solver",
+      "slug": "crossword-pattern-solver",
+      "url": "/crossword-pattern-solver/",
+      "cluster": "crossword",
+      "volume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "page_type": "tool_or_support_tool",
+      "brand_or_game_specific": false,
+      "user_problem": "The user has a crossword answer pattern and wants possible answers before or after reading the clue.",
+      "first_screen_tool": [
+        "pattern input",
+        "known letters",
+        "answer length",
+        "contains/excludes filters",
+        "copyable results",
+        "common clue notes"
+      ],
+      "paa_questions": [
+        "How do I search crossword answers by pattern?",
+        "Can I use question marks for blanks?",
+        "Can a crossword clue have multiple answers?",
+        "How do I combine clue and pattern?",
+        "What if I only know the first letter?"
+      ],
+      "related_searches": [
+        "crossword solver",
+        "crossword clue solver",
+        "missing letters solver",
+        "word pattern solver"
+      ],
+      "serp_gap_method": "Inspect crossword pattern results and focus on pattern-first intent.",
+      "content_angle": "Differentiate from crossword solver by making the known-letter pattern the main workflow.",
+      "date_published": "2026-07-28",
+      "date_modified": "2026-07-28"
     }
   ]
 }

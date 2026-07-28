@@ -36,7 +36,7 @@ Sometimes the word you’re thinking of isn’t in the standard word list - espe
 
 ## Pattern search example
 
-If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+Use the pattern field when letter placement matters. Use the letters box when you only know the available letters and want the generator to explore possible arrangements.
 
 ## Choose the right word tool
 

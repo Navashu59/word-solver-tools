@@ -20,7 +20,7 @@ This tool pulls from a standard English dictionary. Before you play a word, doub
 
 ## Pattern search example
 
-If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+When fixed positions matter, start with the pattern field. A shape like `?ra?e` removes the wrong lengths and wrong positions before you add looser contains or exclude rules.
 
 ## Choose the right word tool
 

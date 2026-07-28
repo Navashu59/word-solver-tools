@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crossword Pattern Solver - Free crossword solver</title>
+  <meta name="description" content="Crossword Pattern Solver: Search crossword-style answer patterns with known letters and ? blanks. Free to use in your browser.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0f766e">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Word Solver Tools">
+  <meta property="og:title" content="Crossword Pattern Solver - Free crossword solver">
+  <meta property="og:description" content="Crossword Pattern Solver: Search crossword-style answer patterns with known letters and ? blanks. Free to use in your browser.">
+  <meta property="og:url" content="https://wordsolvertools.org/crossword-pattern-solver/">
+  <meta property="og:image" content="https://wordsolvertools.org/assets/social-card.svg">
+  <meta property="og:image:alt" content="Word Solver Tools word solver preview">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Crossword Pattern Solver - Free crossword solver">
+  <meta name="twitter:description" content="Crossword Pattern Solver: Search crossword-style answer patterns with known letters and ? blanks. Free to use in your browser.">
+  <meta name="twitter:image" content="https://wordsolvertools.org/assets/social-card.svg">
+  <link rel="canonical" href="https://wordsolvertools.org/crossword-pattern-solver/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHPNMH60G4"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-EHPNMH60G4",{anonymize_ip:true});</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://wordsolvertools.org/#organization","name":"Word Solver Tools","url":"https://wordsolvertools.org/","logo":"https://wordsolvertools.org/favicon.svg"},{"@type":"WebPage","@id":"https://wordsolvertools.org/crossword-pattern-solver/#webpage","url":"https://wordsolvertools.org/crossword-pattern-solver/","name":"Crossword Pattern Solver","description":"Crossword Pattern Solver: Search crossword-style answer patterns with known letters and ? blanks. Free to use in your browser.","isPartOf":{"@id":"https://wordsolvertools.org/#website"},"breadcrumb":{"@id":"https://wordsolvertools.org/crossword-pattern-solver/#breadcrumb"},"mainEntity":{"@id":"https://wordsolvertools.org/crossword-pattern-solver/#tool"},"dateModified":"2026-07-28","reviewedBy":{"@type":"Person","name":"Independent Developer"}},{"@type":"WebApplication","@id":"https://wordsolvertools.org/crossword-pattern-solver/#tool","name":"Crossword Pattern Solver","applicationCategory":"GameApplication","operatingSystem":"Any","url":"https://wordsolvertools.org/crossword-pattern-solver/","description":"Crossword Pattern Solver: Search crossword-style answer patterns with known letters and ? blanks. Free to use in your browser.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["pattern input","known letters","answer length","contains/excludes filters","copyable results","common clue notes"],"dateModified":"2026-07-28"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://wordsolvertools.org/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://wordsolvertools.org/tools/"},{"@type":"ListItem","position":3,"name":"Crossword Pattern Solver","item":"https://wordsolvertools.org/crossword-pattern-solver/"}],"@id":"https://wordsolvertools.org/crossword-pattern-solver/#breadcrumb"}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Word Solver Tools home">
+      <span class="brand-mark">WS</span>
+      <span>Word Solver Tools</span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="/word-unscrambler/">Unscrambler</a>
+      <a href="/word-finder/">Word Finder</a>
+      <a href="/wordle-solver/">Wordle</a>
+      <a href="/crossword-solver/">Crossword</a>
+      <a href="/guides/">Guides</a>
+      <a href="/tools/">All tools</a>
+    </nav>
+  </header>
+  <main>
+    <section class="tool-panel" data-audit-exclude data-tool-mode="crossword" data-page-keyword="crossword pattern solver">
+    <div class="tool-heading">
+      <p class="eyebrow">crossword solver</p>
+      <h1>Crossword Pattern Solver</h1>
+      <p>Search crossword-style answer patterns with known letters and ? blanks. Use the controls below and get usable answers without leaving the page.</p>
+    </div>
+    <div class="solver-card">
+      <label class="field">
+        <span>Clue pattern</span>
+        <textarea data-role="letters" rows="3" placeholder="Try: c?a??"></textarea>
+      </label>
+      <p class="field-help">Use ? for unknown letters, like c?a?? Not sure what to enter? Use the Sample button to load a realistic puzzle.</p>
+      <div class="field-grid">
+        <label class="field"><span>Contains</span><input data-role="contains" placeholder="ar"></label>
+        <label class="field"><span>Starts with</span><input data-role="starts" placeholder="s"></label>
+        <label class="field"><span>Ends with</span><input data-role="ends" placeholder="e"></label>
+        <label class="field"><span>Length</span><input data-role="length" type="number" min="2" max="15" value="" placeholder=""></label>
+        <label class="field"><span>Exclude</span><input data-role="exclude" placeholder="qz"></label>
+        <label class="field"><span>Pattern</span><input data-role="pattern" placeholder="c?a??"></label>
+      </div>
+      <label class="check-field"><input data-role="exact" type="checkbox"><span>Use every entered letter exactly once</span></label>
+      <div class="button-row">
+        <button class="primary-btn" data-action="solve">Solve</button>
+        <button class="ghost-btn" data-action="sample">Sample</button>
+        <button class="ghost-btn" data-action="copy-all">Copy all</button>
+        <button class="ghost-btn" data-action="clear">Clear</button>
+      </div>
+      <div class="results" data-role="results" aria-live="polite">
+        <p class="muted">Enter letters or a pattern, or click Sample to see how this tool narrows a real puzzle.</p>
+      </div>
+    </div>
+  </section>
+    <section class="content-section"><div class="content-inner"><aside class="trust-note" data-audit-exclude aria-label="Page review and method">
+      <p><strong>Last reviewed: July 2026.</strong> This independent tool runs in your browser and uses a built-in English word list; check official game dictionaries for scored play.</p>
+    </aside><p>Use this crossword pattern solver when the grid gives you fixed letters and blanks. It is pattern-first: enter the answer shape, then use the clue and crossings to choose from the candidates.</p><h2>Put the grid pattern into the solver</h2><p>Write the answer as letters and ? marks. <code>??e?t</code> means five letters with e in position three and t at the end. If you know only the length, use five question marks for a five-letter slot, then add contains or starts with filters.</p><h2>Pattern versus clue search</h2><p>Use this page when the grid pattern is the strongest evidence. Use the main <a href="/crossword-solver/">Crossword Solver</a> when the clue wording is the main evidence. In practice, good crossword solving uses both: pattern first, clue meaning second.</p><h2>Check crossword-specific signals</h2><ul><li>Abbreviated clues often need abbreviated answers.</li><li>Plural clues usually need plural answers.</li><li>Past-tense clues usually need past-tense answers.</li><li>Theme answers may bend normal phrasing.</li><li>Crossing letters beat a candidate that only vaguely fits the clue.</li></ul><h2>Pattern-focused related tools</h2><p>Use <a href="/missing-letters-solver/">Missing Letters Solver</a> for any partially known word, not only crossword grids. Use <a href="/crossword-clue-solver/">Crossword Clue Solver</a> when you want clue-first help. Use <a href="/word-finder-by-length/">Word Finder By Length</a> when the length is known but positions are not.</p></div></section>
+    <section class="section-band" data-audit-exclude><div class="inner"><h2>Related word tools</h2><div class="link-grid"><a href="/crossword-solver/">Crossword Solver</a><a href="/crossword-puzzle-solver/">Crossword Puzzle Solver</a><a href="/crossword-clue-solver/">Crossword Clue Solver</a><a href="/missing-letters-solver/">Missing Letters Solver</a><a href="/word-unscrambler/">Word Unscrambler</a><a href="/word-finder/">Word Finder</a><a href="/words-with-these-letters/">Words With These Letters</a><a href="/anagram-solver/">Anagram Solver</a></div></div></section>
+  </main>
+  <footer class="site-footer">
+    <p>Word Solver Tools is an independent collection of word solving tools. Game names are used descriptively and do not imply affiliation.</p>
+    <p><a href="/about/">About</a> · <a href="/how-it-works/">How it works</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/contact/">Contact</a> · <a href="/sitemap.xml">Sitemap</a></p>
+  </footer>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

@@ -20,7 +20,7 @@ If you have a blank tile or an unknown letter, use `?` in the required or option
 
 ## Pattern search example
 
-If the answer looks like `?ra?e`, put that in the pattern field first, then add required letters only after the pattern returns too many candidates. Pattern first, contains second, exclude last is the fastest order.
+If you already know positions, switch from a loose required-letter search to a pattern search. Required letters answer "must appear somewhere"; a pattern answers "must appear here."
 
 ## Choose the right word tool
 
