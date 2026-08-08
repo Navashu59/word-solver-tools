@@ -33,7 +33,7 @@ Word Solver Tools provides independent candidate lists from a built-in English w
 - [Words Without Vowels](https://wordsolvertools.org/guides/words-without-vowels/): Learn how words without A, E, I, O, or U work, when Y acts like a vowel, and how to search no-vowel word patterns.
 - [Wordle Repeated Letters](https://wordsolvertools.org/guides/wordle-repeated-letters/): Learn how repeated letters affect Wordle clues, including duplicate guesses, green and yellow feedback, and excluded letters.
 - [Word Ladder Solver Guide](https://wordsolvertools.org/guides/word-ladder-solver/): Learn how word ladders work, why each step changes one letter, and when to use a solver to find a shorter path.
-- [Q Words Without U](https://wordsolvertools.org/guides/q-words-without-u/): Learn common Q words without U, why Q usually pairs with U, and how to check whether a rare Q word is accepted in your game.
+- [Q Words Without U](https://wordsolvertools.org/guides/q-words-without-u/): Learn useful Q words without U, including short examples, meanings, word game caveats, and how to search Q-without-U words from your letters.
 
 ## Method and limits
 

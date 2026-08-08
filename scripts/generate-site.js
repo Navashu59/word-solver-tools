@@ -227,6 +227,11 @@ function blocksToHtml(blocks) {
     if (type === "h2") return `<h2>${inlineMarkdown(value)}</h2>`;
     if (type === "h3") return `<h3>${inlineMarkdown(value)}</h3>`;
     if (type === "ul") return `<ul>${value.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ul>`;
+    if (type === "table") {
+      const headers = value.headers.map((header) => `<th>${inlineMarkdown(header)}</th>`).join("");
+      const rows = value.rows.map((row) => `<tr>${row.map((cell) => `<td>${inlineMarkdown(cell)}</td>`).join("")}</tr>`).join("");
+      return `<div class="table-wrap"><table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`;
+    }
     return `<p>${inlineMarkdown(value)}</p>`;
   }).join("");
 }
@@ -243,6 +248,9 @@ function pageAction(page) {
   const mode = modeFor(page);
   if (page.url === "/missing-letters-solver/") return "Find words from known letters and ? blanks when part of the answer is missing.";
   if (page.url === "/word-finder-by-length/") return "Find words by exact length, then narrow the list with letters, patterns, starts, ends, contains, and excludes.";
+  if (page.url === "/jumble-solver/") return "Unscramble letters, test word lengths, handle repeated letters, and narrow daily Jumble-style puzzle candidates.";
+  if (page.url === "/wordle-solver/") return "Filter 5-letter words by green, yellow, and gray clues, repeated letters, known positions, and excluded letters.";
+  if (page.url === "/word-solver/") return "Find words from letters, blanks, known positions, length filters, starts-with, ends-with, contains, and excludes rules.";
   if (page.url === "/crossword-pattern-solver/") return "Search crossword-style answer patterns with known letters and ? blanks.";
   const byMode = {
     crossword: `Solve ${page.title.toLowerCase()} clues with known letters, blank spots, and length filters.`,

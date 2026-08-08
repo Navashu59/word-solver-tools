@@ -34,9 +34,9 @@ When the candidate list is still long, choose a guess that tests common unused l
 
 If the list is already short, switch from information gathering to answer selection. At that point, focus on words that fit every green, yellow, gray, and repeated-letter clue.
 
-## How can I get Wordle hints without seeing the answer?
+## How can I get Wordle hints without treating the list as the answer?
 
-Don’t want to see the full answer list? Toggle “hints only.” You’ll get a clue like “starts with C” or “contains two vowels” instead of the actual word. Keeps the puzzle fun while giving you a direction.
+If you want a lighter nudge, enter only the clues you are certain about and use the remaining list as a direction, not as a spoiler feed. Look for shared patterns such as a common ending, a likely vowel, or a repeated letter before choosing your next guess.
 
 ## How does the Wordle solver handle repeated letters?
 

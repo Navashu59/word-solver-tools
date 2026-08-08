@@ -539,6 +539,28 @@ Initial observation should focus on these clusters:
 
 Do not expand new pages immediately after launch unless GSC or indexing data shows a clear gap. First priority is validating indexing, impressions, and whether the original keyword assumptions hold.
 
+## 2026-08-09 - SERP Gap Refresh for Priority Word Pages
+
+Scope:
+
+- Refreshed source and generated output for `/jumble-solver/`, `/wordle-solver/`, `/word-solver/`, `/guides/q-words-without-u/`, and `/guides/words-without-vowels/`.
+- Used DeepSeek as copy/data assistant for draft gap coverage, then Codex reviewed for factual accuracy and implemented final copy.
+- Added generator support for structured `table` blocks so guide examples survive future builds.
+- Removed the false Wordle "hints only" toggle claim and replaced it with a lighter-hint workflow that matches the current UI.
+- Added concrete Q-without-U and no-vowel example tables with dictionary caveats.
+
+Validation:
+
+- `npm run build` passed and rebuilt 76 pages.
+- `npm run audit:content` passed for 45 indexable pages with no failures, warnings, or similarity issues.
+- JSON-LD parsed on the five priority pages.
+- `git diff --check` passed.
+
+Observation:
+
+- Review 14-21 days after deployment for GSC impressions/clicks/CTR on jumble, Wordle, word solver, Q-without-U, and no-vowel query clusters.
+- Guardrail: existing `/word-unscrambler/`, `/words-with-these-letters/`, and homepage clicks should not materially drop.
+
 ## 2026-05-29 - DeepSeek-Led Content Quality Pass
 
 Purpose:

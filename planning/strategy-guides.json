@@ -1316,6 +1316,46 @@
           "If you already know a position, combine the no-vowel search with a pattern. For example, use a known first letter, exclude A/E/I/O/U, and scan candidates that keep Y available."
         ],
         [
+          "h3",
+          "Short words with no A, E, I, O, or U"
+        ],
+        [
+          "p",
+          "These examples show why most no-vowel searches keep Y available. They are search examples, not a promise that every game dictionary accepts each word."
+        ],
+        [
+          "table",
+          {
+            "headers": [
+              "Length",
+              "Examples",
+              "Search note"
+            ],
+            "rows": [
+              [
+                "2 letters",
+                "`by`, `my`",
+                "Y carries the vowel sound."
+              ],
+              [
+                "3 letters",
+                "`cry`, `dry`, `fly`, `gym`",
+                "Good for short rack or crossword searches."
+              ],
+              [
+                "4 letters",
+                "`myth`, `lynx`, `sync`",
+                "Useful when common vowels are excluded."
+              ],
+              [
+                "5+ letters",
+                "`crypt`, `glyph`, `rhythm`",
+                "Check the puzzle length before scanning."
+              ]
+            ]
+          }
+        ],
+        [
           "h2",
           "Words with Q but no U"
         ],
@@ -1371,7 +1411,8 @@
           "p",
           "**Are Q without U words valid in Scrabble?** Some are valid in some word lists, but you should check the specific dictionary or game list before playing them."
         ]
-      ]
+      ],
+      "date_modified": "2026-08-09"
     },
     {
       "slug": "guides/wordle-repeated-letters",
@@ -1592,9 +1633,9 @@
       "slug": "guides/q-words-without-u",
       "title": "Q Words Without U",
       "h1": "Q Words Without U: Useful Q-Without-U Words for Word Games",
-      "description": "Learn common Q words without U, why Q usually pairs with U, and how to check whether a rare Q word is accepted in your game.",
+      "description": "Learn useful Q words without U, including short examples, meanings, word game caveats, and how to search Q-without-U words from your letters.",
       "eyebrow": "Letter pattern guide",
-      "date_modified": "2026-07-04",
+      "date_modified": "2026-08-09",
       "parent_tools": [
         "/word-finder/",
         "/words-with-these-letters/",
@@ -1637,6 +1678,48 @@
         [
           "p",
           "Start with shorter and more familiar candidates such as qi, qat, qadi, qoph, faqir, niqab, and tranq. These examples are useful for searching, but acceptance depends on the dictionary used by your game, app, or tournament."
+        ],
+        [
+          "table",
+          {
+            "headers": [
+              "Word",
+              "Why players search it",
+              "Before you play it"
+            ],
+            "rows": [
+              [
+                "`qi`",
+                "Short Q play that can unlock a difficult rack.",
+                "Check whether your game accepts it as a word."
+              ],
+              [
+                "`qat`",
+                "Useful when you have Q plus common low-value letters.",
+                "Verify spelling and dictionary status."
+              ],
+              [
+                "`qadi`",
+                "Four-letter option when the board gives an opening.",
+                "Confirm the active word list first."
+              ],
+              [
+                "`qoph`",
+                "Can help with Q plus O/P/H combinations.",
+                "Some casual games may reject rare entries."
+              ],
+              [
+                "`faqir`",
+                "Shows that Q-without-U words do not always start with Q.",
+                "Use a contains-Q search, not only starts-with-Q."
+              ],
+              [
+                "`niqab`",
+                "Useful example where Q appears near the end.",
+                "Check the dictionary and spelling variant."
+              ]
+            ]
+          }
         ],
         [
           "h2",
