@@ -162,7 +162,7 @@ const allSitemapUrls = () => [
 function sitemapLastmodFor(url) {
   if (url === "/" || url === "/tools/" || url === "/guides/") return sitemapLastmod;
   const toolPage = pages.find((page) => page.url === url);
-  if (toolPage) return sitemapLastmod;
+  if (toolPage) return toolPage.date_modified || sitemapLastmod;
   const guide = guideData.guides.find((item) => guideUrl(item) === url);
   if (guide) return guide.date_modified || sitemapLastmod;
   return sitemapLastmod;
