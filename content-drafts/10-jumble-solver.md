@@ -1,18 +1,20 @@
 # Jumble Solver
 
-You're staring at a Jumble puzzle from the newspaper or an app, and the scrambled letters just aren't clicking. This tool is built for that exact moment - enter the letters you see, and get a list of possible answers sorted by likelihood. No fluff, no waiting.
+You're staring at a Jumble puzzle from the newspaper or an app, and the scrambled letters just aren't clicking. This tool is built for that exact moment: enter the letters you see, add any length or pattern limits you know, and get candidate words from the built-in word list.
 
 ## How Jumble puzzles work and why this tool helps
 
-Jumble puzzles give you a set of scrambled letters, often with a cartoon clue or a circled answer that forms a final phrase. The trick is that you don't always need to use every letter - sometimes you're solving for a specific word length. This solver lets you enter the exact letters, set a length filter, and even include a clue word to narrow results. It's like having a second brain for anagrams.
+Jumble puzzles give you a set of scrambled letters, often with a cartoon clue or a circled answer that forms a final phrase. The trick is that you may need a specific word length or a known letter position before the answer becomes obvious. This solver lets you enter the letters, set a length filter, use wildcards, and scan candidates that fit those constraints.
 
 ## Entering letters with wildcards for unknown spots
 
-If you're missing a letter or the puzzle has a blank tile, use a question mark (?) or asterisk (*) as a wildcard. For example, entering "T?A" will return words like TEA, TIA, and TAA. This is especially useful when the Jumble clue hints at a theme but you're stuck on one word.
+If you're missing a letter or the puzzle has a blank tile, use a question mark (?) as a wildcard. For example, entering "T?A" can return three-letter candidates that fit the known T and A positions. This is especially useful when the Jumble clue hints at a theme but you're stuck on one letter.
 
-## Using the clue to get closer to the answer
+## Can a Jumble clue narrow the answer?
 
-Jumble puzzles often include a clue that hints at the answer's meaning. Type that clue into the optional field, and the tool will prioritize words related to it. For instance, if the clue is "feline" and your letters are "TCA", the tool will rank CAT higher than ACT. This saves you from scanning a long list of random anagrams.
+The tool does not understand cartoon clues or meanings. Use the clue after the candidate list appears: compare the words against the joke, phrase, or theme, then tighten the search with length, starts-with, ends-with, contains, exclude, or pattern filters if the list is too broad.
+
+For example, if the puzzle slot is five letters and the clue suggests an action, set the length to five first. Then scan only the candidates that could fit the clue instead of treating the first result as the answer.
 
 ## Filtering by word length for multi-word puzzles
 
@@ -68,7 +70,7 @@ Start by entering all the scrambled letters into the tool. If you know the answe
 
 ### Can a clue narrow the answer?
 
-Yes. The clue field uses semantic matching to prioritize words related to the hint. It's not perfect, but it often cuts the list by half or more. For example, with letters "ELPPA" and clue "fruit", the tool will show APPLE first.
+Yes, but the clue is something you use while reviewing candidates. This tool filters letters, length, patterns, and exclusions; it does not semantically rank words by clue meaning. If the clue is "fruit" and your letters can make APPLE, choose that result because it fits the clue, not because the tool has read the cartoon.
 
 ### What are today Jumble answers?
 
@@ -80,7 +82,7 @@ Absolutely. The tool returns candidate words from its word list that match your 
 
 ### How do I unscramble Jumble letters quickly?
 
-Enter the letters, set the length if you know it, and hit generate. Then scan the results from top to bottom - the most common words appear first. If you're still stuck, use the clue field or try a wildcard for a letter you might have misread.
+Enter the letters, set the length if you know it, and solve once. Results are grouped by word length, so start with the length printed in the puzzle. If you're still stuck, add a known-position pattern or try a wildcard for a letter you might have misread.
 
 ## Before you use the word list
 

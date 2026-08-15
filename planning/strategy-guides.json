@@ -1539,7 +1539,7 @@
       "h1": "Word Ladder Solver Guide: Rules, Examples, and Shortest Paths",
       "description": "Learn how word ladders work, why each step changes one letter, and when to use a solver to find a shorter path.",
       "eyebrow": "Word ladder guide",
-      "date_modified": "2026-07-04",
+      "date_modified": "2026-08-15",
       "parent_tools": [
         "/word-ladder-solver/",
         "/word-finder/",

@@ -1,26 +1,22 @@
 # Word Ladder Solver
 
-Need to transform one word into another by changing one letter at a time? Enter the start and end words, choose a dictionary, and find the shortest valid path.
+Need to transform one word into another by changing one letter at a time? Enter the start and target words, keep both the same length, and use the solver to look for candidate steps from the built-in word list.
 
-## Enter Start and End Words
+## How do I enter the start and end words?
 
-Type the starting word and the target word. Both must be the same length and exist in the selected dictionary.
+Type the starting word in the main box and the target word in the contains field. Both words should be the same length. A normal word ladder changes one letter per step, so `cold` to `warm` can work, but `cat` to `house` cannot.
 
-## Choose a Dictionary
+## What word list does the word ladder solver use?
 
-Select from standard English, common words, or a custom list. The solver only uses words from the chosen dictionary.
+The solver uses the site's built-in English word list. It does not support custom dictionaries on this page. If a classroom handout, puzzle book, or game app uses a different accepted list, treat the path as a candidate and check any disputed middle word against that source.
 
-## Find the Shortest Path
+## How does the solver find a short path?
 
-The solver uses a breadth-first search to find the shortest sequence of candidate words from start to end. For example, from `cold` to `warm`:
+The solver searches same-length candidate words and looks for steps where only one letter changes at a time. For example, one path from `cold` to `warm` is `cold` to `cord` to `card` to `ward` to `warm`.
 
-```
-cold → cord → card → ward → warm
-```
+## Can there be more than one valid word ladder?
 
-## View Alternate Paths
-
-If multiple shortest paths exist, the solver can display all of them. You can also request longer paths if you want more steps.
+Yes. Many word pairs can be connected in more than one way. This page is designed to get you to a workable candidate path, not to prove every possible route. If your puzzle requires a specific dictionary or the absolute shortest answer, verify the path step by step.
 
 ## Word ladder example
 
@@ -46,11 +42,11 @@ Yes. Each step must change exactly one letter, and the new word must be in the d
 
 ### What dictionary does the solver use?
 
-You can choose from several dictionaries, including a standard English word list and a common words list. The solver will only use words from the selected dictionary.
+It uses a built-in English word list. Custom dictionaries are not supported on this page, so check the accepted list for a classroom puzzle, app, or contest if a middle word looks questionable.
 
 ### Can there be more than one valid path?
 
-Yes. The solver can show all shortest paths. For example, `head` to `tail` might have multiple routes.
+Yes. A word pair may have more than one valid route. If more than one route fits, choose the one your puzzle's dictionary accepts and check that each step changes exactly one letter.
 
 ## Before you use the ladder path
 

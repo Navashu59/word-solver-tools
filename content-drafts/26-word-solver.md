@@ -1,6 +1,6 @@
 # Word Solver
 
-You’re staring at a crossword clue, a Wordle pattern, or a Scrabble rack, and you need a word that fits. The Word Solver is your go-to: enter the letters you have, add any known positions or constraints, and get a list of matching words instantly. It’s built for speed - no login, no ads, just results.
+You’re staring at a crossword clue, a Wordle pattern, or a Scrabble-style rack, and you need a word that fits. Enter the letters you have, add any known positions or constraints, and get a candidate list you can check against the puzzle or game rules.
 
 ## How do I use a word solver tool with letters and blanks?
 
@@ -10,9 +10,11 @@ Use this word solver tool when you know part of the answer but not enough to sol
 
 If you already know some letters and their positions (like in Wordle or a crossword), use the pattern input. For example, `?A?` finds all three-letter words with A in the middle. You can combine this with your letter pool to narrow results further. This is the fastest way to solve a partial word.
 
-## Using wildcards for unknown letters
+## What does ? mean in a word solver?
 
-Don’t know a letter? Use `?` or `*` as a wildcard. The solver will find all words that match the pattern, regardless of the missing letter. This is especially useful for games like Hangman or when you’re stuck on a crossword clue with only a few letters.
+Use `?` for an unknown single letter in a pattern, such as `c?t` for cat, cot, or cut. If you are entering loose rack letters, `?` can also act like a blank tile.
+
+The current pattern filter is strongest with `?` blanks and exact word length. If you need a very loose search, start with known letters and length first, then add starts-with, ends-with, contains, or exclude filters.
 
 ## How do I filter words by length and letter constraints?
 
@@ -24,9 +26,11 @@ Once you’ve entered your letters or pattern, apply filters:
 
 These filters help you avoid scrolling through hundreds of irrelevant words.
 
-## When you need high-scoring words for Scrabble
+## Does this work for Scrabble or Words With Friends?
 
-If you’re playing Scrabble or Words With Friends, the solver can sort results by score. Enter your rack letters, set the board constraints (like a premium square), and see which words give you the most points. Remember, this is an unofficial helper - always check the official game dictionary for tournament play.
+Use it as a candidate finder, not as an official referee. The page can help you find words from rack letters, blank tiles, length limits, starts-with, ends-with, contains, exclude, and pattern rules. It does not account for board multipliers, tile placement, cross words already on the board, or every official dictionary difference.
+
+For scored or competitive play, confirm the word in the dictionary used by your game or event before playing it.
 
 ### How do I narrow results without over-filtering?
 
@@ -66,7 +70,7 @@ Use the word solver when your letters are flexible and you do not always need to
 
 ### What words can I make with these letters?
 
-Enter your letters in the input box, optionally add a pattern with wildcards, and click “Solve.” The tool will list candidate English words that match your criteria, sorted by length or score.
+Enter your letters in the input box, optionally add a pattern with `?` wildcards, and click “Solve.” The tool will list candidate English words that match your criteria, grouped by word length.
 
 ### Do I have to use every letter?
 
@@ -74,7 +78,7 @@ No. By default, the solver finds words using any subset of your letters. If you 
 
 ### Can I use wildcards or blank tiles?
 
-Yes. Use `?` or `*` for unknown letters or blank tiles. This is essential for games like Scrabble where you have a blank tile.
+Yes. Use `?` for unknown letters or blank tiles. This is useful for word games where one tile can stand for any letter.
 
 ### Can I filter by word length?
 
