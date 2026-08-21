@@ -10,9 +10,23 @@ In competitive Scrabble, top players study word lists and tile distributions. Th
 
 The tool doesn’t know where your tiles are on the board, but you do. When you enter your rack, the results show candidate words from the site’s built-in list. Your job is to cross-reference with the board: which words fit the open squares, which ones use premium squares, and which ones are accepted by your game’s dictionary.
 
+## What is a Scrabble cheat or word finder?
+
+A Scrabble cheat is a fast way to list candidate words from the tiles you have. It does not know the official ruling for your table, app, or tournament; it gives you words that fit the letters and filters you enter so you can check the best-looking plays against the board.
+
+Use it when you have a rack, one or two blank tiles, or a possible hook from the board. If you only need to check a pattern with missing letters, use a word finder or crossword-style pattern search instead.
+
 ## Pattern matching for advanced plays
 
 Beyond just listing words, the tool supports pattern filters: starts with, ends with, contains, and exact length. Use these to match specific board constraints. If you know the word must end with `ING` because of an existing `I` on the board, filter by ends with `ING`. This narrows the list from hundreds to a handful, making your decision faster. The cheat is in the filtering, not just the raw list.
+
+### How do I use blank tiles in a Scrabble cheat?
+
+Enter a blank as `?`, then treat the result as a candidate list rather than a final answer. A blank tile can make a word fit, but it scores zero for that letter and may be better saved for a future bingo. Check both the word and the board score before choosing the play.
+
+### How do I find words that hook onto board letters?
+
+Use starts with, ends with, contains, or exact length when the board already gives you one or more fixed letters. For example, if a row must end in `ON`, use the ends-with filter first. If a crossing gives you a middle letter, use contains or a pattern search before scanning long results.
 
 ## Learning from your misses
 
@@ -51,6 +65,10 @@ The tool gives candidates from its built-in word list. Always confirm a challeng
 ### What is the highest scoring word from my tiles?
 
 Use the tool to find candidates, then score them against your actual board. Premium squares, cross words, and blank tiles decide the real best play.
+
+### Is this the same as an official Scrabble dictionary?
+
+No. The tool uses a built-in English word list and filters it in your browser. It is useful for practice and candidate discovery, but challenged plays should be checked against the dictionary or rules used in your game.
 
 ## Before you score the play
 

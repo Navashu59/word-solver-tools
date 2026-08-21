@@ -6,6 +6,10 @@ You're staring at a Wordle grid with a few green, yellow, and gray squares. Your
 
 Use this Wordle solver after you have at least one guess on the board. Enter green letters in their exact spots, add yellow letters as required but misplaced, and put gray letters in the exclude field. Tighten one clue at a time when you want a lighter hint instead of treating the first candidate as the answer.
 
+## What is the safest way to enter Wordle clues?
+
+Enter the clue types in this order: green letters first, yellow letters second, gray letters last. That order reduces mistakes because fixed positions are the strictest rule. If a repeated letter appears as both yellow and gray in the same guess, do not exclude the whole letter until another row proves it is absent.
+
 ## How can I narrow Wordle answers without spoilers?
 
 Sometimes you just want to confirm a hunch or rule out a bad guess. Use the green/yellow/gray input to mirror your board. The tool filters out impossible words and shows only valid 5-letter candidates. You decide how much to reveal.
@@ -17,6 +21,10 @@ Wordle answers can have double letters (think “ABBOT” or “FLOOD”). If yo
 ## How should I choose the next Wordle guess after feedback?
 
 After you enter your constraints, the tool ranks remaining words by how many new letters they test. A good guess isn’t just a possible answer - it’s one that eliminates the most options if it’s wrong. The list shows both likely answers and smart probing words.
+
+### Should my next guess be an answer or a test word?
+
+If the candidate list is small, pick a word that could be the answer. If the list is still large, a test word can be better because it checks common unused letters. That is especially useful when several candidates share the same ending or vowel pattern.
 
 ### What should I update after each Wordle guess?
 

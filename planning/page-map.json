@@ -202,7 +202,7 @@
       "keyword": "wordle solver",
       "slug": "wordle-solver",
       "url": "/wordle-solver/",
-      "date_modified": "2026-08-09",
+      "date_modified": "2026-08-21",
       "cluster": "wordle-letter-patterns",
       "volume": 450000,
       "cpc": 0.01,
@@ -1124,7 +1124,8 @@
         "blank tile scrabble word finder"
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
-      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler."
+      "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler.",
+      "date_modified": "2026-08-21"
     },
     {
       "rank": 30,
