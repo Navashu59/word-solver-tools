@@ -10,6 +10,12 @@ In competitive Scrabble, top players study word lists and tile distributions. Th
 
 The tool doesn’t know where your tiles are on the board, but you do. When you enter your rack, the results show candidate words from the site’s built-in list. Your job is to cross-reference with the board: which words fit the open squares, which ones use premium squares, and which ones are accepted by your game’s dictionary.
 
+## What dictionary should I check before using a Scrabble cheat result?
+
+Check the word list or dictionary used by the game, app, event, or house rules you are playing under. This page gives candidate words from a built-in English word list; it is not an official referee and it does not guarantee that every candidate is accepted everywhere.
+
+For casual practice, use the results to learn patterns and spot possible plays. For challenged, scored, or competitive play, confirm the word in the active game dictionary before placing the tiles.
+
 ## What is a Scrabble cheat or word finder?
 
 A Scrabble cheat is a fast way to list candidate words from the tiles you have. It does not know the official ruling for your table, app, or tournament; it gives you words that fit the letters and filters you enter so you can check the best-looking plays against the board.
@@ -24,9 +30,17 @@ Beyond just listing words, the tool supports pattern filters: starts with, ends 
 
 Enter a blank as `?`, then treat the result as a candidate list rather than a final answer. A blank tile can make a word fit, but it scores zero for that letter and may be better saved for a future bingo. Check both the word and the board score before choosing the play.
 
+### How do blank tiles affect your Scrabble score?
+
+A blank tile can stand for any letter, but the blank itself scores zero. It can still be valuable when it completes a longer word, opens a hook, or helps you use all seven rack tiles. The solver can show words that fit the rack; only the real board position can tell you whether the zero-point blank is worth spending now.
+
 ### How do I find words that hook onto board letters?
 
 Use starts with, ends with, contains, or exact length when the board already gives you one or more fixed letters. For example, if a row must end in `ON`, use the ends-with filter first. If a crossing gives you a middle letter, use contains or a pattern search before scanning long results.
+
+### What is a Scrabble hook?
+
+A hook is a short extension that makes a new valid word by using letters already on the board. Often it is one letter added before or after a word, or a crossing play that creates a second word at the same time. Use starts-with, ends-with, contains, and pattern filters to find candidates, then check the active dictionary before you play a rare hook.
 
 ## Learning from your misses
 

@@ -22,9 +22,11 @@ Wordle answers can have double letters (think “ABBOT” or “FLOOD”). If yo
 
 After you enter your constraints, the tool ranks remaining words by how many new letters they test. A good guess isn’t just a possible answer - it’s one that eliminates the most options if it’s wrong. The list shows both likely answers and smart probing words.
 
-### Should my next guess be an answer or a test word?
+## Should your next Wordle guess be a possible answer or a test word?
 
-If the candidate list is small, pick a word that could be the answer. If the list is still large, a test word can be better because it checks common unused letters. That is especially useful when several candidates share the same ending or vowel pattern.
+If the candidate list is small, pick a word that could be the answer. If the list is still large, a test word can be better because it checks common unused letters and separates similar candidates. That is especially useful when several words share the same ending, vowel pattern, or four known letters.
+
+Use a possible answer when you are ready to solve. Use a test word when one guess can rule out several remaining families at once. If you want to keep the puzzle less spoiled, use the solver as a clue filter and choose the final guess yourself.
 
 ### What should I update after each Wordle guess?
 
