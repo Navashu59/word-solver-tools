@@ -60,6 +60,12 @@ A good opener tests common letters and vowels without repeating too much. Words 
 
 If you prefer not to see candidates early, make your first guess by hand, then use the solver only after you have green, yellow, and gray feedback.
 
+### What is the best first Wordle guess if I only want information?
+
+Use an opener that tests several common letters without repeating too early. `CRANE`, `SLATE`, `SOARE`, `ROATE`, and `ARISE` are common information-first examples, but the best first guess is less important than entering the feedback correctly afterward.
+
+After the first row, update green positions, yellow required letters, and gray exclusions before choosing the next guess. The solver becomes more useful after it has real feedback from your board.
+
 ## Can the solver suggest a next guess after each turn?
 
 Yes, but treat the list as a set of candidates, not a daily answer feed. After every turn, update all three clue types: fixed green letters, misplaced yellow letters, and gray exclusions. Then scan the remaining words for guesses that test new letters or confirm a likely ending.

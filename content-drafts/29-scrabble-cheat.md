@@ -42,6 +42,12 @@ Use starts with, ends with, contains, or exact length when the board already giv
 
 A hook is a short extension that makes a new valid word by using letters already on the board. Often it is one letter added before or after a word, or a crossing play that creates a second word at the same time. Use starts-with, ends-with, contains, and pattern filters to find candidates, then check the active dictionary before you play a rare hook.
 
+### How do I find high-scoring Scrabble words from my rack?
+
+Enter your rack first, use `?` for blanks, then compare longer words with short high-value plays. Seven-letter and eight-letter candidates can create bingos, but a short word that uses `J`, `Q`, `X`, `Z`, or `K` on the right square may score more on the actual board.
+
+Memorize common two-letter hooks such as `QI`, `ZA`, `JO`, `AX`, and `OX`, then confirm the word list used by your game before playing. The solver can show candidates from letters; the board and dictionary decide the real score.
+
 ## Learning from your misses
 
 After each game, run your rack through the tool and compare the results to what you actually played. Did you miss a 7-letter word that would have used all your tiles (a bingo)? Did you overlook a high-scoring two-letter word like `OX` or `AX`? Over time, you’ll build a mental database of common words and patterns. The tool becomes a personal coach, not a crutch.

@@ -6,6 +6,8 @@ You’re staring at a crossword clue, a Wordle pattern, or a Scrabble-style rack
 
 Use this word solver tool when you know part of the answer but not enough to solve it by memory. Start with the letters you have, then add the strictest rule: exact length, known positions, required letters, or excluded letters. If your puzzle is specifically Wordle-style, the [Wordle solver](/wordle-solver/) is set up for green, yellow, and gray feedback.
 
+Short version: enter the letters you can use, type `?` for each blank tile or unknown letter, then filter by length, starts-with, ends-with, contains, or excludes. Treat the output as a candidate list to check against your puzzle or game rules.
+
 ## How do I solve a word pattern with known letters?
 
 If you already know some letters and their positions (like in Wordle or a crossword), use the pattern input. For example, `?A?` finds all three-letter words with A in the middle. You can combine this with your letter pool to narrow results further. This is the fastest way to solve a partial word.
@@ -57,6 +59,10 @@ Use the word solver when your puzzle is not locked to one daily five-letter grid
 ## What should I enter first when I have too many letters?
 
 Enter the rule you trust most. For a crossword, that is usually the pattern and answer length. For loose letter games, start with the letters you actually have, then add contains or starts-with filters only after the first result set is too broad. This keeps the search useful without hiding good candidates too early.
+
+## What is the fastest way to find words with these letters?
+
+Start broad, then tighten one rule. Enter the letters first, scan the length groups, then add only the constraint you actually know: a fixed pattern, a required letter, a starting letter, an ending letter, or excluded letters. This avoids the common mistake of over-filtering before you know which words are possible.
 
 ## Choose the right word tool
 

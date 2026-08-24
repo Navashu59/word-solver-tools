@@ -202,7 +202,7 @@
       "keyword": "wordle solver",
       "slug": "wordle-solver",
       "url": "/wordle-solver/",
-      "date_modified": "2026-08-21",
+      "date_modified": "2026-08-24",
       "cluster": "wordle-letter-patterns",
       "volume": 450000,
       "cpc": 0.01,
@@ -976,7 +976,7 @@
       "keyword": "word solver",
       "slug": "word-solver",
       "url": "/word-solver/",
-      "date_modified": "2026-08-15",
+      "date_modified": "2026-08-24",
       "cluster": "word-finder",
       "volume": 40500,
       "cpc": 0,
@@ -1125,7 +1125,7 @@
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
       "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler.",
-      "date_modified": "2026-08-21"
+      "date_modified": "2026-08-24"
     },
     {
       "rank": 30,
