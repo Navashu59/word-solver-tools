@@ -6,6 +6,12 @@ You're staring at a Wordle grid with a few green, yellow, and gray squares. Your
 
 Use this Wordle solver after you have at least one guess on the board. Enter green letters in their exact spots, add yellow letters as required but misplaced, and put gray letters in the exclude field. Tighten one clue at a time when you want a lighter hint instead of treating the first candidate as the answer.
 
+## How does the Wordle solver work with green, yellow, and gray letters?
+
+The solver treats each color as a different rule. A green tile fixes the letter in that exact position. A yellow tile keeps the letter in the answer but blocks it from that guessed position. A gray tile removes the letter only when that same letter has not appeared as green or yellow elsewhere on your board.
+
+Enter the strict clues first. If the result list looks wrong, remove the gray exclusions and recheck repeated letters before assuming the word list is missing the answer.
+
 ## What is the safest way to enter Wordle clues?
 
 Enter the clue types in this order: green letters first, yellow letters second, gray letters last. That order reduces mistakes because fixed positions are the strictest rule. If a repeated letter appears as both yellow and gray in the same guess, do not exclude the whole letter until another row proves it is absent.
@@ -32,11 +38,11 @@ Use a possible answer when you are ready to solve. Use a test word when one gues
 
 Update the fields after every guess instead of only adding the new green letters. A gray letter from an earlier row can rule out many tempting words, and a yellow letter should not be placed back in the same slot. Rechecking the full board keeps the candidate list honest.
 
-## How do I enter green, yellow, and gray letters?
+## How should I use a Wordle helper in hard mode?
 
-Put green letters in the exact pattern position, add yellow letters to the required or contains field, and place gray letters in the exclude field only when you are sure that letter is not used elsewhere in the answer. For repeated letters, do not exclude the whole letter just because one copy was gray.
+Hard mode means confirmed green and yellow letters must keep being used in later guesses. Use the solver the same way: lock green positions, keep yellow letters in the required fields, and do not test a word that ignores those clues. If you want an information-gathering guess, it still has to respect the confirmed letters.
 
-For example, if your guess has one yellow `E` and one gray `E`, the answer may contain exactly one `E`. Keep the confirmed copy in the required letters and avoid adding `E` to exclude unless another row proves it is absent.
+When hard mode leaves many similar candidates, compare endings and repeated letters before choosing. A guess that fits every clue but tests only one new letter may be less useful than another legal guess that separates several remaining word families.
 
 ## What is the best next guess when there are many Wordle answers left?
 
@@ -48,11 +54,9 @@ If the list is already short, switch from information gathering to answer select
 
 If you want a lighter nudge, enter only the clues you are certain about and use the remaining list as a direction, not as a spoiler feed. Look for shared patterns such as a common ending, a likely vowel, or a repeated letter before choosing your next guess.
 
-## How does the Wordle solver handle repeated letters?
+## What if the Wordle solver gives too many answers?
 
-Repeated-letter feedback is the easiest place to make a mistake. If a letter is green or yellow once, that does not always mean the answer has two copies of it. If your guess uses the same letter twice and one copy is gray, enter the confirmed copy first, then avoid treating the gray copy as a full exclusion until the board makes the count clear.
-
-For example, if one `E` is yellow and another `E` is gray, the answer may contain exactly one `E`. Recheck the row before turning on duplicate-friendly guesses. The solver is most useful when the pattern, required letters, and excluded letters all match the same board state.
+Add one more confirmed rule instead of scrolling through a long list. Start with exact green positions, then add yellow letters, then gray exclusions. If several words still share the same pattern, use your next guess to test the letters that separate them rather than picking the first candidate.
 
 ## What is a good first Wordle guess?
 
@@ -65,12 +69,6 @@ If you prefer not to see candidates early, make your first guess by hand, then u
 Use an opener that tests several common letters without repeating too early. `CRANE`, `SLATE`, `SOARE`, `ROATE`, and `ARISE` are common information-first examples, but the best first guess is less important than entering the feedback correctly afterward.
 
 After the first row, update green positions, yellow required letters, and gray exclusions before choosing the next guess. The solver becomes more useful after it has real feedback from your board.
-
-## Can the solver suggest a next guess after each turn?
-
-Yes, but treat the list as a set of candidates, not a daily answer feed. After every turn, update all three clue types: fixed green letters, misplaced yellow letters, and gray exclusions. Then scan the remaining words for guesses that test new letters or confirm a likely ending.
-
-If you want a smaller nudge, add only the clues you are certain about and leave the remaining fields open.
 
 ## Why this is an independent helper
 

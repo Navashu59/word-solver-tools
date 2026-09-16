@@ -199,10 +199,12 @@
     {
       "rank": 6,
       "title": "Wordle Solver",
+      "seo_title": "Wordle Solver - Green, Yellow & Gray Letter Helper",
+      "seo_description": "Enter green, yellow, and gray Wordle clues to find matching five-letter words. Handles repeated letters, hard mode, and spoiler-safe hints.",
       "keyword": "wordle solver",
       "slug": "wordle-solver",
       "url": "/wordle-solver/",
-      "date_modified": "2026-08-24",
+      "date_modified": "2026-09-16",
       "cluster": "wordle-letter-patterns",
       "volume": 450000,
       "cpc": 0.01,
@@ -1091,6 +1093,8 @@
     {
       "rank": 29,
       "title": "Scrabble Cheat",
+      "seo_title": "Scrabble Cheat - Word Finder for Rack Letters & Blanks",
+      "seo_description": "Find Scrabble-style word candidates from rack letters, blank tiles, hooks, and board filters. Check scores and dictionary rules before playing.",
       "keyword": "scrabble cheat",
       "slug": "scrabble-cheat",
       "url": "/scrabble-cheat/",
@@ -1125,7 +1129,7 @@
       ],
       "serp_gap_method": "Inspect current Google top 3, featured/AI/widget results, PAA, and related searches before writing final copy. Use this framework as the initial brief and update with live SERP notes.",
       "content_angle": "Answer the immediate puzzle-solving action first, then explain filters, examples, edge cases, and rule differences without filler.",
-      "date_modified": "2026-08-24"
+      "date_modified": "2026-09-16"
     },
     {
       "rank": 30,

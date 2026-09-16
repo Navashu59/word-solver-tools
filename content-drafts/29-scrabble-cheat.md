@@ -10,6 +10,12 @@ In competitive Scrabble, top players study word lists and tile distributions. Th
 
 The tool doesn’t know where your tiles are on the board, but you do. When you enter your rack, the results show candidate words from the site’s built-in list. Your job is to cross-reference with the board: which words fit the open squares, which ones use premium squares, and which ones are accepted by your game’s dictionary.
 
+## How do I find Scrabble words from rack letters?
+
+Enter the letters on your rack in any order. If the board already forces part of the play, add that constraint before scanning results: use starts with, ends with, contains, exact length, or a pattern with unknown letters. This keeps the list closer to the real board instead of showing every possible rack word.
+
+For example, if your rack is `train?e` and the open line must end in `ER`, add the ending first. If a crossing letter fixes the third position, use a pattern. The best candidate is the one that fits both your rack and the board, not simply the longest word in the list.
+
 ## What dictionary should I check before using a Scrabble cheat result?
 
 Check the word list or dictionary used by the game, app, event, or house rules you are playing under. This page gives candidate words from a built-in English word list; it is not an official referee and it does not guarantee that every candidate is accepted everywhere.
@@ -30,6 +36,10 @@ Beyond just listing words, the tool supports pattern filters: starts with, ends 
 
 Enter a blank as `?`, then treat the result as a candidate list rather than a final answer. A blank tile can make a word fit, but it scores zero for that letter and may be better saved for a future bingo. Check both the word and the board score before choosing the play.
 
+### Can I enter two blank tiles?
+
+Yes. Use two question marks, such as `tra??in`, when your rack has two blanks. Expect a much larger result list because each blank can stand for many letters. Add a length, starts-with, ends-with, or board pattern filter to keep the candidates useful.
+
 ### How do blank tiles affect your Scrabble score?
 
 A blank tile can stand for any letter, but the blank itself scores zero. It can still be valuable when it completes a longer word, opens a hook, or helps you use all seven rack tiles. The solver can show words that fit the rack; only the real board position can tell you whether the zero-point blank is worth spending now.
@@ -42,6 +52,12 @@ Use starts with, ends with, contains, or exact length when the board already giv
 
 A hook is a short extension that makes a new valid word by using letters already on the board. Often it is one letter added before or after a word, or a crossing play that creates a second word at the same time. Use starts-with, ends-with, contains, and pattern filters to find candidates, then check the active dictionary before you play a rare hook.
 
+## Why scores and dictionaries vary
+
+The candidate list can help you spot playable-looking words, but final scoring depends on the board. Premium squares, cross words, bingo bonuses, and blank tiles can change the best play. A short word on a premium square can beat a longer word that scores well only by tile value.
+
+Dictionary rules vary too. Casual apps, school games, club play, and tournaments may use different word lists or house rules. Treat the result as a shortlist, then confirm disputed words in the dictionary used by your game before placing a high-value or unusual play.
+
 ### How do I find high-scoring Scrabble words from my rack?
 
 Enter your rack first, use `?` for blanks, then compare longer words with short high-value plays. Seven-letter and eight-letter candidates can create bingos, but a short word that uses `J`, `Q`, `X`, `Z`, or `K` on the right square may score more on the actual board.
@@ -51,10 +67,6 @@ Memorize common two-letter hooks such as `QI`, `ZA`, `JO`, `AX`, and `OX`, then 
 ## Learning from your misses
 
 After each game, run your rack through the tool and compare the results to what you actually played. Did you miss a 7-letter word that would have used all your tiles (a bingo)? Did you overlook a high-scoring two-letter word like `OX` or `AX`? Over time, you’ll build a mental database of common words and patterns. The tool becomes a personal coach, not a crutch.
-
-## Using blanks effectively
-
-Blank tiles are powerful because they can stand in for unknown letters, but they score zero in the game. Enter `?` for a blank, then check which candidates actually fit your board. The strategic question is whether the blank helps you make a better placement now or is worth saving for a later turn.
 
 ## Scrabble rack example
 

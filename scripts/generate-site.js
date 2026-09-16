@@ -285,6 +285,7 @@ function clusterLabel(page) {
 }
 
 function pageDescription(page) {
+  if (page.seo_description) return page.seo_description;
   const keyword = page.keyword;
   const base = pageAction(page);
   return `${page.title}: ${base} Free to use in your browser.`;
@@ -657,7 +658,7 @@ function pageHtml(page) {
     ${adjacentLinks(page)}
   </main>`;
   return layout({
-    title: `${page.title} - Free ${clusterLabel(page)}`,
+    title: page.seo_title || `${page.title} - Free ${clusterLabel(page)}`,
     description: pageDescription(page),
     canonical: page.url,
     schemaJson: schema(page, draft),
