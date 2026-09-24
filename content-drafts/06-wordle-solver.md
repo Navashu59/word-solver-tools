@@ -22,11 +22,11 @@ Sometimes you just want to confirm a hunch or rule out a bad guess. Use the gree
 
 ## How to handle repeated letters
 
-Wordle answers can have double letters (think “ABBOT” or “FLOOD”). If you suspect a repeat, check the “allow duplicates” option. The solver will include words with repeated letters, which many basic tools miss.
+Wordle answers can have double letters (think “ABBOT” or “FLOOD”). The current solver can return words with repeated letters, but it does not yet provide separate minimum and maximum letter-count controls. Use the pattern, contains, and exclude fields carefully, then verify a repeated-letter candidate against every colored tile.
 
 ## How should I choose the next Wordle guess after feedback?
 
-After you enter your constraints, the tool ranks remaining words by how many new letters they test. A good guess isn’t just a possible answer - it’s one that eliminates the most options if it’s wrong. The list shows both likely answers and smart probing words.
+After you enter your constraints, the tool returns matching candidates and sorts them by length, base letter score, and alphabetical order. It does not calculate information gain or separate official answer candidates from test words. Use the list to compare options, then decide whether you need a possible answer or a probing word that tests unused letters.
 
 ## Should your next Wordle guess be a possible answer or a test word?
 
@@ -38,11 +38,11 @@ Use a possible answer when you are ready to solve. Use a test word when one gues
 
 Update the fields after every guess instead of only adding the new green letters. A gray letter from an earlier row can rule out many tempting words, and a yellow letter should not be placed back in the same slot. Rechecking the full board keeps the candidate list honest.
 
-## How should I use a Wordle helper in hard mode?
+## How should I check a candidate for Wordle hard mode?
 
-Hard mode means confirmed green and yellow letters must keep being used in later guesses. Use the solver the same way: lock green positions, keep yellow letters in the required fields, and do not test a word that ignores those clues. If you want an information-gathering guess, it still has to respect the confirmed letters.
+Hard mode means confirmed green and yellow letters must keep being used in later guesses. Enter fixed green positions in the pattern and confirmed letters in the contains field, then manually check that a yellow letter is not returned to a position already shown to be wrong. The current tool does not certify hard-mode legality.
 
-When hard mode leaves many similar candidates, compare endings and repeated letters before choosing. A guess that fits every clue but tests only one new letter may be less useful than another legal guess that separates several remaining word families.
+When hard mode leaves many similar candidates, compare endings and repeated letters before choosing. Treat every result as a candidate to verify against the board rather than a guaranteed legal or official answer.
 
 ## What is the best next guess when there are many Wordle answers left?
 

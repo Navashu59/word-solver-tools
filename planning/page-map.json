@@ -200,7 +200,7 @@
       "rank": 6,
       "title": "Wordle Solver",
       "seo_title": "Wordle Solver - Green, Yellow & Gray Letter Helper",
-      "seo_description": "Enter green, yellow, and gray Wordle clues to find matching five-letter words. Handles repeated letters, hard mode, and spoiler-safe hints.",
+      "seo_description": "Filter five-letter words by pattern, required letters, excluded letters, starts, ends, and length. Free browser-based Wordle helper.",
       "keyword": "wordle solver",
       "slug": "wordle-solver",
       "url": "/wordle-solver/",
@@ -213,12 +213,12 @@
       "brand_or_game_specific": true,
       "user_problem": "The user has green, yellow, and gray letters and needs possible next guesses.",
       "first_screen_tool": [
-        "green/yellow/gray position input",
+        "five-letter pattern input",
         "required letters",
         "excluded letters",
-        "possible answer list",
-        "best next guesses",
-        "spoiler-safe filtering"
+        "starts and ends filters",
+        "candidate word list",
+        "client-side filtering"
       ],
       "paa_questions": [
         "How do I use a Wordle solver?",

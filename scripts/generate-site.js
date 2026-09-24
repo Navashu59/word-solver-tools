@@ -18,11 +18,10 @@ const site = {
 };
 
 const review = {
-  date: "2026-07-24",
-  label: "Last reviewed: July 2026",
-  authorName: "Independent Developer",
+  date: "2026-09-24",
+  label: "Method and claims checked: September 2026",
   authorBio: "Built as a practical word-game helper focused on fast client-side filtering, clear puzzle constraints, and transparent limitations.",
-  methodNote: "The current tool filters a built-in English word list in the browser. It is not an official dictionary and results should be checked against the rules or word list for the game you are playing.",
+  methodNote: "The current build filters 227,630 unique entries from a build-time system word list plus a small site seed list. It is not an official game dictionary, and results should be checked against the rules or word list for the game you are playing.",
 };
 
 const staticPages = [
@@ -62,6 +61,65 @@ const staticPages = [
       ["p", "No single word list matches every game, dictionary, app, or house rule. A result means the word fits the filters you entered, not that it is guaranteed to be accepted by a specific game. Check serious plays against the official rules for your game."],
       ["h2", "Privacy"],
       ["p", "The site does not require an account, and the solving logic runs in the browser. Analytics and hosting logs are used for aggregate page-performance and usage measurement."],
+    ],
+  },
+  {
+    slug: "editorial-policy",
+    url: "/editorial-policy/",
+    title: "Editorial Policy",
+    description: "How Word Solver Tools researches, tests, reviews, corrects, and updates tool instructions and word-game guidance.",
+    h1: "Editorial Policy",
+    eyebrow: "Accountability",
+    body: [
+      ["h2", "What we publish"],
+      ["p", "Word Solver Tools publishes browser-based word filters and practical explanations of how to enter letters, patterns, blanks, and exclusions. A page should describe the behavior of the live tool, not a planned feature."],
+      ["h2", "How claims are checked"],
+      ["p", "Tool instructions are checked against the generated interface and filtering code. Game-specific guidance is compared with the named game's public rules or clearly labelled as general strategy. The site does not claim that its word list is an official Scrabble, Wordle, Words With Friends, or tournament dictionary."],
+      ["h2", "AI-assisted drafting"],
+      ["p", "Automated systems may assist with outlining, search-intent analysis, or copy review. Final published claims must be checked against the live product, source material, and the site's stated limitations."],
+      ["h2", "Corrections"],
+      ["p", "Material corrections are recorded on the corrections page. Report a mismatch between a page and the live tool through the contact page."],
+    ],
+  },
+  {
+    slug: "methodology",
+    url: "/methodology/",
+    title: "Word Solver Methodology",
+    description: "The word-list source, filtering behavior, sorting rules, privacy boundary, tests, and limitations behind Word Solver Tools.",
+    h1: "Word Solver Methodology",
+    eyebrow: "Method",
+    body: [
+      ["h2", "What word list does the site use?"],
+      ["p", "The current production build contains 227,630 unique lowercase entries between 2 and 15 letters. It was generated from the build machine's system English word list plus a small site seed list. Build fingerprint: 7bf8ff8243bb417d1f8e1dcce3d0c4ad25b658b79afc4e13234f4e99dd7baaeb."],
+      ["p", "This source includes uncommon, historical, regional, and technical terms. It is not an official game dictionary or an official Wordle answer list. A future release should replace the build-machine dependency with a versioned repository file so every deployment is reproducible."],
+      ["h2", "How are candidates filtered?"],
+      ["p", "The browser filters by length, prefix, suffix, required letters, excluded letters, and question-mark patterns. Exact mode requires every entered non-blank letter. Other modes may return words buildable from the rack or words containing the entered sequence, depending on the tool."],
+      ["h2", "How are results sorted?"],
+      ["p", "Results are deduplicated, then sorted by word length, base English tile score, and alphabetical order. The current Wordle helper does not calculate information gain, certify hard-mode legality, or separate official answers from test guesses."],
+      ["h2", "What stays in the browser?"],
+      ["p", "Letter, pattern, and filter processing runs in the browser. Standard analytics and hosting logs may still record page and device information as described in the privacy policy."],
+      ["h2", "Known limitations"],
+      ["p", "Different games use different dictionaries, scoring rules, answer lists, and policies. A matching result is a candidate, not a guarantee that a publisher or tournament accepts the word."],
+    ],
+  },
+  {
+    slug: "corrections",
+    url: "/corrections/",
+    title: "Corrections",
+    description: "Material corrections to Word Solver Tools product claims, instructions, data, and methodology.",
+    h1: "Corrections",
+    eyebrow: "Change log",
+    body: [
+      ["h2", "September 24, 2026"],
+      ["p", "Corrected the Wordle Solver description and structured data so they no longer claim dedicated color-position controls, an allow-duplicates switch, information-gain ranking, or automatic hard-mode validation. Added the actual word-list source, count, sorting method, and limitations."],
+      ["h2", "What counts as a material correction?"],
+      ["p", "This log records changes that affect how a person uses a tool or understands its results. Examples include a feature described but not implemented, an incorrect game rule, a wrong dictionary claim, a broken filter, a misleading score explanation, or a methodology statement that cannot be reproduced."],
+      ["h2", "How corrections are handled"],
+      ["p", "A reported issue is reproduced against the current public page and generated code. If confirmed, the product behavior or published explanation is corrected, the affected page receives an accurate modified date, and a short entry is added here when the error could have changed a user's decision."],
+      ["h2", "What is not silently rewritten"],
+      ["p", "Material product limitations are not removed merely to make a page sound more competitive. If the site does not use an official dictionary, calculate information gain, validate hard mode, or support a named game rule, the limitation should remain visible until the product genuinely changes."],
+      ["h2", "How to report an issue"],
+      ["p", "Use the contact page and include the page URL, the statement or tool behavior in question, and a reproducible example when possible."],
     ],
   },
   {
@@ -143,6 +201,7 @@ const retiredRedirects = new Map([
   ["/wordle-helper/", "/wordle-solver/"],
   ["/wordle-finder/", "/wordle-solver/"],
   ["/wordle-cheat/", "/wordle-solver/"],
+  ["/favicon.ico", "/favicon.svg"],
 ]);
 const activePages = () => pages.filter((page) => !inactivePageUrls.has(page.url));
 
@@ -165,6 +224,7 @@ function sitemapLastmodFor(url) {
   if (toolPage) return toolPage.date_modified || sitemapLastmod;
   const guide = guideData.guides.find((item) => guideUrl(item) === url);
   if (guide) return guide.date_modified || sitemapLastmod;
+  if (staticPages.some((page) => page.url === url)) return review.date;
   return sitemapLastmod;
 }
 
@@ -459,10 +519,6 @@ function schema(page, draft) {
       breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
       mainEntity: { "@id": `${pageUrl}#tool` },
       dateModified: pageModified,
-      reviewedBy: {
-        "@type": "Person",
-        name: review.authorName,
-      },
     },
     {
       "@type": "WebApplication",
@@ -527,6 +583,7 @@ function layout({ title, description, body, canonical = "/", image = site.social
   <meta name="twitter:image" content="${imageUrl}">
   <link rel="canonical" href="${canonicalUrl}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/styles.css">
@@ -552,7 +609,7 @@ function layout({ title, description, body, canonical = "/", image = site.social
   ${body}
   <footer class="site-footer">
     <p>${site.name} is an independent collection of word solving tools. Game names are used descriptively and do not imply affiliation.</p>
-    <p><a href="/about/">About</a> · <a href="/how-it-works/">How it works</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/contact/">Contact</a> · <a href="/sitemap.xml">Sitemap</a></p>
+    <p><a href="/about/">About</a> · <a href="/how-it-works/">How it works</a> · <a href="/methodology/">Methodology</a> · <a href="/editorial-policy/">Editorial policy</a> · <a href="/corrections/">Corrections</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/contact/">Contact</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </footer>
   <script src="/assets/app.js" defer></script>
 </body>
@@ -650,7 +707,7 @@ function pageHtml(page) {
     ? `<aside class="notice"><strong>Product status:</strong> this page is not in the active search inventory because the current tool does not yet implement the full named puzzle workflow. Use the general solver while the specialized logic is being rebuilt.</aside>`
     : "";
   const trustNote = `<aside class="trust-note" data-audit-exclude aria-label="Page review and method">
-      <p><strong>${escapeHtml(review.label)}.</strong> This independent tool runs in your browser and uses a built-in English word list; check official game dictionaries for scored play.</p>
+      <p><strong>${escapeHtml(review.label)}.</strong> ${escapeHtml(review.methodNote)} <a href="/methodology/">Read the method and limits.</a></p>
     </aside>`;
   const body = `<main>
     ${toolPanel(page)}
@@ -918,10 +975,7 @@ function guidePageSchema(guide) {
       description: guide.description,
       url: absoluteUrl(url),
       dateModified: modified,
-      author: {
-        "@type": "Person",
-        name: review.authorName,
-      },
+      author: { "@id": `${site.origin}/#organization` },
       publisher: { "@id": `${site.origin}/#organization` },
       isPartOf: { "@id": `${site.origin}/#website` },
       citation: Array.isArray(guide.sources) ? guide.sources.map((source) => source.url) : undefined,

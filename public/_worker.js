@@ -6,7 +6,7 @@ export default {
       url.hostname = "wordsolvertools.org";
       redirect = true;
     }
-    const redirects = {"/wordle-helper/":"/wordle-solver/","/wordle-finder/":"/wordle-solver/","/wordle-cheat/":"/wordle-solver/"};
+    const redirects = {"/wordle-helper/":"/wordle-solver/","/wordle-finder/":"/wordle-solver/","/wordle-cheat/":"/wordle-solver/","/favicon.ico":"/favicon.svg"};
     if (redirects[url.pathname]) {
       url.pathname = redirects[url.pathname];
       redirect = true;

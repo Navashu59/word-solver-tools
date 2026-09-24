@@ -1,4 +1,5 @@
 /wordle-helper/ /wordle-solver/ 301
 /wordle-finder/ /wordle-solver/ 301
 /wordle-cheat/ /wordle-solver/ 301
+/favicon.ico /favicon.svg 301
 https://www.wordsolvertools.org/* https://wordsolvertools.org/:splat 301
