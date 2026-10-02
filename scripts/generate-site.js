@@ -7,6 +7,7 @@ const pages = JSON.parse(fs.readFileSync(path.join(root, "planning/page-map.json
 const guideData = JSON.parse(fs.readFileSync(path.join(root, "planning/strategy-guides.json"), "utf8"));
 const sitemapLastmod = process.env.SITEMAP_LASTMOD || "2026-07-28";
 const gaMeasurementId = process.env.GA_MEASUREMENT_ID || "G-EHPNMH60G4";
+const indexNowKey = "d331d7c45aa374d35ff8e612c35642c5";
 
 const site = {
   name: "Word Solver Tools",
@@ -1116,6 +1117,7 @@ function writeSitemap() {
   const urls = allSitemapUrls();
   fs.writeFileSync(path.join(publicDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${site.origin}${url}</loc><lastmod>${sitemapLastmodFor(url)}</lastmod></url>`).join("\n")}\n</urlset>\n`);
   fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${site.origin}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(publicDir, `${indexNowKey}.txt`), indexNowKey);
   fs.writeFileSync(path.join(publicDir, "_headers"), `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/*.svg\n  Cache-Control: public, max-age=31536000, immutable\n/*.webmanifest\n  Cache-Control: public, max-age=86400\n/*.html\n  Cache-Control: public, max-age=0, must-revalidate\n`);
   if (site.origin === "https://wordsolvertools.org") {
     fs.writeFileSync(path.join(publicDir, "_redirects"), `${[...retiredRedirects].map(([from, to]) => `${from} ${to} 301`).join("\n")}

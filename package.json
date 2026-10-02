@@ -3,7 +3,8 @@
     "build": "node scripts/generate-site.js",
     "serve": "python3 -m http.server 8788 --directory public",
     "audit:content": "node scripts/content-quality-audit.js public planning/content-quality.json",
-    "check": "npm run build && npm run audit:content"
+    "check": "npm run build && npm run audit:content",
+    "indexnow:submit": "node scripts/indexnow-submit.mjs"
   },
   "devDependencies": {}
 }
